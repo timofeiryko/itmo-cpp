@@ -2,11 +2,12 @@ asttokens @ file:///home/conda/feedstock_root/build_artifacts/asttokens_16983411
 biopython==1.84
 bleach @ file:///home/conda/feedstock_root/build_artifacts/bleach_1730286182742/work
 Brotli @ file:///home/conda/feedstock_root/build_artifacts/brotli-split_1725267488082/work
+catboost==1.2.7
 certifi @ file:///home/conda/feedstock_root/build_artifacts/certifi_1725278078093/work/certifi
 cffi @ file:///home/conda/feedstock_root/build_artifacts/cffi_1725560558132/work
 chardet @ file:///home/conda/feedstock_root/build_artifacts/chardet_1724954810132/work
 charset-normalizer @ file:///home/conda/feedstock_root/build_artifacts/charset-normalizer_1728479282467/work
-cloudpickle==3.1.0
+cloudpickle @ file:///home/conda/feedstock_root/build_artifacts/cloudpickle_1735328614181/work
 colorama @ file:///home/conda/feedstock_root/build_artifacts/colorama_1666700638685/work
 comm @ file:///home/conda/feedstock_root/build_artifacts/comm_1710320294760/work
 contourpy @ file:///home/conda/feedstock_root/build_artifacts/contourpy_1731428301407/work
@@ -19,6 +20,7 @@ filelock==3.16.1
 fonttools @ file:///home/conda/feedstock_root/build_artifacts/fonttools_1731643424073/work
 freetype-py @ file:///home/conda/feedstock_root/build_artifacts/freetype-py_1650983368720/work
 fsspec==2024.10.0
+graphviz==0.20.3
 greenlet @ file:///home/conda/feedstock_root/build_artifacts/greenlet_1726922184666/work
 h2 @ file:///home/conda/feedstock_root/build_artifacts/h2_1634280454336/work
 hpack==4.0.0
@@ -45,8 +47,8 @@ mpmath==1.3.0
 munkres==1.1.4
 nest_asyncio @ file:///home/conda/feedstock_root/build_artifacts/nest-asyncio_1705850609492/work
 networkx==3.4.2
-numba==0.60.0
-numpy==2.0.2
+numba @ file:///home/conda/feedstock_root/build_artifacts/numba_1718888016245/work
+numpy==1.26.4
 nvidia-cublas-cu12==12.4.5.8
 nvidia-cuda-cupti-cu12==12.4.127
 nvidia-cuda-nvrtc-cu12==12.4.127
@@ -67,6 +69,7 @@ pexpect @ file:///home/conda/feedstock_root/build_artifacts/pexpect_170611312530
 pickleshare @ file:///home/conda/feedstock_root/build_artifacts/pickleshare_1602536217715/work
 pillow @ file:///home/conda/feedstock_root/build_artifacts/pillow_1729065636207/work
 platformdirs @ file:///home/conda/feedstock_root/build_artifacts/platformdirs_1726613481435/work
+plotly==5.24.1
 prompt_toolkit @ file:///home/conda/feedstock_root/build_artifacts/prompt-toolkit_1727341649933/work
 psutil @ file:///home/conda/feedstock_root/build_artifacts/psutil_1729847057810/work
 ptyprocess @ file:///home/conda/feedstock_root/build_artifacts/ptyprocess_1609419310487/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
@@ -92,13 +95,14 @@ scikit-learn @ file:///home/conda/feedstock_root/build_artifacts/scikit-learn_17
 scipy @ file:///home/conda/feedstock_root/build_artifacts/scipy-split_1729480682811/work/dist/scipy-1.14.1-cp312-cp312-linux_x86_64.whl#sha256=5dc72baa2d67ff6e6fc7aa7dd0fe21390ed1e3400bdeddd731d9d88066ffbd26
 seaborn @ file:///home/conda/feedstock_root/build_artifacts/seaborn-split_1714494649443/work
 setuptools==75.3.0
-shap==0.46.0
+shap @ file:///home/conda/feedstock_root/build_artifacts/shap_1732083822410/work
 six @ file:///home/conda/feedstock_root/build_artifacts/six_1620240208055/work
-slicer==0.0.8
+slicer @ file:///home/conda/feedstock_root/build_artifacts/slicer_1710029110974/work
 SQLAlchemy @ file:///home/conda/feedstock_root/build_artifacts/sqlalchemy_1729066352888/work
 stack-data @ file:///home/conda/feedstock_root/build_artifacts/stack_data_1669632077133/work
 statsmodels @ file:///home/conda/feedstock_root/build_artifacts/statsmodels_1727986688191/work
 sympy==1.13.1
+tenacity==9.0.0
 text-unidecode @ file:///home/conda/feedstock_root/build_artifacts/text-unidecode_1694707102786/work
 threadpoolctl @ file:///home/conda/feedstock_root/build_artifacts/threadpoolctl_1714400101435/work
 tokenizers==0.20.3
