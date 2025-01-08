@@ -19,7 +19,7 @@
 17,?A-[KrrrrrrrE],,,,,,,yes,Unknown,AKE,False,False,False,False,False,False,False,False,"[('R', 3), ('R', 4), ('R', 5), ('R', 6), ('R', 7), ('R', 8), ('R', 9)]"
 18,?A-[KrrrrrrrrE],,,,,,,yes,Unknown,AKE,False,False,False,False,False,False,False,False,"[('R', 3), ('R', 4), ('R', 5), ('R', 6), ('R', 7), ('R', 8), ('R', 9), ('R', 10)]"
 19,?A1a-ERLRRRI-S5-LCR-S5-HHST,,,,,,,yes,Unknown,AERLRRRISLCRSHHST,False,False,False,False,False,False,False,False,"[('A', 2)]"
-20,A-CF3-Bpg-LYLLGKINLKALAALAKKIL,,,,,,,yes,Peptide with Substitutions,ACFBLYLLGKINLKALAALAKKIL,False,False,False,False,False,False,False,False,"[('P', 5), ('G', 6)]"
+20,A-CF3-Bpg-LYLLGKINLKALAALAKKIL,,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,False,False,"[('P', 5), ('G', 6)]"
 21,A-NII-Aib-PLL-Aib-PIC,,,,,,,yes,Peptide with Substitutions,ANIIAPLLAPIC,False,False,False,False,False,False,False,False,"[('I', 6), ('B', 7), ('I', 12), ('B', 13)]"
 22,AAAAARRRIRKQAHAHSK,,,18.0,,,,both,Standard,AAAAARRRIRKQAHAHSK,False,False,False,False,False,False,False,False,[]
 24,AAAATAAAAAGLGE,,,14.0,,,,no,Standard,AAAATAAAAAGLGE,False,False,False,False,False,False,False,False,[]
@@ -89,12 +89,12 @@
 90,AGLGGGSSDAASTLLALNRLWKLKLS,,,26.0,,,,no,Standard,AGLGGGSSDAASTLLALNRLWKLKLS,False,False,False,False,False,False,False,False,[]
 91,AGSHRRL,,,,,,,yes,Standard,AGSHRRL,False,False,False,False,False,False,False,False,[]
 92,AGTYAPLPDSFSSEFK,,,16.0,,,,no,Standard,AGTYAPLPDSFSSEFK,False,False,False,False,False,False,False,False,[]
-93,AGY(PO3)LLGKINLKALAALAKKIL,,,,,,,yes,Peptide with Substitutions,AGYPOLLGKINLKALAALAKKIL,False,True,False,False,False,False,False,False,[]
-94,AGY(PO3)LLGKT(PO3)NLKALAALAKKIL,,,,,,,yes,Peptide with Substitutions,AGYPOLLGKTPONLKALAALAKKIL,False,True,False,False,False,False,False,False,[]
-95,AGY(PO3)LLGKTNLKALAALAKKIL,,,,,,,yes,Peptide with Substitutions,AGYPOLLGKTNLKALAALAKKIL,False,True,False,False,False,False,False,False,[]
-96,AGY-CF3-Bpg-LGKINLKALAALAKKIL,,,,,,,yes,Peptide with Substitutions,AGYCFBLGKINLKALAALAKKIL,False,False,False,False,False,False,False,False,"[('P', 7), ('G', 8)]"
-97,AGYLLG)δ-OINLKALAALAKKIL,,,,,,,yes,Peptide with Substitutions,AGYLLGOINLKALAALAKKIL,False,False,False,False,False,False,False,False,[]
-98,AGYLLGHBINLHBHBLAHBL(Aib)HBHBIL-NH2,,,,,,,yes,Repeating Segments,AGYLLGHBINLHBHBLAHBLAHBHBILNH,True,False,False,False,False,True,False,False,"[('I', 22), ('B', 23)]"
+93,AGY(PO3)LLGKINLKALAALAKKIL,,,,,,,yes,Peptide with Substitutions,,False,True,False,False,False,False,False,False,[]
+94,AGY(PO3)LLGKT(PO3)NLKALAALAKKIL,,,,,,,yes,Peptide with Substitutions,,False,True,False,False,False,False,False,False,[]
+95,AGY(PO3)LLGKTNLKALAALAKKIL,,,,,,,yes,Peptide with Substitutions,,False,True,False,False,False,False,False,False,[]
+96,AGY-CF3-Bpg-LGKINLKALAALAKKIL,,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,False,False,"[('P', 7), ('G', 8)]"
+97,AGYLLG)δ-OINLKALAALAKKIL,,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,False,False,[]
+98,AGYLLGHBINLHBHBLAHBL(Aib)HBHBIL-NH2,,,,,,,yes,Repeating Segments,,True,False,False,False,False,True,False,False,"[('I', 22), ('B', 23)]"
 99,AGYLLGHEINLHEHELAHEL(Aib)HEHEIL-NH2,,,,,,,yes,Repeating Segments,AGYLLGHEINLHEHELAHELAHEHEILNH,True,False,False,False,False,True,False,False,"[('I', 22), ('B', 23)]"
 100,AGYLLGHIINLHIHILAHIL(Aib)HIHIIL-NH2,,,,,,,yes,Repeating Segments,AGYLLGHIINLHIHILAHILAHIHIILNH,True,False,False,False,False,True,False,False,"[('I', 22), ('B', 23)]"
 101,AGYLLGHINLHHLAHL(Aib)HHIL-NH2,,,,,,,yes,Repeating Segments,AGYLLGHINLHHLAHLAHHILNH,True,False,False,False,False,True,False,False,"[('I', 18), ('B', 19)]"
@@ -106,11 +106,11 @@
 107,AGYLLGKINLKPLAALAKKIL,,natural_cpp,,,,,yes,Standard,AGYLLGKINLKPLAALAKKIL,False,False,False,False,False,False,False,False,[]
 108,AGYLLGKINLRALAALARRIL,,natural_cpp,,,,,yes,Standard,AGYLLGKINLRALAALARRIL,False,False,False,False,False,False,False,False,[]
 109,AGYLLGKLKALAALAKKIL,,,19.0,,,,both,Standard,AGYLLGKLKALAALAKKIL,False,False,False,False,False,False,False,False,[]
-111,AGYLLGKLLOOLAAAALOOLL,,,,,,,yes,Standard,AGYLLGKLLOOLAAAALOOLL,False,False,False,False,False,False,False,False,[]
-112,AGYLLGKT(PO3)NLKALAALAKKIL,,,,,,,yes,Peptide with Substitutions,AGYLLGKTPONLKALAALAKKIL,False,True,False,False,False,False,False,False,[]
+111,AGYLLGKLLOOLAAAALOOLL,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+112,AGYLLGKT(PO3)NLKALAALAKKIL,,,,,,,yes,Peptide with Substitutions,,False,True,False,False,False,False,False,False,[]
 113,AGYLLGKTNLKALAALAKKIL,,,,,,,yes,Standard,AGYLLGKTNLKALAALAKKIL,False,False,False,False,False,False,False,False,[]
 114,AGYLLGK[KK2sa4qn4]INLKALAALAKKIL,,,,,,,yes,Peptide with Substitutions,AGYLLGKKKINLKALAALAKKIL,False,False,False,False,False,False,False,False,"[('S', 10), ('A', 11), ('Q', 12), ('N', 13)]"
-115,AGYLLGOINLKALAALAKKIL,,,,,,,yes,Standard,AGYLLGOINLKALAALAKKIL,False,False,False,False,False,False,False,False,[]
+115,AGYLLGOINLKALAALAKKIL,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
 116,AGYLLGPINLKALAALAKKIL,,natural_cpp,,,,,yes,Standard,AGYLLGPINLKALAALAKKIL,False,False,False,False,False,False,False,False,[]
 117,AHALCLTERQIKIWFQNRRMKWKKEN,,cpp,,,,,yes,Standard,AHALCLTERQIKIWFQNRRMKWKKEN,False,False,False,False,False,False,False,False,[]
 118,AHALCLTERQIKSNRRMKWKKEN,,,23.0,,,,no,Standard,AHALCLTERQIKSNRRMKWKKEN,False,False,False,False,False,False,False,False,[]
@@ -120,7 +120,7 @@
 123,AHGVPVGGELDYLDEGTLAAALRARTVIM,,,29.0,,,,no,Standard,AHGVPVGGELDYLDEGTLAAALRARTVIM,False,False,False,False,False,False,False,False,[]
 124,AHLHNRS,,,,,,,yes,Standard,AHLHNRS,False,False,False,False,False,False,False,False,[]
 125,AHQIEPICIGSLETPTSTANVVLCMAKPLSISS,,,33.0,,,,no,Standard,AHQIEPICIGSLETPTSTANVVLCMAKPLSISS,False,False,False,False,False,False,False,False,[]
-126,AIAKAXKIA,,,,,,,yes,Standard,AIAKAXKIA,False,False,False,False,False,False,False,False,[]
+126,AIAKAXKIA,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
 127,AIGYLAARLAKLGVEDQLVRVGAVAGSTVV,,,30.0,,,,no,Standard,AIGYLAARLAKLGVEDQLVRVGAVAGSTVV,False,False,False,False,False,False,False,False,[]
 128,AIIYRDLIS,,natural_cpp,,,,,yes,Standard,AIIYRDLIS,False,False,False,False,False,False,False,False,[]
 129,AILDIRSIDEQEDKPLKVEGVEVVSLPF,,,28.0,,,,no,Standard,AILDIRSIDEQEDKPLKVEGVEVVSLPF,False,False,False,False,False,False,False,False,[]
@@ -223,14 +223,14 @@
 230,Ac-KETWWETWWTEWSQPKKKRKV-Cya,,,,,,,yes,N-terminal Acylated,AKETWWETWWTEWSQPKKKRKVC,False,False,False,True,False,False,False,False,"[('C', 2), ('Y', 25), ('A', 26)]"
 231,Ac-RWVRVPGRWIRQLRGG-AFC,,,,,,,yes,N-terminal Acylated,ARWVRVPGRWIRQLRGGAFC,False,False,False,True,False,False,False,False,"[('C', 2)]"
 232,Ac-RWVRVPGRWIRQLVLRLRGG-AFC,,,,,,,yes,N-terminal Acylated,ARWVRVPGRWIRQLVLRLRGGAFC,False,False,False,True,False,False,False,False,"[('C', 2)]"
-233,Ac-RWVRVPGX(-CF)WIRQLRGG-NH2,,,,,,,yes,Repeating Segments,ARWVRVPGXCFWIRQLRGGNH,True,False,False,True,False,True,False,False,"[('C', 2)]"
-234,Ac-XPAACtVGrrrrrrrrrXk(FL)-NH2,,,,,,,yes,Repeating Segments,AXPAACVGXFLNH,True,False,False,True,False,True,False,False,"[('C', 2), ('T', 8), ('R', 11), ('R', 12), ('R', 13), ('R', 14), ('R', 15), ('R', 16), ('R', 17), ('R', 18), ('R', 19), ('K', 21)]"
-235,Ac-XPAANVGrrrrrrrrrXk(FL)-NH2,,,,,,,yes,Repeating Segments,AXPAANVGXFLNH,True,False,False,True,False,True,False,False,"[('C', 2), ('R', 10), ('R', 11), ('R', 12), ('R', 13), ('R', 14), ('R', 15), ('R', 16), ('R', 17), ('R', 18), ('K', 20)]"
-236,Ac-eeeeeeeeeXPAACtVGrrrrrrrrrXk(FL)-NH2,,,,,,,yes,Repeating Segments,AXPAACVGXFLNH,True,False,False,True,False,True,False,False,"[('C', 2), ('E', 3), ('E', 4), ('E', 5), ('E', 6), ('E', 7), ('E', 8), ('E', 9), ('E', 10), ('E', 11), ('T', 17), ('R', 20), ('R', 21), ('R', 22), ('R', 23), ('R', 24), ('R', 25), ('R', 26), ('R', 27), ('R', 28), ('K', 30)]"
-237,Ac-eeeeeeeeeXPAACtVGrrrrrrrrrXk([125I]IB)-NH2,,,,,,,yes,Amidated,AXPAACVGXIIBNH,True,False,False,True,False,True,False,False,"[('C', 2), ('E', 3), ('E', 4), ('E', 5), ('E', 6), ('E', 7), ('E', 8), ('E', 9), ('E', 10), ('E', 11), ('T', 17), ('R', 20), ('R', 21), ('R', 22), ('R', 23), ('R', 24), ('R', 25), ('R', 26), ('R', 27), ('R', 28), ('K', 30)]"
-238,Ac-eeeeeeeeeXPAANVGrrrrrrrrrXk(FL)-NH2,,,,,,,yes,Repeating Segments,AXPAANVGXFLNH,True,False,False,True,False,True,False,False,"[('C', 2), ('E', 3), ('E', 4), ('E', 5), ('E', 6), ('E', 7), ('E', 8), ('E', 9), ('E', 10), ('E', 11), ('R', 19), ('R', 20), ('R', 21), ('R', 22), ('R', 23), ('R', 24), ('R', 25), ('R', 26), ('R', 27), ('K', 29)]"
-239,Ac-eeeeeeeeeXPAANVGrrrrrrrrrXk([125I]IB)-NH2,,,,,,,yes,Amidated,AXPAANVGXIIBNH,True,False,False,True,False,True,False,False,"[('C', 2), ('E', 3), ('E', 4), ('E', 5), ('E', 6), ('E', 7), ('E', 8), ('E', 9), ('E', 10), ('E', 11), ('R', 19), ('R', 20), ('R', 21), ('R', 22), ('R', 23), ('R', 24), ('R', 25), ('R', 26), ('R', 27), ('K', 29)]"
-240,AcHGLASTLTRWAHYNALIRAFC-CONH2,,,,,,,yes,Peptide with Substitutions,AHGLASTLTRWAHYNALIRAFCCONH,False,False,False,False,False,False,False,False,"[('C', 2)]"
+233,Ac-RWVRVPGX(-CF)WIRQLRGG-NH2,,,,,,,yes,Repeating Segments,,True,False,False,True,False,True,False,False,"[('C', 2)]"
+234,Ac-XPAACtVGrrrrrrrrrXk(FL)-NH2,,,,,,,yes,Repeating Segments,,True,False,False,True,False,True,False,False,"[('C', 2), ('T', 8), ('R', 11), ('R', 12), ('R', 13), ('R', 14), ('R', 15), ('R', 16), ('R', 17), ('R', 18), ('R', 19), ('K', 21)]"
+235,Ac-XPAANVGrrrrrrrrrXk(FL)-NH2,,,,,,,yes,Repeating Segments,,True,False,False,True,False,True,False,False,"[('C', 2), ('R', 10), ('R', 11), ('R', 12), ('R', 13), ('R', 14), ('R', 15), ('R', 16), ('R', 17), ('R', 18), ('K', 20)]"
+236,Ac-eeeeeeeeeXPAACtVGrrrrrrrrrXk(FL)-NH2,,,,,,,yes,Repeating Segments,,True,False,False,True,False,True,False,False,"[('C', 2), ('E', 3), ('E', 4), ('E', 5), ('E', 6), ('E', 7), ('E', 8), ('E', 9), ('E', 10), ('E', 11), ('T', 17), ('R', 20), ('R', 21), ('R', 22), ('R', 23), ('R', 24), ('R', 25), ('R', 26), ('R', 27), ('R', 28), ('K', 30)]"
+237,Ac-eeeeeeeeeXPAACtVGrrrrrrrrrXk([125I]IB)-NH2,,,,,,,yes,Amidated,,True,False,False,True,False,True,False,False,"[('C', 2), ('E', 3), ('E', 4), ('E', 5), ('E', 6), ('E', 7), ('E', 8), ('E', 9), ('E', 10), ('E', 11), ('T', 17), ('R', 20), ('R', 21), ('R', 22), ('R', 23), ('R', 24), ('R', 25), ('R', 26), ('R', 27), ('R', 28), ('K', 30)]"
+238,Ac-eeeeeeeeeXPAANVGrrrrrrrrrXk(FL)-NH2,,,,,,,yes,Repeating Segments,,True,False,False,True,False,True,False,False,"[('C', 2), ('E', 3), ('E', 4), ('E', 5), ('E', 6), ('E', 7), ('E', 8), ('E', 9), ('E', 10), ('E', 11), ('R', 19), ('R', 20), ('R', 21), ('R', 22), ('R', 23), ('R', 24), ('R', 25), ('R', 26), ('R', 27), ('K', 29)]"
+239,Ac-eeeeeeeeeXPAANVGrrrrrrrrrXk([125I]IB)-NH2,,,,,,,yes,Amidated,,True,False,False,True,False,True,False,False,"[('C', 2), ('E', 3), ('E', 4), ('E', 5), ('E', 6), ('E', 7), ('E', 8), ('E', 9), ('E', 10), ('E', 11), ('R', 19), ('R', 20), ('R', 21), ('R', 22), ('R', 23), ('R', 24), ('R', 25), ('R', 26), ('R', 27), ('K', 29)]"
+240,AcHGLASTLTRWAHYNALIRAFC-CONH2,,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,False,False,"[('C', 2)]"
 241,Acetyl-RLWRLLWRLWRRLWRLLR-NH2,,,,,,,yes,Repeating Segments,ARLWRLLWRLWRRLWRLLRNH,True,False,False,False,False,True,False,False,"[('C', 2), ('E', 3), ('T', 4), ('Y', 5), ('L', 6)]"
 242,Ahx-RRRRRRRRR,R9,,,,,,yes,Peptide with Substitutions,ARRRRRRRRR,False,False,False,False,False,False,False,False,"[('H', 2), ('X', 3)]"
 243,Aib-NII-A-PLL-Aib-PIC,,,,,,,yes,Peptide with Substitutions,ANIIAPLLAPIC,False,False,False,False,False,False,False,False,"[('I', 2), ('B', 3), ('I', 12), ('B', 13)]"
@@ -239,37 +239,37 @@
 246,Aib-NII-Aib-PLL-A-PIC,,,,,,,yes,Peptide with Substitutions,ANIIAPLLAPIC,False,False,False,False,False,False,False,False,"[('I', 2), ('B', 3), ('I', 8), ('B', 9)]"
 247,Aib-NII-Aib-PLL-Aib-Aib-IC,,,,,,,yes,Peptide with Substitutions,ANIIAPLLAAIC,False,False,False,False,False,False,False,False,"[('I', 2), ('B', 3), ('I', 8), ('B', 9), ('I', 14), ('B', 15), ('I', 17), ('B', 18)]"
 248,Aib-NII-Aib-PLL-Aib-PIC,,,,,,,yes,Peptide with Substitutions,ANIIAPLLAPIC,False,False,False,False,False,False,False,False,"[('I', 2), ('B', 3), ('I', 8), ('B', 9), ('I', 14), ('B', 15)]"
-249,B-GLRK(NIA)RLRKFRNKIKEK,,,,,,,yes,Peptide with Substitutions,BGLRKNIARLRKFRNKIKEK,False,False,False,False,False,False,False,False,[]
-250,B-GLRKRLRKFRNKIKEK,,,,,,,yes,Peptide with Substitutions,BGLRKRLRKFRNKIKEK,False,False,False,False,False,False,False,False,[]
-251,B-RR-[KRRRRRE],,,,,,,yes,Peptide with Substitutions,BRRKRRRRRE,False,False,False,False,False,False,False,False,[]
-252,B-RRR-[KRRRRE],,,,,,,yes,Peptide with Substitutions,BRRRKRRRRE,False,False,False,False,False,False,False,False,[]
-253,B-RRRR-[KRRRE],,,,,,,yes,Peptide with Substitutions,BRRRRKRRRE,False,False,False,False,False,False,False,False,[]
-254,B-RRRRRRR,,,,,,,yes,Peptide with Substitutions,BRRRRRRR,False,False,False,False,False,False,False,False,[]
-255,B-R[KRRRRRRE],,,,,,,yes,Peptide with Substitutions,BRKRRRRRRE,False,False,False,False,False,False,False,False,[]
-256,B-[ERRRK]-(B)2-[KRRRE],,,,,,,yes,Peptide with Substitutions,BERRRKBKRRRE,False,False,False,False,False,False,False,False,[]
-257,B-[ERRRK]-(B)3-[KRRRE],,,,,,,yes,Peptide with Substitutions,BERRRKBKRRRE,False,False,False,False,False,False,False,False,[]
-258,B-[ERRRK]-B-[KRRRE],,,,,,,yes,Peptide with Substitutions,BERRRKBKRRRE,False,False,False,False,False,False,False,False,[]
-259,B-[ERRRK]-[KRRRE],,,,,,,yes,Peptide with Substitutions,BERRRKKRRRE,False,False,False,False,False,False,False,False,[]
-260,B-[KRRRRE],,,,,,,yes,Peptide with Substitutions,BKRRRRE,False,False,False,False,False,False,False,False,[]
-261,B-[KRRRRRRE],,,,,,,yes,Peptide with Substitutions,BKRRRRRRE,False,False,False,False,False,False,False,False,[]
-262,B-[KRRRRRRRE],,,,,,,yes,Peptide with Substitutions,BKRRRRRRRE,False,False,False,False,False,False,False,False,[]
-263,B-[KRRRRRRRRE],,,,,,,yes,Peptide with Substitutions,BKRRRRRRRRE,False,False,False,False,False,False,False,False,[]
-264,B-[KRRRRRRRRRE],,,,,,,yes,Peptide with Substitutions,BKRRRRRRRRRE,False,False,False,False,False,False,False,False,[]
-265,B-[KRrRrRrE],,,,,,,yes,Peptide with Substitutions,BKRRRE,False,False,False,False,False,False,False,False,"[('R', 4), ('R', 6), ('R', 8)]"
-266,B-[KRrRrRrRrE],,,,,,,yes,Peptide with Substitutions,BKRRRRE,False,False,False,False,False,False,False,False,"[('R', 4), ('R', 6), ('R', 8), ('R', 10)]"
-267,B-[KrRrRrRrE],,,,,,,yes,Peptide with Substitutions,BKRRRE,False,False,False,False,False,False,False,False,"[('R', 3), ('R', 5), ('R', 7), ('R', 9)]"
-268,B-[KrrrrrrrE],,,,,,,yes,Peptide with Substitutions,BKE,False,False,False,False,False,False,False,False,"[('R', 3), ('R', 4), ('R', 5), ('R', 6), ('R', 7), ('R', 8), ('R', 9)]"
-269,B-[KrrrrrrrrE],,,,,,,yes,Peptide with Substitutions,BKE,False,False,False,False,False,False,False,False,"[('R', 3), ('R', 4), ('R', 5), ('R', 6), ('R', 7), ('R', 8), ('R', 9), ('R', 10)]"
-270,B12H11S(CH2)2COOH-rlarlarrlarlar,,,,,,,yes,Peptide with Substitutions,BHSCHCOOH,False,False,False,False,False,False,False,False,"[('R', 10), ('L', 11), ('A', 12), ('R', 13), ('L', 14), ('A', 15), ('R', 16), ('R', 17), ('L', 18), ('A', 19), ('R', 20), ('L', 21), ('A', 22), ('R', 23)]"
-271,B12H11S(CH2)2COOH-rrrrrrrr,,,,,,,yes,Peptide with Substitutions,BHSCHCOOH,False,False,False,False,False,False,False,False,"[('R', 10), ('R', 11), ('R', 12), ('R', 13), ('R', 14), ('R', 15), ('R', 16), ('R', 17)]"
-272,BRRRRRR,R6,,,,,,yes,Standard,BRRRRRR,False,False,False,False,False,False,False,False,[]
-273,BRRRRRRR,R7,,,,,,yes,Standard,BRRRRRRR,False,False,False,False,False,False,False,False,[]
-274,BRRRRRRRR,R8,,,,,,yes,Standard,BRRRRRRRR,False,False,False,False,False,False,False,False,[]
-275,BRRXRRXRRX,FAM-1,,,,,,yes,Standard,BRRXRRXRRX,False,False,False,False,False,False,False,False,[]
-276,BRrXRrXRrX,FAM-2,,,,,,yes,Enantiomer Mix,BRXRXRX,False,False,False,False,False,False,False,False,"[('R', 3), ('R', 6), ('R', 9)]"
-277,BXRXRXXRXRXXRXRX,FAM-3,,,,,,yes,Standard,BXRXRXXRXRXXRXRX,False,False,False,False,False,False,False,False,[]
-278,BrrXrrXrrX,ent FAM-1,,,,,,yes,Enantiomer Mix,BXXX,False,False,False,False,False,False,False,False,"[('R', 2), ('R', 3), ('R', 5), ('R', 6), ('R', 8), ('R', 9)]"
-279,C37H66N7O17P3S-rrrrrrrrrrrr,,,,,,,yes,Chemical Formula,CHNOPS,False,False,False,False,False,False,False,False,"[('R', 7), ('R', 8), ('R', 9), ('R', 10), ('R', 11), ('R', 12), ('R', 13), ('R', 14), ('R', 15), ('R', 16), ('R', 17), ('R', 18)]"
+249,B-GLRK(NIA)RLRKFRNKIKEK,,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,False,False,[]
+250,B-GLRKRLRKFRNKIKEK,,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,False,False,[]
+251,B-RR-[KRRRRRE],,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,False,False,[]
+252,B-RRR-[KRRRRE],,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,False,False,[]
+253,B-RRRR-[KRRRE],,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,False,False,[]
+254,B-RRRRRRR,,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,False,False,[]
+255,B-R[KRRRRRRE],,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,False,False,[]
+256,B-[ERRRK]-(B)2-[KRRRE],,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,False,False,[]
+257,B-[ERRRK]-(B)3-[KRRRE],,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,False,False,[]
+258,B-[ERRRK]-B-[KRRRE],,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,False,False,[]
+259,B-[ERRRK]-[KRRRE],,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,False,False,[]
+260,B-[KRRRRE],,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,False,False,[]
+261,B-[KRRRRRRE],,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,False,False,[]
+262,B-[KRRRRRRRE],,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,False,False,[]
+263,B-[KRRRRRRRRE],,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,False,False,[]
+264,B-[KRRRRRRRRRE],,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,False,False,[]
+265,B-[KRrRrRrE],,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,False,False,"[('R', 4), ('R', 6), ('R', 8)]"
+266,B-[KRrRrRrRrE],,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,False,False,"[('R', 4), ('R', 6), ('R', 8), ('R', 10)]"
+267,B-[KrRrRrRrE],,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,False,False,"[('R', 3), ('R', 5), ('R', 7), ('R', 9)]"
+268,B-[KrrrrrrrE],,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,False,False,"[('R', 3), ('R', 4), ('R', 5), ('R', 6), ('R', 7), ('R', 8), ('R', 9)]"
+269,B-[KrrrrrrrrE],,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,False,False,"[('R', 3), ('R', 4), ('R', 5), ('R', 6), ('R', 7), ('R', 8), ('R', 9), ('R', 10)]"
+270,B12H11S(CH2)2COOH-rlarlarrlarlar,,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,False,False,"[('R', 10), ('L', 11), ('A', 12), ('R', 13), ('L', 14), ('A', 15), ('R', 16), ('R', 17), ('L', 18), ('A', 19), ('R', 20), ('L', 21), ('A', 22), ('R', 23)]"
+271,B12H11S(CH2)2COOH-rrrrrrrr,,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,False,False,"[('R', 10), ('R', 11), ('R', 12), ('R', 13), ('R', 14), ('R', 15), ('R', 16), ('R', 17)]"
+272,BRRRRRR,R6,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+273,BRRRRRRR,R7,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+274,BRRRRRRRR,R8,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+275,BRRXRRXRRX,FAM-1,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+276,BRrXRrXRrX,FAM-2,,,,,,yes,Enantiomer Mix,,False,False,False,False,False,False,False,False,"[('R', 3), ('R', 6), ('R', 9)]"
+277,BXRXRXXRXRXXRXRX,FAM-3,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+278,BrrXrrXrrX,ent FAM-1,,,,,,yes,Enantiomer Mix,,False,False,False,False,False,False,False,False,"[('R', 2), ('R', 3), ('R', 5), ('R', 6), ('R', 8), ('R', 9)]"
+279,C37H66N7O17P3S-rrrrrrrrrrrr,,,,,,,yes,Chemical Formula,,False,False,False,False,False,False,False,False,"[('R', 7), ('R', 8), ('R', 9), ('R', 10), ('R', 11), ('R', 12), ('R', 13), ('R', 14), ('R', 15), ('R', 16), ('R', 17), ('R', 18)]"
 280,CAAKA,,,,,,,yes,Standard,CAAKA,False,False,False,False,False,False,False,False,[]
 281,CAAVALLPAVLLAHLLAP,,,,,,,yes,Standard,CAAVALLPAVLLAHLLAP,False,False,False,False,False,False,False,False,[]
 282,CACMKGMSYG,,,10.0,,,,no,Standard,CACMKGMSYG,False,False,False,False,False,False,False,False,[]
@@ -281,7 +281,7 @@
 288,CEYLSNVVTDGNVIKHDASIDEDSAVEIVRVEL,,,33.0,,,,no,Standard,CEYLSNVVTDGNVIKHDASIDEDSAVEIVRVEL,False,False,False,False,False,False,False,False,[]
 289,CF-?A-glrk-?A?A-NIA-rlrkfrnk-?A?A-NIA-ikek,,,,,,,yes,Peptide with Substitutions,CFAAANIAAANIA,False,False,False,False,False,False,False,False,"[('G', 4), ('L', 5), ('R', 6), ('K', 7), ('R', 13), ('L', 14), ('R', 15), ('K', 16), ('F', 17), ('R', 18), ('N', 19), ('K', 20), ('I', 26), ('K', 27), ('E', 28), ('K', 29)]"
 290,CF-AGYLLGKINLKALAALAKKIL,,,,,,,yes,Peptide with Substitutions,CFAGYLLGKINLKALAALAKKIL,False,False,False,False,False,False,False,False,[]
-291,CF-Cys-BLGTYTQDFNXFHTFPQTAIGVGAP,,,,,,,yes,Special Structure,CFCBLGTYTQDFNXFHTFPQTAIGVGAP,False,False,False,False,False,False,False,False,"[('Y', 4), ('S', 5)]"
+291,CF-Cys-BLGTYTQDFNXFHTFPQTAIGVGAP,,,,,,,yes,Special Structure,,False,False,False,False,False,False,False,False,"[('Y', 4), ('S', 5)]"
 292,CF-GIGAVLKVLTTGLPALISWIKRKRQQ,,,,,,,yes,Peptide with Substitutions,CFGIGAVLKVLTTGLPALISWIKRKRQQ,False,False,False,False,False,False,False,False,[]
 293,CF-GIGKFLHSAKKFGKAFVGEIMNS,,,,,,,yes,Peptide with Substitutions,CFGIGKFLHSAKKFGKAFVGEIMNS,False,False,False,False,False,False,False,False,[]
 294,CF-GRR-Ac5cNH2-RR-Ac5cNH2-RR-Ac5cNH2-NH2,,,,,,,yes,Repeating Segments,CFGRRANHRRANHRRANHNH,True,False,False,False,False,True,False,False,"[('C', 7), ('C', 8), ('C', 14), ('C', 15), ('C', 21), ('C', 22)]"
@@ -319,14 +319,14 @@
 326,CGRKKRRQRWWRRPPQ,,,,,,,yes,Standard,CGRKKRRQRWWRRPPQ,False,False,False,False,False,False,False,False,[]
 327,CGRKKRWWRQRRRPPQ,,,,,,,yes,Standard,CGRKKRWWRQRRRPPQ,False,False,False,False,False,False,False,False,[]
 328,CGRKKRWWRQRWWRWWRPPQ,,,,,,,yes,Standard,CGRKKRWWRQRWWRWWRPPQ,False,False,False,False,False,False,False,False,[]
-329,CGRRMKWKKXXXXGGGGEEEERRRR,,,,,,,yes,Standard,CGRRMKWKKXXXXGGGGEEEERRRR,False,False,False,False,False,False,False,False,[]
+329,CGRRMKWKKXXXXGGGGEEEERRRR,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
 330,CGRRRRRRRRRRRRRRRR,,,,,,,yes,Standard,CGRRRRRRRRRRRRRRRR,False,False,False,False,False,False,False,False,[]
 331,CGSSR,,,5.0,,,,no,Standard,CGSSR,False,False,False,False,False,False,False,False,[]
 332,CGTPVVA,,,7.0,,,,no,Standard,CGTPVVA,False,False,False,False,False,False,False,False,[]
-333,CH3(CH2)16-CO-NH-rrrrrrrr-NH2,,,,,,,yes,Repeating Segments,CHCHCONHNH,True,False,False,False,False,True,False,False,"[('R', 9), ('R', 10), ('R', 11), ('R', 12), ('R', 13), ('R', 14), ('R', 15), ('R', 16)]"
-334,CH3(CH2)16-CONH-GGGGLRKRLRKFRNKIKEK-NH2,,,,,,,yes,Repeating Segments,CHCHCONHGGGGLRKRLRKFRNKIKEKNH,True,False,False,False,False,True,False,False,[]
-335,CH3(CH2)16-CONH-RRRRRRRR,,,,,,,yes,Peptide with Substitutions,CHCHCONHRRRRRRRR,False,False,False,False,False,False,False,False,[]
-336,CH3(CH2)16-CONH-RRRRRRRRRR,,,,,,,yes,Peptide with Substitutions,CHCHCONHRRRRRRRRRR,False,False,False,False,False,False,False,False,[]
+333,CH3(CH2)16-CO-NH-rrrrrrrr-NH2,,,,,,,yes,Repeating Segments,,True,False,False,False,False,True,False,False,"[('R', 9), ('R', 10), ('R', 11), ('R', 12), ('R', 13), ('R', 14), ('R', 15), ('R', 16)]"
+334,CH3(CH2)16-CONH-GGGGLRKRLRKFRNKIKEK-NH2,,,,,,,yes,Repeating Segments,,True,False,False,False,False,True,False,False,[]
+335,CH3(CH2)16-CONH-RRRRRRRR,,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,False,False,[]
+336,CH3(CH2)16-CONH-RRRRRRRRRR,,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,False,False,[]
 337,CHHHHHRRRRRRRRRHHHHHC,,,,,,,yes,Standard,CHHHHHRRRRRRRRRHHHHHC,False,False,False,False,False,False,False,False,[]
 338,CHHHHHRRWQWRHHHHHC,,,,,,,yes,Standard,CHHHHHRRWQWRHHHHHC,False,False,False,False,False,False,False,False,[]
 339,CHHRRRRHHC,,,,,,,yes,Standard,CHHRRRRHHC,False,False,False,False,False,False,False,False,[]
@@ -335,8 +335,8 @@
 342,CKIKKVKKKGRKKIKKVKKKGRK,,,,,,,yes,Standard,CKIKKVKKKGRKKIKKVKKKGRK,False,False,False,False,False,False,False,False,[]
 343,CKRRMKWKK,,,,,,,yes,Standard,CKRRMKWKK,False,False,False,False,False,False,False,False,[]
 344,CKRRMKWKK-Cys,,,,,,,yes,Peptide with Substitutions,CKRRMKWKKC,False,False,False,False,False,False,False,False,"[('Y', 11), ('S', 12)]"
-345,CKRRMKWKK-DOX,,,,,,,yes,Peptide with Substitutions,CKRRMKWKKDOX,False,False,False,False,False,False,False,False,[]
-346,CKRRMKWKK-DOX/CYGGRGNG,,,,,,,yes,Peptide with Substitutions,CKRRMKWKKDOXCYGGRGNG,False,False,False,False,False,False,False,False,[]
+345,CKRRMKWKK-DOX,,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,False,False,[]
+346,CKRRMKWKK-DOX/CYGGRGNG,,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,False,False,[]
 347,CKRRMKWKK-YSAYPDSVPMMS,,,,,,,yes,Peptide with Substitutions,CKRRMKWKKYSAYPDSVPMMS,False,False,False,False,False,False,False,False,[]
 348,CKYGRKKRRQRRR,,,,,,,yes,Standard,CKYGRKKRRQRRR,False,False,False,False,False,False,False,False,[]
 349,CLGTYTQDFNKFHTFPQTAIGVGAP,,,,,,,yes,Standard,CLGTYTQDFNKFHTFPQTAIGVGAP,False,False,False,False,False,False,False,False,[]
@@ -347,8 +347,8 @@
 354,CNGRCGGKKLKLLKLL,,cpp,,,,,yes,Standard,CNGRCGGKKLKLLKLL,False,False,False,False,False,False,False,False,[]
 355,CNGRCGGKLAKLAKLAKLAK,,cpp,,,,,yes,Standard,CNGRCGGKLAKLAKLAKLAK,False,False,False,False,False,False,False,False,[]
 356,CNGRCGGLVTT,,cpp,,,,,yes,Standard,CNGRCGGLVTT,False,False,False,False,False,False,False,False,[]
-357,COOH-KKKKKKKKKK-NH2,,,,,,,yes,Repeating Segments,COOHKKKKKKKKKKNH,True,False,False,False,False,True,False,False,[]
-358,COOH-RRRRRRRRRR-NH2,,,,,,,yes,Repeating Segments,COOHRRRRRRRRRRNH,True,False,False,False,False,True,False,False,[]
+357,COOH-KKKKKKKKKK-NH2,,,,,,,yes,Repeating Segments,,True,False,False,False,False,True,False,False,[]
+358,COOH-RRRRRRRRRR-NH2,,,,,,,yes,Repeating Segments,,True,False,False,False,False,True,False,False,[]
 359,CPFWRRRRCKRDSDCPGACICRGNGYCGSGCDEETGECGV,,,,,,,yes,Standard,CPFWRRRRCKRDSDCPGACICRGNGYCGSGCDEETGECGV,False,False,False,False,False,False,False,False,[]
 360,CPKILKKCRRDSDCPGACICRGNGYCGSGSDEETGEGGV,,,,,,,yes,Standard,CPKILKKCRRDSDCPGACICRGNGYCGSGSDEETGEGGV,False,False,False,False,False,False,False,False,[]
 361,CPKKKRKVEDPGGRKKRRQRRRPQ,,,,,,,yes,Standard,CPKKKRKVEDPGGRKKRRQRRRPQ,False,False,False,False,False,False,False,False,[]
@@ -377,10 +377,10 @@
 384,CRWRWKCG,,natural_cpp,,,,,yes,Standard,CRWRWKCG,False,False,False,False,False,False,False,False,[]
 385,CRWRWKCGCKK,,natural_cpp,,,,,yes,Standard,CRWRWKCGCKK,False,False,False,False,False,False,False,False,[]
 386,CRWRWKCSKK,,natural_cpp,,,,,yes,Standard,CRWRWKCSKK,False,False,False,False,False,False,False,False,[]
-387,CRWRWKCXKK,Crot (27-39) derevative 14,,,,,,yes,Standard,CRWRWKCXKK,False,False,False,False,False,False,False,False,[]
+387,CRWRWKCXKK,Crot (27-39) derevative 14,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
 388,CRWRWKSSKK,,,10.0,,,,both,Standard,CRWRWKSSKK,False,False,False,False,False,False,False,False,[]
-390,CRWRWKXCKK,Crot (27-39) derevative 13,,,,,,yes,Standard,CRWRWKXCKK,False,False,False,False,False,False,False,False,[]
-391,CRWRWKXXKK,Crot (27-39) derevative 18,,,,,,yes,Standard,CRWRWKXXKK,False,False,False,False,False,False,False,False,[]
+390,CRWRWKXCKK,Crot (27-39) derevative 13,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+391,CRWRWKXXKK,Crot (27-39) derevative 18,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
 392,CRWRwKCCKK,Crot (27-39) derevative 35,,,,,,yes,Enantiomer Mix,CRWRKCCKK,False,False,False,False,False,False,False,False,"[('W', 5)]"
 393,CRWrWKCCKK,Crot (27-39) derevative 34,,,,,,yes,Enantiomer Mix,CRWWKCCKK,False,False,False,False,False,False,False,False,"[('R', 4)]"
 394,CRwRWKCCKK,Crot (27-39) derevative 33,,,,,,yes,Enantiomer Mix,CRRWKCCKK,False,False,False,False,False,False,False,False,"[('W', 3)]"
@@ -421,9 +421,9 @@
 430,DATKQADIIHILIPDMIQGQVYKDEIGPNLSEGK,,,34.0,,,,no,Standard,DATKQADIIHILIPDMIQGQVYKDEIGPNLSEGK,False,False,False,False,False,False,False,False,[]
 431,DATTITECLHTFCKSCIVK,,,19.0,,,,no,Standard,DATTITECLHTFCKSCIVK,False,False,False,False,False,False,False,False,[]
 432,DCRWRWKCCKK,,natural_cpp,,,,,yes,Standard,DCRWRWKCCKK,False,False,False,False,False,False,False,False,[]
-433,DCRWRWKCXKK,Crot (27-39) derevative 12,,,,,,yes,Standard,DCRWRWKCXKK,False,False,False,False,False,False,False,False,[]
-434,DCRWRWKXCKK,Crot (27-39) derevative 11,,,,,,yes,Standard,DCRWRWKXCKK,False,False,False,False,False,False,False,False,[]
-435,DCRWRWKXXKK,Crot (27-39) derevative 17,,,,,,yes,Standard,DCRWRWKXXKK,False,False,False,False,False,False,False,False,[]
+433,DCRWRWKCXKK,Crot (27-39) derevative 12,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+434,DCRWRWKXCKK,Crot (27-39) derevative 11,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+435,DCRWRWKXXKK,Crot (27-39) derevative 17,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
 436,DCSTFLRTSETGIVDQVMVTLNQEGYKFCKIRVR,,,34.0,,,,no,Standard,DCSTFLRTSETGIVDQVMVTLNQEGYKFCKIRVR,False,False,False,False,False,False,False,False,[]
 437,DDGYSYVDLNRQGTPLVEIV,,,20.0,,,,no,Standard,DDGYSYVDLNRQGTPLVEIV,False,False,False,False,False,False,False,False,[]
 438,DDLGHKVEKLLFDLFSGKRSGSPDIDKKINQAC,,,33.0,,,,no,Standard,DDLGHKVEKLLFDLFSGKRSGSPDIDKKINQAC,False,False,False,False,False,False,False,False,[]
@@ -581,7 +581,7 @@
 597,EVNYADIAKGYELPDGET,,,18.0,,,,no,Standard,EVNYADIAKGYELPDGET,False,False,False,False,False,False,False,False,[]
 598,EVRAGDIAAAVGLKEATTGDTLCDPGKVII,,,30.0,,,,no,Standard,EVRAGDIAAAVGLKEATTGDTLCDPGKVII,False,False,False,False,False,False,False,False,[]
 599,EVSMENMVTVGFFSCMGTLCLGAAAFSQCEDWSFFHAY,,,38.0,,,,no,Standard,EVSMENMVTVGFFSCMGTLCLGAAAFSQCEDWSFFHAY,False,False,False,False,False,False,False,False,[]
-600,EXREXRILFQYEXREXR,,,,,,,yes,Standard,EXREXRILFQYEXREXR,False,False,False,False,False,False,False,False,[]
+600,EXREXRILFQYEXREXR,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
 601,EYEASKSNL,,,9.0,,,,no,Standard,EYEASKSNL,False,False,False,False,False,False,False,False,[]
 602,EYGFKTYAVLGGATG,,,15.0,,,,no,Standard,EYGFKTYAVLGGATG,False,False,False,False,False,False,False,False,[]
 603,EYLRSQNLALGGSVENAIVVDENRVLN,,,27.0,,,,no,Standard,EYLRSQNLALGGSVENAIVVDENRVLN,False,False,False,False,False,False,False,False,[]
@@ -635,7 +635,7 @@
 655,FQWQRNMRKVRGPPVS,,,16.0,,,,both,Standard,FQWQRNMRKVRGPPVS,False,False,False,False,False,False,False,False,[]
 657,FRRRRQ,,,,,,,yes,Standard,FRRRRQ,False,False,False,False,False,False,False,False,[]
 658,FRVPLRIRPCVVAPRLVMVRHTFGRIARWVAGPLETR,,natural_cpp,,,,,yes,Standard,FRVPLRIRPCVVAPRLVMVRHTFGRIARWVAGPLETR,False,False,False,False,False,False,False,False,[]
-659,FSDMeSSSVPNBBRNCG,,,,,,,yes,Enantiomer Mix,FSDMSSSVPNBBRNCG,False,False,False,False,False,False,False,False,"[('E', 5)]"
+659,FSDMeSSSVPNBBRNCG,,,,,,,yes,Enantiomer Mix,,False,False,False,False,False,False,False,False,"[('E', 5)]"
 660,FSKEQVEDFVQRYQDIEKE,,,19.0,,,,no,Standard,FSKEQVEDFVQRYQDIEKE,False,False,False,False,False,False,False,False,[]
 661,FSKYCNSSDIMDLFCIATGLPRNTT,,,25.0,,,,no,Standard,FSKYCNSSDIMDLFCIATGLPRNTT,False,False,False,False,False,False,False,False,[]
 662,FSPTLYVDSWNPHHAPFFSAVG,,,22.0,,,,no,Standard,FSPTLYVDSWNPHHAPFFSAVG,False,False,False,False,False,False,False,False,[]
@@ -648,10 +648,10 @@
 669,FVEVETPTLTRSTPEGARDFLVPSRLQPGSF,,,31.0,,,,no,Standard,FVEVETPTLTRSTPEGARDFLVPSRLQPGSF,False,False,False,False,False,False,False,False,[]
 670,FVPIFTHSELQKIREKERNKGQ,,,22.0,,,,both,Standard,FVPIFTHSELQKIREKERNKGQ,False,False,False,False,False,False,False,False,[]
 672,FVTRGCPRRLVARLIRVMVPRR,,natural_cpp,,,,,yes,Standard,FVTRGCPRRLVARLIRVMVPRR,False,False,False,False,False,False,False,False,[]
-673,FXrFXrFXr,,,,,,,yes,Enantiomer Mix,FXFXFX,False,False,False,False,False,False,False,False,"[('R', 3), ('R', 6), ('R', 9)]"
-674,FXrFXrFXrFXr,,,,,,,yes,Enantiomer Mix,FXFXFXFX,False,False,False,False,False,False,False,False,"[('R', 3), ('R', 6), ('R', 9), ('R', 12)]"
-675,FXrFXrFXrFXrFXr,,,,,,,yes,Enantiomer Mix,FXFXFXFXFX,False,False,False,False,False,False,False,False,"[('R', 3), ('R', 6), ('R', 9), ('R', 12), ('R', 15)]"
-676,FXrFXrFXrFXrFXrFXr,,,,,,,yes,Enantiomer Mix,FXFXFXFXFXFX,False,False,False,False,False,False,False,False,"[('R', 3), ('R', 6), ('R', 9), ('R', 12), ('R', 15), ('R', 18)]"
+673,FXrFXrFXr,,,,,,,yes,Enantiomer Mix,,False,False,False,False,False,False,False,False,"[('R', 3), ('R', 6), ('R', 9)]"
+674,FXrFXrFXrFXr,,,,,,,yes,Enantiomer Mix,,False,False,False,False,False,False,False,False,"[('R', 3), ('R', 6), ('R', 9), ('R', 12)]"
+675,FXrFXrFXrFXrFXr,,,,,,,yes,Enantiomer Mix,,False,False,False,False,False,False,False,False,"[('R', 3), ('R', 6), ('R', 9), ('R', 12), ('R', 15)]"
+676,FXrFXrFXrFXrFXrFXr,,,,,,,yes,Enantiomer Mix,,False,False,False,False,False,False,False,False,"[('R', 3), ('R', 6), ('R', 9), ('R', 12), ('R', 15), ('R', 18)]"
 677,FYNRNPPARKEAYGDISERKLLRERLRCKSFDW,,,33.0,,,,no,Standard,FYNRNPPARKEAYGDISERKLLRERLRCKSFDW,False,False,False,False,False,False,False,False,[]
 678,FrFKFrFK,,,,,,,yes,Enantiomer Mix,FFKFFK,False,False,False,False,False,False,False,False,"[('R', 2), ('R', 6)]"
 679,GA-YGRKKRRQRRR,,,,,,,yes,Peptide with Substitutions,GAYGRKKRRQRRR,False,False,False,False,False,False,False,False,[]
@@ -780,7 +780,7 @@
 806,GLPVCGETCVGGTCNTPGCTCSWPKCTRN,,natural_cpp,,,,,yes,Standard,GLPVCGETCVGGTCNTPGCTCSWPKCTRN,False,False,False,False,False,False,False,False,[]
 807,GLPVCGETCVGGTCNTPGCTCSWPVCTRN,,natural_cpp,,,,,yes,Standard,GLPVCGETCVGGTCNTPGCTCSWPVCTRN,False,False,False,False,False,False,False,False,[]
 808,GLRKRLKFRNKIKEK,Sc18,cpp,,A,,,yes,Standard,GLRKRLKFRNKIKEK,False,False,False,False,False,False,False,False,[]
-809,GLRKRLRK(CF)FRNKIKEK-CONH2,,,,,,,yes,Peptide with Substitutions,GLRKRLRKCFFRNKIKEKCONH,False,False,False,False,False,False,False,False,[]
+809,GLRKRLRK(CF)FRNKIKEK-CONH2,,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,False,False,[]
 810,GLRKRLRKFRNKIKEK,,natural_cpp,,,,,yes,Standard,GLRKRLRKFRNKIKEK,False,False,False,False,False,False,False,False,[]
 811,GLRKRLRKFRNKIKEKGLRKRLRKFRNKIKEK,,,,,,,yes,Standard,GLRKRLRKFRNKIKEKGLRKRLRKFRNKIKEK,False,False,False,False,False,False,False,False,[]
 812,GLRPKSKERKGRMKILVTNDDGVH,,,24.0,,,,no,Standard,GLRPKSKERKGRMKILVTNDDGVH,False,False,False,False,False,False,False,False,[]
@@ -810,7 +810,7 @@
 836,GPSQPTYPGDDAPVRDLIRFYRDLQRYLNVVTRHRY,aPP4R1,modified_cpp,,A,,,yes,Standard,GPSQPTYPGDDAPVRDLIRFYRDLQRYLNVVTRHRY,False,False,False,False,False,False,False,False,[]
 837,GPSQPTYPGDDAPVRDLIRFYRDLRRYLNVVTRHRY,aPP5R1,modified_cpp,,A,,,yes,Standard,GPSQPTYPGDDAPVRDLIRFYRDLRRYLNVVTRHRY,False,False,False,False,False,False,False,False,[]
 838,GPSQPTYPGDDAPVRDLRRFYRDLRRYLNVVTRHRY,aPP6R1,modified_cpp,,A,,,yes,Standard,GPSQPTYPGDDAPVRDLRRFYRDLRRYLNVVTRHRY,False,False,False,False,False,False,False,False,[]
-839,GPXGPXGPXGPRGPRGPRGPXGPXGPXGP,,,,,,,yes,Standard,GPXGPXGPXGPRGPRGPRGPXGPXGPXGP,False,False,False,False,False,False,False,False,[]
+839,GPXGPXGPXGPRGPRGPRGPXGPXGPXGP,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
 840,GQFIWKANPAIVEKLSEVGALMHTETISHSYMHCWRHKTP,,,40.0,,,,no,Standard,GQFIWKANPAIVEKLSEVGALMHTETISHSYMHCWRHKTP,False,False,False,False,False,False,False,False,[]
 841,GQLELFSKMSR,,,11.0,,,,no,Standard,GQLELFSKMSR,False,False,False,False,False,False,False,False,[]
 842,GRCTKSIPPICFPA,,,,,,,yes,Standard,GRCTKSIPPICFPA,False,False,False,False,False,False,False,False,[]
@@ -870,10 +870,10 @@
 904,GRRRRRRRRRPPQ,R9-TAT,cpp,,C,,,yes,Standard,GRRRRRRRRRPPQ,False,False,False,False,False,False,False,False,[]
 905,GRRRRRRRRRRRR,,,,,,,yes,Standard,GRRRRRRRRRRRR,False,False,False,False,False,False,False,False,[]
 906,GRRRRRRRRRRRRRRRR,,,,,,,yes,Standard,GRRRRRRRRRRRRRRRR,False,False,False,False,False,False,False,False,[]
-907,GRRXRRXRRX,,,,,,,yes,Standard,GRRXRRXRRX,False,False,False,False,False,False,False,False,[]
+907,GRRXRRXRRX,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
 908,GRSYN,,,5.0,,,,no,Standard,GRSYN,False,False,False,False,False,False,False,False,[]
 909,GRVVELSQEHLPGIGGAVWSDSRCQLTVGD,,,30.0,,,,no,Standard,GRVVELSQEHLPGIGGAVWSDSRCQLTVGD,False,False,False,False,False,False,False,False,[]
-910,GRXTKSIPPIXFPD,SFTI-M6,,,,,,yes,Standard,GRXTKSIPPIXFPD,False,False,False,False,False,False,False,False,[]
+910,GRXTKSIPPIXFPD,SFTI-M6,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
 911,GSCKYTANGGV,,,11.0,,,,no,Standard,GSCKYTANGGV,False,False,False,False,False,False,False,False,[]
 912,GSDRVSNSDFVTM,,,13.0,,,,no,Standard,GSDRVSNSDFVTM,False,False,False,False,False,False,False,False,[]
 913,GSFSGTVSKIRIRATTITDFD,,,21.0,,,,no,Standard,GSFSGTVSKIRIRATTITDFD,False,False,False,False,False,False,False,False,[]
@@ -994,7 +994,7 @@
 1037,HTSYMSCCTFLRSD,,,14.0,,,,no,Standard,HTSYMSCCTFLRSD,False,False,False,False,False,False,False,False,[]
 1038,HVPLSPRTLNAWVKLVEEKKFGAEVVPGF,,,29.0,,,,no,Standard,HVPLSPRTLNAWVKLVEEKKFGAEVVPGF,False,False,False,False,False,False,False,False,[]
 1039,HVRGVAMNPVDHPHGGGEGRT,,,21.0,,,,no,Standard,HVRGVAMNPVDHPHGGGEGRT,False,False,False,False,False,False,False,False,[]
-1040,HXRHXRILFQYHXRHXR,,,,,,,yes,Standard,HXRHXRILFQYHXRHXR,False,False,False,False,False,False,False,False,[]
+1040,HXRHXRILFQYHXRHXR,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
 1041,HYRIKPTARRLKWKYKGKFW,,natural_cpp,,,,,yes,Standard,HYRIKPTARRLKWKYKGKFW,False,False,False,False,False,False,False,False,[]
 1042,HYRIKPTFRRLAWKYKGKFW,,natural_cpp,,,,,yes,Standard,HYRIKPTFRRLAWKYKGKFW,False,False,False,False,False,False,False,False,[]
 1043,HYRIKPTFRRLKWKYKGKFA,,natural_cpp,,,,,yes,Standard,HYRIKPTFRRLKWKYKGKFA,False,False,False,False,False,False,False,False,[]
@@ -1122,8 +1122,8 @@
 1171,KCRWRWKCCKK,,natural_cpp,,,,,yes,Standard,KCRWRWKCCKK,False,False,False,False,False,False,False,False,[]
 1172,KCVHGRCIAPNTC,,,13.0,,,,no,Standard,KCVHGRCIAPNTC,False,False,False,False,False,False,False,False,[]
 1173,KCVRQNNKRVCKGLRKRLRKFRNK-NH2,,,,,,,yes,Repeating Segments,KCVRQNNKRVCKGLRKRLRKFRNKNH,True,False,False,False,False,True,False,False,[]
-1174,KCXLKLXCKXLKACLKLXG,,,,,,,yes,Standard,KCXLKLXCKXLKACLKLXG,False,False,False,False,False,False,False,False,[]
-1175,KCXLKLXLKXLKACLKLXG,,,,,,,yes,Standard,KCXLKLXLKXLKACLKLXG,False,False,False,False,False,False,False,False,[]
+1174,KCXLKLXCKXLKACLKLXG,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+1175,KCXLKLXLKXLKACLKLXG,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
 1176,KDCRWRWKCCKK,,natural_cpp,,,,,yes,Standard,KDCRWRWKCCKK,False,False,False,False,False,False,False,False,[]
 1177,KDKLSLITATDEKFTAAVI,,,19.0,,,,no,Standard,KDKLSLITATDEKFTAAVI,False,False,False,False,False,False,False,False,[]
 1178,KEASKATQLPWFAIGGI,,,17.0,,,,no,Standard,KEASKATQLPWFAIGGI,False,False,False,False,False,False,False,False,[]
@@ -1191,7 +1191,7 @@
 1248,KKRRQRRR,,,8.0,,,,both,Standard,KKRRQRRR,False,False,False,False,False,False,False,False,[]
 1250,KKTCRRINYCALNK,,natural_cpp,,,,,yes,Standard,KKTCRRINYCALNK,False,False,False,False,False,False,False,False,[]
 1251,KKTTTKPTKK,,natural_cpp,,,,,yes,Standard,KKTTTKPTKK,False,False,False,False,False,False,False,False,[]
-1252,KKWKMRILFQYRXRRXR,,,,,,,yes,Standard,KKWKMRILFQYRXRRXR,False,False,False,False,False,False,False,False,[]
+1252,KKWKMRILFQYRXRRXR,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
 1253,KKWKMRRNQFWIKIQR,,natural_cpp,,,,,yes,Standard,KKWKMRRNQFWIKIQR,False,False,False,False,False,False,False,False,[]
 1254,KKWWWWKK,,,,,,,yes,Standard,KKWWWWKK,False,False,False,False,False,False,False,False,[]
 1255,KKYRGRKRHPR,,,,,,,yes,Standard,KKYRGRKRHPR,False,False,False,False,False,False,False,False,[]
@@ -1237,8 +1237,8 @@
 1304,KLSSIESDV,,,,,,,yes,Standard,KLSSIESDV,False,False,False,False,False,False,False,False,[]
 1305,KLTRAQRRAAARKNKRNTRGC,,natural_cpp,,,,,yes,Standard,KLTRAQRRAAARKNKRNTRGC,False,False,False,False,False,False,False,False,[]
 1306,KLTSVEARVLPAPWLKYH,,,18.0,,,,no,Standard,KLTSVEARVLPAPWLKYH,False,False,False,False,False,False,False,False,[]
-1307,KLULKLULKULKAULKLU,,,,,,,yes,Standard,KLULKLULKULKAULKLU,False,False,False,False,False,False,False,False,[]
-1308,KLULKLULKULKAULKLUGC,MAP (Aib),,,,,,yes,Standard,KLULKLULKULKAULKLUGC,False,False,False,False,False,False,False,False,[]
+1307,KLULKLULKULKAULKLU,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+1308,KLULKLULKULKAULKLUGC,MAP (Aib),,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
 1309,KLVEQKTPEVWECLEEVVKQHPVLLNRAPTLH,,,32.0,,,,no,Standard,KLVEQKTPEVWECLEEVVKQHPVLLNRAPTLH,False,False,False,False,False,False,False,False,[]
 1310,KLVGQHNVANVLVVLALLTCAGIDYRKGLSALKS,,,34.0,,,,no,Standard,KLVGQHNVANVLVVLALLTCAGIDYRKGLSALKS,False,False,False,False,False,False,False,False,[]
 1311,KLWMRWWSPTTRRYG,,natural_cpp,,,,,yes,Standard,KLWMRWWSPTTRRYG,False,False,False,False,False,False,False,False,[]
@@ -1248,12 +1248,12 @@
 1315,KLWMRWYSPWTRRYG,,natural_cpp,,,,,yes,Standard,KLWMRWYSPWTRRYG,False,False,False,False,False,False,False,False,[]
 1316,KLWSAWPSLWSSLWKP,,natural_cpp,,,,,yes,Standard,KLWSAWPSLWSSLWKP,False,False,False,False,False,False,False,False,[]
 1317,KLWVPKGASPICGNSVAQDKR,,,21.0,,,,no,Standard,KLWVPKGASPICGNSVAQDKR,False,False,False,False,False,False,False,False,[]
-1318,KLXLKLXCKXLKACLKLXG,,,,,,,yes,Standard,KLXLKLXCKXLKACLKLXG,False,False,False,False,False,False,False,False,[]
-1319,KLXLKLXLKXLKACLKLXG,,,,,,,yes,Standard,KLXLKLXLKXLKACLKLXG,False,False,False,False,False,False,False,False,[]
-1320,KLXLKLXLKXLKAXLKLXGC,,,,,,,yes,Standard,KLXLKLXLKXLKAXLKLXGC,False,False,False,False,False,False,False,False,[]
+1318,KLXLKLXCKXLKACLKLXG,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+1319,KLXLKLXLKXLKACLKLXG,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+1320,KLXLKLXLKXLKAXLKLXGC,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
 1321,KMDCRPRPKCCKK,,,13.0,,,,both,Standard,KMDCRPRPKCCKK,False,False,False,False,False,False,False,False,[]
-1323,KMDCRPRPKCXKK,Crot (27-39) derevative 58,,,,,,yes,Standard,KMDCRPRPKCXKK,False,False,False,False,False,False,False,False,[]
-1324,KMDCRPRPKXCKK,Crot (27-39) derevative 57,,,,,,yes,Standard,KMDCRPRPKXCKK,False,False,False,False,False,False,False,False,[]
+1323,KMDCRPRPKCXKK,Crot (27-39) derevative 58,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+1324,KMDCRPRPKXCKK,Crot (27-39) derevative 57,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
 1325,KMDCRWRPKCCKK,,natural_cpp,,,,,yes,Standard,KMDCRWRPKCCKK,False,False,False,False,False,False,False,False,[]
 1326,KMDCRWRWKCCKK,,natural_cpp,,,,,yes,Standard,KMDCRWRWKCCKK,False,False,False,False,False,False,False,False,[]
 1327,KMDCRWRWKCKK,,natural_cpp,,,,,yes,Standard,KMDCRWRWKCKK,False,False,False,False,False,False,False,False,[]
@@ -1267,13 +1267,13 @@
 1338,KMDSRWRWKCSKK,,natural_cpp,,,,,yes,Standard,KMDSRWRWKCSKK,False,False,False,False,False,False,False,False,[]
 1339,KMDSRWRWKSCKK,,,13.0,,,,both,Standard,KMDSRWRWKSCKK,False,False,False,False,False,False,False,False,[]
 1341,KMDSRWRWKSSKK,,,13.0,,,,both,Standard,KMDSRWRWKSSKK,False,False,False,False,False,False,False,False,[]
-1343,KMDXRPRPKCCKK,Crot (27-39) derevative 54,,,,,,yes,Standard,KMDXRPRPKCCKK,False,False,False,False,False,False,False,False,[]
-1344,KMDXRPRPKCXKK,Crot (27-39) derevative 56,,,,,,yes,Standard,KMDXRPRPKCXKK,False,False,False,False,False,False,False,False,[]
-1345,KMDXRPRPKXCKK,Crot (27-39) derevative 55,,,,,,yes,Standard,KMDXRPRPKXCKK,False,False,False,False,False,False,False,False,[]
-1346,KMDXRWRWKCCKK,Crot (27-39) derevative 40,,,,,,yes,Standard,KMDXRWRWKCCKK,False,False,False,False,False,False,False,False,[]
-1347,KMDXRWRWKCXKK,Crot (27-39) derevative 43,,,,,,yes,Standard,KMDXRWRWKCXKK,False,False,False,False,False,False,False,False,[]
-1348,KMDXRWRWKXCKK,Crot (27-39) derevative 41,,,,,,yes,Standard,KMDXRWRWKXCKK,False,False,False,False,False,False,False,False,[]
-1349,KMDXRWRWKXXKK,Crot (27-39) derevative 42,,,,,,yes,Standard,KMDXRWRWKXXKK,False,False,False,False,False,False,False,False,[]
+1343,KMDXRPRPKCCKK,Crot (27-39) derevative 54,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+1344,KMDXRPRPKCXKK,Crot (27-39) derevative 56,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+1345,KMDXRPRPKXCKK,Crot (27-39) derevative 55,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+1346,KMDXRWRWKCCKK,Crot (27-39) derevative 40,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+1347,KMDXRWRWKCXKK,Crot (27-39) derevative 43,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+1348,KMDXRWRWKXCKK,Crot (27-39) derevative 41,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+1349,KMDXRWRWKXXKK,Crot (27-39) derevative 42,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
 1350,KMIFVGIKKK,,,10.0,,,,both,Standard,KMIFVGIKKK,False,False,False,False,False,False,False,False,[]
 1352,KMIFVGIKKKEERA,,,14.0,,,,both,Standard,KMIFVGIKKKEERA,False,False,False,False,False,False,False,False,[]
 1354,KMTRAQRRAAARRNRWTAR,,cpp,,,,,yes,Standard,KMTRAQRRAAARRNRWTAR,False,False,False,False,False,False,False,False,[]
@@ -1354,7 +1354,7 @@
 1435,KWKWKWKWKW,,,,,,,yes,Standard,KWKWKWKWKW,False,False,False,False,False,False,False,False,[]
 1436,KWRRKLKKLR,,,,,,,yes,Standard,KWRRKLKKLR,False,False,False,False,False,False,False,False,[]
 1437,KWRRKLKKLRPKKKRKV,,,,,,,yes,Standard,KWRRKLKKLRPKKKRKV,False,False,False,False,False,False,False,False,[]
-1438,KXRKXRILFQYKXRKXR,,,,,,,yes,Standard,KXRKXRILFQYKXRKXR,False,False,False,False,False,False,False,False,[]
+1438,KXRKXRILFQYKXRKXR,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
 1439,KYKGAIIGNIK,,,,,,,yes,Standard,KYKGAIIGNIK,False,False,False,False,False,False,False,False,[]
 1440,KYRSGAITIGY,,,,,,,yes,Standard,KYRSGAITIGY,False,False,False,False,False,False,False,False,[]
 1441,KYVDKVRIN,,,9.0,,,,no,Standard,KYVDKVRIN,False,False,False,False,False,False,False,False,[]
@@ -1482,7 +1482,7 @@
 1575,LLMTVFKTAPLLIAALAASSCGGGGSG,,,27.0,,,,no,Standard,LLMTVFKTAPLLIAALAASSCGGGGSG,False,False,False,False,False,False,False,False,[]
 1576,LLNIEV,,,6.0,,,,no,Standard,LLNIEV,False,False,False,False,False,False,False,False,[]
 1577,LLNRLA,,,6.0,,,,no,Standard,LLNRLA,False,False,False,False,False,False,False,False,[]
-1578,LLOOLAAAALOOLL,,,,,,,yes,Standard,LLOOLAAAALOOLL,False,False,False,False,False,False,False,False,[]
+1578,LLOOLAAAALOOLL,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
 1579,LLQPKKQ,,,7.0,,,,no,Standard,LLQPKKQ,False,False,False,False,False,False,False,False,[]
 1580,LLRARWRRRRSRRFR,,,,,,,yes,Standard,LLRARWRRRRSRRFR,False,False,False,False,False,False,False,False,[]
 1581,LLRILRRSIRRARRAIRR,,,,,,,yes,Standard,LLRILRRSIRRARRAIRR,False,False,False,False,False,False,False,False,[]
@@ -1557,12 +1557,12 @@
 1654,LWGRTLLAIETDDLELVAREIDWVTKYVLIERFR,,,34.0,,,,no,Standard,LWGRTLLAIETDDLELVAREIDWVTKYVLIERFR,False,False,False,False,False,False,False,False,[]
 1655,LYKKGPAKKGRPPLRGWFH,SVM4,modified_cpp,,-,,,yes,Standard,LYKKGPAKKGRPPLRGWFH,False,False,False,False,False,False,False,False,[]
 1656,LYRAGLYRAGLYKAGCG,,,,,,,yes,Standard,LYRAGLYRAGLYKAGCG,False,False,False,False,False,False,False,False,[]
-1657,LYRAGLYRAGLYKAGCG-DABCYL,,,,,,,yes,Peptide with Substitutions,LYRAGLYRAGLYKAGCGDABCYL,False,False,False,False,False,False,False,False,[]
+1657,LYRAGLYRAGLYKAGCG-DABCYL,,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,False,False,[]
 1658,LYRAGLYRAGLYKAGCGRRRRRRRRRR,,,,,,,yes,Standard,LYRAGLYRAGLYKAGCGRRRRRRRRRR,False,False,False,False,False,False,False,False,[]
-1659,Lauroyl-B-RRRR-rrrrr,,,,,,,yes,Peptide with Substitutions,LBRRRR,False,False,False,False,False,False,True,False,"[('A', 2), ('U', 3), ('R', 4), ('O', 5), ('Y', 6), ('L', 7), ('R', 13), ('R', 14), ('R', 15), ('R', 16), ('R', 17)]"
-1660,Lauroyl-B-RRRRRRRRR,,,,,,,yes,Peptide with Substitutions,LBRRRRRRRRR,False,False,False,False,False,False,True,False,"[('A', 2), ('U', 3), ('R', 4), ('O', 5), ('Y', 6), ('L', 7)]"
-1661,Lauroyl-B-rrrrr-RRRR,,,,,,,yes,Peptide with Substitutions,LBRRRR,False,False,False,False,False,False,True,False,"[('A', 2), ('U', 3), ('R', 4), ('O', 5), ('Y', 6), ('L', 7), ('R', 9), ('R', 10), ('R', 11), ('R', 12), ('R', 13)]"
-1662,Lauroyl-B-rrrrrrr,,,,,,,yes,Peptide with Substitutions,LB,False,False,False,False,False,False,True,False,"[('A', 2), ('U', 3), ('R', 4), ('O', 5), ('Y', 6), ('L', 7), ('R', 9), ('R', 10), ('R', 11), ('R', 12), ('R', 13), ('R', 14), ('R', 15)]"
+1659,Lauroyl-B-RRRR-rrrrr,,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,True,False,"[('A', 2), ('U', 3), ('R', 4), ('O', 5), ('Y', 6), ('L', 7), ('R', 13), ('R', 14), ('R', 15), ('R', 16), ('R', 17)]"
+1660,Lauroyl-B-RRRRRRRRR,,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,True,False,"[('A', 2), ('U', 3), ('R', 4), ('O', 5), ('Y', 6), ('L', 7)]"
+1661,Lauroyl-B-rrrrr-RRRR,,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,True,False,"[('A', 2), ('U', 3), ('R', 4), ('O', 5), ('Y', 6), ('L', 7), ('R', 9), ('R', 10), ('R', 11), ('R', 12), ('R', 13)]"
+1662,Lauroyl-B-rrrrrrr,,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,True,False,"[('A', 2), ('U', 3), ('R', 4), ('O', 5), ('Y', 6), ('L', 7), ('R', 9), ('R', 10), ('R', 11), ('R', 12), ('R', 13), ('R', 14), ('R', 15)]"
 1663,M-Rho-GRKKRRQRRR-NH2,,,,,,,yes,Repeating Segments,MRGRKKRRQRRRNH,True,False,False,False,False,True,False,False,"[('H', 3), ('O', 4)]"
 1664,MAGCGCPCGCGA,,,,,,,yes,Standard,MAGCGCPCGCGA,False,False,False,False,False,False,False,False,[]
 1665,MAIYRDLIS,,natural_cpp,,,,,yes,Standard,MAIYRDLIS,False,False,False,False,False,False,False,False,[]
@@ -1579,9 +1579,9 @@
 1676,MDAQTRRRERRAEKQAQWKAAN,,cpp,,,,,yes,Standard,MDAQTRRRERRAEKQAQWKAAN,False,False,False,False,False,False,False,False,[]
 1677,MDAQTRRRERRAEKQAQWKAANGC,,,24.0,,,,both,Standard,MDAQTRRRERRAEKQAQWKAANGC,False,False,False,False,False,False,False,False,[]
 1679,MDCRWRWKCCKK,,natural_cpp,,,,,yes,Standard,MDCRWRWKCCKK,False,False,False,False,False,False,False,False,[]
-1680,MDCRWRWKCXKK,Crot (27-39) derevative 44,,,,,,yes,Standard,MDCRWRWKCXKK,False,False,False,False,False,False,False,False,[]
-1681,MDCRWRWKXCKK,Crot (27-39) derevative 10,,,,,,yes,Standard,MDCRWRWKXCKK,False,False,False,False,False,False,False,False,[]
-1682,MDCRWRWKXXKK,Crot (27-39) derevative 16,,,,,,yes,Standard,MDCRWRWKXXKK,False,False,False,False,False,False,False,False,[]
+1680,MDCRWRWKCXKK,Crot (27-39) derevative 44,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+1681,MDCRWRWKXCKK,Crot (27-39) derevative 10,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+1682,MDCRWRWKXXKK,Crot (27-39) derevative 16,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
 1683,MDCWRWKCWKCW,Crot(27-39) derivative (1),cpp,,A,,,yes,Standard,MDCWRWKCWKCW,False,False,False,False,False,False,False,False,[]
 1684,MDLGELVGMTPEIIQKL,,,17.0,,,,no,Standard,MDLGELVGMTPEIIQKL,False,False,False,False,False,False,False,False,[]
 1685,MDMVAIDDQDYIMCHF,,,16.0,,,,no,Standard,MDMVAIDDQDYIMCHF,False,False,False,False,False,False,False,False,[]
@@ -1593,8 +1593,8 @@
 1691,MGPSQPTYPGDDAPVRDLIRFYRDLRRYLNVVTRHRY,,,,,,,yes,Standard,MGPSQPTYPGDDAPVRDLIRFYRDLRRYLNVVTRHRY,False,False,False,False,False,False,False,False,[]
 1692,MGSST,,,5.0,,,,no,Standard,MGSST,False,False,False,False,False,False,False,False,[]
 1693,MGVADLIKKFESISKEEGGGGK(Ahx-FITC)-GGrRrRrRRR,,,,,,,yes,Peptide with Substitutions,MGVADLIKKFESISKEEGGGGKAFITCGGRRRRR,False,False,False,False,False,False,False,False,"[('H', 24), ('X', 25), ('R', 32), ('R', 34), ('R', 36)]"
-1694,MGVADLIKKFESISKEEGGGGK(PA-RhB)GGrRrRrRRR,,,,,,,yes,Peptide with Substitutions,MGVADLIKKFESISKEEGGGGKPARBGGRRRRR,False,False,False,False,False,False,False,False,"[('H', 26), ('R', 30), ('R', 32), ('R', 34)]"
-1695,MGVADLIKKFESISKEEGGGGK(RhB)GGrRrRrRRR,,,,,,,yes,Peptide with Substitutions,MGVADLIKKFESISKEEGGGGKRBGGRRRRR,False,False,False,False,False,False,False,False,"[('H', 24), ('R', 28), ('R', 30), ('R', 32)]"
+1694,MGVADLIKKFESISKEEGGGGK(PA-RhB)GGrRrRrRRR,,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,False,False,"[('H', 26), ('R', 30), ('R', 32), ('R', 34)]"
+1695,MGVADLIKKFESISKEEGGGGK(RhB)GGrRrRrRRR,,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,False,False,"[('H', 24), ('R', 28), ('R', 30), ('R', 32)]"
 1696,MHGAR,,,5.0,,,,no,Standard,MHGAR,False,False,False,False,False,False,False,False,[]
 1697,MHKRPTTPSRKM,,natural_cpp,,,,,yes,Standard,MHKRPTTPSRKM,False,False,False,False,False,False,False,False,[]
 1698,MHQEYLQGLATNAGHPMSLTHHQWLPNPASDW,,,32.0,,,,no,Standard,MHQEYLQGLATNAGHPMSLTHHQWLPNPASDW,False,False,False,False,False,False,False,False,[]
@@ -1693,8 +1693,8 @@
 1791,Mpa(luc)-TRVLKRWKLF-NH2,,,,,,,yes,Repeating Segments,MTRVLKRWKLFNH,True,False,False,False,False,True,False,False,"[('P', 2), ('A', 3), ('L', 4), ('U', 5), ('C', 6)]"
 1792,Mpa(luc)-VLKRWKLFNK-NH2,,,,,,,yes,Repeating Segments,MVLKRWKLFNKNH,True,False,False,False,False,True,False,False,"[('P', 2), ('A', 3), ('L', 4), ('U', 5), ('C', 6)]"
 1793,Mpa(luc)-WKLFNKQEWT-NH2,,,,,,,yes,Repeating Segments,MWKLFNKQEWTNH,True,False,False,False,False,True,False,False,"[('P', 2), ('A', 3), ('L', 4), ('U', 5), ('C', 6)]"
-1794,Myristoyl-B-RRRRRRRRRRR,,,,,,,yes,Peptide with Substitutions,MBRRRRRRRRRRR,False,False,False,False,False,False,True,False,"[('Y', 2), ('R', 3), ('I', 4), ('S', 5), ('T', 6), ('O', 7), ('Y', 8), ('L', 9)]"
-1795,Myristoyl-B-rrrrrrrrrrr,,,,,,,yes,Peptide with Substitutions,MB,False,False,False,False,False,False,True,False,"[('Y', 2), ('R', 3), ('I', 4), ('S', 5), ('T', 6), ('O', 7), ('Y', 8), ('L', 9), ('R', 11), ('R', 12), ('R', 13), ('R', 14), ('R', 15), ('R', 16), ('R', 17), ('R', 18), ('R', 19), ('R', 20), ('R', 21)]"
+1794,Myristoyl-B-RRRRRRRRRRR,,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,True,False,"[('Y', 2), ('R', 3), ('I', 4), ('S', 5), ('T', 6), ('O', 7), ('Y', 8), ('L', 9)]"
+1795,Myristoyl-B-rrrrrrrrrrr,,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,True,False,"[('Y', 2), ('R', 3), ('I', 4), ('S', 5), ('T', 6), ('O', 7), ('Y', 8), ('L', 9), ('R', 11), ('R', 12), ('R', 13), ('R', 14), ('R', 15), ('R', 16), ('R', 17), ('R', 18), ('R', 19), ('R', 20), ('R', 21)]"
 1796,NAAPLG,,,6.0,,,,no,Standard,NAAPLG,False,False,False,False,False,False,False,False,[]
 1797,NAATATRGRSAASRPTQRPRAPARSASRPRRPVQ,VP22,,,A,,,yes,Standard,NAATATRGRSAASRPTQRPRAPARSASRPRRPVQ,False,False,False,False,False,False,False,False,[]
 1798,NAGSPQMLDQVGRAAPGHPVWI,,,22.0,,,,no,Standard,NAGSPQMLDQVGRAAPGHPVWI,False,False,False,False,False,False,False,False,[]
@@ -1710,7 +1710,7 @@
 1808,NGERPEVLPDTSPWWWLWVIMSQPRHVWSF,,,30.0,,,,no,Standard,NGERPEVLPDTSPWWWLWVIMSQPRHVWSF,False,False,False,False,False,False,False,False,[]
 1809,NGLLAEQLEARLTGATPPDTGI,,,22.0,,,,no,Standard,NGLLAEQLEARLTGATPPDTGI,False,False,False,False,False,False,False,False,[]
 1810,NGVQPKYKWWKWWKKWW-NH2,,,,,,,yes,Repeating Segments,NGVQPKYKWWKWWKKWWNH,True,False,False,False,False,True,False,False,[]
-1811,NH2-GLRK(KEKIKNRFKRLRKRLGGGG-NH2CO-CH3(CH2)16)RLRKFRNKIKEK-NH2,,,,,,,yes,Repeating Segments,NHGLRKKEKIKNRFKRLRKRLGGGGNHCOCHCHRLRKFRNKIKEKNH,True,False,False,False,False,True,False,False,[]
+1811,NH2-GLRK(KEKIKNRFKRLRKRLGGGG-NH2CO-CH3(CH2)16)RLRKFRNKIKEK-NH2,,,,,,,yes,Repeating Segments,,True,False,False,False,False,True,False,False,[]
 1812,NH2-GLRK(RLRKFRKEKIKNRFKRLRKRLG-NH2)NKIKEK-amide,,,,,,,yes,Peptide with Substitutions,NHGLRKRLRKFRKEKIKNRFKRLRKRLGNHNKIKEK,False,False,False,False,False,False,False,False,"[('A', 37), ('M', 38), ('I', 39), ('D', 40), ('E', 41)]"
 1813,NH2-GLRKRLRKFRNKIKEK-amide,,,,,,,yes,Peptide with Substitutions,NHGLRKRLRKFRNKIKEK,False,False,False,False,False,False,False,False,"[('A', 19), ('M', 20), ('I', 21), ('D', 22), ('E', 23)]"
 1814,NHDVHVLTQVLRGMTSRNETLFQRAQKSIPGGVNSPVRAFRSVGGTPRF,,,49.0,,,,no,Standard,NHDVHVLTQVLRGMTSRNETLFQRAQKSIPGGVNSPVRAFRSVGGTPRF,False,False,False,False,False,False,False,False,[]
@@ -2003,7 +2003,7 @@
 2113,RGGRLAYLRRRWAVLGR,,,17.0,,,,both,Standard,RGGRLAYLRRRWAVLGR,False,False,False,False,False,False,False,False,[]
 2115,RGGRLSSYSRRRFSTSTGR,,cpp,,,,,yes,Standard,RGGRLSSYSRRRFSTSTGR,False,False,False,False,False,False,False,False,[]
 2116,RGGRLSYSRRRFSTSTGR,,,18.0,,,,both,Standard,RGGRLSYSRRRFSTSTGR,False,False,False,False,False,False,False,False,[]
-2118,RGGRLSYSRRRFSTSTGR-VPGXGVPGXGVPGXG,,,,,,,yes,Peptide with Substitutions,RGGRLSYSRRRFSTSTGRVPGXGVPGXGVPGXG,False,False,False,False,False,False,False,False,[]
+2118,RGGRLSYSRRRFSTSTGR-VPGXGVPGXGVPGXG,,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,False,False,[]
 2119,RGGRLSYSRRRFSTSTGRA,,cpp,,,,,yes,Standard,RGGRLSYSRRRFSTSTGRA,False,False,False,False,False,False,False,False,[]
 2120,RGGRLSYSRRRFSTSTGRVPGVGGGGGGGAAAAAAAAGLPRHSAVMERLRRRIELCRRHHSTCEARYEAVSPERLELERQHTFALHQRCIQAKAKRAGKH,,,,,,,yes,Standard,RGGRLSYSRRRFSTSTGRVPGVGGGGGGGAAAAAAAAGLPRHSAVMERLRRRIELCRRHHSTCEARYEAVSPERLELERQHTFALHQRCIQAKAKRAGKH,False,False,False,False,False,False,False,False,[]
 2121,RGGRLSYSRRRFSTSTGRVPGVVVVVGGGAAGLPRHSAVMERLRRRIELCRRHHSTCEARYEAVSPERLELERQHTFALHQRCIQAKAKRAGKH,,,,,,,yes,Standard,RGGRLSYSRRRFSTSTGRVPGVVVVVGGGAAGLPRHSAVMERLRRRIELCRRHHSTCEARYEAVSPERLELERQHTFALHQRCIQAKAKRAGKH,False,False,False,False,False,False,False,False,[]
@@ -2034,7 +2034,7 @@
 2146,RKARRQRRR,,,9.0,,,,both,Standard,RKARRQRRR,False,False,False,False,False,False,False,False,[]
 2148,RKKARQRRR,,,9.0,,,,both,Standard,RKKARQRRR,False,False,False,False,False,False,False,False,[]
 2150,RKKRAQRRR,,,9.0,,,,both,Standard,RKKRAQRRR,False,False,False,False,False,False,False,False,[]
-2152,RKKRKKKRXRHXRHXRHXR,,,,,,,yes,Standard,RKKRKKKRXRHXRHXRHXR,False,False,False,False,False,False,False,False,[]
+2152,RKKRKKKRXRHXRHXRHXR,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
 2153,RKKRRARRR,,natural_cpp,,,,,yes,Standard,RKKRRARRR,False,False,False,False,False,False,False,False,[]
 2154,RKKRRQARR,,,9.0,,,,both,Standard,RKKRRQARR,False,False,False,False,False,False,False,False,[]
 2156,RKKRRQR,,,7.0,,,,both,Standard,RKKRRQR,False,False,False,False,False,False,False,False,[]
@@ -2044,7 +2044,7 @@
 2163,RKKRRQRRR,,,9.0,,,,both,Standard,RKKRRQRRR,False,False,False,False,False,False,False,False,[]
 2165,RKKRRQRRR-EIWIAQELRRIGDEFNAYYARLL-C,,,,,,,yes,Peptide with Substitutions,RKKRRQRRREIWIAQELRRIGDEFNAYYARLLC,False,False,False,False,False,False,False,False,[]
 2166,RKKRRQRRR-EIWIAQELRRIGDEFNAYYARLL-C-C-LLRAYYANFEDGIRRLEQAIWIE-RRRQRRKKR,,,,,,,yes,Peptide with Substitutions,RKKRRQRRREIWIAQELRRIGDEFNAYYARLLCCLLRAYYANFEDGIRRLEQAIWIERRRQRRKKR,False,False,False,False,False,False,False,False,[]
-2167,RKKRRQRRR-OL-Pdna,,,,,,,yes,Peptide with Substitutions,RKKRRQRRROLP,False,False,False,False,False,False,False,False,"[('D', 13), ('N', 14), ('A', 15)]"
+2167,RKKRRQRRR-OL-Pdna,,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,False,False,"[('D', 13), ('N', 14), ('A', 15)]"
 2168,RKKRRQRRR-pDNA,,,,,,,yes,Peptide with Substitutions,RKKRRQRRRDNA,False,False,False,False,False,False,False,False,"[('P', 10)]"
 2169,RKKRRQRRRPPQCAAVALLPAVLLALLAP,,natural_cpp,,,,,yes,Standard,RKKRRQRRRPPQCAAVALLPAVLLALLAP,False,False,False,False,False,False,False,False,[]
 2170,RKKRRRESRKKRRRES,DPV3,cpp,,C,,,yes,Standard,RKKRRRESRKKRRRES,False,False,False,False,False,False,False,False,[]
@@ -2067,9 +2067,9 @@
 2187,RLLMRLYSPTTRRYG,,,15.0,,,,both,Standard,RLLMRLYSPTTRRYG,False,False,False,False,False,False,False,False,[]
 2189,RLLRLLLRLWRRLLRLLR,,natural_cpp,,,,,yes,Standard,RLLRLLLRLWRRLLRLLR,False,False,False,False,False,False,False,False,[]
 2190,RLLRLLRLL,,,,,,,yes,Standard,RLLRLLRLL,False,False,False,False,False,False,False,False,[]
-2191,RLLRLLRLX,2b,,,,,,yes,Standard,RLLRLLRLX,False,False,False,False,False,False,False,False,[]
+2191,RLLRLLRLX,2b,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
 2192,RLLRLLRRLLRLLRRLLRC,,natural_cpp,,,,,yes,Standard,RLLRLLRRLLRLLRRLLRC,False,False,False,False,False,False,False,False,[]
-2193,RLLRLXRLX,3b,,,,,,yes,Standard,RLLRLXRLX,False,False,False,False,False,False,False,False,[]
+2193,RLLRLXRLX,3b,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
 2194,RLPRPRPRPLPFPRPG,,,16.0,,,,both,Standard,RLPRPRPRPLPFPRPG,False,False,False,False,False,False,False,False,[]
 2196,RLRWR,AIP6,,,C,,,yes,Standard,RLRWR,False,False,False,False,False,False,False,False,[]
 2197,RLSARI,,,6.0,,,,no,Standard,RLSARI,False,False,False,False,False,False,False,False,[]
@@ -2098,13 +2098,13 @@
 2224,RLWMRWYSPWTRRWG,,,15.0,,,,both,Standard,RLWMRWYSPWTRRWG,False,False,False,False,False,False,False,False,[]
 2226,RLWMRWYSPWTRRYG,,natural_cpp,,,,,yes,Standard,RLWMRWYSPWTRRYG,False,False,False,False,False,False,False,False,[]
 2227,RLWRALPRVLRRLLRP,,natural_cpp,,,,,yes,Standard,RLWRALPRVLRRLLRP,False,False,False,False,False,False,False,False,[]
-2228,RLXRLXRLX,4b,,,,,,yes,Standard,RLXRLXRLX,False,False,False,False,False,False,False,False,[]
-2229,RLXRLXRXX,,,,,,,yes,Standard,RLXRLXRXX,False,False,False,False,False,False,False,False,[]
-2230,RLXRXRXX,,,,,,,yes,Standard,RLXRXRXX,False,False,False,False,False,False,False,False,[]
+2228,RLXRLXRLX,4b,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+2229,RLXRLXRXX,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+2230,RLXRXRXX,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
 2231,RLYMRYYSPTTRRYG,,natural_cpp,,,,,yes,Standard,RLYMRYYSPTTRRYG,False,False,False,False,False,False,False,False,[]
 2232,RMETSTVLKDLKPETEYVVNVYSVVEDEYSEP,,,32.0,,,,no,Standard,RMETSTVLKDLKPETEYVVNVYSVVEDEYSEP,False,False,False,False,False,False,False,False,[]
 2233,RMKWKK,,,6.0,,,,both,Standard,RMKWKK,False,False,False,False,False,False,False,False,[]
-2235,RMKWKKILFQYRXRRXR,,,,,,,yes,Standard,RMKWKKILFQYRXRRXR,False,False,False,False,False,False,False,False,[]
+2235,RMKWKKILFQYRXRRXR,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
 2236,RNPIGRWEVKDCVHFKAMSLCKQPVETR,,,28.0,,,,no,Standard,RNPIGRWEVKDCVHFKAMSLCKQPVETR,False,False,False,False,False,False,False,False,[]
 2237,RNPTR,,,5.0,,,,no,Standard,RNPTR,False,False,False,False,False,False,False,False,[]
 2238,RNQRKTVRCFRCRQAGHWISDCRLKSK,,,,,,,yes,Standard,RNQRKTVRCFRCRQAGHWISDCRLKSK,False,False,False,False,False,False,False,False,[]
@@ -2245,7 +2245,7 @@
 2394,RRTNQILTKYLPVKFE,,,16.0,,,,no,Standard,RRTNQILTKYLPVKFE,False,False,False,False,False,False,False,False,[]
 2395,RRVTSWLGRQLRIAGKRLEGRSK,,natural_cpp,,,,,yes,Standard,RRVTSWLGRQLRIAGKRLEGRSK,False,False,False,False,False,False,False,False,[]
 2396,RRVWRRYRRQRWCRR,,,,,,,yes,Standard,RRVWRRYRRQRWCRR,False,False,False,False,False,False,False,False,[]
-2397,RRWPRXILDXHVRRVWR,,,,,,,yes,Standard,RRWPRXILDXHVRRVWR,False,False,False,False,False,False,False,False,[]
+2397,RRWPRXILDXHVRRVWR,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
 2398,RRWQW,,,,,,,yes,Standard,RRWQW,False,False,False,False,False,False,False,False,[]
 2399,RRWQWR,,,,,,,yes,Standard,RRWQWR,False,False,False,False,False,False,False,False,[]
 2400,RRWQWRMKK,,,,,,,yes,Standard,RRWQWRMKK,False,False,False,False,False,False,False,False,[]
@@ -2283,30 +2283,30 @@
 2434,RWQWR,,,,,,,yes,Standard,RWQWR,False,False,False,False,False,False,False,False,[]
 2435,RWRRWRRWRRWR,,natural_cpp,,,,,yes,Standard,RWRRWRRWRRWR,False,False,False,False,False,False,False,False,[]
 2436,RWRWKCCKK,,natural_cpp,,,,,yes,Standard,RWRWKCCKK,False,False,False,False,False,False,False,False,[]
-2437,RWRWKXCKK,Crot (27-39) derevative 15,,,,,,yes,Standard,RWRWKXCKK,False,False,False,False,False,False,False,False,[]
-2438,RWRWKXXKK,Crot (27-39) derevative 19,,,,,,yes,Standard,RWRWKXXKK,False,False,False,False,False,False,False,False,[]
+2437,RWRWKXCKK,Crot (27-39) derevative 15,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+2438,RWRWKXXKK,Crot (27-39) derevative 19,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
 2439,RWRWRW,,,,,,,yes,Standard,RWRWRW,False,False,False,False,False,False,False,False,[]
 2440,RWRWRWRW,,,,,,,yes,Standard,RWRWRWRW,False,False,False,False,False,False,False,False,[]
 2441,RWRWRWRWRW,,,,,,,yes,Standard,RWRWRWRWRW,False,False,False,False,False,False,False,False,[]
 2442,RWRWRWRWRWKRWRWRWRWRW,,,,,,,yes,Standard,RWRWRWRWRWKRWRWRWRWRW,False,False,False,False,False,False,False,False,[]
 2443,RWRWRWRWRWRW,,,,,,,yes,Standard,RWRWRWRWRWRW,False,False,False,False,False,False,False,False,[]
 2444,RWRWRWRWRWRW-EEEEEEEEE,,,,,,,yes,Peptide with Substitutions,RWRWRWRWRWRWEEEEEEEEE,False,False,False,False,False,False,False,False,[]
-2445,RXRRBRRXRRBRXB,,,,,,,yes,Standard,RXRRBRRXRRBRXB,False,False,False,False,False,False,False,False,[]
-2446,RXRRBRRXRYQFLIRXRBRXRB,Pip6a,,,,,,yes,Standard,RXRRBRRXRYQFLIRXRBRXRB,False,False,False,False,False,False,False,False,[]
-2447,RXRRXRAAAAARXRRXR,,,,,,,yes,Standard,RXRRXRAAAAARXRRXR,False,False,False,False,False,False,False,False,[]
-2448,RXRRXRFLQIYRXRRXR,,,,,,,yes,Standard,RXRRXRFLQIYRXRRXR,False,False,False,False,False,False,False,False,[]
-2449,RXRRXRIEFQYRXRRXR,,,,,,,yes,Standard,RXRRXRIEFQYRXRRXR,False,False,False,False,False,False,False,False,[]
-2450,RXRRXRIKFQYRXRRXR,,,,,,,yes,Standard,RXRRXRIKFQYRXRRXR,False,False,False,False,False,False,False,False,[]
-2451,RXRRXRILFQYKKWKMR,,,,,,,yes,Standard,RXRRXRILFQYKKWKMR,False,False,False,False,False,False,False,False,[]
-2452,RXRRXRILFQYRMKWKK,,,,,,,yes,Standard,RXRRXRILFQYRMKWKK,False,False,False,False,False,False,False,False,[]
-2453,RXRRXRILFQYRXRRXR,,,,,,,yes,Standard,RXRRXRILFQYRXRRXR,False,False,False,False,False,False,False,False,[]
-2454,RXRRXRIPFQYRXRRXR,,,,,,,yes,Standard,RXRRXRIPFQYRXRRXR,False,False,False,False,False,False,False,False,[]
-2455,RXRRXRIWFQYRXRRXR,,,,,,,yes,Standard,RXRRXRIWFQYRXRRXR,False,False,False,False,False,False,False,False,[]
-2456,RXRRXRRXRRXR,Peptide I,,,,,,yes,Standard,RXRRXRRXRRXR,False,False,False,False,False,False,False,False,[]
-2457,RXRRXRRXRRXRXB,,,,,,,yes,Standard,RXRRXRRXRRXRXB,False,False,False,False,False,False,False,False,[]
-2458,RXRRXRYQFLIRXRRXR,,,,,,,yes,Standard,RXRRXRYQFLIRXRRXR,False,False,False,False,False,False,False,False,[]
-2459,RXRXRXRXRXRXRXRXB,,,,,,,yes,Standard,RXRXRXRXRXRXRXRXB,False,False,False,False,False,False,False,False,[]
-2460,RXXRXRXX,,,,,,,yes,Standard,RXXRXRXX,False,False,False,False,False,False,False,False,[]
+2445,RXRRBRRXRRBRXB,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+2446,RXRRBRRXRYQFLIRXRBRXRB,Pip6a,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+2447,RXRRXRAAAAARXRRXR,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+2448,RXRRXRFLQIYRXRRXR,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+2449,RXRRXRIEFQYRXRRXR,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+2450,RXRRXRIKFQYRXRRXR,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+2451,RXRRXRILFQYKKWKMR,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+2452,RXRRXRILFQYRMKWKK,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+2453,RXRRXRILFQYRXRRXR,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+2454,RXRRXRIPFQYRXRRXR,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+2455,RXRRXRIWFQYRXRRXR,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+2456,RXRRXRRXRRXR,Peptide I,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+2457,RXRRXRRXRRXRXB,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+2458,RXRRXRYQFLIRXRRXR,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+2459,RXRXRXRXRXRXRXRXB,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+2460,RXXRXRXX,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
 2461,RYRNIEPQAINEVEVIEEA,,,19.0,,,,no,Standard,RYRNIEPQAINEVEVIEEA,False,False,False,False,False,False,False,False,[]
 2462,RYVDELNAGKDGPRGDNFNMRWIASMVADVHRILNRG,,,37.0,,,,no,Standard,RYVDELNAGKDGPRGDNFNMRWIASMVADVHRILNRG,False,False,False,False,False,False,False,False,[]
 2463,RaDPAYQaRFLGKrKfIcL,,,,,,,yes,Enantiomer Mix,RDPAYQRFLGKKIL,False,False,False,False,False,False,False,False,"[('A', 2), ('A', 8), ('R', 14), ('F', 16), ('C', 18)]"
@@ -2430,7 +2430,7 @@
 2585,SWLGRQLRIAGKRLEGRSK,,cpp,,,,,yes,Standard,SWLGRQLRIAGKRLEGRSK,False,False,False,False,False,False,False,False,[]
 2586,SWLPYPWHVPSS,,natural_cpp,,,,,yes,Standard,SWLPYPWHVPSS,False,False,False,False,False,False,False,False,[]
 2587,SWWTPWHVHSES,,natural_cpp,,,,,yes,Standard,SWWTPWHVHSES,False,False,False,False,False,False,False,False,[]
-2588,SXRSXRILFQYSXRSXR,,,,,,,yes,Standard,SXRSXRILFQYSXRSXR,False,False,False,False,False,False,False,False,[]
+2588,SXRSXRILFQYSXRSXR,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
 2589,SYCGHGIHKLFHTAPNVPHYAKNKAVGVM,,,29.0,,,,no,Standard,SYCGHGIHKLFHTAPNVPHYAKNKAVGVM,False,False,False,False,False,False,False,False,[]
 2590,SYDDLRRRKRFYYFTDVRVAA,HPV33L2-DD447,cpp,,H,,,yes,Standard,SYDDLRRRKRFYYFTDVRVAA,False,False,False,False,False,False,False,False,[]
 2591,SYFILRRRRKRFYYFTDVRVAA,HPV33L2-445/467,cpp,,A,,,yes,Standard,SYFILRRRRKRFYYFTDVRVAA,False,False,False,False,False,False,False,False,[]
@@ -2697,11 +2697,11 @@
 2873,WKRRFVQDATVAEM,,,14.0,,,,no,Standard,WKRRFVQDATVAEM,False,False,False,False,False,False,False,False,[]
 2874,WKSMFGSLDPPNMPQA,,,16.0,,,,no,Standard,WKSMFGSLDPPNMPQA,False,False,False,False,False,False,False,False,[]
 2875,WKWRRQWFRVLHHWN,,natural_cpp,,,,,yes,Standard,WKWRRQWFRVLHHWN,False,False,False,False,False,False,False,False,[]
-2876,WLKY(PO3)LLKKWLKLWKKLLKLW,,,,,,,yes,Peptide with Substitutions,WLKYPOLLKKWLKLWKKLLKLW,False,True,False,False,False,False,False,False,[]
+2876,WLKY(PO3)LLKKWLKLWKKLLKLW,,,,,,,yes,Peptide with Substitutions,,False,True,False,False,False,False,False,False,[]
 2877,WLLANL,,,6.0,,,,no,Standard,WLLANL,False,False,False,False,False,False,False,False,[]
-2878,WLOLLOOWLOLWOOLLOLW,,,,,,,yes,Standard,WLOLLOOWLOLWOOLLOLW,False,False,False,False,False,False,False,False,[]
-2879,WLOLLROWLRLWORLLOLW,,,,,,,yes,Standard,WLOLLROWLRLWORLLOLW,False,False,False,False,False,False,False,False,[]
-2880,WLRLLORWLOLWROLLRLW,,,,,,,yes,Standard,WLRLLORWLOLWROLLRLW,False,False,False,False,False,False,False,False,[]
+2878,WLOLLOOWLOLWOOLLOLW,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+2879,WLOLLROWLRLWORLLOLW,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+2880,WLRLLORWLOLWROLLRLW,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
 2881,WLRRIKAWLRRIKALNRQLGVAA,,natural_cpp,,,,,yes,Standard,WLRRIKAWLRRIKALNRQLGVAA,False,False,False,False,False,False,False,False,[]
 2882,WMNFSIFLQEMSLFKQQSPGKFCLLVCSVCTF,,,32.0,,,,no,Standard,WMNFSIFLQEMSLFKQQSPGKFCLLVCSVCTF,False,False,False,False,False,False,False,False,[]
 2883,WQLWQQVRPNNHSHLHAISVEKFPLSKADLIRA,,,33.0,,,,no,Standard,WQLWQQVRPNNHSHLHAISVEKFPLSKADLIRA,False,False,False,False,False,False,False,False,[]
@@ -2723,17 +2723,17 @@
 2900,WWWRRRRWWW,,,,,,,yes,Standard,WWWRRRRWWW,False,False,False,False,False,False,False,False,[]
 2901,WWWRRRRWWW-E12,,,,,,,yes,Peptide with Substitutions,WWWRRRRWWWE,False,False,False,False,False,False,False,False,[]
 2902,WWWWRRRRRRRR,,natural_cpp,,,,,yes,Standard,WWWWRRRRRRRR,False,False,False,False,False,False,False,False,[]
-2903,XFXR,,,,,,,yes,Standard,XFXR,False,False,False,False,False,False,False,False,[]
-2904,XFXRXFXR,,,,,,,yes,Standard,XFXRXFXR,False,False,False,False,False,False,False,False,[]
-2905,XFXRXFXRXFXR,,,,,,,yes,Standard,XFXRXFXRXFXR,False,False,False,False,False,False,False,False,[]
-2906,XRRRRRRRR,,,,,,,yes,Standard,XRRRRRRRR,False,False,False,False,False,False,False,False,[]
-2907,XRXR,,,,,,,yes,Standard,XRXR,False,False,False,False,False,False,False,False,[]
-2908,XRXRXRXR,,,,,,,yes,Standard,XRXRXRXR,False,False,False,False,False,False,False,False,[]
-2909,XRXRXRXRXRXR,,,,,,,yes,Standard,XRXRXRXRXRXR,False,False,False,False,False,False,False,False,[]
-2910,XWXW,,,,,,,yes,Standard,XWXW,False,False,False,False,False,False,False,False,[]
-2911,XWXWXWXW,,,,,,,yes,Standard,XWXWXWXW,False,False,False,False,False,False,False,False,[]
-2912,XWXWXWXWXWXW,,,,,,,yes,Standard,XWXWXWXWXWXW,False,False,False,False,False,False,False,False,[]
-2913,Y(PO3)WLKLLKKWLKLWKKLLKLW,,,,,,,yes,Peptide with Substitutions,YPOWLKLLKKWLKLWKKLLKLW,False,True,False,False,False,False,False,False,[]
+2903,XFXR,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+2904,XFXRXFXR,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+2905,XFXRXFXRXFXR,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+2906,XRRRRRRRR,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+2907,XRXR,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+2908,XRXRXRXR,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+2909,XRXRXRXRXRXR,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+2910,XWXW,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+2911,XWXWXWXW,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+2912,XWXWXWXWXWXW,,,,,,,yes,Standard,,False,False,False,False,False,False,False,False,[]
+2913,Y(PO3)WLKLLKKWLKLWKKLLKLW,,,,,,,yes,Peptide with Substitutions,,False,True,False,False,False,False,False,False,[]
 2914,YAAMVVKVIAQHQN,,,14.0,,,,no,Standard,YAAMVVKVIAQHQN,False,False,False,False,False,False,False,False,[]
 2915,YARAAARQARA,,natural_cpp,,,,,yes,Standard,YARAAARQARA,False,False,False,False,False,False,False,False,[]
 2916,YARAAARQARA-C,,,,,,,yes,Peptide with Substitutions,YARAAARQARAC,False,False,False,False,False,False,False,False,[]
@@ -2772,11 +2772,11 @@
 2949,YGRKKRPQRRR,,,,,,,yes,Standard,YGRKKRPQRRR,False,False,False,False,False,False,False,False,[]
 2950,YGRKKRRQRRR,,cpp,,,,,yes,Standard,YGRKKRRQRRR,False,False,False,False,False,False,False,False,[]
 2951,YGRKKRRQRRR-C,,,,,,,yes,Peptide with Substitutions,YGRKKRRQRRRC,False,False,False,False,False,False,False,False,[]
-2952,YGRKKRRQRRR-C-MC-VC-PABC-GFAWNVCVYRNGVRVCHRRAN,,,,,,,yes,Peptide with Substitutions,YGRKKRRQRRRCMCVCPABCGFAWNVCVYRNGVRVCHRRAN,False,False,False,False,False,False,False,False,[]
+2952,YGRKKRRQRRR-C-MC-VC-PABC-GFAWNVCVYRNGVRVCHRRAN,,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,False,False,[]
 2953,YGRKKRRQRRR-acp-DYQQD,,,,,,,yes,Peptide with Substitutions,YGRKKRRQRRRDYQQD,False,False,False,False,False,False,False,False,"[('A', 12), ('C', 13), ('P', 14)]"
 2954,YGRKKRRQRRR-acp-ENAEYLR,,,,,,,yes,Peptide with Substitutions,YGRKKRRQRRRENAEYLR,False,False,False,False,False,False,False,False,"[('A', 12), ('C', 13), ('P', 14)]"
 2955,YGRKKRRQRRR-acp-NYQQN,,,,,,,yes,Peptide with Substitutions,YGRKKRRQRRRNYQQN,False,False,False,False,False,False,False,False,"[('A', 12), ('C', 13), ('P', 14)]"
-2956,YGRKKRRQRRR-acp-OH,,,,,,,yes,Peptide with Substitutions,YGRKKRRQRRROH,False,False,False,False,False,False,False,False,"[('A', 12), ('C', 13), ('P', 14)]"
+2956,YGRKKRRQRRR-acp-OH,,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,False,False,"[('A', 12), ('C', 13), ('P', 14)]"
 2957,YGRKKRRQRRR-acp-QNAQYLR,,,,,,,yes,Peptide with Substitutions,YGRKKRRQRRRQNAQYLR,False,False,False,False,False,False,False,False,"[('A', 12), ('C', 13), ('P', 14)]"
 2958,YGRKKRRQRRRC,,,,,,,yes,Standard,YGRKKRRQRRRC,False,False,False,False,False,False,False,False,[]
 2959,YGRKKRRQRRRGCYGRKKRRQRRRG,,natural_cpp,,,,,yes,Standard,YGRKKRRQRRRGCYGRKKRRQRRRG,False,False,False,False,False,False,False,False,[]
@@ -2790,9 +2790,9 @@
 2967,YGRKKRRQRRRSVYDFFVWL,,cpp,,,,,yes,Standard,YGRKKRRQRRRSVYDFFVWL,False,False,False,False,False,False,False,False,[]
 2968,YGRKKRRQRRRYGRKKRRQRRRYGRKKRRQRRR,,,,,,,yes,Standard,YGRKKRRQRRRYGRKKRRQRRRYGRKKRRQRRR,False,False,False,False,False,False,False,False,[]
 2969,YGRKR8RRQS5RR,,,,,,,yes,Peptide with Substitutions,YGRKRRRQSRR,False,False,False,False,False,False,False,False,[]
-2970,YGRKR8RRQXRR,,,,,,,yes,Peptide with Substitutions,YGRKRRRQXRR,False,False,False,False,False,False,False,False,[]
+2970,YGRKR8RRQXRR,,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,False,False,[]
 2971,YGRKS5RRQS5RR,,,,,,,yes,Peptide with Substitutions,YGRKSRRQSRR,False,False,False,False,False,False,False,False,[]
-2972,YGRKS5RRQXRR,,,,,,,yes,Peptide with Substitutions,YGRKSRRQXRR,False,False,False,False,False,False,False,False,[]
+2972,YGRKS5RRQXRR,,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,False,False,[]
 2973,YGRRARRAARR,,natural_cpp,,,,,yes,Standard,YGRRARRAARR,False,False,False,False,False,False,False,False,[]
 2974,YGRRARRRARR,,natural_cpp,,,,,yes,Standard,YGRRARRRARR,False,False,False,False,False,False,False,False,[]
 2975,YGRRARRRRRR,,natural_cpp,,,,,yes,Standard,YGRRARRRRRR,False,False,False,False,False,False,False,False,[]
@@ -2848,11 +2848,11 @@
 3025,YTQDFNKFHTFPQTAIGVGAP,,natural_cpp,,,,,yes,Standard,YTQDFNKFHTFPQTAIGVGAP,False,False,False,False,False,False,False,False,[]
 3026,YYLGAHLPIFRSYLGGGSVFTILLTAILVATNVIPKYVVT,,,40.0,,,,no,Standard,YYLGAHLPIFRSYLGGGSVFTILLTAILVATNVIPKYVVT,False,False,False,False,False,False,False,False,[]
 3027,YYYAAGRKRKKRT,,,13.0,,,,both,Standard,YYYAAGRKRKKRT,False,False,False,False,False,False,False,False,[]
-3029,Z-LRGG-AMC,,,,,,,yes,Peptide with Substitutions,ZLRGGAMC,False,False,False,False,False,False,False,False,[]
-3030,a-CF3-Bpg-lyllgkinlkalaalakkil,,,,,,,yes,Peptide with Substitutions,CFB,False,False,False,False,False,False,False,False,"[('A', 1), ('P', 5), ('G', 6), ('L', 7), ('Y', 8), ('L', 9), ('L', 10), ('G', 11), ('K', 12), ('I', 13), ('N', 14), ('L', 15), ('K', 16), ('A', 17), ('L', 18), ('A', 19), ('A', 20), ('L', 21), ('A', 22), ('K', 23), ('K', 24), ('I', 25), ('L', 26)]"
-3031,agy-CF3-Bpg-lgkinlkalaalakkil,,,,,,,yes,Peptide with Substitutions,CFB,False,False,False,False,False,False,False,False,"[('A', 1), ('G', 2), ('Y', 3), ('P', 7), ('G', 8), ('L', 9), ('G', 10), ('K', 11), ('I', 12), ('N', 13), ('L', 14), ('K', 15), ('A', 16), ('L', 17), ('A', 18), ('A', 19), ('L', 20), ('A', 21), ('K', 22), ('K', 23), ('I', 24), ('L', 25)]"
+3029,Z-LRGG-AMC,,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,False,False,[]
+3030,a-CF3-Bpg-lyllgkinlkalaalakkil,,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,False,False,"[('A', 1), ('P', 5), ('G', 6), ('L', 7), ('Y', 8), ('L', 9), ('L', 10), ('G', 11), ('K', 12), ('I', 13), ('N', 14), ('L', 15), ('K', 16), ('A', 17), ('L', 18), ('A', 19), ('A', 20), ('L', 21), ('A', 22), ('K', 23), ('K', 24), ('I', 25), ('L', 26)]"
+3031,agy-CF3-Bpg-lgkinlkalaalakkil,,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,False,False,"[('A', 1), ('G', 2), ('Y', 3), ('P', 7), ('G', 8), ('L', 9), ('G', 10), ('K', 11), ('I', 12), ('N', 13), ('L', 14), ('K', 15), ('A', 16), ('L', 17), ('A', 18), ('A', 19), ('L', 20), ('A', 21), ('K', 22), ('K', 23), ('I', 24), ('L', 25)]"
 3032,akvkdepqrrsarlsakpappkpepkpkkapakk,,,,,,,yes,Enantiomer Mix,,False,False,False,False,False,False,False,False,[]
-3033,c[DKP-RGD]-PEG4-GLRKRLRK(CF)FRNKIKEK-CONH2,,,,,,,yes,Peptide with Substitutions,DKPRGDPEGGLRKRLRKCFFRNKIKEKCONH,False,False,False,False,False,False,False,False,"[('C', 1)]"
+3033,c[DKP-RGD]-PEG4-GLRKRLRK(CF)FRNKIKEK-CONH2,,,,,,,yes,Peptide with Substitutions,,False,False,False,False,False,False,False,False,"[('C', 1)]"
 3034,ckkkkkkkkk,ck9,,,,,,yes,Enantiomer Mix,,False,False,False,False,False,False,False,False,[]
 3035,crkkrrqrrr,cTat,,,,,,yes,Enantiomer Mix,,False,False,False,False,False,False,False,False,[]
 3036,crrrrrrrrr,cr9,,,,,,yes,Enantiomer Mix,,False,False,False,False,False,False,False,False,[]
@@ -2891,7 +2891,7 @@
 3069,rRrRrRRR,,,,,,,yes,Enantiomer Mix,RRRRR,False,False,False,False,False,False,False,False,"[('R', 1), ('R', 3), ('R', 5)]"
 3070,rRrRrRrR,,,,,,,yes,Enantiomer Mix,RRRR,False,False,False,False,False,False,False,False,"[('R', 1), ('R', 3), ('R', 5), ('R', 7)]"
 3071,rRrRrRrRr,,,,,,,yes,Enantiomer Mix,RRRR,False,False,False,False,False,False,False,False,"[('R', 1), ('R', 3), ('R', 5), ('R', 7), ('R', 9)]"
-3072,rXrrXrrXrrXr,(r-ahx-r)4_carbamate_CF (II),,,,,,yes,Enantiomer Mix,XXXX,False,False,False,False,False,False,False,False,"[('R', 1), ('R', 3), ('R', 4), ('R', 6), ('R', 7), ('R', 9), ('R', 10), ('R', 12)]"
+3072,rXrrXrrXrrXr,(r-ahx-r)4_carbamate_CF (II),,,,,,yes,Enantiomer Mix,,False,False,False,False,False,False,False,False,"[('R', 1), ('R', 3), ('R', 4), ('R', 6), ('R', 7), ('R', 9), ('R', 10), ('R', 12)]"
 3073,rggrlsysrrrfststgr,D-SynB1,,,,,,yes,Enantiomer Mix,,False,False,False,False,False,False,False,False,[]
 3074,rkkrrqrrr,D-Tat (49-57),,,,,,yes,Enantiomer Mix,,False,False,False,False,False,False,False,False,[]
 3075,rqikiwfqnrrmkwkk,D form of pAntpHD (43-58),,,,,,yes,Enantiomer Mix,,False,False,False,False,False,False,False,False,[]
@@ -2919,5 +2919,5 @@
 3097,vrlpppvrlpppvrlppp,,,,,,,yes,Enantiomer Mix,,False,False,False,False,False,False,False,False,[]
 3098,ykqchkkGGkkGsG,,,,,,,yes,Enantiomer Mix,GGGG,False,False,False,False,False,False,False,False,"[('Y', 1), ('K', 2), ('Q', 3), ('C', 4), ('H', 5), ('K', 6), ('K', 7), ('K', 10), ('K', 11), ('S', 13)]"
 3099,"α,ε(Stearyl-AGYLLG)2KINLKALAALAKKIL",,,,,,,yes,Uptake with Stearyl,SAGYLLGKINLKALAALAKKIL,False,False,False,False,False,False,True,False,"[('T', 2), ('E', 3), ('A', 4), ('R', 5), ('Y', 6), ('L', 7)]"
-3100,δ-(Stearyl-AGYLLG)OINLKALAALAKKIL,,,,,,,yes,Uptake with Stearyl,SAGYLLGOINLKALAALAKKIL,False,False,False,False,False,False,True,False,"[('T', 2), ('E', 3), ('A', 4), ('R', 5), ('Y', 6), ('L', 7)]"
+3100,δ-(Stearyl-AGYLLG)OINLKALAALAKKIL,,,,,,,yes,Uptake with Stearyl,,False,False,False,False,False,False,True,False,"[('T', 2), ('E', 3), ('A', 4), ('R', 5), ('Y', 6), ('L', 7)]"
 3101,ε-(Steary-AGYLLG)KINLKALAALAKKIL,,,,,,,yes,Unknown,SAGYLLGKINLKALAALAKKIL,False,False,False,False,False,False,False,False,"[('T', 2), ('E', 3), ('A', 4), ('R', 5), ('Y', 6)]"
