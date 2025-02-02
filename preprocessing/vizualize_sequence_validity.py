@@ -9,23 +9,29 @@ def plot_sequence_validity(
     title='Sequence Validity'
 ):
     """
-    Plots distribution of valid vs invalid sequences.
+    Plots distribution of valid vs invalid sequences with correct color mapping.
     """
-    valid = df[sequence_col].notna()
+    # Create categorical values with controlled order
+    validity = df[sequence_col].notna().map({
+        True: 'Valid',
+        False: 'Invalid'
+    }).astype('category').cat.set_categories(['Invalid', 'Valid'])
     
     plt.figure(figsize=figsize)
     ax = sns.countplot(
-        x=valid,
-        hue=valid,  # Add hue mapping
+        x=validity,
+        hue=validity,
         palette=palette,
-        legend=False  # Disable automatic legend
+        legend=False,
+        order=['Invalid', 'Valid']  # Explicit order
     )
     
     total = len(df)
     for p in ax.patches:
-        height = p.get_height()
+        height = int(p.get_height())
+        percentage = height / total * 100
         ax.annotate(
-            f"{height}\n({height/total:.1%})",
+            f"{height}\n({percentage:.0f}%)",
             (p.get_x() + p.get_width()/2., height),
             ha='center', 
             va='center',
@@ -36,7 +42,7 @@ def plot_sequence_validity(
     plt.title(title)
     plt.xlabel('Validity')
     plt.ylabel('Count')
-    plt.xticks([0, 1], ['Invalid', 'Valid'])
+    plt.xticks(rotation=0)  # Remove rotation for clarity
     sns.despine()
     
     return ax
@@ -50,25 +56,42 @@ def plot_invalid_categories(
     title='Invalid Sequences by Category'
 ):
     """
-    Shows distribution of categories for invalid sequences.
+    Shows distribution of categories for invalid sequences with sequential coloring.
     """
     invalid_df = df[df[sequence_col].isna()]
     order = invalid_df[category_col].value_counts().index
     
     plt.figure(figsize=figsize)
-    ax = sns.countplot(x=category_col, data=invalid_df, order=order, palette=palette)
+    ax = sns.countplot(
+        x=category_col,
+        hue=category_col,  # Assign to hue per warning
+        data=invalid_df,
+        order=order,
+        hue_order=order,  # Maintain color sequence
+        palette=palette,
+        legend=False,      # Disable legend
+        saturation=1
+    )
     
     plt.title(title)
+    plt.xlabel('Category')
+    plt.ylabel('Count')
     plt.xticks(rotation=45, ha='right')
     sns.despine()
     
     total = len(invalid_df)
     for p in ax.patches:
         height = p.get_height()
-        ax.annotate(
-            f"{height}\n({height/total:.1%})",
-            (p.get_x() + p.get_width()/2., height),
-            ha='center', va='bottom'
-        )
+        if height > 0:
+            ax.annotate(
+                f"{int(height)}\n({height/total:.0%})",
+                (p.get_x() + p.get_width()/2, height),
+                ha='center', 
+                va='bottom',
+                fontsize=10,
+                color='black'
+            )
     
+    plt.tight_layout()
+    plt.show()
     return ax

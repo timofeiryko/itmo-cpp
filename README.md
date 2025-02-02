@@ -20,7 +20,7 @@ All the code related to our CPPs paper in SCAMT (ITMO). Tasks are managed in the
 
 - Most of the data used in this project is from the [POSEIDON dataset](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-024-00810-7)
 
-- We create our own relational database in the [kaggle notebook](https://www.kaggle.com/code/dreamtim1/cpp-data-checked/output?scriptVersionId=220170053). Output files of this notebook are in the `input_data` here. You can check out the [entity relationship diagram](https://editor.ponyorm.com/user/timofeiryko/CPP/designer)
+- We create our own relational database in the [kaggle notebook](https://www.kaggle.com/code/dreamtim1/cpp-data-checked?scriptVersionId=220357058). Output files of this notebook are in the `input_data` here. You can check out the [entity relationship diagram](https://editor.ponyorm.com/user/timofeiryko/CPP/designer)
 
 ## Project structure
 

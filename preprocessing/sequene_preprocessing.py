@@ -1,6 +1,12 @@
 import re
 import pandas as pd
 import numpy as np
+from rdkit import Chem
+from collections import Counter
+from typing import Dict, Set
+
+from rdkit.Chem import Draw
+from IPython.display import display
 
 def categorize_sequences(
     df, 
@@ -121,3 +127,193 @@ def validate_sequences(df, sequence_col='standard_sequence'):
         lambda s: s if _is_valid(s) else np.nan
     )
     return df
+
+class PeptideToSmilesConverter:
+    """Converts peptide sequences to SMILES with modification handling."""
+    
+    def __init__(self):
+        self._init_maps()
+        self.unrecognized_aa_counter = Counter()
+        self.bad_sequences: Set[str] = set()
+        
+    def _init_maps(self):
+        """Initialize SMILES mappings for modifications and amino acids."""
+        # NOTE: Adjust modification keys so that they match your sequence notation.
+        self.modification_map = {
+            "Ac-": "CC(=O)",
+            "(Acp)": "CC(=O)",  # Added key for (Acp) as seen in your sequences.
+            "(biotin)": "NC(=O)CCC(=O)NC1CCCCC1",
+            "-NH2": "N",
+            "Stearyl": "CCCCCCCCCCCCCCCC(=O)",
+            "Myristoyl": "CCCCCCCCCCCCCC(=O)",
+            "Lauroyl": "CCCCCCCCCCCC(=O)",
+            "Nspe": "N[C@H](C(C)O)C(=O)",
+            "Nbtg": "N[C@H](C(C)(C)C)C(=O)",
+            "Ac": "CC(=O)",
+            "Et": "CC",
+            "Npm": "N1[C@H](C(C)C)C(=O)",
+            "Nssb": "N1[C@H](C(C)CC)C(=O)",
+            "Mpa": "NC(=O)C(C)C(C)C(=O)",
+            "Cou": "C1=CC2=C(C=C1)C(=O)O2",
+            "Xr": "N[C@H](C(C)C)C(=O)",
+            "His": "N[C@@H](CC1=CNC=N1)C(=O)",
+            "NII": "NC(C)C(=O)",
+            "PIC": "N1C=C(C(=O)N1)C",
+            "IC": "NC1=NC=NC(=O)1"
+        }
+        
+        self.aa_map = {
+            'A': 'N[C@@H](C)C(=O)', 'a': 'N[C@H](C)C(=O)',
+            'C': 'N[C@@H](CS)C(=O)', 'c': 'N[C@H](CS)C(=O)',
+            'D': 'N[C@@H](CC(=O)O)C(=O)', 'd': 'N[C@H](CC(=O)O)C(=O)',
+            'E': 'N[C@@H](CCC(=O)O)C(=O)', 'e': 'N[C@H](CCC(=O)O)C(=O)',
+            'F': 'N[C@@H](CC1=CC=CC=C1)C(=O)', 'f': 'N[C@H](CC1=CC=CC=C1)C(=O)',
+            'G': 'NCC(=O)', 'g': 'NCC(=O)',
+            'H': 'N[C@@H](CC1=CNC=N1)C(=O)', 'h': 'N[C@H](CC1=CNC=N1)C(=O)',
+            'I': 'N[C@@H](C(C)CC)C(=O)', 'i': 'N[C@H](C(C)CC)C(=O)',
+            'K': 'N[C@@H](CCCCN)C(=O)', 'k': 'N[C@H](CCCCN)C(=O)',
+            'L': 'N[C@@H](CC(C)C)C(=O)', 'l': 'N[C@H](CC(C)C)C(=O)',
+            'M': 'N[C@@H](CCSC)C(=O)', 'm': 'N[C@H](CCSC)C(=O)',
+            'N': 'N[C@@H](CC(=O)N)C(=O)', 'n': 'N[C@H](CC(=O)N)C(=O)',
+            'P': 'N1[C@@H](CCC1)C(=O)', 'p': 'N1[C@H](CCC1)C(=O)',
+            'Q': 'N[C@@H](CCC(=O)N)C(=O)', 'q': 'N[C@H](CCC(=O)N)C(=O)',
+            'R': 'N[C@@H](CCCNC(=N)N)C(=O)', 'r': 'N[C@H](CCCNC(=N)N)C(=O)',
+            'S': 'N[C@@H](CO)C(=O)', 's': 'N[C@H](CO)C(=O)',
+            'T': 'N[C@@H](C(O)C)C(=O)', 't': 'N[C@H](C(O)C)C(=O)',
+            'V': 'N[C@@H](C(C)C)C(=O)', 'v': 'N[C@H](C(C)C)C(=O)',
+            'W': 'N[C@@H](CC1=CNC2=CC=CC=C12)C(=O)', 'w': 'N[C@H](CC1=CNC2=CC=CC=C12)C(=O)',
+            'Y': 'N[C@@H](CC1=CC=C(O)C=C1)C(=O)', 'y': 'N[C@H](CC1=CC=C(O)C=C1)C(=O)',
+            'X': '*', '?': '*',
+            'O': 'N[C@@H](CCC(N)C(=O))C(=O)',
+            'Aib': 'N[C@H](C(C)C)C(=O)',
+            'B': 'N[C@@H](CC(=O)O)C(=O)',
+            'b': 'N[C@@H](CS)C(=O)'
+        }
+        
+    @staticmethod
+    def expand_repeats(sequence: str) -> str:
+        """Expand notation like R8 to RRRRRRRR."""
+        # Use a substitution function to replace each occurrence of <letter(s)><digit>
+        def repl(match):
+            token = match.group(1)
+            count = int(match.group(2))
+            return token * count
+        return re.sub(r'([A-Za-z]+)(\d+)', repl, sequence)
+    
+    def sequence_to_smiles(self, sequence: str) -> str:
+        """Convert a raw peptide sequence to SMILES."""
+        try:
+            # First try RDKit's built-in conversion.
+            mol = Chem.MolFromSequence(sequence)
+            if mol:
+                return Chem.MolToSmiles(mol)
+        except Exception:
+            pass
+        
+        # Fallback to the custom conversion.
+        return self._custom_sequence_conversion(sequence)
+    
+    def _custom_sequence_conversion(self, sequence: str) -> str:
+        """Handle non-standard sequences with modifications."""
+        smiles_parts = []
+        seq = self.expand_repeats(sequence)
+        
+        # Process modifications first.
+        for mod, smi in self.modification_map.items():
+            if mod in seq:
+                seq = seq.replace(mod, "")
+                smiles_parts.append(smi)
+        
+        # Remove any non-letter characters (such as dashes).
+        seq = re.sub(r'[^A-Za-z]', '', seq)
+        
+        # Process amino acids one-by-one.
+        for aa in seq:
+            if aa in self.aa_map:
+                smiles_parts.append(self.aa_map[aa])
+            else:
+                self.unrecognized_aa_counter[aa] += 1
+                self.bad_sequences.add(sequence)
+        
+        final_smiles = "".join(smiles_parts)
+        try:
+            mol = Chem.MolFromSmiles(final_smiles)
+            return Chem.MolToSmiles(mol) if mol else None
+        except Exception:
+            return None
+    
+    def process_dataframe(
+        self, 
+        df: pd.DataFrame, 
+        sequence_col: str = 'sequence',
+        output_col: str = 'smiles_sequence'
+    ) -> pd.DataFrame:
+        """Process a dataframe with peptide sequences."""
+        df[output_col] = df[sequence_col].apply(self.sequence_to_smiles)
+        return df
+    
+    def get_bad_sequences_df(self) -> pd.DataFrame:
+        """Get a dataframe of problematic sequences."""
+        return pd.DataFrame({
+            'sequence': list(self.bad_sequences),
+            'reason': 'Contains unrecognized components'
+        })
+    
+    def report_validity(self, df: pd.DataFrame, smiles_col: str = 'smiles_sequence') -> Dict:
+        """Generate a validity report."""
+        valid = df[smiles_col].notna()
+        return {
+            'valid_percentage': valid.mean() * 100,
+            'invalid_count': len(df) - valid.sum(),
+            'unrecognized_aa': dict(self.unrecognized_aa_counter)
+        }
+
+def convert_sequences(df, sequence_col='sequence', smiles_col='smiles_sequence'):
+    """
+    Convert peptide sequences in a DataFrame to SMILES and return the modified DataFrame.
+    Designed to be used with .pipe().
+    """
+    converter = PeptideToSmilesConverter()
+    df[smiles_col] = df[sequence_col].apply(converter.sequence_to_smiles)
+    return df
+
+def draw_sampled_smiles(df: pd.DataFrame, smiles_col='smiles_sequence', sequence_col='sequence', N=5):
+    """
+    Selects the first N SMILES from the given DataFrame, draws them individually, 
+    and prints their corresponding sequences in high quality.
+    
+    Args:
+        df (pd.DataFrame): DataFrame containing SMILES and sequences.
+        smiles_col (str): Column name containing SMILES.
+        sequence_col (str): Column name containing peptide sequences.
+        N (int): Number of samples to draw (default is 5).
+    """
+    if df.empty or smiles_col not in df.columns or sequence_col not in df.columns:
+        print("Invalid DataFrame or missing columns.")
+        return
+    
+    # Select the first N rows (or fewer if df is smaller)
+    sample_df = df.iloc[:min(N, len(df))]
+    
+    # Process each row separately
+    for _, row in sample_df.iterrows():
+        sequence = row[sequence_col]
+        smiles = row[smiles_col]
+        
+        if not smiles:
+            continue
+        
+        # Convert SMILES to RDKit molecule
+        mol = Chem.MolFromSmiles(smiles)
+        if not mol:
+            continue
+        
+        # Print sequence separately
+        print(f"Sequence: {sequence}\n")
+        
+        # Draw and display in high resolution
+        img = Draw.MolToImage(mol, size=(500, 500), dpi=300)
+        display(img)
+
+# Example usage:
+# draw_sampled_smiles(with_smiles_df, N=5)
