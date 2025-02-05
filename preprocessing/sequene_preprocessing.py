@@ -238,7 +238,11 @@ class PeptideToSmilesConverter:
         final_smiles = "".join(smiles_parts)
         try:
             mol = Chem.MolFromSmiles(final_smiles)
-            return Chem.MolToSmiles(mol) if mol else None
+            final_smiles = Chem.MolToSmiles(mol) if mol else None
+            if not final_smiles:
+                return None
+            final_smiles = Chem.CanonSmiles(final_smiles, useChiral=True)
+            return final_smiles
         except Exception:
             return None
     
