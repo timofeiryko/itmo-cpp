@@ -27,3 +27,7 @@ All the code related to our CPPs paper in SCAMT (ITMO). Tasks are managed in the
 - Each notebook is a `main.ipunb` file in separate folder with `input` and `output` subfolders
 
 - Important output data, generated in the scripts and notebooks, used across multiple parts of the project is in `output_data` folder
+
+<!---
+Just to test
+-->
