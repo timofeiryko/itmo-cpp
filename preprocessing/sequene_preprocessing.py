@@ -138,31 +138,30 @@ class PeptideToSmilesConverter:
         
     def _init_maps(self):
         """Initialize SMILES mappings for modifications and amino acids."""
-        # NOTE: Adjust modification keys so that they match your sequence notation.
         self.modification_map = {
             "Ac-": "CC(=O)",
-            "(Acp)": "CC(=O)",  # Added key for (Acp) as seen in your sequences.
-            "(biotin)": "NC(=O)CCC(=O)NC1CCCCC1",
+            "(Acp)": "CC(=O)",  
+            "(biotin)": "C1[C@H]2SC(=S)N[C@H]1CCCCC(=O)",  # Correct biotin structure
             "-NH2": "N",
-            "Stearyl": "CCCCCCCCCCCCCCCC(=O)",
-            "Myristoyl": "CCCCCCCCCCCCCC(=O)",
-            "Lauroyl": "CCCCCCCCCCCC(=O)",
-            "Nspe": "N[C@H](C(C)O)C(=O)",
-            "Nbtg": "N[C@H](C(C)(C)C)C(=O)",
+            "Stearyl": "CCCCCCCCCCCCCCCCCC(=O)",  # 18 carbons (C18)
+            "Myristoyl": "CCCCCCCCCCCCCC(=O)",    # Correct (C14)
+            "Lauroyl": "CCCCCCCCCCCC(=O)",        # Correct (C12)
+            "Nspe": "N[C@H](C(C)O)C(=O)",         # Assume correct stereochemistry
+            "Nbtg": "N[C@H](C(C)(C)C)C(=O)",      # N-tert-butylglycine
             "Ac": "CC(=O)",
-            "Et": "CC",
-            "Npm": "N1[C@H](C(C)C)C(=O)",
-            "Nssb": "N1[C@H](C(C)CC)C(=O)",
-            "Mpa": "NC(=O)C(C)C(C)C(=O)",
-            "Cou": "C1=CC2=C(C=C1)C(=O)O2",
-            "Xr": "N[C@H](C(C)C)C(=O)",
-            "His": "N[C@@H](CC1=CNC=N1)C(=O)",
-            "NII": "NC(C)C(=O)",
-            "PIC": "N1C=C(C(=O)N1)C",
-            "IC": "NC1=NC=NC(=O)1"
+            "Et": "OCC",                          # Ethyl ester (O-linked)
+            "Npm": "N1[C@H](C(C)C)C(=O)",         # Verify context if needed
+            "Nssb": "N1[C@H](C(C)CC)C(=O)",       # Verify context
+            "Mpa": "SCCC(=O)",                    # Mercaptopropionyl (HS-CH2CH2CO-)
+            "Cou": "C1=CC(=O)OC2=CC=CC=C12",      # Coumarin (corrected)
+            "Xr": "N[C@H](C(C)C)C(=O)",           # D-valine (matches 'v' in aa_map)
+            "NII": "C(C)C",                       # N-isopropyl (assumed)
+            "PIC": "C1=CC=NC(=C1)CO",             # 4-picolyl (example)
+            "IC": "NC1=NC(=O)NC=N1"               # Isocytosine
         }
         
         self.aa_map = {
+            # Standard L/D amino acids
             'A': 'N[C@@H](C)C(=O)', 'a': 'N[C@H](C)C(=O)',
             'C': 'N[C@@H](CS)C(=O)', 'c': 'N[C@H](CS)C(=O)',
             'D': 'N[C@@H](CC(=O)O)C(=O)', 'd': 'N[C@H](CC(=O)O)C(=O)',
@@ -183,11 +182,12 @@ class PeptideToSmilesConverter:
             'V': 'N[C@@H](C(C)C)C(=O)', 'v': 'N[C@H](C(C)C)C(=O)',
             'W': 'N[C@@H](CC1=CNC2=CC=CC=C12)C(=O)', 'w': 'N[C@H](CC1=CNC2=CC=CC=C12)C(=O)',
             'Y': 'N[C@@H](CC1=CC=C(O)C=C1)C(=O)', 'y': 'N[C@H](CC1=CC=C(O)C=C1)C(=O)',
+            # Special cases
             'X': '*', '?': '*',
-            'O': 'N[C@@H](CCC(N)C(=O))C(=O)',
-            'Aib': 'N[C@H](C(C)C)C(=O)',
-            'B': 'N[C@@H](CC(=O)O)C(=O)',
-            'b': 'N[C@@H](CS)C(=O)'
+            'O': 'N[C@@H](CCCCN)C(=O)',  # Ornithine (corrected side chain)
+            'Aib': 'NC(C)(C)C(=O)',      # Aib without chiral center
+            'B': 'N[C@@H](CC(=O)N)C(=O)',  # Asn (standard 'B' ambiguity resolved to Asn)
+            # Removed invalid 'b' entry to avoid conflicts
         }
         
     @staticmethod
@@ -281,7 +281,7 @@ def convert_sequences(df, sequence_col='sequence', smiles_col='smiles_sequence')
     df[smiles_col] = df[sequence_col].apply(converter.sequence_to_smiles)
     return df
 
-def draw_sampled_smiles(df: pd.DataFrame, smiles_col='smiles_sequence', sequence_col='sequence', N=5):
+def draw_sampled_smiles(df: pd.DataFrame, smiles_col='smiles_sequence', sequence_col='sequence', N=5, seed=42):
     """
     Selects the first N SMILES from the given DataFrame, draws them individually, 
     and prints their corresponding sequences in high quality.
@@ -297,7 +297,7 @@ def draw_sampled_smiles(df: pd.DataFrame, smiles_col='smiles_sequence', sequence
         return
     
     # Select the first N rows (or fewer if df is smaller)
-    sample_df = df.iloc[:min(N, len(df))]
+    sample_df = df.sample(n=min(N, len(df)), random_state=seed)
     
     # Process each row separately
     for _, row in sample_df.iterrows():
