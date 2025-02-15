@@ -1,0 +1,73 @@
+count,cell_line
+8,""
+46,A549 cells
+36,Aortic endothelial cells
+1,B16 cells
+9,bEnd.3 cells
+2,Bone marrow dendritic cells
+1,C2C12 cells
+2,C6 cells
+17,Caco-2 cells
+1,Cal 27
+66,CHO cells
+32,CHO-K1 cells
+2,CNE-2 cells
+8,Cortical striatal cells
+1,Cos-7 cells
+1,Cultured Human Dental Pulp Stem Cells (hDPSCs)
+1,D54 cells
+18,DAMI cells
+9,DU-145
+2,ECV304 cells
+3,Endothelial cells
+2,GL261 cells
+2,Glial cells
+12,H1975 cells
+38,HaCaT cells
+5,HCT116 cells
+1,HEK
+24,HEK293 cells
+2,HEK293T cells
+179,HeLa cells
+2,HepG2 cells
+2,Hifko cells
+2,HNE-1 cells
+1,HS-68
+5,HT29 cells
+2,HTB-55 cells
+30,Human bowes melanoma cells
+1,Human tongue squamous cell carcinoma (SCC) CAL 27
+49,Jurkat cells
+4,K562 cells
+4,Leishmania donovani promastigotes
+2,LNCaP
+2,Lovo
+2,MC57
+34,MCF7 cells
+1,MDA-MB-231 cells
+1,MDCK-MDR cells
+2,Mouse macrophage-like cell line J774 A.1
+1,Mouse macrophage-like cell line J774 A.10
+1,Mouse macrophage-like cell line J774 A.6
+1,Murine H2k mdx myoblasts
+2,N2a cells
+2,Neuro2a cells
+2,NHDF
+88,NIH-3T3 cells
+3,Ovcar-3 cells
+3,PC3 cells
+1,Pluripotent mouse mesenchymal progenitor cell line (C3H10T1/2)
+3,Rat alveolar epithelial cell monolayers (RAECM)
+3,Rat basophilic leukemia RBL-2H3 cells
+11,RAW264.7 cells
+2,SK-OV-3 cells
+2,SN56 cells
+3,TDA cells
+1,TF cells
+2,The mouse macrophage J774 A.1 cells
+2,TR146 cell
+3,U2OS cells
+15,U373 MG cells
+12,U87 cells
+1,Undifferentiated malignant glioma rat (F98) cell line
+5,xylose transferase- or GAG-deficient CHO-pgsA745 cells (GAGneg)

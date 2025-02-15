@@ -1,0 +1,53 @@
+count,uptake_type
+2,""
+41,% Absorbance relative to peptide 1 (405 nm)
+3,% Amount transported into basolateral fluid
+5,% Average area uptake
+5,Cell Fluorescence
+23,Cellular retention (mol/cell x 10-16)
+22,Cellular uptake
+52,Cellular uptake (%)
+1,corr. Fluorescence
+2,Drug transport
+1,FITC Mean Intensity
+1,Fluorescence (fold/basal)
+122,Fluorescence intensity
+3,Fluorescence intensity (%)
+2,Fold change in average fluorescence
+27,Fold Change in GeoMean Fluorescence of control sample
+12,Geo Mean Fluorescence intensity
+1,Insulin concentration
+8,Internalization
+10,Internalized peptide (uM)
+9,Intracellular Fluorescence
+4,% Intracellular fluorescence of CyLoP-1
+190,Mean Fluorescence intensity
+2,Mean Fluorescence intensity/mg protein
+1,Mean Fluorescence (% of positive control TAT as 100 %)
+5,Mean Intensity
+2,Median Fluorescence intensity
+21,Median Normalized Fluorescence
+2,Median TAMRA intensity
+7,Mnlog FITC
+1,Nanoparticle uptake/cell
+3,ng^10B/10^6 cells
+3,ng^10B/10^6 cells Boron concentration
+6,ng molecule / mg cell protein
+2,nmol/mg protein
+3,Normalized fluorescence intensities
+6,Normalized Mean Fluorescence intensity
+5,OD (optical density values)
+4,Plasma insulin concentration (uU/mL)
+27,pmol internalized peptide / mg protein
+39,pmol/mg protein Cellular uptake
+1,pmol siRNA / mg protein
+19,% Positive cells
+57,Relative Cellular uptake
+22,Relative fluorescence
+3,Relative fluorescence (%)
+3,Relative fraction of positive cells (%)
+1,Relative Mean Fluorescence intensity
+6,Relative Mean Fluorescence intensity (%)
+40,Relative Median Fluorescence
+2,RFU/mg
+1,ug CPP-ELP / g tissue (C6)
