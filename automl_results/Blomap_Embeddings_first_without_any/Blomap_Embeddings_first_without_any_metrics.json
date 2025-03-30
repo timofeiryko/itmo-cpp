@@ -1,0 +1,20 @@
+{
+    "run_name": "Blomap_Embeddings_first_without_any",
+    "best_model": "xgboost",
+    "metrics_test": {
+        "MSE": 68573792.40845384,
+        "RMSE": 8280.929441098617,
+        "MAE": 3453.7733863830567,
+        "RMSLE": "NaN",
+        "Mean Residual Deviance": 68573792.40845384,
+        "R2": -0.012761349076312323
+    },
+    "metrics_train": {
+        "MSE": 14311831.735135788,
+        "RMSE": 3783.098166203963,
+        "MAE": 1340.2655125286963,
+        "RMSLE": "NaN",
+        "Mean Residual Deviance": 14311831.735135788,
+        "R2": 0.6337043993510791
+    }
+}
