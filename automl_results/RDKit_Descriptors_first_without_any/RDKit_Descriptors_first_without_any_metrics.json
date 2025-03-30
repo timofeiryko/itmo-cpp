@@ -1,0 +1,20 @@
+{
+    "run_name": "RDKit_Descriptors_first_without_any",
+    "best_model": "gbm",
+    "metrics_test": {
+        "MSE": 66864765.88122524,
+        "RMSE": 8177.087860676638,
+        "MAE": 3414.5220066915404,
+        "RMSLE": 2.3285096031909736,
+        "Mean Residual Deviance": 66864765.88122524,
+        "R2": 0.012479139316303622
+    },
+    "metrics_train": {
+        "MSE": 18924059.763971765,
+        "RMSE": 4350.17927952076,
+        "MAE": 2168.7666936423716,
+        "RMSLE": "NaN",
+        "Mean Residual Deviance": 18924059.763971765,
+        "R2": 0.5156594930513032
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "run_name": "ProtBERT_Embeddings_first_without_any",
+    "best_model": "xgboost",
+    "metrics_test": {
+        "MSE": 67854917.2898291,
+        "RMSE": 8237.409622559091,
+        "MAE": 3720.814306640625,
+        "RMSLE": 2.782200072430869,
+        "Mean Residual Deviance": 67854917.2898291,
+        "R2": -0.002144334771208456
+    },
+    "metrics_train": {
+        "MSE": 38915226.235977925,
+        "RMSE": 6238.206972839064,
+        "MAE": 3390.835252927563,
+        "RMSLE": "NaN",
+        "Mean Residual Deviance": 38915226.235977925,
+        "R2": 0.004007562952183075
+    }
+}

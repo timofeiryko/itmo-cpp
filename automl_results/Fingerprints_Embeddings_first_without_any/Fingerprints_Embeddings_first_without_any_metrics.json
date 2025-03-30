@@ -1,0 +1,20 @@
+{
+    "run_name": "Fingerprints_Embeddings_first_without_any",
+    "best_model": "gbm",
+    "metrics_test": {
+        "MSE": 72104550.73462111,
+        "RMSE": 8491.439850497742,
+        "MAE": 3318.722026444994,
+        "RMSLE": 2.3249092164676,
+        "Mean Residual Deviance": 72104550.73462111,
+        "R2": -0.06490686181640615
+    },
+    "metrics_train": {
+        "MSE": 821738.5611579265,
+        "RMSE": 906.4979653357897,
+        "MAE": 577.185924218121,
+        "RMSLE": "NaN",
+        "Mean Residual Deviance": 821738.5611579265,
+        "R2": 0.9789685048422723
+    }
+}
