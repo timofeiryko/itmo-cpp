@@ -1,0 +1,20 @@
+{
+    "run_name": "Blomap_Embeddings_minmaxscaler_pca",
+    "best_model": "stackedensemble",
+    "metrics_test": {
+        "MSE": 102349172.89161237,
+        "RMSE": 10116.776803488963,
+        "MAE": 5473.138958672899,
+        "RMSLE": "NaN",
+        "Mean Residual Deviance": 102349172.89161237,
+        "R2": -0.5115874851596418
+    },
+    "metrics_train": {
+        "MSE": 73727710.95234905,
+        "RMSE": 8586.484202067168,
+        "MAE": 5551.105563291972,
+        "RMSLE": "NaN",
+        "Mean Residual Deviance": 73727710.95234905,
+        "R2": -0.8869797149347558
+    }
+}

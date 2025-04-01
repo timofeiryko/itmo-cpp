@@ -1,0 +1,20 @@
+{
+    "run_name": "ProtBERT_Embeddings_minmaxscaler_pca",
+    "best_model": "deeplearning",
+    "metrics_test": {
+        "MSE": 597090586273385.8,
+        "RMSE": 24435437.10010905,
+        "MAE": 24435435.714626845,
+        "RMSLE": "NaN",
+        "Mean Residual Deviance": 597090586273385.8,
+        "R2": -8818386.410646567
+    },
+    "metrics_train": {
+        "MSE": 7.422271320387885e+17,
+        "RMSE": 861526048.3808882,
+        "MAE": 127010983.88096866,
+        "RMSLE": "NaN",
+        "Mean Residual Deviance": 7.422271320387885e+17,
+        "R2": -18996487533.199932
+    }
+}

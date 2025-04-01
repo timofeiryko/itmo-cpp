@@ -1,0 +1,20 @@
+{
+    "run_name": "RDKit_Descriptors_minmaxscaler_pca",
+    "best_model": "stackedensemble",
+    "metrics_test": {
+        "MSE": 86592228.45976809,
+        "RMSE": 9305.494530639846,
+        "MAE": 4342.928723043639,
+        "RMSLE": "NaN",
+        "Mean Residual Deviance": 86592228.45976809,
+        "R2": -0.27887431968291687
+    },
+    "metrics_train": {
+        "MSE": 54908368.03731943,
+        "RMSE": 7410.018086166823,
+        "MAE": 3986.2191720588307,
+        "RMSLE": "NaN",
+        "Mean Residual Deviance": 54908368.03731943,
+        "R2": -0.40531932062231624
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "run_name": "Fingerprints_Embeddings_minmaxscaler_pca",
+    "best_model": "deeplearning",
+    "metrics_test": {
+        "MSE": 57700490926.70081,
+        "RMSE": 240209.26486441112,
+        "MAE": 130873.52723480087,
+        "RMSLE": "NaN",
+        "Mean Residual Deviance": 57700490926.70081,
+        "R2": -851.1743508834563
+    },
+    "metrics_train": {
+        "MSE": 31682654423.208965,
+        "RMSE": 177996.22024978217,
+        "MAE": 91812.3361040249,
+        "RMSLE": "NaN",
+        "Mean Residual Deviance": 31682654423.208965,
+        "R2": -809.882712071755
+    }
+}
