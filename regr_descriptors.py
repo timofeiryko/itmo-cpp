@@ -31,31 +31,34 @@ def compute_sequence_descriptors(seq):
         print(f"mistake seq {seq}: {e}")
         return [np.nan] * 13
 
+all_descriptors = Descriptors.descList
+descriptor_names = [desc[0] for desc in all_descriptors]
+descriptor_funcs = [desc[1] for desc in all_descriptors]
+
 def compute_chemical_descriptors(smiles):
     """chem descriptors SMILES"""
     try:
         mol = Chem.MolFromSmiles(smiles)
         if mol is None:
-            return [np.nan] * 8
+            return [np.nan] * len(descriptor_funcs)
 
-        mw = Descriptors.MolWt(mol)
-        logp = Descriptors.MolLogP(mol)
-        tpsa = Descriptors.TPSA(mol)
-        hbd = Descriptors.NumHDonors(mol)
-        hba = Descriptors.NumHAcceptors(mol)
-        rot_bonds = Descriptors.NumRotatableBonds(mol)
-        rings = Descriptors.RingCount(mol)
-        fsp3 = Descriptors.FractionCSP3(mol)
+        values = []
+        for func in descriptor_funcs:
+            try:
+                val = func(mol)
+            except Exception:
+                val = np.nan
+            values.append(val)
 
-        return [mw, logp, tpsa, hbd, hba, rot_bonds, rings, fsp3]
+        return values
     except Exception as e:
-        print(f"mistake SMILES {smiles}: {e}")
-        return [np.nan] * 8
+        print(f"mistake SMILES '{smiles}': {e}")
+        return [np.nan] * len(descriptor_funcs)
 
 # =======main
 if __name__ == "__main__":
     input_file = "for_regr.csv"  
-    output_file = "for_regr_descriptors.csv"  
+    output_file = "for_regr_descriptors_full.csv"  
 
     if not os.path.exists(input_file):
         raise FileNotFoundError(f"file {input_file} not found")
@@ -75,8 +78,8 @@ if __name__ == "__main__":
     
     seq_desc_names = ['MW', 'GRAVY', 'pI', 'Charge', 'Charge_Density', 'Aromaticity', 'Flexibility',
                       'Aliphatic_Index', 'Boman_Index', 'Hydrophobic_AA', 'Polar_AA', 'Positive_AA', 'Negative_AA']
-    chem_desc_names = ['MolWt', 'LogP', 'TPSA', 'HBD', 'HBA', 'RotBonds', 'Rings', 'Fsp3']
-
+    chem_desc_names = [desc[0] for desc in Descriptors.descList]
+    
     df_seq_desc = pd.DataFrame(sequence_descriptors.tolist(), columns=seq_desc_names, index=df4.index)
     df_chem_desc = pd.DataFrame(chemical_descriptors.tolist(), columns=chem_desc_names, index=df4.index)
 
