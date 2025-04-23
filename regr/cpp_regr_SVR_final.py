@@ -57,13 +57,13 @@ def remove_outliers(df, target_column):
     return df_clean
 
 # Load dataset
-df = pd.read_csv("for_regr_descriptors_full.csv")
+df = pd.read_csv("regr/datasets/for_regr_descriptors_full.csv")
 df['raw_efficiency'] = df['raw_efficiency'].apply(convert_to_number)
 
 # Load embeddings
-blomap_embeddings = np.load("blomap_regr.npy")
-fingerprints_embeddings = np.load("fingerprints_regr.npy")
-protbert_embeddings = np.load("protbert_regr.npy")
+blomap_embeddings = np.load("regr/datasets/blomap_regr.npy")
+fingerprints_embeddings = np.load("regr/datasets/fingerprints_regr.npy")
+protbert_embeddings = np.load("regr/datasets/protbert_regr.npy")
 
 # Select numerical features
 fp_path_index = df.columns.get_loc('fp_path')
