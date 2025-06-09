@@ -22,11 +22,11 @@ venv/
 *.tmp
 
 # Ignore data files (optional, modify as needed)
-*.csv
-*.tsv
-*.json
-*.sqlite
-*.db
+# *.csv
+# *.tsv
+# *.json
+# *.sqlite
+# *.db
 
 # VSCode settings (if using VSCode)
 .vscode/
