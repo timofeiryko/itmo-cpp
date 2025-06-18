@@ -11,6 +11,10 @@ from sklearn.metrics import mean_squared_error, r2_score
 import optuna
 
 def convert_to_number(val):
+    """
+    Converts various string representations of numbers into a float.
+    Handles 'NaN', '<' (less than), '±' (plus/minus), and '/' (range) formats.
+    """
     if pd.isna(val):
         return np.nan
     val = str(val).replace(' ', '') 
@@ -18,7 +22,7 @@ def convert_to_number(val):
     if val.startswith('<'):
         num = re.findall(r'<(\d+\.?\d*)', val)
         return float(num[0]) if num else np.nan
-    # обработка значений с ±
+    
     elif '±' in val:
         nums = re.findall(r'([\d\.]+)±([\d\.]+)', val)
         if nums:
@@ -43,6 +47,10 @@ def convert_to_number(val):
 
 
 def remove_outliers(df, target_column):
+    """
+    Removes outliers from a specified target column using the Interquartile Range (IQR) method.
+    Rows where the target column value falls outside [Q1 - 1.5*IQR, Q3 + 1.5*IQR] are removed.
+    """
     df_clean = df.copy()
 
     Q1 = df_clean['raw_efficiency'].quantile(0.25)
@@ -81,6 +89,7 @@ if "cell_line" in df.columns:
 # Filter dataframe by ‘uptake_type’ column
 X_numerical_filtered = X_numerical[X_numerical['uptake_type'].isin(['Mean Fluorescence intensity', 'Fluorescence intensity'])].copy()
 
+# Apply outlier removal
 X_numerical_filtered_no_outliers = remove_outliers(X_numerical_filtered, 'raw_efficiency')
 filtered_indices = X_numerical_filtered_no_outliers.index
 
@@ -90,18 +99,23 @@ fingerprints_embeddings_filtered = fingerprints_embeddings[filtered_indices]
 protbert_embeddings_filtered = protbert_embeddings[filtered_indices]
 X_cell_line_filtered = X_cell_line.loc[filtered_indices]
 
+# Define the target column name
 target = 'raw_efficiency'
 rdkit_descriptors = X_numerical_filtered_no_outliers.drop(columns=['uptake_type', target])
 
+# Impute missing values in RDKit descriptors using the mean strategy
 imputer = SimpleImputer(strategy="mean")
 rdkit_descriptors = pd.DataFrame(imputer.fit_transform(rdkit_descriptors))
 
+# Reset indices of all processed feature sets 
 rdkit_descriptors = rdkit_descriptors.reset_index(drop=True)
 blomap_embeddings_filtered = pd.DataFrame(blomap_embeddings_filtered).reset_index(drop=True)
 fingerprints_embeddings_filtered = pd.DataFrame(fingerprints_embeddings_filtered).reset_index(drop=True)
 protbert_embeddings_filtered = pd.DataFrame(protbert_embeddings_filtered).reset_index(drop=True)
 X_cell_line_filtered = pd.DataFrame(X_cell_line_filtered).reset_index(drop=True)
 
+# Rename columns of DataFrames
+# This helps prevent column name collisions when concatenating
 list_of_dfs_named = {
     "rdkit": rdkit_descriptors,
     "blomap": blomap_embeddings_filtered,
@@ -120,10 +134,13 @@ def rename_columns_with_suffix(dfs: dict) -> dict:
 renamed_dfs = rename_columns_with_suffix(list_of_dfs_named)
 combined_df_concat = pd.concat(renamed_dfs.values(), axis=1)
 
+# This dictionary specifies which feature sets will be used for training in the loop.
+# Currently, it only includes RDKit Descriptors.
 dfs_dict = {
     'RDKit_Descriptors': rdkit_descriptors,
 }
 
+# Feature selection: remove features with low variance
 def apply_varThreshold (X, threshold=0): 
     selector = VarianceThreshold(threshold)
     X_transformed_array = selector.fit_transform(X)
@@ -133,6 +150,7 @@ def apply_varThreshold (X, threshold=0):
 
     return X_filtered_var
 
+# Feature selection using correlation with the target (not used in loop)
 def apply_corr(X, threshold = 0.2):
     correlations = X.apply(lambda col: col.corr(y))
     selected_features = correlations[correlations.abs() >= threshold].index
@@ -140,6 +158,7 @@ def apply_corr(X, threshold = 0.2):
 
     return X_corr
 
+# Apply Min-Max normalization
 def apply_scaler (train, test):
     train.columns = train.columns.astype(str)
     test.columns = test.columns.astype(str)
@@ -150,6 +169,7 @@ def apply_scaler (train, test):
 
     return train_scaled, test_scaled
 
+# Apply PCA to reduce feature dimensionality while preserving 95% variance
 def apply_pca (X_train, X_test, threshold=0.95):
     pca = PCA(n_components=threshold, svd_solver='full')
     train_transformed = pd.DataFrame(pca.fit_transform(X_train))
@@ -157,8 +177,7 @@ def apply_pca (X_train, X_test, threshold=0.95):
 
     return train_transformed, test_transformed
 
-# Training
-
+# Evaluate model performance on train and test sets
 def evaluate_model(model, X_train, y_train, X_test, y_test):
     y_pred_train = model.predict(X_train)
     y_pred_test = model.predict(X_test)
@@ -173,6 +192,7 @@ def evaluate_model(model, X_train, y_train, X_test, y_test):
     print(f'Test MSE: {test_mse:.4f}')
     print(f'Test R2: {test_r2:.4f}')
 
+# Use Optuna to find best hyperparameters for SVR
 def svr_optuna(X_train, y_train, X_test, y_test):
     # Target function for optimisation
     def objective(trial):
@@ -218,8 +238,10 @@ def svr_optuna(X_train, y_train, X_test, y_test):
 
     return best_model
 
+# Define the target variable (apply log1p transformation)
 y = np.log1p(X_numerical_filtered_no_outliers[target]).reset_index(drop=True)
 
+# Model training loop
 for name, df in dfs_dict.items():
     print(f"\n=== {name} ===")
 
@@ -234,5 +256,3 @@ for name, df in dfs_dict.items():
     X_train_transformed, X_test_transformed = apply_pca (X_train_scaled, X_test_scaled, 0.95)
 
     model = svr_optuna(X_train_transformed, y_train,X_test_transformed, y_test)
-
-
