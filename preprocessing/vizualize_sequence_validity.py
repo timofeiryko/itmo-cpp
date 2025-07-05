@@ -58,18 +58,25 @@ def plot_invalid_categories(
     """
     Shows distribution of categories for invalid sequences with sequential coloring.
     """
+    # Filter only the invalid sequences
     invalid_df = df[df[sequence_col].isna()]
+    
+    # Skip plotting if there are no invalid sequences
+    if invalid_df.empty:
+        print("No invalid sequences found for the given category.")
+        return None
+    
     order = invalid_df[category_col].value_counts().index
     
     plt.figure(figsize=figsize)
     ax = sns.countplot(
         x=category_col,
-        hue=category_col,  # Assign to hue per warning
+        hue=category_col,
         data=invalid_df,
         order=order,
-        hue_order=order,  # Maintain color sequence
+        hue_order=order,
         palette=palette,
-        legend=False,      # Disable legend
+        legend=False,
         saturation=1
     )
     

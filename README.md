@@ -28,10 +28,12 @@ All the code related to our CPPs paper in SCAMT (ITMO). Tasks are managed in the
 
 - Important output data, generated in the scripts and notebooks, used across multiple parts of the project is in `output_data` folder
 
-<!---
-Just to test
--->
+## Environment
 
-<!---
-Now testing closes
--->
+- To manage Python version and packages, we use micromamba, which is a lightweight version of conda. All the commands are the same
+
+- To create the environment, run `micromamba env create -f environment.yml --name itmo-cpp`
+
+- To activate the environment, run `micromamba activate itmo-cpp`
+
+- To install some conda package, run `micromamba install -c conda-forge pandas` and then `micromamba env export --name itmo-cpp -f environment.yml` to update the environment file
