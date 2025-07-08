@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 import torch
-from transformers import BertModel, BertTokenizer
+from transformers import AutoTokenizer, AutoModel
 from tqdm import tqdm
 
 from rdkit import Chem
@@ -47,54 +47,42 @@ def generate_blomap_embeddings(
     
     return embeddings[~np.isnan(embeddings).any(axis=1)]
 
+def protbert_preprocess(seq: str) -> str:
+    # 1) uppercase, 2) replace non-standard letters, 3) add spaces
+    seq = seq.upper().replace('U', 'X').replace('O', 'X') \
+                     .replace('B', 'X').replace('Z', 'X') \
+                     .replace('*', '')                  # remove stop codon
+    return ' '.join(list(seq))
+
+
 # ProtBERT-related functions
 class ProtBERTEmbedder:
-    """Class for handling ProtBERT embeddings generation"""
-    
     def __init__(self, model_name: str = "Rostlab/prot_bert_bfd"):
-        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-        self.tokenizer = BertTokenizer.from_pretrained(model_name)
-        self.model = BertModel.from_pretrained(model_name).to(self.device)
+        self.device     = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+        self.tokenizer  = AutoTokenizer.from_pretrained(model_name, do_lower_case=False)
+        self.model      = AutoModel.from_pretrained(model_name).to(self.device)
         self.model.eval()
-        
-    def embed_sequence(self, sequence: str) -> np.ndarray:
-        """Embed single sequence"""
-        inputs = self.tokenizer(
-            sequence, 
-            return_tensors="pt", 
-            padding=True, 
-            truncation=True, 
-            max_length=1024
-        )
-        inputs = {k: v.to(self.device) for k, v in inputs.items()}  # Move inputs to device
-        
-        with torch.no_grad():
-            outputs = self.model(**inputs)
-            
-        return outputs.last_hidden_state.mean(dim=1).squeeze().cpu().numpy()
-    
-    def embed_batch(self, sequences: list, batch_size: int = 32) -> np.ndarray:
-        """Embed batch of sequences with progress bar"""
-        all_embeddings = []
-        
-        for i in tqdm(range(0, len(sequences), batch_size), desc="ProtBERT Batches"):
-            batch = sequences[i:i+batch_size]
-            inputs = self.tokenizer(
-                batch, 
-                return_tensors="pt", 
-                padding=True, 
-                truncation=True, 
-                max_length=1024
-            )
-            inputs = {k: v.to(self.device) for k, v in inputs.items()}  # Correct device transfer
-            
-            with torch.no_grad():
-                outputs = self.model(**inputs)
-                
-            batch_embeddings = outputs.last_hidden_state.mean(dim=1).cpu().numpy()
-            all_embeddings.append(batch_embeddings)
-            
-        return np.vstack(all_embeddings)
+
+    def _tokenise(self, seq_batch):
+        seq_batch = [protbert_preprocess(s) for s in seq_batch]
+        tok = self.tokenizer(
+                seq_batch,
+                add_special_tokens=True,
+                padding=True,
+                truncation=True,
+                max_length=1024,
+                return_tensors='pt')
+        return {k: v.to(self.device) for k, v in tok.items()}
+
+    @torch.no_grad()
+    def embed_batch(self, sequences, batch_size=32):
+        out = []
+        for i in tqdm(range(0, len(sequences), batch_size), desc='ProtBERT'):
+            tok = self._tokenise(sequences[i:i + batch_size])
+            emb = self.model(**tok).last_hidden_state.mean(dim=1)
+            out.append(emb.cpu().numpy())
+        return np.vstack(out)
+
 
 # Data processing functions
 def process_sequences(df: pd.DataFrame) -> pd.DataFrame:
@@ -178,4 +166,8 @@ if __name__ == "__main__":
 
     print("All representations have been generated successfully!")
 
-
+    # Print all the shapes of the generated embeddings
+    print("All done!")
+    print(f"Blomap embeddings shape: {blomap_embeddings.shape}")
+    print(f"ProtBERT embeddings shape: {protbert_embeddings.shape}")
+    print(f"Morgan fingerprints shape: {fingerprints_array.shape}")
