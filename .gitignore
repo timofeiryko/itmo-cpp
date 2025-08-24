@@ -40,3 +40,5 @@ venv/
 # Coverage reports
 htmlcov/
 .coverage
+classifier/pipeline/peptide_classifier_artifacts.joblib
+regr/pipeline/peptide_regressor_artifacts.joblib 
