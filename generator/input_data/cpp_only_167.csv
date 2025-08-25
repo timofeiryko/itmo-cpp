@@ -1,0 +1,5737 @@
+sequence,is_cpp,cell_line
+"<|endoftext|>
+LKTLATALTKLAKTLTTL",True,Aortic endothelial cells
+"<|endoftext|>
+RRWRRWNRFNRRRCR",True,HeLa cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHAK",True,Human bowes melanoma cells
+"<|endoftext|>
+RRRRRR",True,Jurkat cells
+"<|endoftext|>
+KLAAALLKKWKKLAAALL",True,Aortic endothelial cells
+"<|endoftext|>
+GRKKRRQRRRPPQRKC",True,HEK293 cells
+"<|endoftext|>
+CRWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+CGRKKRRQRWWRRPPQ",True,CHO cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+YGRKKRRQRRRN",True,other
+"<|endoftext|>
+WFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+KALGISYGRKK",True,MCF7 cells
+"<|endoftext|>
+FFLIPKGRRRRRRRRR",True,A549 cells
+"<|endoftext|>
+NVFKGNTISDKISFNFSDK",True,CHO-K1 cells
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+GKPILFF",True,MCF7 cells
+"<|endoftext|>
+GGGGRRWWRRWRR",True,CHO-K1 cells
+"<|endoftext|>
+KCFQWQRNMRKVRGPPVSCIKR",True,other
+"<|endoftext|>
+KLALKLALKAWKAALKLA",True,Aortic endothelial cells
+"<|endoftext|>
+CRGDK",True,HEK293 cells
+"<|endoftext|>
+KMDCRWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+AAAWFW",True,CHO cells
+"<|endoftext|>
+AETVESCLAKPHTENK",True,HeLa cells
+"<|endoftext|>
+NVFKGNTISDKISFNFSDK",True,CHO-K1 cells
+"<|endoftext|>
+GTKMIFVGIKKKEERADLIAYLKKA",True,U373 MG cells
+"<|endoftext|>
+MDCRWRWKCXKK",True,NIH-3T3 cells
+"<|endoftext|>
+RRWWRRWRR",True,MDA-MB-231 cells
+"<|endoftext|>
+KLWMRWYSATTRRYG",True,CHO cells
+"<|endoftext|>
+CKYGRKKRRQRRR",True,HeLa cells
+"<|endoftext|>
+LKPSFSPRNY",True,HEK293 cells
+"<|endoftext|>
+RKKRRARRR",True,Jurkat cells
+"<|endoftext|>
+YGRKKRRQRRRK",True,HeLa cells
+"<|endoftext|>
+GGGGRRFFRRWRR",True,CHO-K1 cells
+"<|endoftext|>
+RGGRLSYSRRRFSTSTGRA",True,other
+"<|endoftext|>
+CRRLRHLRHHYRRRWHRFRC",True,CHO-K1 cells
+"<|endoftext|>
+CVTVLALGALAGVGVG",True,A375 cells
+"<|endoftext|>
+RQIKIWFQNRRMKW",True,HaCaT cells
+"<|endoftext|>
+KWKWKWKWKW",True,MCF7 cells
+"<|endoftext|>
+IWRYSLASQQ",True,U87 cells
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+LLIILRRRIARKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+HATKSQNINF",True,U87 cells
+"<|endoftext|>
+AQIKIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+QQRKRKIWSKLAPDGTTLVKLVAGIG",True,HEK293 cells
+"<|endoftext|>
+LLRILRRSIRRARRAIRR",True,CHO-K1 cells
+"<|endoftext|>
+RRRQRRKKR",True,Jurkat cells
+"<|endoftext|>
+HATKSQNINF",True,U87 cells
+"<|endoftext|>
+LLIILARRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+KALAALLKKWAKLLAALK",True,Aortic endothelial cells
+"<|endoftext|>
+KLALQLALQALQAALQLA",True,Aortic endothelial cells
+"<|endoftext|>
+LKTLATALTKLAKTLTTL",True,Aortic endothelial cells
+"<|endoftext|>
+RKKRRARRR",True,Jurkat cells
+"<|endoftext|>
+GLRKRLRKFRNKIKEKGLRKRLRKFRNKIKEK",True,HEK293 cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHAK",True,Human bowes melanoma cells
+"<|endoftext|>
+GGGGRRFWRRFRR",True,CHO-K1 cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHAK",True,Human bowes melanoma cells
+"<|endoftext|>
+RRRRRR",True,Jurkat cells
+"<|endoftext|>
+RAIKIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+REDVYGRKKRRQRRRPKKKRKVHHHHHHHH",True,other
+"<|endoftext|>
+LKTLATALTKLAKTLTTL",True,Aortic endothelial cells
+"<|endoftext|>
+RLFMRFYSPTTRRYG",True,CHO cells
+"<|endoftext|>
+KCRRWQWRMKK",True,A549 cells
+"<|endoftext|>
+NTKRRLEGAKKA",True,HeLa cells
+"<|endoftext|>
+LLIILRARIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+RQIKIWFANRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+TRQARRNRRRRWRERQRGC",True,Jurkat cells
+"<|endoftext|>
+YTFGLKTSFNVQYTFGLKTSFNVQ",True,CHO cells
+"<|endoftext|>
+RQIKIWFQNRRMKWKKK",True,other
+"<|endoftext|>
+RKKRRQRR",True,Jurkat cells
+"<|endoftext|>
+GFAWNVCVYRNGVRVCHRRAN",True,RAW264.7 cells
+"<|endoftext|>
+RRRQRRKKR",True,Jurkat cells
+"<|endoftext|>
+CRWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+YGRKKRRQRRRYGRKKRRQRRRYGRKKRRQRRR",True,A549 cells
+"<|endoftext|>
+HHHRRRRRRRR",True,MCF7 cells
+"<|endoftext|>
+TSPLNIHNGQKL",True,other
+"<|endoftext|>
+RRGRRG",True,Jurkat cells
+"<|endoftext|>
+LLIILRRAIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+CGRKKRWWRQRRRPPQ",True,CHO cells
+"<|endoftext|>
+MAGCGCPCGCGA",True,RAW264.7 cells
+"<|endoftext|>
+PLIKLRLDRGQF",True,HEK293 cells
+"<|endoftext|>
+GGGGRRFFRRWRR",True,CHO-K1 cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+QNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+CRWRFKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+WWWKKKKWWW",True,MCF7 cells
+"<|endoftext|>
+RRRRR",True,Jurkat cells
+"<|endoftext|>
+CLGTYTQDFNKFHTFPQTAIGVGAP",True,A375 cells
+"<|endoftext|>
+IKIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+CYGRKKRRQRRR",True,A375 cells
+"<|endoftext|>
+RWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+XRXRXRXRXRXR",True,MDA-MB-231 cells
+"<|endoftext|>
+GWWYKGRARPVSAVAK",True,HeLa cells
+"<|endoftext|>
+RRRQRRKKR",True,Jurkat cells
+"<|endoftext|>
+CHHRRRRHHC",True,other
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+KRKFICL",True,MDA-MB-231 cells
+"<|endoftext|>
+NYRWRCKNQN",True,A549 cells
+"<|endoftext|>
+LLIILRRRIRKQAHAASK",True,Human bowes melanoma cells
+"<|endoftext|>
+GRKKRRQRRRPPQRKC",True,HEK293 cells
+"<|endoftext|>
+LKPSFSPRNY",True,HEK293 cells
+"<|endoftext|>
+RQIAIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+RRRRRWWWRRRR",True,A549 cells
+"<|endoftext|>
+WWWKKKKWWW",True,MCF7 cells
+"<|endoftext|>
+KETWWETWWTEWSQPKKKRKV",True,other
+"<|endoftext|>
+IWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+HEHEHEHEHEHEHEHEHEHEHEHEEFGGGGGYGRRRRRRGGGGGG",True,HeLa cells
+"<|endoftext|>
+LIRLWSHLIHIWFQNRRLKWKKKC",True,other
+"<|endoftext|>
+RRRRRRRRRGGGG",True,A549 cells
+"<|endoftext|>
+RQIKIWFQNRRMKAKK",True,HaCaT cells
+"<|endoftext|>
+KALAALLKKLAKLLAALK",True,Aortic endothelial cells
+"<|endoftext|>
+XFXRXFXR",True,MDA-MB-231 cells
+"<|endoftext|>
+RQIKIWAQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+VQWRIRVAVIRK",True,other
+"<|endoftext|>
+XFXR",True,MDA-MB-231 cells
+"<|endoftext|>
+HATKSQNINF",True,U87 cells
+"<|endoftext|>
+NYRWRCKNQN",True,A549 cells
+"<|endoftext|>
+RLLRLLRLX",True,HeLa cells
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+GRKKRRQRRRPPQRKC",True,HEK293 cells
+"<|endoftext|>
+RVRVFVVHIPRLT",True,MCF7 cells
+"<|endoftext|>
+CGRKKRWWRQRWWRWWRPPQ",True,CHO cells
+"<|endoftext|>
+GGEEEEEEEEPLGLAGRRRRRRRRGG",True,A375 cells
+"<|endoftext|>
+KLAAALLKKWKKLAAALL",True,Aortic endothelial cells
+"<|endoftext|>
+GFAWNVCVYRNGVRVCHRRAN",True,RAW264.7 cells
+"<|endoftext|>
+RRRRRR",True,Jurkat cells
+"<|endoftext|>
+RLWMRWYSPTARRYG",True,CHO cells
+"<|endoftext|>
+RRRRRR",True,Jurkat cells
+"<|endoftext|>
+LSRTRAAAPNSRIFTR",True,HeLa cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHAK",True,Human bowes melanoma cells
+"<|endoftext|>
+NYQRRCKNQN",True,A549 cells
+"<|endoftext|>
+GLRKRLRKFRNKIKEKGLRKRLRKFRNKIKEK",True,HEK293 cells
+"<|endoftext|>
+RRHRHRHRHR",True,MDA-MB-231 cells
+"<|endoftext|>
+LTFKEYWDQLTSAA",True,MCF7 cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+PRPLPFPRPG",True,RAW264.7 cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+YQKQAKIMCS",True,U87 cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+RRHRHRHRHR",True,MDA-MB-231 cells
+"<|endoftext|>
+CLGTYTQDFNKFHTFPQTAIGVGAP",True,A375 cells
+"<|endoftext|>
+KKWWWWKK",True,MCF7 cells
+"<|endoftext|>
+GGLIKTKRKRKKQRVKIAYEEIFVKNM",True,A375 cells
+"<|endoftext|>
+LLIILRRRIRAQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+KCRRWQWRMKK",True,A549 cells
+"<|endoftext|>
+CLGTYTQDFNKFHTFPQTAIGVGAP",True,A375 cells
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+KMDXRWRWKCXKK",True,NIH-3T3 cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHAK",True,Human bowes melanoma cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSA",True,Human bowes melanoma cells
+"<|endoftext|>
+CVTVLALGALAGVGVG",True,A375 cells
+"<|endoftext|>
+RQIKIWFANRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+KLSSIESDV",True,other
+"<|endoftext|>
+LLIILARRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+AAKLLPDLLAAP",True,HEK293 cells
+"<|endoftext|>
+KALAALLKKLAKLLAALK",True,Aortic endothelial cells
+"<|endoftext|>
+GTKMIFVGIKKKEERADLIAYLKKA",True,U373 MG cells
+"<|endoftext|>
+LLIILRRRIARKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+RGERPPRCRGDRGPDC",True,MDA-MB-231 cells
+"<|endoftext|>
+KLALQLALQALQAALQLA",True,Aortic endothelial cells
+"<|endoftext|>
+CRWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+RQIKIWFQNRAMKWKK",True,HaCaT cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+HHHHHHHHHHHHHHHHHHHHRRRRRRRRRRRRRRR",True,CHO-K1 cells
+"<|endoftext|>
+CREKA",True,U87 cells
+"<|endoftext|>
+CRWRWKXCKK",True,NIH-3T3 cells
+"<|endoftext|>
+RQAKIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+MLEPGEKPYKCPECGKSFSASAALVAHQRTHTGKKTS",True,other
+"<|endoftext|>
+RRRQRRKKR",True,NIH-3T3 cells
+"<|endoftext|>
+RLWMRWASPTTRRYG",True,CHO cells
+"<|endoftext|>
+KMDCRWRPKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+KKWWWWKK",True,MCF7 cells
+"<|endoftext|>
+RRRRR",True,Jurkat cells
+"<|endoftext|>
+YTFGLKTSFNVQ",True,CHO cells
+"<|endoftext|>
+GGLIKTKRKRKKQRVKIAYEEIFVKNM",True,A375 cells
+"<|endoftext|>
+LLIILRRAIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+KALKKLLAKWLAAAKALL",True,Aortic endothelial cells
+"<|endoftext|>
+CHHRRRRHHC",True,other
+"<|endoftext|>
+GRKKRRQRRK",True,other
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+KLALQLALQALQAALQLA",True,Aortic endothelial cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+KWKWKWKWKW",True,MCF7 cells
+"<|endoftext|>
+GRKKRRQRRRPPQTYADFIASGRTGRRNAI",True,A549 cells
+"<|endoftext|>
+LKTLATALTKLAKTLTTL",True,Aortic endothelial cells
+"<|endoftext|>
+GGLIKTKRKRKKQRVKIAYEEIFVKNM",True,A375 cells
+"<|endoftext|>
+NTCTWLKYHS",True,U87 cells
+"<|endoftext|>
+KVVVVKVVVVKVVVVKVVVVK",True,A549 cells
+"<|endoftext|>
+GRRRRRRRRRRRRRRRR",True,CHO-K1 cells
+"<|endoftext|>
+KLALKLALKAWKAALKLA",True,Aortic endothelial cells
+"<|endoftext|>
+RRRQRRKKR",True,Jurkat cells
+"<|endoftext|>
+CGRKKRRQRAARRPPQ",True,other
+"<|endoftext|>
+KLALKLALKAWKAALKLA",True,Aortic endothelial cells
+"<|endoftext|>
+LLIILRARIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+CRGDKGDPC",True,CHO cells
+"<|endoftext|>
+HHHHHHHHHHHHHHHHRRRRRRRRRRRRRRR",True,CHO-K1 cells
+"<|endoftext|>
+CGRKKRWWRQRWWRWWRPPQ",True,CHO cells
+"<|endoftext|>
+RLWMRWYSPTTRRAG",True,CHO cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+RLWMRWYSPWTRRYG",True,CHO cells
+"<|endoftext|>
+KLALKLALKAWKAALKLA",True,Aortic endothelial cells
+"<|endoftext|>
+DSLKSYWYLQKFSWR",True,other
+"<|endoftext|>
+RKKRRARRR",True,Jurkat cells
+"<|endoftext|>
+KCXLKLXCKXLKACLKLXG",True,A549 cells
+"<|endoftext|>
+GFAWNVCVYRNGVRVCHRRAN",True,RAW264.7 cells
+"<|endoftext|>
+CRWRWKCXKK",True,NIH-3T3 cells
+"<|endoftext|>
+QLALQLALQALQAALQLA",True,Aortic endothelial cells
+"<|endoftext|>
+KQPRIKRKK",True,other
+"<|endoftext|>
+CGRRMKWKKXXXXGGGGEEEERRRR",True,MCF7 cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSA",True,Human bowes melanoma cells
+"<|endoftext|>
+KALGISYGRKK",True,MCF7 cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+IPLVVPLRRRRRRRRC",True,MCF7 cells
+"<|endoftext|>
+CPFWRRRRCKRDSDCPGACICRGNGYCGSGCDEETGECGV",True,HeLa cells
+"<|endoftext|>
+AIAKAXKIA",True,HeLa cells
+"<|endoftext|>
+GLFEALLELLESLWELLLEA",True,other
+"<|endoftext|>
+KLALKLALKAWKAALKLA",True,Aortic endothelial cells
+"<|endoftext|>
+RLYMRYYSPTTRRYG",True,CHO cells
+"<|endoftext|>
+GWTLNSAGYLLGKINLKALAALAKKIL",True,CHO cells
+"<|endoftext|>
+LKTLATALTKLAKTLTTL",True,Aortic endothelial cells
+"<|endoftext|>
+CYGRKKRRQRRR",True,A375 cells
+"<|endoftext|>
+KALSEVQGWKQRMAAKELAR",True,HEK293 cells
+"<|endoftext|>
+CREKA",True,U87 cells
+"<|endoftext|>
+KLALKLALKALKAALK",True,Aortic endothelial cells
+"<|endoftext|>
+GGVCPKILKKCRRDSDCPGACICRGNGWCGSGSD",True,HeLa cells
+"<|endoftext|>
+CAAVALLPAVLLAHLLAP",True,A375 cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+RHRHRHRHR",True,MDA-MB-231 cells
+"<|endoftext|>
+PRPLPFPRPG",True,RAW264.7 cells
+"<|endoftext|>
+PPPPPPPPPPPPPPPP",True,other
+"<|endoftext|>
+RRRRR",True,Jurkat cells
+"<|endoftext|>
+RLWMRWYSPRTRAYGC",True,A549 cells
+"<|endoftext|>
+CVTVLALGALAGVGVG",True,A375 cells
+"<|endoftext|>
+QLALQLALQALQAALQLA",True,Aortic endothelial cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+LLIILRRRIRKAAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+KLALKLALKAWKAALKLA",True,Aortic endothelial cells
+"<|endoftext|>
+LLRLLRWWWRLLRLL",True,U87 cells
+"<|endoftext|>
+KRRRRRRRRRRE",True,MCF7 cells
+"<|endoftext|>
+CRFRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+FQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+HATKSQNINF",True,U87 cells
+"<|endoftext|>
+NTCTWLKYHS",True,U87 cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+CAAKA",True,A375 cells
+"<|endoftext|>
+KALAKALAKLWKALAKAA",True,Aortic endothelial cells
+"<|endoftext|>
+CGNARTA",True,MDA-MB-231 cells
+"<|endoftext|>
+CGRKKRAARQRRRPPQ",True,CHO cells
+"<|endoftext|>
+CGRKKRRQRRRPPQ",True,CHO cells
+"<|endoftext|>
+XRXR",True,MDA-MB-231 cells
+"<|endoftext|>
+KRKFICL",True,MDA-MB-231 cells
+"<|endoftext|>
+CRGDKGDPC",True,CHO cells
+"<|endoftext|>
+KMDXRWRWKXXKK",True,NIH-3T3 cells
+"<|endoftext|>
+HHHHHHHHHHHHHHHHHHHHRRRRRRRRRRRRRRR",True,CHO-K1 cells
+"<|endoftext|>
+CRWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+RRRRR",True,Jurkat cells
+"<|endoftext|>
+PRPLPFPRPG",True,RAW264.7 cells
+"<|endoftext|>
+RQIKIAFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+RRRRRRR",True,Jurkat cells
+"<|endoftext|>
+MAGCGCPCGCGA",True,RAW264.7 cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+LLIILRARIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+GRKKRRQRRRPPQ",True,HeLa cells
+"<|endoftext|>
+YGRKKRRQRRRYGRKKRRQRRRYGRKKRRQRRR",True,A549 cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHAK",True,Human bowes melanoma cells
+"<|endoftext|>
+KKLFKKILKKL",True,MCF7 cells
+"<|endoftext|>
+LGTYTQDFNKFHTFPQTAIGVGAP",True,other
+"<|endoftext|>
+IWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+KRKFICLGRADPAYQARFL",True,HeLa cells
+"<|endoftext|>
+CGRKKRWWRQRRRPPQ",True,CHO cells
+"<|endoftext|>
+KRKIFCL",True,MDA-MB-231 cells
+"<|endoftext|>
+QQRKRKIWSKLAPDGTTLVKLVAGIG",True,HEK293 cells
+"<|endoftext|>
+RRRRRRR",True,Jurkat cells
+"<|endoftext|>
+HHHRRRRRRRR",True,MCF7 cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+KGKKIFIMK",True,U373 MG cells
+"<|endoftext|>
+RGGRLSYSRRRFSTSTGR",True,other
+"<|endoftext|>
+PRPLPFPRPG",True,RAW264.7 cells
+"<|endoftext|>
+RQIKIWFQNRAMKWKK",True,HaCaT cells
+"<|endoftext|>
+KETWWETWWTEWSQPKKKRKV",True,other
+"<|endoftext|>
+ICSSHYEPTVRIGGR",True,HeLa cells
+"<|endoftext|>
+RQIKIWFQNARMKWKK",True,HaCaT cells
+"<|endoftext|>
+FVTRGCPRRLVARLIRVMVPRR",True,MCF7 cells
+"<|endoftext|>
+YSSYSAPVSSSLSVRRSYSSSSGS",True,other
+"<|endoftext|>
+HEHEHEHEHEHEHEHEHEHEEFGGGGGYGRRRRRRGGGGGG",True,HeLa cells
+"<|endoftext|>
+CGALFLGWLGAAGSTMGA",True,A375 cells
+"<|endoftext|>
+RRWWRRWRR",True,MDA-MB-231 cells
+"<|endoftext|>
+GRKKRRQRRRMVSAL",True,HEK293 cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+MSGYGRKKRRQRRRGGGPGVGRKRLDRNGVGVPGVGVPGVGVPGVGVPGVGVPGVGVPGV
+GVPGVGVPGVGVPGVGVPGVGVPGVGVPGVGRKRLDRNGVGVPGVGVPGVGVPGVGVPGV
+GVPGVGVPGVGVPGVGVPGVGVPGVGVPGVGVPGVGVPGVGRKRLDRNGVGVPGVGVPGV
+GVPGVGVPGVGVPGVGVPGVGVPGVGVPGVGVPGVGVPGVGVPGVGVPGVGRKRLDRNGV
+GVPGVGVPGVGVPGVGVPGVGVPGVGVPG",True,MDA-MB-231 cells
+"<|endoftext|>
+PRPLPFPRPG",True,RAW264.7 cells
+"<|endoftext|>
+RRWWWWRR",True,MCF7 cells
+"<|endoftext|>
+RWRWRW",True,A549 cells
+"<|endoftext|>
+WEARLARALARALARHLARALARALRACEA",True,A549 cells
+"<|endoftext|>
+YQKQAKIMCS",True,U87 cells
+"<|endoftext|>
+GGEEEEEEEEPLGLAGRRRRRRRRGG",True,A375 cells
+"<|endoftext|>
+CAAKA",True,A375 cells
+"<|endoftext|>
+HATKSQNINF",True,U87 cells
+"<|endoftext|>
+RXRRXRRXRRXR",True,CHO-K1 cells
+"<|endoftext|>
+RRWQWRMKK",True,A549 cells
+"<|endoftext|>
+LLIILRRRIRKAAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+YRDRFAFQPH",True,U87 cells
+"<|endoftext|>
+AAAWFW",True,CHO cells
+"<|endoftext|>
+LKPSFSPRNY",True,HEK293 cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+RQIKIWFQNRRAKWKK",True,HaCaT cells
+"<|endoftext|>
+GFAWNVCVYRNGVRVCHRRAN",True,RAW264.7 cells
+"<|endoftext|>
+GGEEEEEEEEPLGLAGRRRRRRRRGG",True,A375 cells
+"<|endoftext|>
+RLWMRWASPTTRRYG",True,CHO cells
+"<|endoftext|>
+TRQARRNRRRRWRERQRGC",True,Jurkat cells
+"<|endoftext|>
+GFAWNVCVYRNGVRVCHRRAN",True,RAW264.7 cells
+"<|endoftext|>
+ACDNPGNETCGGGS",True,other
+"<|endoftext|>
+KGKKIFIMK",True,U373 MG cells
+"<|endoftext|>
+GLRKRLRKFRNKIKEKGLRKRLRKFRNKIKEK",True,HEK293 cells
+"<|endoftext|>
+CAAVALLPAVLLAHLLAP",True,A375 cells
+"<|endoftext|>
+AGSHRRL",True,other
+"<|endoftext|>
+NVFKGNTISDKISFNFSDK",True,CHO-K1 cells
+"<|endoftext|>
+AEKVDPVKLNLTLSAAAEALTGLGDK",True,HeLa cells
+"<|endoftext|>
+CHHHHHRRRRRRRRRHHHHHC",True,A549 cells
+"<|endoftext|>
+LLIILRRRIRKQAHAASK",True,Human bowes melanoma cells
+"<|endoftext|>
+FVTRGCPRRLVARLIRVMVPRR",True,MCF7 cells
+"<|endoftext|>
+LILIGRRRRRRRRGC",True,HeLa cells
+"<|endoftext|>
+RKKRRQRR",True,Jurkat cells
+"<|endoftext|>
+RAIKIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+KGKKIFIMK",True,U373 MG cells
+"<|endoftext|>
+KCRRWQWRMKK",True,A549 cells
+"<|endoftext|>
+YGRKKRRQRRRGTALDWSWLQTE",True,MCF7 cells
+"<|endoftext|>
+HHHRRRRRRRR",True,MCF7 cells
+"<|endoftext|>
+KRRRGGKKRRDLTFKEYWDQLTSAA",True,MCF7 cells
+"<|endoftext|>
+RWRWRWRWRW",True,A549 cells
+"<|endoftext|>
+ACSGRGSGCGSGRGSCG",True,HeLa cells
+"<|endoftext|>
+TRQARRNRRRRWRERQRGC",True,Jurkat cells
+"<|endoftext|>
+KLAAALLKKWKKLAAALL",True,Aortic endothelial cells
+"<|endoftext|>
+LKRAIWLIKGSTSRDHMVLHEYVNAAGIT",True,HeLa cells
+"<|endoftext|>
+PRPLPFPRPG",True,RAW264.7 cells
+"<|endoftext|>
+RLIMRIYSPTTRRYG",True,CHO cells
+"<|endoftext|>
+TLPNSNHIKQGL",True,other
+"<|endoftext|>
+WEARLARALARALARHLARALARALRACEA",True,A549 cells
+"<|endoftext|>
+CPMLKE",True,A375 cells
+"<|endoftext|>
+CRRLRHLRHHYRRRWHRFRC",True,CHO-K1 cells
+"<|endoftext|>
+RLWMRWYSPRTRAYGC",True,A549 cells
+"<|endoftext|>
+RWRWRWRWRW",True,A549 cells
+"<|endoftext|>
+MSGYGRKKRRQRRRGGGPGVGVPGVGVPGVGVPGFGVPGVGVPGVGVPGFGVPGVGVPGG
+GVPGGGVPGVGVPGAGVPGVGVPGGGVPVGVPGVGVPGVGVPGFGVPGVGVPGVGVPGFG
+VPGVGVPGGGVPGGGVPGVGVPGAGVPGVGVPGGGVPGWPC",True,MDA-MB-231 cells
+"<|endoftext|>
+EEE",True,other
+"<|endoftext|>
+KLALKALKKLKADLKLA",True,HEK293 cells
+"<|endoftext|>
+ACSGRGRGCGRGRGSCG",True,HeLa cells
+"<|endoftext|>
+GGGGRRWFRRFRR",True,CHO-K1 cells
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+CRWRWKCSKK",True,NIH-3T3 cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+NYQRRCKNQN",True,A549 cells
+"<|endoftext|>
+XRXRXRXR",True,MDA-MB-231 cells
+"<|endoftext|>
+KMDCRPRPKCXKK",True,NIH-3T3 cells
+"<|endoftext|>
+MIILIIGSTSRDHMVLHEYVNAAGIT",True,HeLa cells
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+CGRKKRRQRRRPPQ",True,CHO cells
+"<|endoftext|>
+NYRRRCKNQN",True,A549 cells
+"<|endoftext|>
+CRRLRHLRHHYRRRWHRFRC",True,CHO-K1 cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+KALSEVQGWKQRMAAKELAR",True,HEK293 cells
+"<|endoftext|>
+RRRRRRRRNLC",True,A549 cells
+"<|endoftext|>
+PRPLPFPRPG",True,RAW264.7 cells
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+GRRRRRRRR",True,CHO-K1 cells
+"<|endoftext|>
+KCRRWQWRMKK",True,A549 cells
+"<|endoftext|>
+CRWRFKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+LLGFHTASGKKVKIAK",True,HeLa cells
+"<|endoftext|>
+RRRRRR",True,Jurkat cells
+"<|endoftext|>
+GGLIKTKRKRKKQRVKIAYEEIFVKNM",True,A375 cells
+"<|endoftext|>
+KWKWKWKW",True,MCF7 cells
+"<|endoftext|>
+KMDCRPRPKCXKK",True,NIH-3T3 cells
+"<|endoftext|>
+RRRRR",True,Jurkat cells
+"<|endoftext|>
+KALAKALAKLWKALAKAA",True,Aortic endothelial cells
+"<|endoftext|>
+RQAKIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+WEAHLAHALARALARHLARALARALRACEA",True,HeLa cells
+"<|endoftext|>
+KWKWKWKWKW",True,MCF7 cells
+"<|endoftext|>
+GGGGRRWFRRFRR",True,CHO-K1 cells
+"<|endoftext|>
+LLIILRRAIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+IWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+MDCRWRWKXXKK",True,NIH-3T3 cells
+"<|endoftext|>
+KRKRWHW",True,other
+"<|endoftext|>
+RQIAIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+GGGGRRFWRRWRR",True,CHO-K1 cells
+"<|endoftext|>
+MAGCGCPCGCGA",True,RAW264.7 cells
+"<|endoftext|>
+NYRRRCKNQN",True,A549 cells
+"<|endoftext|>
+CRWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+XRXR",True,MDA-MB-231 cells
+"<|endoftext|>
+KALAKALAKLWKALAKAA",True,Aortic endothelial cells
+"<|endoftext|>
+KRRRRRRRRRRELTFKEYWDQLTSAA",True,MCF7 cells
+"<|endoftext|>
+KALAALLKKLAKLLAALK",True,Aortic endothelial cells
+"<|endoftext|>
+KALAKALAKLWKALAKAA",True,Aortic endothelial cells
+"<|endoftext|>
+FVTRGCPRRLVARLIRVMVPRR",True,MCF7 cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHAK",True,Human bowes melanoma cells
+"<|endoftext|>
+PLIKLRLDRGQF",True,HEK293 cells
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+CPMLKE",True,A375 cells
+"<|endoftext|>
+GGGGRRWFRRFRR",True,CHO-K1 cells
+"<|endoftext|>
+GTKMIFVGIKKKEERADLIAYLKKA",True,U373 MG cells
+"<|endoftext|>
+KLAAALLKKWKKLAAALL",True,Aortic endothelial cells
+"<|endoftext|>
+KLALKLALKAWKAALKLA",True,Aortic endothelial cells
+"<|endoftext|>
+RLWMRWYSPRTRAYGC",True,A549 cells
+"<|endoftext|>
+AAKLLPDLLAAP",True,HEK293 cells
+"<|endoftext|>
+RLWMRWASPTTRRYG",True,CHO cells
+"<|endoftext|>
+RQIKIAFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+KALSEVQGWKQRMAAKELAR",True,HEK293 cells
+"<|endoftext|>
+CGRRRRRRRRRRRRRRRR",True,CHO-K1 cells
+"<|endoftext|>
+MAGCGCPCGCGA",True,RAW264.7 cells
+"<|endoftext|>
+CGRKKRWWRQRWWRWWRPPQ",True,CHO cells
+"<|endoftext|>
+KCXLKLXLKXLKACLKLXG",True,A549 cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+IPLVVPLRRRRRRRRC",True,MCF7 cells
+"<|endoftext|>
+RRWQWRMKK",True,A549 cells
+"<|endoftext|>
+KLLLLKLLLLKLLLLKLLLLK",True,A549 cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+PLIKLRLDRGQF",True,HEK293 cells
+"<|endoftext|>
+GGGGRRFWRRWRR",True,CHO-K1 cells
+"<|endoftext|>
+DCRWRWKCXKK",True,NIH-3T3 cells
+"<|endoftext|>
+CGRKKRAARQRRRPPQ",True,CHO cells
+"<|endoftext|>
+LLIILRRRIRKQAHAASK",True,Human bowes melanoma cells
+"<|endoftext|>
+LLRLLRWWWRLLRLL",True,U87 cells
+"<|endoftext|>
+GGEEEEEEEEPLGLAGRRRRRRRRGG",True,A375 cells
+"<|endoftext|>
+GRGDGPRRKKKKGPRRKKKKGPRR",True,HeLa cells
+"<|endoftext|>
+CRWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+MAGCGCPCGCGA",True,RAW264.7 cells
+"<|endoftext|>
+RRRRRRR",True,Jurkat cells
+"<|endoftext|>
+LLIILARRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+CGRKKRRQRRLLRPPQ",True,other
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+HHHHHHTKRRITPKDVIDVRSVTTEINT",True,HeLa cells
+"<|endoftext|>
+CYGRKKRRQRRR",True,A375 cells
+"<|endoftext|>
+ECYPKKGQDP",True,U87 cells
+"<|endoftext|>
+FVTRGCPRRLVARLIRVMVPRR",True,MCF7 cells
+"<|endoftext|>
+MAGCGCPCGCGA",True,RAW264.7 cells
+"<|endoftext|>
+KWKWKWKWKW",True,MCF7 cells
+"<|endoftext|>
+LLIILRRRIRKAAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+RQIKIWAQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+YTFGLKTSFNVQYTFGLKTSFNVQ",True,CHO cells
+"<|endoftext|>
+RRRRRR",True,Jurkat cells
+"<|endoftext|>
+CRFRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+CHHHHHRRRRRRRRRHHHHHC",True,A549 cells
+"<|endoftext|>
+KLLLLKLLLLKLLLLKLLLLK",True,A549 cells
+"<|endoftext|>
+RRRRRRR",True,Jurkat cells
+"<|endoftext|>
+RRRRRRRRNLC",True,A549 cells
+"<|endoftext|>
+CDAATATRGRSAASRPTERPRAPARSASRPRRPVD",True,A375 cells
+"<|endoftext|>
+CAAKA",True,A375 cells
+"<|endoftext|>
+RRRRRR",True,Jurkat cells
+"<|endoftext|>
+XWXWXWXWXWXW",True,MDA-MB-231 cells
+"<|endoftext|>
+PLKPKKPKTQEKKKKQPPKPKKPKTQEKKKKQPPKPKR",True,HEK293 cells
+"<|endoftext|>
+KLWMRWYSATTRRYG",True,CHO cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+MDCRWRWKXCKK",True,NIH-3T3 cells
+"<|endoftext|>
+KALSEVQGWKQRMAAKELAR",True,HEK293 cells
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+MAGCGCPCGCGA",True,RAW264.7 cells
+"<|endoftext|>
+LKPSFSPRNY",True,HEK293 cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHAK",True,Human bowes melanoma cells
+"<|endoftext|>
+KALKKLLAKWLAAAKALL",True,Aortic endothelial cells
+"<|endoftext|>
+TRQARRNRRRRWRERQRGC",True,Jurkat cells
+"<|endoftext|>
+CGRKKRRQRRWWRPPQ",True,CHO cells
+"<|endoftext|>
+CTWLKY",True,U87 cells
+"<|endoftext|>
+GTKMIFVGIKKKEERADLIAYLKKA",True,U373 MG cells
+"<|endoftext|>
+NTCTWLKYHS",True,U87 cells
+"<|endoftext|>
+KDCRWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+LLIILRRRIARKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+KWKWKWKWKW",True,MCF7 cells
+"<|endoftext|>
+FKKLKKLFSKLWNWKCRGDKGPDC",True,A549 cells
+"<|endoftext|>
+KRKFICL",True,MDA-MB-231 cells
+"<|endoftext|>
+KQPRIKRKK",True,other
+"<|endoftext|>
+RRRRRRRRC",True,other
+"<|endoftext|>
+KLALQLALQALQAALQLA",True,Aortic endothelial cells
+"<|endoftext|>
+KGKKIFIMK",True,U373 MG cells
+"<|endoftext|>
+KCXLKLXCKXLKACLKLXG",True,A549 cells
+"<|endoftext|>
+NTGTWLKYHS",True,U87 cells
+"<|endoftext|>
+CRWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+GKPILFF",True,MCF7 cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+CRGDK",True,HEK293 cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+KLALKALKALKAALKLA",True,HeLa cells
+"<|endoftext|>
+YGRKKRRQRRRYGRKKRRQRRRYGRKKRRQRRR",True,A549 cells
+"<|endoftext|>
+RQIKAWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+XRXRXRXR",True,MDA-MB-231 cells
+"<|endoftext|>
+HHHRRRRRRRR",True,MCF7 cells
+"<|endoftext|>
+XRXRXRXRXRXR",True,MDA-MB-231 cells
+"<|endoftext|>
+RRRRRFDLWKLLEN",True,HeLa cells
+"<|endoftext|>
+GTKMIFVGIKKKEERADLIAYLKKA",True,U373 MG cells
+"<|endoftext|>
+LLHILRRSIRKQAHAIRK",True,CHO-K1 cells
+"<|endoftext|>
+DCRWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+GRRRRRRRRRRRRRRRR",True,CHO-K1 cells
+"<|endoftext|>
+YQKQAKIMCS",True,U87 cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+CHHRRRRHHC",True,other
+"<|endoftext|>
+GFAWNVCVYRNGVRVCHRRAN",True,RAW264.7 cells
+"<|endoftext|>
+GTKMIFVGIKKKEERADLIAYLKKA",True,U373 MG cells
+"<|endoftext|>
+AWARAWARAWAR",True,MDA-MB-231 cells
+"<|endoftext|>
+AAVLLPVLLAAP",True,HEK293 cells
+"<|endoftext|>
+RRWWRRWRR",True,MDA-MB-231 cells
+"<|endoftext|>
+RQIKIWFPNRRMKWKK",True,other
+"<|endoftext|>
+RRRRRRR",True,Jurkat cells
+"<|endoftext|>
+CGRKKRRQRRLLRPPQ",True,other
+"<|endoftext|>
+QSQQTFNLWKLLQN",True,HeLa cells
+"<|endoftext|>
+CLLYWFRRRHRHHRRRHRRC",True,CHO-K1 cells
+"<|endoftext|>
+WWKKKKWW",True,MCF7 cells
+"<|endoftext|>
+RWRRWRRWRRWR",True,CHO-K1 cells
+"<|endoftext|>
+MTYPRRRFRRRRHRPRS",True,other
+"<|endoftext|>
+LKTLATALTKLAKTLTTL",True,Aortic endothelial cells
+"<|endoftext|>
+GRRRRRRRRRRRR",True,CHO-K1 cells
+"<|endoftext|>
+YGRKKRRQRRRYGRKKRRQRRRYGRKKRRQRRR",True,A549 cells
+"<|endoftext|>
+RRWWRRWRR",True,MDA-MB-231 cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+RXRRXRRXRRXR",True,CHO-K1 cells
+"<|endoftext|>
+AWARAWARAWAR",True,MDA-MB-231 cells
+"<|endoftext|>
+PRPLPFPRPG",True,RAW264.7 cells
+"<|endoftext|>
+KRKFICL",True,MDA-MB-231 cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+VRRFLVTLRIRRA",True,MCF7 cells
+"<|endoftext|>
+NTGTWLKYHS",True,U87 cells
+"<|endoftext|>
+CREKAPLGLAGRKKRRQRRRC",True,U87 cells
+"<|endoftext|>
+KALAKALAKLWKALAKAA",True,Aortic endothelial cells
+"<|endoftext|>
+KLALKLALKAWKAALKLA",True,Aortic endothelial cells
+"<|endoftext|>
+CRWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+CGRKKRWWRQRRRPPQ",True,CHO cells
+"<|endoftext|>
+KALKKLLAKWLAAAKALL",True,Aortic endothelial cells
+"<|endoftext|>
+RRRRRRRR",True,CHO-K1 cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+PLIKLRLDRGQF",True,HEK293 cells
+"<|endoftext|>
+FQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+RRRRRRR",True,Jurkat cells
+"<|endoftext|>
+GECTYAGRKRRRPLQK",True,HeLa cells
+"<|endoftext|>
+GLFHALLHLLHSLWHLLLHA",True,other
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+AEQNPIYWARYADWLFTTPLLLLDLALLVDADEGTCG",True,MCF7 cells
+"<|endoftext|>
+PRPLPFPRPG",True,RAW264.7 cells
+"<|endoftext|>
+KMDSRWRWKCSKK",True,NIH-3T3 cells
+"<|endoftext|>
+KLPVM",True,other
+"<|endoftext|>
+YTFGLKTSFNVQ",True,CHO cells
+"<|endoftext|>
+QIKIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+AAVALLPAVLLALLAP",True,other
+"<|endoftext|>
+RXRRXRRXRRXR",True,CHO-K1 cells
+"<|endoftext|>
+KCGCRWRWKCGCKK",True,NIH-3T3 cells
+"<|endoftext|>
+GRCTKSIPPICFPD",True,HeLa cells
+"<|endoftext|>
+VRRFLVTLRIRRA",True,MCF7 cells
+"<|endoftext|>
+MGPSQPTYPGDDAPVRDLIRFYRDLRRYLNVVTRHRY",True,other
+"<|endoftext|>
+AAVLLPVLLAAP",True,HEK293 cells
+"<|endoftext|>
+GGGGRRFWRRFRR",True,CHO-K1 cells
+"<|endoftext|>
+RRGRRG",True,Jurkat cells
+"<|endoftext|>
+RRRRNRTRRNRRRVRGC",True,CHO-K1 cells
+"<|endoftext|>
+KALAALLKKLAKLLAALK",True,Aortic endothelial cells
+"<|endoftext|>
+CGRKKRWWRQRWWRWWRPPQ",True,CHO cells
+"<|endoftext|>
+KCRRWQWRMKK",True,A549 cells
+"<|endoftext|>
+RRRRNRTRRNRRRVRGC",True,CHO-K1 cells
+"<|endoftext|>
+CDAATATRGRSAASRPTERPRAPARSASRPRRPVD",True,A375 cells
+"<|endoftext|>
+CGNARTA",True,MDA-MB-231 cells
+"<|endoftext|>
+CGALFLGWLGAAGSTMGA",True,A375 cells
+"<|endoftext|>
+RRRRHRHRHRHR",True,MDA-MB-231 cells
+"<|endoftext|>
+KCXLKLXCKXLKACLKLXG",True,A549 cells
+"<|endoftext|>
+WWKKKKWW",True,MCF7 cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHAK",True,Human bowes melanoma cells
+"<|endoftext|>
+QQRKRKIWSILAPLGTTLVKLVAGIG",True,HEK293 cells
+"<|endoftext|>
+NVFKGNTISDKISFNFSDK",True,CHO-K1 cells
+"<|endoftext|>
+RRRRRRRRR",True,other
+"<|endoftext|>
+GFAWNVCVYRNGVRVCHRRAN",True,RAW264.7 cells
+"<|endoftext|>
+RRRRNRTRRNRRRVRGC",True,CHO-K1 cells
+"<|endoftext|>
+RKKRRARRR",True,Jurkat cells
+"<|endoftext|>
+RQIKIWFQNRRMK",True,HaCaT cells
+"<|endoftext|>
+IKIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+CGRKKRRQRRAARPPQ",True,CHO cells
+"<|endoftext|>
+MAGCGCPCGCGA",True,RAW264.7 cells
+"<|endoftext|>
+KLAAALLKKWKKLAAALL",True,Aortic endothelial cells
+"<|endoftext|>
+LLIILRRAIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+CDAATATRGRSAASRPTERPRAPARSASRPRRPVD",True,A375 cells
+"<|endoftext|>
+HHHRRRRRRRR",True,MCF7 cells
+"<|endoftext|>
+TRQARRNRRRRWRERQRGC",True,Jurkat cells
+"<|endoftext|>
+GRRRRRRRRRRRR",True,CHO-K1 cells
+"<|endoftext|>
+RRRRRRRRRGGGGGGGGGG",True,A549 cells
+"<|endoftext|>
+KLKLALALALAVQRKRQKLMPC",True,U87 cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSA",True,Human bowes melanoma cells
+"<|endoftext|>
+YGRKKRRQRRRGTALDWSWLQTE",True,MCF7 cells
+"<|endoftext|>
+CAAVALLPAVLLAHLLAP",True,A375 cells
+"<|endoftext|>
+RRRRRRRRNLC",True,A549 cells
+"<|endoftext|>
+NVFKGNTISDKISFNFSDK",True,CHO-K1 cells
+"<|endoftext|>
+GGGGRRFFRRFRR",True,CHO-K1 cells
+"<|endoftext|>
+MIIYRDLISH",True,CHO cells
+"<|endoftext|>
+TCTWLKYHS",True,U87 cells
+"<|endoftext|>
+NYQRRCKNQN",True,A549 cells
+"<|endoftext|>
+NVFKGNTISDKISFNFSDK",True,CHO-K1 cells
+"<|endoftext|>
+AWARAWARAWAR",True,MDA-MB-231 cells
+"<|endoftext|>
+XWXWXWXWXWXW",True,MDA-MB-231 cells
+"<|endoftext|>
+RHRHRHRHR",True,MDA-MB-231 cells
+"<|endoftext|>
+RWQW",True,A549 cells
+"<|endoftext|>
+WFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+LLIILRRAIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+GIGKFLHSAKKWGKAFVGQIMNC",True,HeLa cells
+"<|endoftext|>
+KKLFKKILKKL",True,MCF7 cells
+"<|endoftext|>
+GGRRARRRRRR",True,HEK293 cells
+"<|endoftext|>
+LKTLATALTKLAKTLTTL",True,Aortic endothelial cells
+"<|endoftext|>
+LLIILRRRIRAQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+GFAWNVCVYRNGVRVCHRRAN",True,RAW264.7 cells
+"<|endoftext|>
+RRRRRHRHRHRHR",True,MDA-MB-231 cells
+"<|endoftext|>
+BRRXRRXRRX",True,HeLa cells
+"<|endoftext|>
+MSGYGRKKRRQRRRGGGPGVGRKRLDRNGVGVPGVGVPGVGVPGVGVPGVGVPGVGVPGV
+GVPGVGVPGVGVPGVGVPGVGVPGVGVPGVGRKRLDRNGVGVPGVGVPGVGVPGVGVPGV
+GVPGVGVPGVGVPGVGVPGVGVPGVGVPGVGVPGVGVPGVGRKRLDRNGVGVPGVGVPGV
+GVPGVGVPGVGVPGVGVPGVGVPGVGVPGVGVPGVGVPGVGVPGVGVPGVGRKRLDRNGV
+GVPGVGVPGVGVPGVGVPGVGVPGVGVPG",True,MDA-MB-231 cells
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+RRRQRRKKR",True,Jurkat cells
+"<|endoftext|>
+RRRRRRRR",True,CHO-K1 cells
+"<|endoftext|>
+RRRRRR",True,Jurkat cells
+"<|endoftext|>
+MVRRFLVTLRIRRACGPPRVRV",True,MCF7 cells
+"<|endoftext|>
+MDCRWRWKXXKK",True,NIH-3T3 cells
+"<|endoftext|>
+VAAKKRKKDML",True,HeLa cells
+"<|endoftext|>
+NYQRRCKNQN",True,A549 cells
+"<|endoftext|>
+HATKSQNINF",True,U87 cells
+"<|endoftext|>
+XWXW",True,MDA-MB-231 cells
+"<|endoftext|>
+KALAKALAKLWKALAKAA",True,Aortic endothelial cells
+"<|endoftext|>
+GGRRARRRRRR",True,HEK293 cells
+"<|endoftext|>
+RRRRR",True,Jurkat cells
+"<|endoftext|>
+CRWRWKXCKK",True,NIH-3T3 cells
+"<|endoftext|>
+RAIKIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+TRQARRNRRRRWRERQRGC",True,Jurkat cells
+"<|endoftext|>
+RRGRRG",True,Jurkat cells
+"<|endoftext|>
+KALAKALAKLWKALAKAA",True,Aortic endothelial cells
+"<|endoftext|>
+RLWMRWYSPTARRYG",True,CHO cells
+"<|endoftext|>
+WWKKKKWW",True,MCF7 cells
+"<|endoftext|>
+QNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+LLIILARRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+RVRVFVVHIPRLT",True,MCF7 cells
+"<|endoftext|>
+LLIILRRRIRKAAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+RAWMRWYSPTTRRYG",True,CHO cells
+"<|endoftext|>
+RRGRRG",True,Jurkat cells
+"<|endoftext|>
+KLALKLALKALKAALKLAGC",True,A549 cells
+"<|endoftext|>
+IKIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+IPLVVPLRRRRRRRRC",True,MCF7 cells
+"<|endoftext|>
+KALAALLKKWAKLLAALK",True,Aortic endothelial cells
+"<|endoftext|>
+KLLLLKLLLLKLLLLKLLLLK",True,A549 cells
+"<|endoftext|>
+KKLFKKILKKL",True,MCF7 cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+TSPLNIHNGQKL",True,other
+"<|endoftext|>
+PRPLPFPRPG",True,RAW264.7 cells
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+CPMLKE",True,A375 cells
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+CREKA",True,U87 cells
+"<|endoftext|>
+RLIMRIYSPTTRRYG",True,CHO cells
+"<|endoftext|>
+CRRWQWRMKKLGC",True,A549 cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+MLEPGEKPYKCPECGKSFSASAALVAHQRTHTGKKTS",True,other
+"<|endoftext|>
+CLLYWFRRRHRHHRRRHRRC",True,CHO-K1 cells
+"<|endoftext|>
+DCRWRWKXCKK",True,NIH-3T3 cells
+"<|endoftext|>
+PLKPKKPKTQEKKKKQPPKPKKPKTQEKKKKQPPKPKR",True,HEK293 cells
+"<|endoftext|>
+CGPKKKRKVGYGRKKRRQRRR",True,other
+"<|endoftext|>
+GRKKRRQRRRMVSAL",True,HEK293 cells
+"<|endoftext|>
+KALAKALAKLWKALAKAA",True,Aortic endothelial cells
+"<|endoftext|>
+GGEEEEEEEEPLGLAGRRRRRRRRGG",True,A375 cells
+"<|endoftext|>
+KDCRWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSA",True,Human bowes melanoma cells
+"<|endoftext|>
+RRRRRRR",True,Jurkat cells
+"<|endoftext|>
+RRRRRR",True,Jurkat cells
+"<|endoftext|>
+GFAWNVCVYRNGVRVCHRRAN",True,RAW264.7 cells
+"<|endoftext|>
+RLWARWYSPTTRRYG",True,CHO cells
+"<|endoftext|>
+LLHILRRSIRRQAHAIRR",True,CHO-K1 cells
+"<|endoftext|>
+MAGCGCPCGCGA",True,RAW264.7 cells
+"<|endoftext|>
+KRKIFCL",True,MDA-MB-231 cells
+"<|endoftext|>
+RRRRRRR",True,Jurkat cells
+"<|endoftext|>
+LLIILRRRIRKQAHAASK",True,Human bowes melanoma cells
+"<|endoftext|>
+IPLVVPLRRRRRRRRC",True,MCF7 cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+KGKKIFIMK",True,U373 MG cells
+"<|endoftext|>
+KVVVVKVVVVKVVVVKVVVVK",True,A549 cells
+"<|endoftext|>
+LLHILRRSIRRQAHAIRR",True,CHO-K1 cells
+"<|endoftext|>
+LLHILRRSIRRQAHAIRR",True,CHO-K1 cells
+"<|endoftext|>
+WFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+LLIILRRAIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+RRRRHRHRHRHR",True,MDA-MB-231 cells
+"<|endoftext|>
+CTWLKY",True,U87 cells
+"<|endoftext|>
+RLWMRWASPTTRRYG",True,CHO cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+KMDXRWRWKXXKK",True,NIH-3T3 cells
+"<|endoftext|>
+NTGTWLKYHS",True,U87 cells
+"<|endoftext|>
+KALAKALAKLWKALAKAA",True,Aortic endothelial cells
+"<|endoftext|>
+RLWARWYSPTTRRYG",True,CHO cells
+"<|endoftext|>
+GGEEEEEEEEPLGLAGRRRRRRRRGG",True,A375 cells
+"<|endoftext|>
+KMDCRPRPKXCKK",True,NIH-3T3 cells
+"<|endoftext|>
+RLAMRWYSPTTRRYG",True,CHO cells
+"<|endoftext|>
+RLWARWYSPTTRRYG",True,CHO cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+SRWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+LLIILRRRIARKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+QNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+LLIILRRRIRAQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+RLWMRWYSPTTRRYG",True,CHO cells
+"<|endoftext|>
+RQIKIWAQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+LLIILARRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+CRGDK",True,HEK293 cells
+"<|endoftext|>
+KALKKLLAKWLAAAKALL",True,Aortic endothelial cells
+"<|endoftext|>
+YGRKKRRQRRRGTALDWSWLQTE",True,MCF7 cells
+"<|endoftext|>
+WEARLARALARALARHLAHALAHALHACEA",True,HeLa cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+WWWRRRRWWW",True,MCF7 cells
+"<|endoftext|>
+KLALQLALQALQAALQLA",True,Aortic endothelial cells
+"<|endoftext|>
+KWKWKWKWKW",True,MCF7 cells
+"<|endoftext|>
+TRQARRNRRRRWRERQRGC",True,Jurkat cells
+"<|endoftext|>
+CREKA",True,U87 cells
+"<|endoftext|>
+GGLIKTKRKRKKQRVKIAYEEIFVKNM",True,A375 cells
+"<|endoftext|>
+GGLIKTKRKRKKQRVKIAYEEIFVKNM",True,A375 cells
+"<|endoftext|>
+RAWMRWYSPTTRRYG",True,CHO cells
+"<|endoftext|>
+RLWMRWYSPTTRRYG",True,CHO cells
+"<|endoftext|>
+CTWLKY",True,U87 cells
+"<|endoftext|>
+CYGRKKRRQRRR",True,A375 cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+GGGGRRWFRRFRR",True,CHO-K1 cells
+"<|endoftext|>
+IPMIK",True,other
+"<|endoftext|>
+CVTVLALGALAGVGVG",True,A375 cells
+"<|endoftext|>
+GGGGRRWWRRFRR",True,CHO-K1 cells
+"<|endoftext|>
+IKIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+KKLFKKILKKL",True,MCF7 cells
+"<|endoftext|>
+KMDCRWRWKCKK",True,NIH-3T3 cells
+"<|endoftext|>
+CRGDRGPDC",True,MDA-MB-231 cells
+"<|endoftext|>
+KLWMRWYSPTTRRYG",True,CHO cells
+"<|endoftext|>
+CTWLKY",True,U87 cells
+"<|endoftext|>
+GGRRARRRRRR",True,HEK293 cells
+"<|endoftext|>
+LLIILRARIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+CAAKA",True,A375 cells
+"<|endoftext|>
+RIKAERKRMRNRIAASKSRKRKLERIARGC",True,HeLa cells
+"<|endoftext|>
+RQIKAWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+IFLLWQ",True,A549 cells
+"<|endoftext|>
+MDCRWRWKXXKK",True,NIH-3T3 cells
+"<|endoftext|>
+RRRHRHRHRHR",True,MDA-MB-231 cells
+"<|endoftext|>
+CRWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+KALAKALAKLWKALAKAA",True,Aortic endothelial cells
+"<|endoftext|>
+RQIKIAFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+YNNFAYSVFL",True,U87 cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+RRRRR",True,Jurkat cells
+"<|endoftext|>
+KGKKIFIMK",True,U373 MG cells
+"<|endoftext|>
+KGKKIFIMK",True,U373 MG cells
+"<|endoftext|>
+RWRWRWRWRW",True,A549 cells
+"<|endoftext|>
+RQIKAWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+FKKLKKLFSKLWNWK",True,A549 cells
+"<|endoftext|>
+RRRRRR",True,Jurkat cells
+"<|endoftext|>
+KLWMRWYSATTRRYG",True,CHO cells
+"<|endoftext|>
+KRRRGGKKRRDLTFKEYWDQLTSAA",True,MCF7 cells
+"<|endoftext|>
+RKQKSLQTKLAENPPVPRKKRQSRPRWKQWLQK",True,HEK293 cells
+"<|endoftext|>
+EEE",True,other
+"<|endoftext|>
+RRRRR",True,Jurkat cells
+"<|endoftext|>
+KALAALLKKWAKLLAALK",True,Aortic endothelial cells
+"<|endoftext|>
+CASGQQGLLKLC",True,U87 cells
+"<|endoftext|>
+IKIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+KLAAALLKKWKKLAAALL",True,Aortic endothelial cells
+"<|endoftext|>
+KMDXRPRPKXCKK",True,NIH-3T3 cells
+"<|endoftext|>
+XFXR",True,MDA-MB-231 cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHAK",True,Human bowes melanoma cells
+"<|endoftext|>
+PLIKLRLDRGQF",True,HEK293 cells
+"<|endoftext|>
+RQIKAWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+CGRKKRWWRQRRRPPQ",True,CHO cells
+"<|endoftext|>
+WWKKKKWW",True,MCF7 cells
+"<|endoftext|>
+WWWKKKKWWW",True,MCF7 cells
+"<|endoftext|>
+WFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+HHHHHHHHHHHHHHHH",True,other
+"<|endoftext|>
+WFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+RKKRRQRR",True,Jurkat cells
+"<|endoftext|>
+IPLVVPLRRRRRRRRC",True,MCF7 cells
+"<|endoftext|>
+KYKGAIIGNIK",True,other
+"<|endoftext|>
+PLKPKKPKTQEKKKKQPPKPKKPKTQEKKKKQPPKPKR",True,HEK293 cells
+"<|endoftext|>
+RLWMRWYSPTARRYG",True,CHO cells
+"<|endoftext|>
+GFAWNVCVYRNGVRVCHRRAN",True,RAW264.7 cells
+"<|endoftext|>
+MAGCGCPCGCGA",True,RAW264.7 cells
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+RRWWWWRR",True,MCF7 cells
+"<|endoftext|>
+RHVYHVLLSQ",True,U87 cells
+"<|endoftext|>
+KRKFICL",True,MDA-MB-231 cells
+"<|endoftext|>
+YRDRFAFQPH",True,U87 cells
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+CGRRMKWKKXXXXGGGGEEEERRRR",True,MCF7 cells
+"<|endoftext|>
+MDCRWRWKXXKK",True,NIH-3T3 cells
+"<|endoftext|>
+PRPLPFPRPG",True,RAW264.7 cells
+"<|endoftext|>
+CVTVLALGALAGVGVG",True,A375 cells
+"<|endoftext|>
+TCTWLKYH",True,U87 cells
+"<|endoftext|>
+TVDNPASTTNKDKLFAVRK",True,HEK293 cells
+"<|endoftext|>
+RLYMRYYSPTTRRYG",True,CHO cells
+"<|endoftext|>
+KALAALLKKWAKLLAALK",True,Aortic endothelial cells
+"<|endoftext|>
+RQIKIWFQNRAMKWKK",True,HaCaT cells
+"<|endoftext|>
+RRRRRR",True,Jurkat cells
+"<|endoftext|>
+RQIKIWFQNRRMKWKKK",True,other
+"<|endoftext|>
+KALKKLLAKWLAAAKALL",True,Aortic endothelial cells
+"<|endoftext|>
+KMDCRWRWKKK",True,NIH-3T3 cells
+"<|endoftext|>
+KLALQLALQALQAALQLA",True,Aortic endothelial cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+RRRRRRRRRRR",True,CHO-K1 cells
+"<|endoftext|>
+GTKMIFVGIKKKEERADLIAYLKKA",True,U373 MG cells
+"<|endoftext|>
+FKKLKKLFSKLWNWKCRGDKGPDC",True,A549 cells
+"<|endoftext|>
+YGGGKGGQGGGPPQG",True,HeLa cells
+"<|endoftext|>
+RQIKIWAQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+FIDLKRKIWLIK",True,HeLa cells
+"<|endoftext|>
+IKIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+RHRHRHRHR",True,MDA-MB-231 cells
+"<|endoftext|>
+GFAWNVCVYRNGVRVCHRRAN",True,RAW264.7 cells
+"<|endoftext|>
+RRWQWRMKK",True,A549 cells
+"<|endoftext|>
+LLIILRRRIRKQAHAASK",True,Human bowes melanoma cells
+"<|endoftext|>
+KMDCRPRPKXCKK",True,NIH-3T3 cells
+"<|endoftext|>
+KLAAALLKKWKKLAAALL",True,Aortic endothelial cells
+"<|endoftext|>
+REDVYGRKKRRQRRRPKKKRKVHHHHHHHHHHHH",True,other
+"<|endoftext|>
+RQIKIWFQNRRMKAKK",True,HaCaT cells
+"<|endoftext|>
+CYGRKKRRQRRR",True,A375 cells
+"<|endoftext|>
+LLIILRRAIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+GFAWNVCVYRNGVRVCHRRAN",True,RAW264.7 cells
+"<|endoftext|>
+RAWMRWYSPTTRRYG",True,CHO cells
+"<|endoftext|>
+RRWQWRMKK",True,A549 cells
+"<|endoftext|>
+AQIKIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+RWQWR",True,A549 cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+RRGRRG",True,Jurkat cells
+"<|endoftext|>
+RQIKIWFQNRRMKAKK",True,HaCaT cells
+"<|endoftext|>
+KLALQLALQALQAALQLA",True,Aortic endothelial cells
+"<|endoftext|>
+KLALKLALKALKAALK",True,Aortic endothelial cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+GKPILFF",True,MCF7 cells
+"<|endoftext|>
+WEARLARALARALARHLARALARA",True,other
+"<|endoftext|>
+LLIILRRRIRKQAHAASK",True,Human bowes melanoma cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+KSTGKANKITITNDKGRLSK",True,other
+"<|endoftext|>
+RLWMRWYSPTTRRYA",True,CHO cells
+"<|endoftext|>
+KRKIFCL",True,MDA-MB-231 cells
+"<|endoftext|>
+MSGYGRKKRRQRRRGGGRKRLDRNGGGPGVGVPGVGVPGVGVPGFGVPGVGVPGVGVPGF
+GVPGVGVPGGGVPGGGVPGVGVPGAGVPGVGVPGGGVPVGVPGVGVPGVGVPGFGVPGVG
+VPGVGVPGFGVPGVGVPGGGVPGGGVPGVGVPGAGVPGVGVPGGGVPGWPC",True,MDA-MB-231 cells
+"<|endoftext|>
+LLIILRRRIRAQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+RXRRXRRXRRXR",True,CHO-K1 cells
+"<|endoftext|>
+KLAAALLKKWKKLAAALL",True,Aortic endothelial cells
+"<|endoftext|>
+CASGQQGLLKLC",True,U87 cells
+"<|endoftext|>
+RRRRGGRRRRRRSVCSSCVSRRRRRRGGRRRR",True,other
+"<|endoftext|>
+KWRRKLKKLRPKKKRKV",True,HeLa cells
+"<|endoftext|>
+RRWQW",True,A549 cells
+"<|endoftext|>
+MAGCGCPCGCGA",True,RAW264.7 cells
+"<|endoftext|>
+LLIILRRRIRAQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+RRRRRRR",True,Jurkat cells
+"<|endoftext|>
+VLIKCRLFIKRK",True,HeLa cells
+"<|endoftext|>
+CPMLKE",True,A375 cells
+"<|endoftext|>
+CGRKKRWWRQRWWRWWRPPQ",True,CHO cells
+"<|endoftext|>
+KLWMRWYSATTRRYG",True,CHO cells
+"<|endoftext|>
+RRRRRRR",True,Jurkat cells
+"<|endoftext|>
+CRWRWKCXKK",True,NIH-3T3 cells
+"<|endoftext|>
+RQIKAWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+CRRRRRRRRR",True,other
+"<|endoftext|>
+LLIILRRRIRKQAHAHSA",True,Human bowes melanoma cells
+"<|endoftext|>
+RGGRLSYSRRRFSTSTGRA",True,other
+"<|endoftext|>
+CREKAPLGLAGRKKRRQRRRC",True,U87 cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+KQRMAAKELAR",True,HEK293 cells
+"<|endoftext|>
+QIKIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+RLLRLLRLL",True,HeLa cells
+"<|endoftext|>
+XRXR",True,MDA-MB-231 cells
+"<|endoftext|>
+KRKFICL",True,MDA-MB-231 cells
+"<|endoftext|>
+CLLYWFRRRHRHHRRRHRRC",True,CHO-K1 cells
+"<|endoftext|>
+KLALKALKKLKADLKLA",True,HEK293 cells
+"<|endoftext|>
+LLIILRARIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+GRXTKSIPPIXFPD",True,HeLa cells
+"<|endoftext|>
+FKKLKKLFSKLWNWK",True,A549 cells
+"<|endoftext|>
+YTFGLKTSFNVQ",True,CHO cells
+"<|endoftext|>
+TVDNPASTTNKDKLFAVRK",True,HEK293 cells
+"<|endoftext|>
+CRWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+VELPPPVELPPPVELPPP",True,A549 cells
+"<|endoftext|>
+CGALFLGWLGAAGSTMGA",True,A375 cells
+"<|endoftext|>
+DCRWRWKXXKK",True,NIH-3T3 cells
+"<|endoftext|>
+GKKKKRKREKL",True,MCF7 cells
+"<|endoftext|>
+CASGQQGLLKLC",True,U87 cells
+"<|endoftext|>
+RRRRRHRHRHRHR",True,MDA-MB-231 cells
+"<|endoftext|>
+RQIKIWFANRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+KALKKLLAKWLAAAKALL",True,Aortic endothelial cells
+"<|endoftext|>
+GRKKRRQRRRPPQRKC",True,HEK293 cells
+"<|endoftext|>
+NTCTWLKYHS",True,U87 cells
+"<|endoftext|>
+RAGLQFPVGRLLRRL",True,other
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+FVTRGCPRRLVARLIRVMVPRR",True,MCF7 cells
+"<|endoftext|>
+KKKKKKKKK",True,CHO cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+RQIKIWFQNRRMKAKK",True,HaCaT cells
+"<|endoftext|>
+NTCTWLKYHS",True,U87 cells
+"<|endoftext|>
+KRKIFLRCKILV",True,HeLa cells
+"<|endoftext|>
+KRKFICL",True,MDA-MB-231 cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+GGRRARRRRRR",True,HEK293 cells
+"<|endoftext|>
+LLIILRRRIRKQAHAASK",True,Human bowes melanoma cells
+"<|endoftext|>
+IFLLWQ",True,A549 cells
+"<|endoftext|>
+CRRLRHLRHHYRRRWHRFRC",True,CHO-K1 cells
+"<|endoftext|>
+KLXLKLXCKXLKACLKLXG",True,A549 cells
+"<|endoftext|>
+CYGRKKRRQRRR",True,A375 cells
+"<|endoftext|>
+MVRRFLVTLRIRRACGPPRVRV",True,MCF7 cells
+"<|endoftext|>
+XWXW",True,MDA-MB-231 cells
+"<|endoftext|>
+PRPLPFPRPG",True,RAW264.7 cells
+"<|endoftext|>
+KLALQLALQALQAALQLA",True,Aortic endothelial cells
+"<|endoftext|>
+RRRRRRRRRRR",True,CHO-K1 cells
+"<|endoftext|>
+CRGDK",True,HEK293 cells
+"<|endoftext|>
+CVTVLALGALAGVGVG",True,A375 cells
+"<|endoftext|>
+KALAKALAKLWKALAKAA",True,Aortic endothelial cells
+"<|endoftext|>
+CVTVLALGALAGVGVG",True,A375 cells
+"<|endoftext|>
+RQIKIWFQNRRAKWKK",True,HaCaT cells
+"<|endoftext|>
+RKQKSLQTKLAENPPVPRKKRQSRPRWKQWLQK",True,HEK293 cells
+"<|endoftext|>
+GKPILFF",True,MCF7 cells
+"<|endoftext|>
+RRRQKRIVVRRRLIR",True,HeLa cells
+"<|endoftext|>
+RRRRRWWWRRRR",True,A549 cells
+"<|endoftext|>
+GRRRR",True,CHO-K1 cells
+"<|endoftext|>
+AAAWFW",True,CHO cells
+"<|endoftext|>
+KLALQLALQALQAALQLA",True,Aortic endothelial cells
+"<|endoftext|>
+RRRRRR",True,Jurkat cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+NTCTWLKYH",True,U87 cells
+"<|endoftext|>
+KGKKIFIMK",True,U373 MG cells
+"<|endoftext|>
+GRGDSPRR",True,HeLa cells
+"<|endoftext|>
+GRKKRRQRRRPPQTYADFIASGRTGRRNAI",True,A549 cells
+"<|endoftext|>
+KLAAALLKKWKKLAAALL",True,Aortic endothelial cells
+"<|endoftext|>
+KLALKLALKALKAALK",True,Aortic endothelial cells
+"<|endoftext|>
+KRPTMRFRYTWNPMK",True,A549 cells
+"<|endoftext|>
+RAIKIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+GGVCPKILRRCRRDSDCPGACICRGNGYCGSGSR",True,HeLa cells
+"<|endoftext|>
+CHHHHHRRRRRRRRRHHHHHC",True,A549 cells
+"<|endoftext|>
+NTCTWLKYHS",True,U87 cells
+"<|endoftext|>
+GSGCPRILMRCKQDSDCLAGCVCGPNGFCGGNS",True,HeLa cells
+"<|endoftext|>
+GFAWNVCVYRNGVRVCHRRAN",True,RAW264.7 cells
+"<|endoftext|>
+DCRWRWKXCKK",True,NIH-3T3 cells
+"<|endoftext|>
+RWRRWRRWRRWR",True,CHO-K1 cells
+"<|endoftext|>
+GRKKRRQRRRMVSAL",True,HEK293 cells
+"<|endoftext|>
+NTCTWLKYHS",True,U87 cells
+"<|endoftext|>
+GFAWNVCVYRNGVRVCHRRAN",True,RAW264.7 cells
+"<|endoftext|>
+MAGCGCPCGCGA",True,RAW264.7 cells
+"<|endoftext|>
+GRCTKSIPPICFPD",True,HeLa cells
+"<|endoftext|>
+KLAAALLKKWKKLAAALL",True,Aortic endothelial cells
+"<|endoftext|>
+CGRRMKWKKXXXXGGGGEEEERRRR",True,MCF7 cells
+"<|endoftext|>
+VQLRRRWC",True,U87 cells
+"<|endoftext|>
+RRRRNRTRRNRRRVRGC",True,CHO-K1 cells
+"<|endoftext|>
+CTWLKY",True,U87 cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+RRRRRRR",True,Jurkat cells
+"<|endoftext|>
+LLRILRRSIRRARRAIRR",True,CHO-K1 cells
+"<|endoftext|>
+IWRYSLASQQ",True,U87 cells
+"<|endoftext|>
+CGNARTA",True,MDA-MB-231 cells
+"<|endoftext|>
+YGRKKRRQRRRGTALDWSWLQTE",True,MCF7 cells
+"<|endoftext|>
+CVTVLALGALAGVGVG",True,A375 cells
+"<|endoftext|>
+CRWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+GGVCPKILRRCRRDSDCPGACICRGNGWCGSGSD",True,HeLa cells
+"<|endoftext|>
+RWQWR",True,A549 cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+RQIKIWFANRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+GFAWNVCVYRNGVRVCHRRAN",True,RAW264.7 cells
+"<|endoftext|>
+CREKAPLGLAGRKKRRQRRRC",True,U87 cells
+"<|endoftext|>
+RAIKIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+AAVLLPVLLAAP",True,HEK293 cells
+"<|endoftext|>
+RKKRRARRR",True,Jurkat cells
+"<|endoftext|>
+RRRRHRHRHRHR",True,MDA-MB-231 cells
+"<|endoftext|>
+KIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+LLIILARRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+CGNARTA",True,MDA-MB-231 cells
+"<|endoftext|>
+RXRRXRRXRRXR",True,CHO-K1 cells
+"<|endoftext|>
+KLAAALLKKWKKLAAALL",True,Aortic endothelial cells
+"<|endoftext|>
+VPALK",True,other
+"<|endoftext|>
+MAGCGCPCGCGA",True,RAW264.7 cells
+"<|endoftext|>
+RLWMRWYAPTTRRYG",True,CHO cells
+"<|endoftext|>
+RRGRRG",True,Jurkat cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+KAALLKAALLKAALLKAALLK",True,A549 cells
+"<|endoftext|>
+CRGDRGPDC",True,MDA-MB-231 cells
+"<|endoftext|>
+RWQWR",True,A549 cells
+"<|endoftext|>
+GRRXRRXRRX",True,HeLa cells
+"<|endoftext|>
+AAKLLPDLLAAP",True,HEK293 cells
+"<|endoftext|>
+RKKRRQRRR",True,NIH-3T3 cells
+"<|endoftext|>
+GGLIKTKRKRKKQRVKIAYEEIFVKNM",True,A375 cells
+"<|endoftext|>
+YGRKKRRQRRRYGRKKRRQRRRYGRKKRRQRRR",True,A549 cells
+"<|endoftext|>
+QQRKRKIWSKLAPDGTTLVKLVAGIG",True,HEK293 cells
+"<|endoftext|>
+HEHEHEHEHEHEHEHEHEHEGGGGGKLALKLALKALKAALKLA",True,HeLa cells
+"<|endoftext|>
+RLWARWYSPTTRRYG",True,CHO cells
+"<|endoftext|>
+GKKKKRKREKL",True,MCF7 cells
+"<|endoftext|>
+XRXR",True,MDA-MB-231 cells
+"<|endoftext|>
+TCTWLKYH",True,U87 cells
+"<|endoftext|>
+CRWRWKCXKK",True,NIH-3T3 cells
+"<|endoftext|>
+GTKMIFVGIKKKEERADLIAYLKKA",True,U373 MG cells
+"<|endoftext|>
+FKKLKKLFSKLWNWK",True,A549 cells
+"<|endoftext|>
+PFVYLIPKKKRKVHHHHHHGC",True,HeLa cells
+"<|endoftext|>
+FKKLKKLFSKLWNWKCRGDKGPDC",True,A549 cells
+"<|endoftext|>
+QLALQLALQALQAALQLA",True,Aortic endothelial cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+CRGDRGPDC",True,MDA-MB-231 cells
+"<|endoftext|>
+LLIILRRRIRAQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+KLWMRWYSATTRRYG",True,CHO cells
+"<|endoftext|>
+KLALKALKKLKADLKLA",True,HEK293 cells
+"<|endoftext|>
+LRRETFDRWKRLRR",True,HeLa cells
+"<|endoftext|>
+XWXW",True,MDA-MB-231 cells
+"<|endoftext|>
+RLWMRWYSPTTRRYG",True,CHO cells
+"<|endoftext|>
+PRPLPFPRPG",True,RAW264.7 cells
+"<|endoftext|>
+KRKIFCL",True,MDA-MB-231 cells
+"<|endoftext|>
+CTWLKYH",True,U87 cells
+"<|endoftext|>
+NYRWRCKNQN",True,A549 cells
+"<|endoftext|>
+LLIILARRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+KRWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+KCXLKLXCKXLKACLKLXG",True,A549 cells
+"<|endoftext|>
+RKKRRQRR",True,Jurkat cells
+"<|endoftext|>
+LLIILRRRIRKQAHAASK",True,Human bowes melanoma cells
+"<|endoftext|>
+GRGDSPRRKKKKSPRRKKKKSPRR",True,HeLa cells
+"<|endoftext|>
+KALAKALAKLWKALAKAA",True,Aortic endothelial cells
+"<|endoftext|>
+PRPLPFPRPG",True,RAW264.7 cells
+"<|endoftext|>
+RRRQRRKKR",True,Jurkat cells
+"<|endoftext|>
+CRWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+GGEEEEEEEEPLGLAGRRRRRRRRGG",True,A375 cells
+"<|endoftext|>
+GGLIKTKRKRKKQRVKIAYEEIFVKNM",True,A375 cells
+"<|endoftext|>
+KMDCRPRPKXCKK",True,NIH-3T3 cells
+"<|endoftext|>
+QQRKRKIWSKLAPDGTTLVKLVAGIG",True,HEK293 cells
+"<|endoftext|>
+QQRKRKIWSILAPLGTTLVKLVAGIG",True,HEK293 cells
+"<|endoftext|>
+KRKIFCL",True,MDA-MB-231 cells
+"<|endoftext|>
+RRRRR",True,Jurkat cells
+"<|endoftext|>
+GGGGRRWWRRWRR",True,CHO-K1 cells
+"<|endoftext|>
+RRRRR",True,Jurkat cells
+"<|endoftext|>
+FFFFFFGGGGGGRRRRR",True,HeLa cells
+"<|endoftext|>
+XWXW",True,MDA-MB-231 cells
+"<|endoftext|>
+RRRRRRRRNLC",True,A549 cells
+"<|endoftext|>
+CRWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+QIKIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+CREKAPLGLAGRKKRRQRRRC",True,U87 cells
+"<|endoftext|>
+SGASDDEEIAR",True,HeLa cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+RQIKIWFANRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+QQRKRKIWSKLAPDGTTLVKLVAGIG",True,HEK293 cells
+"<|endoftext|>
+LLIILRARIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+LKTLATALTKLAKTLTTL",True,Aortic endothelial cells
+"<|endoftext|>
+KGKKIFIMK",True,U373 MG cells
+"<|endoftext|>
+RGERPPR",True,MDA-MB-231 cells
+"<|endoftext|>
+KCCKWRWRCK",True,NIH-3T3 cells
+"<|endoftext|>
+TRQARRNRRRRWRERQRGC",True,Jurkat cells
+"<|endoftext|>
+MSGPGVGVPGVGVPGVGVPGFGVPGVGVPGVGVPGFGVPGVGVPGGGVPGGGVPGVGVPG
+AGVPGVGVPGGGVPGVGVPGVGVPGVGVPGFGVPGVGVPGVGVPGFGVPGVGVPGGGVPG
+GGVPGVGVPGAGVPGVGVPGGGVPGWPC",True,MDA-MB-231 cells
+"<|endoftext|>
+GGGGRRWFRRWRR",True,CHO-K1 cells
+"<|endoftext|>
+CYGRKKRRQRRR",True,A375 cells
+"<|endoftext|>
+RRRQRRKKR",True,Jurkat cells
+"<|endoftext|>
+TWLKYH",True,HEK293 cells
+"<|endoftext|>
+MSGYGRKKRRQRRRGGGPGVGVPGVGVPGVGVPGFGVPGVGVPGVGVPGFGVPGVGVPGG
+GVPGGGVPGVGVPGAGVPGVGVPGGGVPVGVPGVGVPGVGVPGFGVPGVGVPGVGVPGFG
+VPGVGVPGGGVPGGGVPGVGVPGAGVPGVGVPGGGVPGWPC",True,MDA-MB-231 cells
+"<|endoftext|>
+FIDIIIKILLIGSTSRDHVLHEYVNAAGIT",True,HeLa cells
+"<|endoftext|>
+YTFGLKTSFNVQYTFGLKTSFNVQ",True,CHO cells
+"<|endoftext|>
+KLWMRWYSPTTRRYG",True,CHO cells
+"<|endoftext|>
+NYQRRCKNQN",True,A549 cells
+"<|endoftext|>
+RQAKIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+LSQETFDLWKLLEN",True,HeLa cells
+"<|endoftext|>
+CRGDK",True,HEK293 cells
+"<|endoftext|>
+RRRRRR",True,Jurkat cells
+"<|endoftext|>
+RQIRIWFQNRRMRWRRC",True,other
+"<|endoftext|>
+LKKLLKLLKKLLKLAG",True,HeLa cells
+"<|endoftext|>
+FVTRGCPRRLVARLIRVMVPRR",True,MCF7 cells
+"<|endoftext|>
+RLYMRYYSPTTRRYG",True,CHO cells
+"<|endoftext|>
+CRWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+CVTVLALGALAGVGVG",True,A375 cells
+"<|endoftext|>
+CWRWRWRWRWRC",True,other
+"<|endoftext|>
+KRWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+RLWHLLWRLWRRLHRLLR",True,CHO-K1 cells
+"<|endoftext|>
+GLRKRLRKFRNKIKEK",True,HeLa cells
+"<|endoftext|>
+GTKMIFVGIKKKEERADLIAYLKKA",True,U373 MG cells
+"<|endoftext|>
+NTCTWLKYH",True,U87 cells
+"<|endoftext|>
+CPMLKE",True,A375 cells
+"<|endoftext|>
+KLKLALALALAVQRKRQKLMPC",True,U87 cells
+"<|endoftext|>
+GGLIKTKRKRKKQRVKIAYEEIFVKNM",True,A375 cells
+"<|endoftext|>
+KLALKALKKLKADLKLA",True,HEK293 cells
+"<|endoftext|>
+QQRKRKIWSKLAPDGTTLVKLVAGIG",True,HEK293 cells
+"<|endoftext|>
+RLXRLXRLX",True,HeLa cells
+"<|endoftext|>
+SRWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+KALAALLKKLAKLLAALK",True,Aortic endothelial cells
+"<|endoftext|>
+RGGRLSYSRRRFSTSTGRA",True,other
+"<|endoftext|>
+IWRYSLASQQ",True,U87 cells
+"<|endoftext|>
+PLIKLRLDRGQF",True,HEK293 cells
+"<|endoftext|>
+LLRLLRWWWRLLRLL",True,U87 cells
+"<|endoftext|>
+KVVVVKVVVVKVVVVKVVVVK",True,A549 cells
+"<|endoftext|>
+MIIYRDLISH",True,CHO cells
+"<|endoftext|>
+KMDXRPRPKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+VPTLK",True,HeLa cells
+"<|endoftext|>
+RWRWRWRWRW",True,A549 cells
+"<|endoftext|>
+RRWQWRMKK",True,A549 cells
+"<|endoftext|>
+GGGGRRFWRRWRR",True,CHO-K1 cells
+"<|endoftext|>
+CRRWQWRMKKLGC",True,A549 cells
+"<|endoftext|>
+MAGCGCPCGCGA",True,RAW264.7 cells
+"<|endoftext|>
+RRRRNRTRRNRRRVRGC",True,CHO-K1 cells
+"<|endoftext|>
+GFAWNVCVYRNGVRVCHRRAN",True,RAW264.7 cells
+"<|endoftext|>
+PLIKLRLDRGQF",True,HEK293 cells
+"<|endoftext|>
+RRRRHRHRHRHR",True,MDA-MB-231 cells
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+WWKKKKWW",True,MCF7 cells
+"<|endoftext|>
+VPALK",True,other
+"<|endoftext|>
+CRGDK",True,HEK293 cells
+"<|endoftext|>
+CDAATATRGRSAASRPTERPRAPARSASRPRRPVD",True,A375 cells
+"<|endoftext|>
+QQRKRKIWSKLAPDGTTLVKLVAGIG",True,HEK293 cells
+"<|endoftext|>
+GRRRRRRRRRRRRRRRR",True,CHO-K1 cells
+"<|endoftext|>
+KKKKKKKKK",True,CHO cells
+"<|endoftext|>
+MAGCGCPCGCGA",True,RAW264.7 cells
+"<|endoftext|>
+QLALQLALQALQAALQLA",True,Aortic endothelial cells
+"<|endoftext|>
+HEHEHEHEHEHEHEHEHEHEEFGGGGGYGRGRGRGRGRGRG",True,HeLa cells
+"<|endoftext|>
+KRWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+CREKAPLGLAGRKKRRQRRRC",True,U87 cells
+"<|endoftext|>
+RQIKIWFPNRRMKWKK",True,other
+"<|endoftext|>
+LLRLLRWWWRLLRLL",True,U87 cells
+"<|endoftext|>
+KLALKLALKAWKAALKLA",True,Aortic endothelial cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+KRWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+GRRLRRLRRL",True,HeLa cells
+"<|endoftext|>
+RLYMRYYSPTTRRYG",True,CHO cells
+"<|endoftext|>
+KLALKLALKALKAALKLAGC",True,A549 cells
+"<|endoftext|>
+RQIKAWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+KGKKIFIMK",True,U373 MG cells
+"<|endoftext|>
+CYGRKKRRQRRR",True,A375 cells
+"<|endoftext|>
+RRGRRG",True,Jurkat cells
+"<|endoftext|>
+RWQW",True,A549 cells
+"<|endoftext|>
+QLALQLALQALQAALQLA",True,Aortic endothelial cells
+"<|endoftext|>
+GGVCPKILRRCRRDSDCPGACICRGNGYCGSGSD",True,HeLa cells
+"<|endoftext|>
+CLGTYTQDFNKFHTFPQTAIGVGAP",True,A375 cells
+"<|endoftext|>
+RRRRRR",True,Jurkat cells
+"<|endoftext|>
+TSPLNIHNGQKL",True,other
+"<|endoftext|>
+GGLIKTKRKRKKQRVKIAYEEIFVKNM",True,A375 cells
+"<|endoftext|>
+KDCRWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+CGRKKRAARQRAARAARPPQ",True,other
+"<|endoftext|>
+KWKWKWKWKW",True,MCF7 cells
+"<|endoftext|>
+GFAWNVCVYRNGVRVCHRRAN",True,RAW264.7 cells
+"<|endoftext|>
+CLGTYTQDFNKFHTFPQTAIGVGAP",True,A375 cells
+"<|endoftext|>
+LSQETFRLWRRLRR",True,HeLa cells
+"<|endoftext|>
+GFAWNVCVYRNGVRVCHRRAN",True,RAW264.7 cells
+"<|endoftext|>
+KMDCRPRPKCXKK",True,NIH-3T3 cells
+"<|endoftext|>
+HATKSQNINF",True,U87 cells
+"<|endoftext|>
+IPMIK",True,other
+"<|endoftext|>
+NTGTWLKYHS",True,U87 cells
+"<|endoftext|>
+RRGRRG",True,Jurkat cells
+"<|endoftext|>
+HHHHHHHHRRRRRRRR",True,CHO-K1 cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+HHHHHH",True,other
+"<|endoftext|>
+CGRKKRWWRQRWWRWWRPPQ",True,CHO cells
+"<|endoftext|>
+LRSSVVRSRATLR",True,HeLa cells
+"<|endoftext|>
+KQRMAAKELAR",True,HEK293 cells
+"<|endoftext|>
+RKKRRQRR",True,Jurkat cells
+"<|endoftext|>
+HEHEHEHEHEHEHEHEHEHEHEHEEFGGGGGYGRGRGRGRGRGRG",True,HeLa cells
+"<|endoftext|>
+KMDXRWRWKXCKK",True,NIH-3T3 cells
+"<|endoftext|>
+NYRWRCKN",True,A549 cells
+"<|endoftext|>
+KALGISYGRKK",True,MCF7 cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+GRRRRRRRR",True,CHO-K1 cells
+"<|endoftext|>
+KGKKIFIMK",True,U373 MG cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+KMDCRWRPKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+CASGQQGLLKLC",True,U87 cells
+"<|endoftext|>
+HHHHHH",True,other
+"<|endoftext|>
+FKCRRWQWRMKK",True,A549 cells
+"<|endoftext|>
+CLGTYTQDFNKFHTFPQTAIGVGAP",True,A375 cells
+"<|endoftext|>
+RRRRRR",True,Jurkat cells
+"<|endoftext|>
+RQIKIWFQNRRMKAKK",True,HaCaT cells
+"<|endoftext|>
+KALKKLLAKWLAAAKALL",True,Aortic endothelial cells
+"<|endoftext|>
+RLWMRWYSPWTRRYG",True,CHO cells
+"<|endoftext|>
+MVRRFLVTLRIRRACGPPRVRV",True,MCF7 cells
+"<|endoftext|>
+KALGISYGRKK",True,MCF7 cells
+"<|endoftext|>
+QLALQLALQALQAALQLA",True,Aortic endothelial cells
+"<|endoftext|>
+AEQNPIYWARYADWLFTTPLLLLDLALLVDADEGTCG",True,MCF7 cells
+"<|endoftext|>
+KMDCRWRWKCSKK",True,NIH-3T3 cells
+"<|endoftext|>
+RRRRRRRR",True,other
+"<|endoftext|>
+HATKSQNINF",True,U87 cells
+"<|endoftext|>
+RRRQRRKKR",True,NIH-3T3 cells
+"<|endoftext|>
+RKKRRQRR",True,Jurkat cells
+"<|endoftext|>
+KLXLKLXLKXLKAXLKLXGC",True,A549 cells
+"<|endoftext|>
+GRRRRRRRRRRRRRRRR",True,CHO-K1 cells
+"<|endoftext|>
+RLYMRYYSPTTRRYG",True,CHO cells
+"<|endoftext|>
+IWLTALKFLGKHAAKHEAKQQLSKL",True,HeLa cells
+"<|endoftext|>
+TWLKYH",True,HEK293 cells
+"<|endoftext|>
+LKTLATALTKLAKTLTTL",True,Aortic endothelial cells
+"<|endoftext|>
+RRGRRG",True,Jurkat cells
+"<|endoftext|>
+CTWLKY",True,U87 cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+KALKKLLAKWLAAAKALL",True,Aortic endothelial cells
+"<|endoftext|>
+RLWMRWYSPRTRAYGC",True,A549 cells
+"<|endoftext|>
+FQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+RLFMRFYSPTTRRYG",True,CHO cells
+"<|endoftext|>
+RLWMRWYSPATRRYG",True,CHO cells
+"<|endoftext|>
+AEQNPIYWARYADWLFTTPLLLLDLALLVDADEGTCG",True,MCF7 cells
+"<|endoftext|>
+QLALQLALQALQAALQLA",True,Aortic endothelial cells
+"<|endoftext|>
+RQIKIWFQARRMKWKK",True,HaCaT cells
+"<|endoftext|>
+RWRWRWRWRW",True,A549 cells
+"<|endoftext|>
+KALAKALAKLWKALAKAA",True,Aortic endothelial cells
+"<|endoftext|>
+VSRRRRRRGGRRRR",True,other
+"<|endoftext|>
+HHHHHHHHRRRRRRRRRRRRRRR",True,CHO-K1 cells
+"<|endoftext|>
+RVRVFVVHIPRLT",True,MCF7 cells
+"<|endoftext|>
+BXRXRXXRXRXXRXRX",True,HeLa cells
+"<|endoftext|>
+BRRXRRXRRX",True,HeLa cells
+"<|endoftext|>
+GFAWNVCVYRNGVRVCHRRAN",True,RAW264.7 cells
+"<|endoftext|>
+GNGEQREMAVSRLRDCLDRQA",True,HeLa cells
+"<|endoftext|>
+CAAKA",True,A375 cells
+"<|endoftext|>
+MAGCGCPCGCGA",True,RAW264.7 cells
+"<|endoftext|>
+PRPLPFPRPG",True,RAW264.7 cells
+"<|endoftext|>
+CLGTYTQDFNKFHTFPQTAIGVGAP",True,A375 cells
+"<|endoftext|>
+KQRFIRGLRKRLRKFRNKIKEK",True,HeLa cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHAK",True,Human bowes melanoma cells
+"<|endoftext|>
+KRRRRRRRRRRE",True,MCF7 cells
+"<|endoftext|>
+CREKAPLGLAGRKKRRQRRRC",True,U87 cells
+"<|endoftext|>
+GKKKKRKREKL",True,MCF7 cells
+"<|endoftext|>
+KALSEVQGWKQRMAAKELAR",True,HEK293 cells
+"<|endoftext|>
+NTCTWLKYH",True,U87 cells
+"<|endoftext|>
+KQRMAAKELAR",True,HEK293 cells
+"<|endoftext|>
+RQIAIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+FFAARTMIWYPGAWYKRI",True,MDA-MB-231 cells
+"<|endoftext|>
+CRWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+PLIKLRLDRGQF",True,HEK293 cells
+"<|endoftext|>
+TLPNSNHIKQGL",True,other
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+CRWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+NTCTWLKYH",True,U87 cells
+"<|endoftext|>
+KALAALLKKLAKLLAALK",True,Aortic endothelial cells
+"<|endoftext|>
+RHVYHVLLSQ",True,U87 cells
+"<|endoftext|>
+CAAKA",True,A375 cells
+"<|endoftext|>
+VPTLQ",True,other
+"<|endoftext|>
+RQIKIWFANRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+KLALKALKKLKADLKLA",True,HEK293 cells
+"<|endoftext|>
+KCRWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+KMDXRPRPKXCKK",True,NIH-3T3 cells
+"<|endoftext|>
+CTWLKY",True,U87 cells
+"<|endoftext|>
+KALAALLKKWAKLLAALK",True,Aortic endothelial cells
+"<|endoftext|>
+XWXWXWXW",True,MDA-MB-231 cells
+"<|endoftext|>
+KWKWKWKW",True,MCF7 cells
+"<|endoftext|>
+RRRRRRRRRRR",True,CHO-K1 cells
+"<|endoftext|>
+GKKKKRKREKL",True,MCF7 cells
+"<|endoftext|>
+GRRRR",True,CHO-K1 cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+RRRRRWWWRRRR",True,A549 cells
+"<|endoftext|>
+CRRWQWRMKKLGC",True,A549 cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+TCTWLKYH",True,U87 cells
+"<|endoftext|>
+PFVYLI",True,other
+"<|endoftext|>
+LLIILRRRIRKQAHAHSA",True,Human bowes melanoma cells
+"<|endoftext|>
+TWLKYH",True,HEK293 cells
+"<|endoftext|>
+RRRRRR",True,Jurkat cells
+"<|endoftext|>
+RRWWRRWRR",True,MDA-MB-231 cells
+"<|endoftext|>
+RRRRRRR",True,Jurkat cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+RRWQW",True,A549 cells
+"<|endoftext|>
+XWXW",True,MDA-MB-231 cells
+"<|endoftext|>
+LKTLATALTKLAKTLTTL",True,Aortic endothelial cells
+"<|endoftext|>
+AAKLLPDLLAAP",True,HEK293 cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+RRWQWR",True,A549 cells
+"<|endoftext|>
+GLRKRLRKFRNKIKEKGLRKRLRKFRNKIKEK",True,HEK293 cells
+"<|endoftext|>
+MVRRFLVTLRIRRACGPPRVRV",True,MCF7 cells
+"<|endoftext|>
+KARKKKLNKKGRKMAGRKRGRPKK",True,MCF7 cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSA",True,Human bowes melanoma cells
+"<|endoftext|>
+RLFMRFYSPTTRRYG",True,CHO cells
+"<|endoftext|>
+AAVLLPVLLAAP",True,HEK293 cells
+"<|endoftext|>
+LRSSVVRSRATLRGLRKRLRKFRNKIKEK",True,HeLa cells
+"<|endoftext|>
+MIIYRDLISH",True,CHO cells
+"<|endoftext|>
+LLIILRARIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+RAGLQFPVGRLLRRL",True,other
+"<|endoftext|>
+PRPLPFPRPG",True,RAW264.7 cells
+"<|endoftext|>
+GGGGRRWWRRWRR",True,CHO-K1 cells
+"<|endoftext|>
+KCFQWQRNMRKVRGPPVSCIKR",True,other
+"<|endoftext|>
+QQRKRKIWSKLAPDGTTLVKLVAGIG",True,HEK293 cells
+"<|endoftext|>
+KALAKALAKLWKALAKAA",True,Aortic endothelial cells
+"<|endoftext|>
+RRRRRRR",True,Jurkat cells
+"<|endoftext|>
+CWRWRWRWRC",True,other
+"<|endoftext|>
+RAGLQFPVGRLLRRL",True,other
+"<|endoftext|>
+MDCRWRWKXXKK",True,NIH-3T3 cells
+"<|endoftext|>
+KKAAPAKKAAAKKAPAKKAAAKK",True,other
+"<|endoftext|>
+MAGCGCPCGCGA",True,RAW264.7 cells
+"<|endoftext|>
+RRRRRR",True,Jurkat cells
+"<|endoftext|>
+TCTWLKYH",True,U87 cells
+"<|endoftext|>
+KIIIIDGSTSRDHVLHEYVNAAGIT",True,HeLa cells
+"<|endoftext|>
+EEEEEEEEPLGLAGRRRRRRRRN",True,A549 cells
+"<|endoftext|>
+RLAMRWYSPTTRRYG",True,CHO cells
+"<|endoftext|>
+RGPRRQPRRHRRPRR",True,HeLa cells
+"<|endoftext|>
+RRRRRRR",True,Jurkat cells
+"<|endoftext|>
+LLIILRRRIRKAAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+KMDXRPRPKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+KALAALLKKLAKLLAALK",True,Aortic endothelial cells
+"<|endoftext|>
+RLWMRWYSPTTRRAG",True,CHO cells
+"<|endoftext|>
+RQIKAWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+GTKMIFVGIKKKEERADLIAYLKKA",True,U373 MG cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+LLIILRRRIARKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+CDAATATRGRSAASRPTERPRAPARSASRPRRPVD",True,A375 cells
+"<|endoftext|>
+KWKWKWKWKW",True,MCF7 cells
+"<|endoftext|>
+RRRQRRKKR",True,Jurkat cells
+"<|endoftext|>
+KRKIFCL",True,MDA-MB-231 cells
+"<|endoftext|>
+CREKA",True,U87 cells
+"<|endoftext|>
+WWWRRRRWWW",True,MCF7 cells
+"<|endoftext|>
+RRRQRRKKR",True,Jurkat cells
+"<|endoftext|>
+RLVMRVYSPTTRRYG",True,CHO cells
+"<|endoftext|>
+XFXRXFXRXFXR",True,MDA-MB-231 cells
+"<|endoftext|>
+XFXRXFXRXFXR",True,MDA-MB-231 cells
+"<|endoftext|>
+KLKLALALALAVQRKRQKLMPC",True,U87 cells
+"<|endoftext|>
+KLWMRWYSPWTRRYG",True,CHO cells
+"<|endoftext|>
+KLALKLALKALKAALK",True,Aortic endothelial cells
+"<|endoftext|>
+CAAKA",True,A375 cells
+"<|endoftext|>
+MSGYGRKKRRQRRRGGGPGVGRKRLDRNGVGVPGVGVPGVGVPGVGVPGVGVPGVGVPGV
+GVPGVGVPGVGVPGVGVPGVGVPGVGVPGVGRKRLDRNGVGVPGVGVPGVGVPGVGVPGV
+GVPGVGVPGVGVPGVGVPGVGVPGVGVPGVGVPGVGVPGVGRKRLDRNGVGVPGVGVPGV
+GVPGVGVPGVGVPGVGVPGVGVPGVGVPGVGVPGVGVPGVGVPGVGVPGVGRKRLDRNGV
+GVPGVGVPGVGVPGVGVPGVGVPGVGVPG",True,MDA-MB-231 cells
+"<|endoftext|>
+KGKKIFIMK",True,U373 MG cells
+"<|endoftext|>
+ACGRGRGRCRGRGRGCG",True,HeLa cells
+"<|endoftext|>
+TCTWLKYH",True,U87 cells
+"<|endoftext|>
+PWPRVPWRWGSTSRDHMVLHEYVNAAGIT",True,HeLa cells
+"<|endoftext|>
+YGRKKRRQRRRGTALDWSWLQTE",True,MCF7 cells
+"<|endoftext|>
+TKRRITPKKVIDVRSVTTEINT",True,HeLa cells
+"<|endoftext|>
+HHHHHHHHHHHHRRRRRRRRRRRRRRR",True,CHO-K1 cells
+"<|endoftext|>
+KGKKIFIMK",True,U373 MG cells
+"<|endoftext|>
+KLALKLALKALKAALK",True,Aortic endothelial cells
+"<|endoftext|>
+LLIILRARIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+PRPLPFPRPG",True,RAW264.7 cells
+"<|endoftext|>
+KMDCRPRPKXCKK",True,NIH-3T3 cells
+"<|endoftext|>
+RQIKIWFANRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+RRRRRR",True,Jurkat cells
+"<|endoftext|>
+RGERPPRCRGDRGPDC",True,MDA-MB-231 cells
+"<|endoftext|>
+RQIKIWFQNRRMKWKK",True,other
+"<|endoftext|>
+KYRSGAITIGY",True,other
+"<|endoftext|>
+GTKMIFVGIKKKEERADLIAYLKKA",True,U373 MG cells
+"<|endoftext|>
+LKTLATALTKLAKTLTTL",True,Aortic endothelial cells
+"<|endoftext|>
+CRGDK",True,HEK293 cells
+"<|endoftext|>
+GCRRLCYKQRCVTYCRGR",True,HeLa cells
+"<|endoftext|>
+LSRTRAAAPNSRIFTRGLRKRLRKFRNKIKEK",True,HeLa cells
+"<|endoftext|>
+KKKWWWWKKK",True,MCF7 cells
+"<|endoftext|>
+CVTVLALGALAGVGVG",True,A375 cells
+"<|endoftext|>
+KLALKALKKLKADLKLA",True,HEK293 cells
+"<|endoftext|>
+YRDRFAFQPH",True,U87 cells
+"<|endoftext|>
+PLIKLRLDRGQF",True,HEK293 cells
+"<|endoftext|>
+RRRRRRR",True,Jurkat cells
+"<|endoftext|>
+TCTWLKYHS",True,U87 cells
+"<|endoftext|>
+RRWWRRWRR",True,MDA-MB-231 cells
+"<|endoftext|>
+CGALFLGWLGAAGSTMGA",True,A375 cells
+"<|endoftext|>
+GFAWNVCVYRNGVRVCHRRAN",True,RAW264.7 cells
+"<|endoftext|>
+KCXLKLXCKXLKACLKLXG",True,A549 cells
+"<|endoftext|>
+GGGGRRWFRRWRR",True,CHO-K1 cells
+"<|endoftext|>
+ACDNPGNETCGGGS",True,other
+"<|endoftext|>
+VQWRIRVAVIRK",True,other
+"<|endoftext|>
+KRRRGGKKRRD",True,MCF7 cells
+"<|endoftext|>
+RLWMRWYSPWTRRYG",True,CHO cells
+"<|endoftext|>
+WWWKKKKWWW",True,MCF7 cells
+"<|endoftext|>
+RKLRRLLRRLKRL",True,HeLa cells
+"<|endoftext|>
+MIIYRDLISH",True,CHO cells
+"<|endoftext|>
+KLKLALALALAVQRKRQKLMPC",True,U87 cells
+"<|endoftext|>
+NTCTWLKYHS",True,U87 cells
+"<|endoftext|>
+QQRKRKIWSKLAPDGTTLVKLVAGIG",True,HEK293 cells
+"<|endoftext|>
+FFAARTMIWYPGAWYKRI",True,MDA-MB-231 cells
+"<|endoftext|>
+LLRILRRSIRRARRAIRR",True,CHO-K1 cells
+"<|endoftext|>
+CYGRKKRRQRRR",True,A375 cells
+"<|endoftext|>
+LLIILRARIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+CRFRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+CPMLKE",True,A375 cells
+"<|endoftext|>
+AAKLLPDLLAAP",True,HEK293 cells
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+CHHRRRRHHC",True,other
+"<|endoftext|>
+QIKIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+GTKMIFVGIKKKEERADLIAYLKKA",True,U373 MG cells
+"<|endoftext|>
+KWKWKWKW",True,MCF7 cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+RQIKIWFQNRAMKWKK",True,HaCaT cells
+"<|endoftext|>
+CAAVALLPAVLLAHLLAP",True,A375 cells
+"<|endoftext|>
+RRHRHRHRHR",True,MDA-MB-231 cells
+"<|endoftext|>
+KKKKKKKKK",True,CHO cells
+"<|endoftext|>
+GGGGRRWFRRFRR",True,CHO-K1 cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+GFAWNVCVYRNGVRVCHRRAN",True,RAW264.7 cells
+"<|endoftext|>
+KRRRRRRRRRRELTFKEYWDQLTSAA",True,MCF7 cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+CGRKKRRQRAARRPPQ",True,other
+"<|endoftext|>
+CRWRWKCG",True,NIH-3T3 cells
+"<|endoftext|>
+LLRARWRRRRSRRFR",True,HeLa cells
+"<|endoftext|>
+MAGCGCPCGCGA",True,RAW264.7 cells
+"<|endoftext|>
+RRRRRR",True,Jurkat cells
+"<|endoftext|>
+GGGGRRWFRRWRR",True,CHO-K1 cells
+"<|endoftext|>
+CASGQQGLLKLC",True,U87 cells
+"<|endoftext|>
+RRRRRRR",True,Jurkat cells
+"<|endoftext|>
+KLKLALALALAVQRKRQKLMPC",True,U87 cells
+"<|endoftext|>
+RQIKIWFQNRAMKWKK",True,HaCaT cells
+"<|endoftext|>
+RKKRRQRR",True,Jurkat cells
+"<|endoftext|>
+MSGYGRKKRRQRRRGGGRKRLDRNGGGPGVGVPGVGVPGVGVPGFGVPGVGVPGVGVPGF
+GVPGVGVPGGGVPGGGVPGVGVPGAGVPGVGVPGGGVPVGVPGVGVPGVGVPGFGVPGVG
+VPGVGVPGFGVPGVGVPGGGVPGGGVPGVGVPGAGVPGVGVPGGGVPGWPC",True,MDA-MB-231 cells
+"<|endoftext|>
+YARVRRRGPRR",True,HeLa cells
+"<|endoftext|>
+CGNKRTR",True,MDA-MB-231 cells
+"<|endoftext|>
+CGRKKRRQRLLRRPPQ",True,other
+"<|endoftext|>
+PRPLPFPRPG",True,RAW264.7 cells
+"<|endoftext|>
+RRRRR",True,Jurkat cells
+"<|endoftext|>
+RRRRRR",True,Jurkat cells
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+RQIKIWFQNRRMK",True,HaCaT cells
+"<|endoftext|>
+PLIKLRLDRGQF",True,HEK293 cells
+"<|endoftext|>
+CHHRRRRHHC",True,other
+"<|endoftext|>
+YNNFAYSVFL",True,U87 cells
+"<|endoftext|>
+KALAALLKKWAKLLAALK",True,Aortic endothelial cells
+"<|endoftext|>
+CGRKKRWWRQRWWRWWRPPQ",True,CHO cells
+"<|endoftext|>
+TVDNPASTTNKDKLFAVRK",True,HEK293 cells
+"<|endoftext|>
+HHHHHHHHRRRRRRRRRRRRRRR",True,CHO-K1 cells
+"<|endoftext|>
+KLALKLALKAWKAALKLA",True,Aortic endothelial cells
+"<|endoftext|>
+CHHHHHRRWQWRHHHHHC",True,A549 cells
+"<|endoftext|>
+CAAKA",True,A375 cells
+"<|endoftext|>
+CGNARTA",True,MDA-MB-231 cells
+"<|endoftext|>
+XWXWXWXW",True,MDA-MB-231 cells
+"<|endoftext|>
+WFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+CYGRKKRRQRRR",True,A375 cells
+"<|endoftext|>
+CGRKKRAARQRRRPPQ",True,CHO cells
+"<|endoftext|>
+PRPLPFPRPG",True,RAW264.7 cells
+"<|endoftext|>
+QLALQLALQALQAALQLA",True,Aortic endothelial cells
+"<|endoftext|>
+TRQARRNRRRRWRERQRGC",True,Jurkat cells
+"<|endoftext|>
+XFXRXFXRXFXR",True,MDA-MB-231 cells
+"<|endoftext|>
+AAKLLPDLLAAP",True,HEK293 cells
+"<|endoftext|>
+RRWQWRMKK",True,A549 cells
+"<|endoftext|>
+QLALQLALQALQAALQLA",True,Aortic endothelial cells
+"<|endoftext|>
+IPLVVPLC",True,other
+"<|endoftext|>
+SRRRRRRRRR",True,A549 cells
+"<|endoftext|>
+GGGGRRWFRRWRR",True,CHO-K1 cells
+"<|endoftext|>
+LIRLWSHLIHIWFQNRRLKWKKKC",True,other
+"<|endoftext|>
+KLXLKLXLKXLKAXLKLXGC",True,A549 cells
+"<|endoftext|>
+CRRRRRRRRVKRKKKP",True,other
+"<|endoftext|>
+LKTLATALTKLAKTLTTL",True,Aortic endothelial cells
+"<|endoftext|>
+TRQARRNRRRRWRERQRGC",True,Jurkat cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+GTKMIFVGIKKKEERADLIAYLKKA",True,U373 MG cells
+"<|endoftext|>
+RRRRRRR",True,Jurkat cells
+"<|endoftext|>
+EEEAAGRKRKKRT",True,other
+"<|endoftext|>
+CTWLKYH",True,U87 cells
+"<|endoftext|>
+XWXW",True,MDA-MB-231 cells
+"<|endoftext|>
+SRRRRRRRRR",True,A549 cells
+"<|endoftext|>
+LKTLATALTKLAKTLTTL",True,Aortic endothelial cells
+"<|endoftext|>
+RLWMRWYSPTTRRYG",True,CHO cells
+"<|endoftext|>
+FFFFGRRRRRRRRGC",True,HeLa cells
+"<|endoftext|>
+NVFKGNTISDKISFNFSDK",True,CHO-K1 cells
+"<|endoftext|>
+RWQWR",True,A549 cells
+"<|endoftext|>
+KALSEVQGWKQRMAAKELAR",True,HEK293 cells
+"<|endoftext|>
+KIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+CGRKKRAARQRAARAARPPQ",True,other
+"<|endoftext|>
+CLGTYTQDFNKFHTFPQTAIGVGAP",True,A375 cells
+"<|endoftext|>
+IWRYSLASQQ",True,U87 cells
+"<|endoftext|>
+RRRRWWWWRRRR",True,CHO-K1 cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+KGKKIFIMK",True,U373 MG cells
+"<|endoftext|>
+TVDNPASTTNKDKLFAVRK",True,HEK293 cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+MAGCGCPCGCGA",True,RAW264.7 cells
+"<|endoftext|>
+KALKKLLAKWLAAAKALL",True,Aortic endothelial cells
+"<|endoftext|>
+KRRRGGKKRRDLTFKEYWDQLTSAA",True,MCF7 cells
+"<|endoftext|>
+CHHHHHRRWQWRHHHHHC",True,A549 cells
+"<|endoftext|>
+AAVLLPVLLAAP",True,HEK293 cells
+"<|endoftext|>
+KKLFKKILKKL",True,MCF7 cells
+"<|endoftext|>
+FFGRRRRRRRGC",True,HeLa cells
+"<|endoftext|>
+NTGTWLKYHS",True,U87 cells
+"<|endoftext|>
+TRQARRNRRRRWRERQRGC",True,Jurkat cells
+"<|endoftext|>
+QNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+RRRRRRRRRGGGG",True,A549 cells
+"<|endoftext|>
+CGRKKRWWRQRWWRWWRPPQ",True,CHO cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHAK",True,Human bowes melanoma cells
+"<|endoftext|>
+ACSGSGSGCGSGSGSCG",True,HeLa cells
+"<|endoftext|>
+XRXRXRXRXRXR",True,MDA-MB-231 cells
+"<|endoftext|>
+MDCRWRWKXXKK",True,NIH-3T3 cells
+"<|endoftext|>
+KLWMRWYSPWTRRYG",True,CHO cells
+"<|endoftext|>
+XWXWXWXW",True,MDA-MB-231 cells
+"<|endoftext|>
+GLRKRLRKFRNKIKEKGLRKRLRKFRNKIKEK",True,HEK293 cells
+"<|endoftext|>
+GLRKRLRKFRNKIKEKGLRKRLRKFRNKIKEK",True,HEK293 cells
+"<|endoftext|>
+KLALKLALKAWKAALKLA",True,Aortic endothelial cells
+"<|endoftext|>
+KMDCRWRWKCKK",True,NIH-3T3 cells
+"<|endoftext|>
+KMDXRWRWKXXKK",True,NIH-3T3 cells
+"<|endoftext|>
+CGRKKRAARQRRRPPQ",True,CHO cells
+"<|endoftext|>
+LLHILRRSIRKQAHAIRK",True,CHO-K1 cells
+"<|endoftext|>
+RWRRWRRWRRWR",True,CHO-K1 cells
+"<|endoftext|>
+LLHILRRSIRRQAHAIRR",True,CHO-K1 cells
+"<|endoftext|>
+DCRWRWKXCKK",True,NIH-3T3 cells
+"<|endoftext|>
+GGEEEEEEEEPLGLAGRRRRRRRRGG",True,A375 cells
+"<|endoftext|>
+RLWMRWYSPTARRYG",True,CHO cells
+"<|endoftext|>
+KLALKLALKAWKAALKLA",True,Aortic endothelial cells
+"<|endoftext|>
+MSGPGVGVPGVGVPGVGVPGFGVPGVGVPGVGVPGFGVPGVGVPGGGVPGGGVPGVGVPG
+AGVPGVGVPGGGVPGVGVPGVGVPGVGVPGFGVPGVGVPGVGVPGFGVPGVGVPGGGVPG
+GGVPGVGVPGAGVPGVGVPGGGVPGWPC",True,MDA-MB-231 cells
+"<|endoftext|>
+PRPLPFPRPG",True,RAW264.7 cells
+"<|endoftext|>
+QIKIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+RRRRRRR",True,Jurkat cells
+"<|endoftext|>
+IWRYSLASQQ",True,U87 cells
+"<|endoftext|>
+HHHHHHHHHHHHHHHHRRRRRRRRRRRRRRR",True,CHO-K1 cells
+"<|endoftext|>
+RQIKIWFQNRRAKWKK",True,HaCaT cells
+"<|endoftext|>
+AWARAWARAWAR",True,MDA-MB-231 cells
+"<|endoftext|>
+GRKAARAPGRRKQ",True,other
+"<|endoftext|>
+KRKIFCL",True,MDA-MB-231 cells
+"<|endoftext|>
+CREKAPLGLAGRKKRRQRRRC",True,U87 cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+RQIKAWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+KLALKLALKAWKAALKLA",True,Aortic endothelial cells
+"<|endoftext|>
+GRGDSPRRSPRR",True,HeLa cells
+"<|endoftext|>
+KARKKKLNKKGRKMAGRKRGRPKK",True,MCF7 cells
+"<|endoftext|>
+EEE",True,other
+"<|endoftext|>
+MAGCGCPCGCGA",True,RAW264.7 cells
+"<|endoftext|>
+AQIKIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+VPMLK",True,other
+"<|endoftext|>
+KLALKLALKAWKAALKLA",True,Aortic endothelial cells
+"<|endoftext|>
+MSGYGRKKRRQRRRGGGRKRLDRNGGGPGVGVPGVGVPGVGVPGFGVPGVGVPGVGVPGF
+GVPGVGVPGGGVPGGGVPGVGVPGAGVPGVGVPGGGVPVGVPGVGVPGVGVPGFGVPGVG
+VPGVGVPGFGVPGVGVPGGGVPGGGVPGVGVPGAGVPGVGVPGGGVPGWPC",True,MDA-MB-231 cells
+"<|endoftext|>
+KWKWKWKW",True,MCF7 cells
+"<|endoftext|>
+GTKMIFVGIKKKEERADLIAYLKKA",True,U373 MG cells
+"<|endoftext|>
+RRRRRR",True,Jurkat cells
+"<|endoftext|>
+CASGQQGLLKLC",True,U87 cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+CLLYWFRRRHRHHRRRHRRC",True,CHO-K1 cells
+"<|endoftext|>
+RQAKIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+FKKLKKLFSKLWNWKCRGDKGPDC",True,A549 cells
+"<|endoftext|>
+KMDXRWRWKXXKK",True,NIH-3T3 cells
+"<|endoftext|>
+QQRKRKIWSILAPLGTTLVKLVAGIG",True,HEK293 cells
+"<|endoftext|>
+CAAKA",True,A375 cells
+"<|endoftext|>
+LLIILRRRIARKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+KMDXRPRPKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+MSGPGVGVPGVGVPGVGVPGFGVPGVGVPGVGVPGFGVPGVGVPGGGVPGGGVPGVGVPG
+AGVPGVGVPGGGVPGVGVPGVGVPGVGVPGFGVPGVGVPGVGVPGFGVPGVGVPGGGVPG
+GGVPGVGVPGAGVPGVGVPGGGVPGWPC",True,MDA-MB-231 cells
+"<|endoftext|>
+CYGRKKRRQRRR",True,A375 cells
+"<|endoftext|>
+WWWKKKKWWW",True,MCF7 cells
+"<|endoftext|>
+IPLVVPLC",True,other
+"<|endoftext|>
+RRRRRRREEEEEEE",True,MDA-MB-231 cells
+"<|endoftext|>
+KWKWKWKW",True,MCF7 cells
+"<|endoftext|>
+RRRRRR",True,Jurkat cells
+"<|endoftext|>
+WWKKKKWW",True,MCF7 cells
+"<|endoftext|>
+CRWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+MAGCGCPCGCGA",True,RAW264.7 cells
+"<|endoftext|>
+KQPRIKRKK",True,other
+"<|endoftext|>
+GRKKRRQRRRPPQGYG",True,other
+"<|endoftext|>
+CLLYWFRRRHRHHRRRHRRC",True,CHO-K1 cells
+"<|endoftext|>
+CAAVALLPAVLLAHLLAP",True,A375 cells
+"<|endoftext|>
+CRWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+AGYLLGKINLKALAALAKKIL",True,other
+"<|endoftext|>
+LKTLATALTKLAKTLTTL",True,Aortic endothelial cells
+"<|endoftext|>
+KMDCRWRPKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+WWWKKKKWWW",True,MCF7 cells
+"<|endoftext|>
+RRRRR",True,Jurkat cells
+"<|endoftext|>
+MRRIRPRPPRLPRPRPRPLPFPRPGGCYPG",True,other
+"<|endoftext|>
+LLIILRRRIRKQAHAASK",True,Human bowes melanoma cells
+"<|endoftext|>
+ACRGSGRGCGRGSGRCG",True,HeLa cells
+"<|endoftext|>
+PRPLPFPRPG",True,RAW264.7 cells
+"<|endoftext|>
+MAGCGCPCGCGA",True,RAW264.7 cells
+"<|endoftext|>
+RWRWKXXKK",True,NIH-3T3 cells
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+KLAAALLKKWKKLAAALL",True,Aortic endothelial cells
+"<|endoftext|>
+NVFKGNTISDKISFNFSDK",True,CHO-K1 cells
+"<|endoftext|>
+KRRRGGKKRRD",True,MCF7 cells
+"<|endoftext|>
+KMDXRWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+VRRFLVTLRIRRA",True,MCF7 cells
+"<|endoftext|>
+CVTVLALGALAGVGVG",True,A375 cells
+"<|endoftext|>
+YLKFIPLKDAIWKIK",True,HeLa cells
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+HHHHHHHHHHHHHHHHRRRRRRRRRRRRRRR",True,CHO-K1 cells
+"<|endoftext|>
+RXRRXRRXRRXR",True,CHO-K1 cells
+"<|endoftext|>
+VQLRRRWC",True,U87 cells
+"<|endoftext|>
+XWXWXWXWXWXW",True,MDA-MB-231 cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+RRRRRR",True,Jurkat cells
+"<|endoftext|>
+MSGYGRKKRRQRRRGGGPGVGVPGVGVPGVGVPGFGVPGVGVPGVGVPGFGVPGVGVPGG
+GVPGGGVPGVGVPGAGVPGVGVPGGGVPVGVPGVGVPGVGVPGFGVPGVGVPGVGVPGFG
+VPGVGVPGGGVPGGGVPGVGVPGAGVPGVGVPGGGVPGWPC",True,MDA-MB-231 cells
+"<|endoftext|>
+KALGISYGRKK",True,MCF7 cells
+"<|endoftext|>
+CGALFLGWLGAAGSTMGA",True,A375 cells
+"<|endoftext|>
+RRGRRG",True,Jurkat cells
+"<|endoftext|>
+RFFR",True,other
+"<|endoftext|>
+CGNARTA",True,MDA-MB-231 cells
+"<|endoftext|>
+GFAWNVCVYRNGVRVCHRRAN",True,RAW264.7 cells
+"<|endoftext|>
+GRRRRRRRRRRRRRRRR",True,CHO-K1 cells
+"<|endoftext|>
+RRRRNRTRRNRRRVRGC",True,CHO-K1 cells
+"<|endoftext|>
+LLIILRRRIRAQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+CRWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+MSGYGRKKRRQRRRGGGRKRLDRNGGGPGVGVPGVGVPGVGVPGFGVPGVGVPGVGVPGF
+GVPGVGVPGGGVPGGGVPGVGVPGAGVPGVGVPGGGVPVGVPGVGVPGVGVPGFGVPGVG
+VPGVGVPGFGVPGVGVPGGGVPGGGVPGVGVPGAGVPGVGVPGGGVPGWPC",True,MDA-MB-231 cells
+"<|endoftext|>
+YQKQAKIMCS",True,U87 cells
+"<|endoftext|>
+GGGGRRWFRRWRR",True,CHO-K1 cells
+"<|endoftext|>
+CGRRMKWKKXXXXGGGGEEEERRRR",True,MCF7 cells
+"<|endoftext|>
+IWRYSLASQQ",True,U87 cells
+"<|endoftext|>
+KLALKALKKLKADLKLA",True,HEK293 cells
+"<|endoftext|>
+LLIILRRRIARKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+GRKKRRQRRRPPQRKC",True,HEK293 cells
+"<|endoftext|>
+QLALQLALQALQAALQLA",True,Aortic endothelial cells
+"<|endoftext|>
+XWXW",True,MDA-MB-231 cells
+"<|endoftext|>
+GFAWNVCVYRNGVRVCHRRAN",True,RAW264.7 cells
+"<|endoftext|>
+RKKRRARRR",True,Jurkat cells
+"<|endoftext|>
+RWRWRWRWRW",True,A549 cells
+"<|endoftext|>
+RQIKIWFQNRRMKWKKTYADFIASGRTGRRNAI",True,CHO-K1 cells
+"<|endoftext|>
+RRRQRRKKR",True,NIH-3T3 cells
+"<|endoftext|>
+TPPTSAKKRKL",True,HeLa cells
+"<|endoftext|>
+GGLIKTKRKRKKQRVKIAYEEIFVKNM",True,A375 cells
+"<|endoftext|>
+IPLVVPLRRRRRRRRC",True,MCF7 cells
+"<|endoftext|>
+XWXW",True,MDA-MB-231 cells
+"<|endoftext|>
+HATKSQNINF",True,U87 cells
+"<|endoftext|>
+AAVLLPVLLAAP",True,HEK293 cells
+"<|endoftext|>
+AEADKPRRLGRLK",True,HeLa cells
+"<|endoftext|>
+QIKIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+CDAATATRGRSAASRPTERPRAPARSASRPRRPVD",True,A375 cells
+"<|endoftext|>
+TRQARRNRRRRWRERQRGC",True,Jurkat cells
+"<|endoftext|>
+MAGCGCPCGCGA",True,RAW264.7 cells
+"<|endoftext|>
+LLIILRRRIRKQAHAASK",True,Human bowes melanoma cells
+"<|endoftext|>
+CAAVALLPAVLLAHLLAP",True,A375 cells
+"<|endoftext|>
+RRRRR",True,Jurkat cells
+"<|endoftext|>
+GFAWNVCVYRNGVRVCHRRAN",True,RAW264.7 cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+VRRFLVTLRIRRA",True,MCF7 cells
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+KLWMRWYSPWTRRYG",True,CHO cells
+"<|endoftext|>
+WFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+CVTVLALGALAGVGVG",True,A375 cells
+"<|endoftext|>
+KLALQLALQALQAALQLA",True,Aortic endothelial cells
+"<|endoftext|>
+RRWWWWRR",True,MCF7 cells
+"<|endoftext|>
+KMDXRWRWKCXKK",True,NIH-3T3 cells
+"<|endoftext|>
+KLALQLALQALQAALQLA",True,Aortic endothelial cells
+"<|endoftext|>
+KWRRKLKKLR",True,HeLa cells
+"<|endoftext|>
+RRWPRXILDXHVRRVWR",True,HeLa cells
+"<|endoftext|>
+MTYPRRRFRRRRHRPRS",True,other
+"<|endoftext|>
+LLIILRRAIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+RSQRRFRLWRLLEN",True,HeLa cells
+"<|endoftext|>
+RWQW",True,A549 cells
+"<|endoftext|>
+MIIYRDLISH",True,CHO cells
+"<|endoftext|>
+CGRKKRRQRRAARPPQ",True,CHO cells
+"<|endoftext|>
+KMDCRPRPKCXKK",True,NIH-3T3 cells
+"<|endoftext|>
+HEHEHEHEHEHEHEHEEFGGGGGYGRGRGRGRGRGRG",True,HeLa cells
+"<|endoftext|>
+RQAKIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+GRRRRRRRRRRRR",True,CHO-K1 cells
+"<|endoftext|>
+RLWHLLWRLWRRLHRLLR",True,CHO-K1 cells
+"<|endoftext|>
+NTCTWLKYH",True,U87 cells
+"<|endoftext|>
+CPMLKE",True,A375 cells
+"<|endoftext|>
+RLWMRWYSPTTRRYG",True,CHO cells
+"<|endoftext|>
+BRRRRRR",True,HeLa cells
+"<|endoftext|>
+KMDXRWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+CGRKKRRQRRRPPQ",True,CHO cells
+"<|endoftext|>
+RSQERFDLWKLLEN",True,HeLa cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSA",True,Human bowes melanoma cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+HATKSQNINF",True,U87 cells
+"<|endoftext|>
+GLRKRLRKFRNKIKEKGLRKRLRKFRNKIKEK",True,HEK293 cells
+"<|endoftext|>
+YRDRFAFQPH",True,U87 cells
+"<|endoftext|>
+KIWFQNR",True,HeLa cells
+"<|endoftext|>
+AAKLLPDLLAAP",True,HEK293 cells
+"<|endoftext|>
+MIILIIMGVADLIKKFESISKEE",True,HeLa cells
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+RGGRLSYSRRRFSTSTGRVPGVGGGGGGGAAAAAAAAGLPRHSAVMERLRRRIELCRRHH
+STCEARYEAVSPERLELERQHTFALHQRCIQAKAKRAGKH",True,other
+"<|endoftext|>
+VQLRRRWC",True,U87 cells
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+XWXWXWXW",True,MDA-MB-231 cells
+"<|endoftext|>
+RQIKIWFQNARMKWKK",True,HaCaT cells
+"<|endoftext|>
+VTPHHVLVDEYTGEWVDSQFK",True,other
+"<|endoftext|>
+GGGGRRFWRRWRR",True,CHO-K1 cells
+"<|endoftext|>
+GTKMIFVGIKKKEERADLIAYLKKA",True,U373 MG cells
+"<|endoftext|>
+FQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+RRRRRRRR",True,CHO-K1 cells
+"<|endoftext|>
+RRRRRR",True,Jurkat cells
+"<|endoftext|>
+PRPLPFPRPG",True,RAW264.7 cells
+"<|endoftext|>
+CASGQQGLLKLC",True,U87 cells
+"<|endoftext|>
+KKKKKKKKK",True,CHO cells
+"<|endoftext|>
+GGEEEEEEEEPLGLAGRRRRRRRRGG",True,A375 cells
+"<|endoftext|>
+IWRYSLASQQ",True,U87 cells
+"<|endoftext|>
+TKRRITPKDVIDVRSVTTKINT",True,HeLa cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+CRGDK",True,HEK293 cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+RKKRRARRR",True,Jurkat cells
+"<|endoftext|>
+RHVYHVLLSQ",True,U87 cells
+"<|endoftext|>
+RAIKIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+CDAATATRGRSAASRPTERPRAPARSASRPRRPVD",True,A375 cells
+"<|endoftext|>
+RQIKIWFQNRRMKWKKTYADFIASGRTGRRNAI",True,CHO-K1 cells
+"<|endoftext|>
+KLXLKLXLKXLKACLKLXG",True,A549 cells
+"<|endoftext|>
+CDAATATRGRSAASRPTERPRAPARSASRPRRPVD",True,A375 cells
+"<|endoftext|>
+QQRKRKIWSKLAPDGTTLVKLVAGIG",True,HEK293 cells
+"<|endoftext|>
+CGRRRRRRRRRRRRRRRR",True,CHO-K1 cells
+"<|endoftext|>
+CGRRRRRRRRRRRRRRRR",True,CHO-K1 cells
+"<|endoftext|>
+KALSEVQGWKQRMAAKELAR",True,HEK293 cells
+"<|endoftext|>
+KALAALLKKWAKLLAALK",True,Aortic endothelial cells
+"<|endoftext|>
+NYQRRCKNQN",True,A549 cells
+"<|endoftext|>
+CAAKA",True,A375 cells
+"<|endoftext|>
+XWXW",True,MDA-MB-231 cells
+"<|endoftext|>
+KLALKLALKAWKAALKLA",True,Aortic endothelial cells
+"<|endoftext|>
+KALAALLKKLAKLLAALK",True,Aortic endothelial cells
+"<|endoftext|>
+KARKKKLNKKGRKMAGRKRGRPKK",True,MCF7 cells
+"<|endoftext|>
+RQIKIWFQNRRMK",True,HaCaT cells
+"<|endoftext|>
+TQKEKKAARARSK",True,HeLa cells
+"<|endoftext|>
+CRWRWKCG",True,NIH-3T3 cells
+"<|endoftext|>
+QNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+IPLVVPLC",True,other
+"<|endoftext|>
+LLIILRRRIRKQAHAHSA",True,Human bowes melanoma cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+MSGYGRKKRRQRRRGGGRKRLDRNGGGPGVGVPGVGVPGVGVPGFGVPGVGVPGVGVPGF
+GVPGVGVPGGGVPGGGVPGVGVPGAGVPGVGVPGGGVPVGVPGVGVPGVGVPGFGVPGVG
+VPGVGVPGFGVPGVGVPGGGVPGGGVPGVGVPGAGVPGVGVPGGGVPGWPC",True,MDA-MB-231 cells
+"<|endoftext|>
+RKKRRARRR",True,Jurkat cells
+"<|endoftext|>
+TRQARRNRRRRWRERQRGC",True,Jurkat cells
+"<|endoftext|>
+IWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+XRXRXRXR",True,MDA-MB-231 cells
+"<|endoftext|>
+XWXWXWXWXWXW",True,MDA-MB-231 cells
+"<|endoftext|>
+PRPLPFPRPG",True,RAW264.7 cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+YGRKKRRQRRRYGRKKRRQRRRYGRKKRRQRRR",True,A549 cells
+"<|endoftext|>
+KLALKLALKALKAALK",True,Aortic endothelial cells
+"<|endoftext|>
+CRFRFKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+NVFKGNTISDKISFNFSDK",True,CHO-K1 cells
+"<|endoftext|>
+MAGCGCPCGCGA",True,RAW264.7 cells
+"<|endoftext|>
+PRPLPFPRPG",True,RAW264.7 cells
+"<|endoftext|>
+LLIILRRRIRKAAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+GGGGRRRRRRRR",True,HeLa cells
+"<|endoftext|>
+LLIILRRRIRKQAHAASK",True,Human bowes melanoma cells
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+CDAATATRGRSAASRPTERPRAPARSASRPRRPVD",True,A375 cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+YKQCHKKGGHCFPKEKICLPPSSDFGKMDCRWRWKCCKKGSG",True,other
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+RWRRWRRWRRWR",True,CHO-K1 cells
+"<|endoftext|>
+HATKSQNINF",True,U87 cells
+"<|endoftext|>
+RRRQRRKKR",True,Jurkat cells
+"<|endoftext|>
+CYGRKKRRQRRR",True,A375 cells
+"<|endoftext|>
+GFAWNVCVYRNGVRVCHRRAN",True,RAW264.7 cells
+"<|endoftext|>
+RGDGPRRRPRKRRGR",True,HeLa cells
+"<|endoftext|>
+RKKRRARRR",True,Jurkat cells
+"<|endoftext|>
+TCTWLKYH",True,U87 cells
+"<|endoftext|>
+KMDCRWRWKCKK",True,NIH-3T3 cells
+"<|endoftext|>
+KKLFKKILKKL",True,MCF7 cells
+"<|endoftext|>
+KCFQWQRNMRKVRGPPVSC",True,HeLa cells
+"<|endoftext|>
+CDAATATRGRSAASRPTERPRAPARSASRPRRPVD",True,A375 cells
+"<|endoftext|>
+TCTWLKYH",True,U87 cells
+"<|endoftext|>
+TVDNPASTTNKDKLFAVRK",True,HEK293 cells
+"<|endoftext|>
+CGRKKRWWRQRRRPPQ",True,CHO cells
+"<|endoftext|>
+CRWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+RQIKIWFQNRRAKWKK",True,HaCaT cells
+"<|endoftext|>
+GACTKSIPPICFPD",True,HeLa cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+CGRKKRRQRRRPPQ",True,CHO cells
+"<|endoftext|>
+RQIKIWFQNRRMKWKKTYADFIASGRTGRRNAI",True,CHO-K1 cells
+"<|endoftext|>
+CYGRKKRRQRRR",True,A375 cells
+"<|endoftext|>
+RAIKIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSA",True,Human bowes melanoma cells
+"<|endoftext|>
+GFAWNVCVYRNGVRVCHRRAN",True,RAW264.7 cells
+"<|endoftext|>
+KRPTMRFRYTWNPMK",True,A549 cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+KLALKLALKAWKAALKLA",True,Aortic endothelial cells
+"<|endoftext|>
+YGRKERRQKRR",True,HeLa cells
+"<|endoftext|>
+KRRRRRRRRRRE",True,MCF7 cells
+"<|endoftext|>
+GRRRRRRRRRRRRRRRR",True,CHO-K1 cells
+"<|endoftext|>
+CDAATATRGRSAASRPTERPRAPARSASRPRRPVD",True,A375 cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+GRRRRRRRRRRRRRRRR",True,CHO-K1 cells
+"<|endoftext|>
+GRKKRRQRRRPPQRKC",True,HEK293 cells
+"<|endoftext|>
+KMDCRWRWKKK",True,NIH-3T3 cells
+"<|endoftext|>
+CHHHHHRRRRRRRRRHHHHHC",True,A549 cells
+"<|endoftext|>
+TVDNPASTTNKDKLFAVRK",True,HEK293 cells
+"<|endoftext|>
+RQIAIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+RLWMRWYSPRTRAYGC",True,A549 cells
+"<|endoftext|>
+CGRKKRRQRRWWRPPQ",True,CHO cells
+"<|endoftext|>
+LLIILRRRIRAQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+KRRRRRRRRRRE",True,MCF7 cells
+"<|endoftext|>
+RQIKIWFANRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+MAGCGCPCGCGA",True,RAW264.7 cells
+"<|endoftext|>
+KLALKLALKAWKAALKLA",True,Aortic endothelial cells
+"<|endoftext|>
+RRGRRG",True,Jurkat cells
+"<|endoftext|>
+GGEEEEEEEEPLGLAGRRRRRRRRGG",True,A375 cells
+"<|endoftext|>
+PRPLPFPRPG",True,RAW264.7 cells
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+QIKIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+AAVLLPVLLAAP",True,HEK293 cells
+"<|endoftext|>
+AAKLLPDLLAAP",True,HEK293 cells
+"<|endoftext|>
+FQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+CLGTYTQDFNKFHTFPQTAIGVGAP",True,A375 cells
+"<|endoftext|>
+CGRKKRAARQRRRPPQ",True,CHO cells
+"<|endoftext|>
+CGRKKRWWRQRRRPPQ",True,CHO cells
+"<|endoftext|>
+QIKIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+MAGCGCPCGCGA",True,RAW264.7 cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+GRKKRRQRRRPPQTYADFIASGRTGRRNAI",True,A549 cells
+"<|endoftext|>
+NTCTWLKYH",True,U87 cells
+"<|endoftext|>
+RKKRRARRR",True,Jurkat cells
+"<|endoftext|>
+PMLKE",True,other
+"<|endoftext|>
+GGRRRR",True,HeLa cells
+"<|endoftext|>
+GGEEEEEEEEPLGLAGRRRRRRRRGG",True,A375 cells
+"<|endoftext|>
+VQLRRRWC",True,U87 cells
+"<|endoftext|>
+YRDRFAFQPH",True,U87 cells
+"<|endoftext|>
+RHRHRHRHR",True,MDA-MB-231 cells
+"<|endoftext|>
+GFAWNVCVYRNGVRVCHRRAN",True,RAW264.7 cells
+"<|endoftext|>
+QQRKRKIWSILAPLGTTLVKLVAGIG",True,HEK293 cells
+"<|endoftext|>
+VQLRRRWC",True,U87 cells
+"<|endoftext|>
+AAKLLPDLLAAP",True,HEK293 cells
+"<|endoftext|>
+YNNFAYSVFL",True,U87 cells
+"<|endoftext|>
+RRRRR",True,Jurkat cells
+"<|endoftext|>
+KLALQLALQALQAALQLA",True,Aortic endothelial cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+EKPYKCPECGKSFSASAALVAHQRTHTGEKPYKCPECGKSFSASAALVAHQRTHTGEKPY
+KCPECGKSFSASAALVAHQRTHTG",True,other
+"<|endoftext|>
+KRKIFCL",True,MDA-MB-231 cells
+"<|endoftext|>
+KALAALLKKLAKLLAALK",True,Aortic endothelial cells
+"<|endoftext|>
+RKKRRQRRR",True,NIH-3T3 cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+KMDCRWRWKCSKK",True,NIH-3T3 cells
+"<|endoftext|>
+RWRWRWRWRWRW",True,A549 cells
+"<|endoftext|>
+RRRHRHRHRHR",True,MDA-MB-231 cells
+"<|endoftext|>
+QQRKRKIWSILAPLGTTLVKLVAGIG",True,HEK293 cells
+"<|endoftext|>
+MVRRFLVTLRIRRACGPPRVRV",True,MCF7 cells
+"<|endoftext|>
+KGKKIFIMK",True,U373 MG cells
+"<|endoftext|>
+RWRWRWRWRW",True,A549 cells
+"<|endoftext|>
+LLIILARRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+HHHHHHHHHHHHHHHH",True,other
+"<|endoftext|>
+KMDXRWRWKCXKK",True,NIH-3T3 cells
+"<|endoftext|>
+YKQCHKKGGKKGSGGLRKRLRKFRNK",True,HeLa cells
+"<|endoftext|>
+PLKPKKPKTQEKKKKQPPKPKKPKTQEKKKKQPPKPKR",True,HEK293 cells
+"<|endoftext|>
+LLIILRRAIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+RLWMRWYSPTTRRYG",True,CHO cells
+"<|endoftext|>
+QQRKRKIWSKLAPDGTTLVKLVAGIG",True,HEK293 cells
+"<|endoftext|>
+LKTLATALTKLAKTLTTL",True,Aortic endothelial cells
+"<|endoftext|>
+RLFMRFYSPTTRRYG",True,CHO cells
+"<|endoftext|>
+AQIKIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+CLLYWFRRRHRHHRRRHRRC",True,CHO-K1 cells
+"<|endoftext|>
+TVDNPASTTNKDKLFAVRK",True,HEK293 cells
+"<|endoftext|>
+GFAWNVCVYRNGVRVCHRRAN",True,RAW264.7 cells
+"<|endoftext|>
+RRRRRHRHRHRHR",True,MDA-MB-231 cells
+"<|endoftext|>
+RRRRRR",True,Jurkat cells
+"<|endoftext|>
+GTKMIFVGIKKKEERADLIAYLKKA",True,U373 MG cells
+"<|endoftext|>
+MDCRWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+CGNKRTR",True,MDA-MB-231 cells
+"<|endoftext|>
+CLLYWFRRRHRHHRRRHRRC",True,CHO-K1 cells
+"<|endoftext|>
+AEQNPIYWARYADWLFTTPLLLLDLALLVDADEGTCG",True,MCF7 cells
+"<|endoftext|>
+LLIILRRRIRAQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+GGGGRRFFRRFRR",True,CHO-K1 cells
+"<|endoftext|>
+GKKKKRKREKL",True,MCF7 cells
+"<|endoftext|>
+WEAHLAHALAHALARHLARALARALRACEA",True,HeLa cells
+"<|endoftext|>
+XRXRXRXR",True,MDA-MB-231 cells
+"<|endoftext|>
+PFVYLI",True,other
+"<|endoftext|>
+RQIKIWFANRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+RQIKIWFQNRRMKAKK",True,HaCaT cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+CRWRWKCSKK",True,NIH-3T3 cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+CGALFLGWLGAAGSTMGA",True,A375 cells
+"<|endoftext|>
+AAVLLPVLLAAP",True,HEK293 cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+RQIKIWFQNRRMKAKK",True,HaCaT cells
+"<|endoftext|>
+KALAALLKKLAKLLAALK",True,Aortic endothelial cells
+"<|endoftext|>
+RQIKIWFQNRRMK",True,HaCaT cells
+"<|endoftext|>
+LLIILARRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+RRRRRRRRRRRTYADFIASGRTGRRNAI",True,CHO-K1 cells
+"<|endoftext|>
+GGGGRRFWRRFRR",True,CHO-K1 cells
+"<|endoftext|>
+KMDXRPRPKXCKK",True,NIH-3T3 cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+CGNKRTR",True,MDA-MB-231 cells
+"<|endoftext|>
+GRKKRRQRRRPPQRKC",True,HEK293 cells
+"<|endoftext|>
+HEHEHEHEHEHEHEHEEFGGGGGYGRRRRRRGGGGGG",True,HeLa cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+RHRHRHRHR",True,MDA-MB-231 cells
+"<|endoftext|>
+GGLIKTKRKRKKQRVKIAYEEIFVKNM",True,A375 cells
+"<|endoftext|>
+FKCRRWQWRMKK",True,A549 cells
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+KLALKLALKAWKAALKLA",True,Aortic endothelial cells
+"<|endoftext|>
+NTCTWLKYHS",True,U87 cells
+"<|endoftext|>
+KLALQLALQALQAALQLA",True,Aortic endothelial cells
+"<|endoftext|>
+CRFRFKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+GGLIKTKRKRKKQRVKIAYEEIFVKNM",True,A375 cells
+"<|endoftext|>
+GGGGRRFFRRFRR",True,CHO-K1 cells
+"<|endoftext|>
+RQAKIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+YRDRFAFQPH",True,U87 cells
+"<|endoftext|>
+PLIKLRLDRGQF",True,HEK293 cells
+"<|endoftext|>
+KMDCRPRPKCXKK",True,NIH-3T3 cells
+"<|endoftext|>
+CGALFLGWLGAAGSTMGA",True,A375 cells
+"<|endoftext|>
+GFAWNVCVYRNGVRVCHRRAN",True,RAW264.7 cells
+"<|endoftext|>
+CRWRFKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+RGGRLSYSRRRFSTSTGRA",True,other
+"<|endoftext|>
+GKPILFF",True,MCF7 cells
+"<|endoftext|>
+RRRRRRRRRRRTYADFIASGRTGRRNAI",True,CHO-K1 cells
+"<|endoftext|>
+VLERAKRRAV",True,HeLa cells
+"<|endoftext|>
+RXRRXRRXRRXR",True,CHO-K1 cells
+"<|endoftext|>
+RLWMRWYSPATRRYG",True,CHO cells
+"<|endoftext|>
+CVTVLALGALAGVGVG",True,A375 cells
+"<|endoftext|>
+CRWRWKXCKK",True,NIH-3T3 cells
+"<|endoftext|>
+CVTVLALGALAGVGVG",True,A375 cells
+"<|endoftext|>
+YGRKKRRQRRRGTALDWSWLQTE",True,MCF7 cells
+"<|endoftext|>
+KALSEVQGWKQRMAAKELAR",True,HEK293 cells
+"<|endoftext|>
+VELPPPVELPPPVELPPP",True,A549 cells
+"<|endoftext|>
+GTKMIFVGIKKKEERADLIAYLKKA",True,U373 MG cells
+"<|endoftext|>
+MSGYGRKKRRQRRRGGGRKRLDRNGGGPGVGVPGVGVPGVGVPGFGVPGVGVPGVGVPGF
+GVPGVGVPGGGVPGGGVPGVGVPGAGVPGVGVPGGGVPVGVPGVGVPGVGVPGFGVPGVG
+VPGVGVPGFGVPGVGVPGGGVPGGGVPGVGVPGAGVPGVGVPGGGVPGWPC",True,MDA-MB-231 cells
+"<|endoftext|>
+PLILLRLLRGSTSRDHVLHEYVNAAGIT",True,HeLa cells
+"<|endoftext|>
+LTFKEYWDQLTSAA",True,MCF7 cells
+"<|endoftext|>
+KYKGAIIGNIK",True,other
+"<|endoftext|>
+CPMLKE",True,A375 cells
+"<|endoftext|>
+KMDXRPRPKXCKK",True,NIH-3T3 cells
+"<|endoftext|>
+GRKKRRQRRRPPQRKC",True,HEK293 cells
+"<|endoftext|>
+KLXLKLXLKXLKACLKLXG",True,A549 cells
+"<|endoftext|>
+FFLIPKGRRRRRRRRR",True,A549 cells
+"<|endoftext|>
+KLKLALALALAVQRKRQKLMPC",True,U87 cells
+"<|endoftext|>
+BRRRRRRR",True,HeLa cells
+"<|endoftext|>
+GGGGRRWFRRWRR",True,CHO-K1 cells
+"<|endoftext|>
+KMDCRPRPKCXKK",True,NIH-3T3 cells
+"<|endoftext|>
+GGRRARRRRRR",True,HEK293 cells
+"<|endoftext|>
+KRKIFCL",True,MDA-MB-231 cells
+"<|endoftext|>
+RRRRRR",True,Jurkat cells
+"<|endoftext|>
+RLWARWYSPTTRRYG",True,CHO cells
+"<|endoftext|>
+RRRRRRR",True,Jurkat cells
+"<|endoftext|>
+XFXR",True,MDA-MB-231 cells
+"<|endoftext|>
+GWTLNSAGYLLGKINLKALAALAKKIL",True,CHO cells
+"<|endoftext|>
+NYRRRCKNQN",True,A549 cells
+"<|endoftext|>
+MCMPCFTTDHQMARRCDDCCGGRGRGKCYGPQCLCR",True,HeLa cells
+"<|endoftext|>
+AGYLLGKINLKALAALAKKILTYADFIASGRTGRRNAI",True,A549 cells
+"<|endoftext|>
+GLRKRLRKFRNKIKEKGLRKRLRKFRNKIKEK",True,HEK293 cells
+"<|endoftext|>
+CREKAPLGLAGRKKRRQRRRC",True,U87 cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+VPTLE",True,other
+"<|endoftext|>
+RQIKAWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+KMDCRWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+RLYMRYYSPTTRRYG",True,CHO cells
+"<|endoftext|>
+CAAKA",True,A375 cells
+"<|endoftext|>
+KLALQLALQALQAALQLA",True,Aortic endothelial cells
+"<|endoftext|>
+KALSEVQGWKQRMAAKELAR",True,HEK293 cells
+"<|endoftext|>
+KMDCRWRPKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+KLALKLALKAWKAALKLA",True,Aortic endothelial cells
+"<|endoftext|>
+MVTVLFRRLRIRRACGPPRVRV",True,other
+"<|endoftext|>
+KKLFKKILKKL",True,MCF7 cells
+"<|endoftext|>
+KCGCRWRWKCGCKK",True,NIH-3T3 cells
+"<|endoftext|>
+MVTVLFRRLRIRRACGPPRVRV",True,other
+"<|endoftext|>
+RRRRRR",True,Jurkat cells
+"<|endoftext|>
+LLIILRARIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+RLIMRIYSPTTRRYG",True,CHO cells
+"<|endoftext|>
+GGRR",True,HeLa cells
+"<|endoftext|>
+KALAALLKKWAKLLAALK",True,Aortic endothelial cells
+"<|endoftext|>
+RLWMRWYSPTTRRYG",True,CHO cells
+"<|endoftext|>
+RRRRRRR",True,Jurkat cells
+"<|endoftext|>
+NTGTWLKYHS",True,U87 cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+KLKLALALALAVQRKRQKLMPC",True,U87 cells
+"<|endoftext|>
+RRRRRR",True,Jurkat cells
+"<|endoftext|>
+RWRRWRRWRRWR",True,CHO-K1 cells
+"<|endoftext|>
+KCFQWQRNMRKVRGPPVSCIKR",True,other
+"<|endoftext|>
+QNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+KIILIIDGSTSRDHVLHEYVNAAGIT",True,HeLa cells
+"<|endoftext|>
+CAAKA",True,A375 cells
+"<|endoftext|>
+KLWMRWYSATTRRYG",True,CHO cells
+"<|endoftext|>
+ECYPKKGQDP",True,U87 cells
+"<|endoftext|>
+GGEEEEEEEEPLGLAGRRRRRRRRGG",True,A375 cells
+"<|endoftext|>
+KGKKIFIMK",True,U373 MG cells
+"<|endoftext|>
+RQIKIWAQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+XWXWXWXWXWXW",True,MDA-MB-231 cells
+"<|endoftext|>
+KALAALLKKLAKLLAALK",True,Aortic endothelial cells
+"<|endoftext|>
+RRGRRG",True,Jurkat cells
+"<|endoftext|>
+RVRVFVVHIPRLT",True,MCF7 cells
+"<|endoftext|>
+RRLLRRLRR",True,CHO-K1 cells
+"<|endoftext|>
+PRPLPFPRPG",True,RAW264.7 cells
+"<|endoftext|>
+RLWMRWYAPTTRRYG",True,CHO cells
+"<|endoftext|>
+VQRKRQKLMPGLRKRLRKFRNK",True,HeLa cells
+"<|endoftext|>
+RRHRHRHRHR",True,MDA-MB-231 cells
+"<|endoftext|>
+NYRWRCKN",True,A549 cells
+"<|endoftext|>
+KLALQLALQALQAALQLA",True,Aortic endothelial cells
+"<|endoftext|>
+CYGRKKRRQRRR",True,A375 cells
+"<|endoftext|>
+GFAWNVCVYRNGVRVCHRRAN",True,RAW264.7 cells
+"<|endoftext|>
+KRRRGGKKRRD",True,MCF7 cells
+"<|endoftext|>
+YKQCHKKGGHCFPKEKICLPPSSDFGKMDCRWRWKCCKKGSG",True,other
+"<|endoftext|>
+CVTVLALGALAGVGVG",True,A375 cells
+"<|endoftext|>
+RXRRBRRXRYQFLIRXRBRXRB",True,other
+"<|endoftext|>
+MDCRWRWKXXKK",True,NIH-3T3 cells
+"<|endoftext|>
+GGEEEEEEEEPLGLAGRRRRRRRRGG",True,A375 cells
+"<|endoftext|>
+LLIILRRRIRKQAHAASK",True,Human bowes melanoma cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+KGKKIFIMK",True,U373 MG cells
+"<|endoftext|>
+CKIKKVKKKGRKKIKKVKKKGRK",True,HeLa cells
+"<|endoftext|>
+GRRRRRRRRRRRR",True,CHO-K1 cells
+"<|endoftext|>
+VKLPPPVKLPPPVKLPPP",True,HeLa cells
+"<|endoftext|>
+PRPLPFPRPG",True,RAW264.7 cells
+"<|endoftext|>
+XFXRXFXRXFXR",True,MDA-MB-231 cells
+"<|endoftext|>
+VELPPPVELPPPVELPPP",True,A549 cells
+"<|endoftext|>
+KMDXRWRWKXXKK",True,NIH-3T3 cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+RILSILRHQ",True,other
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+XFXRXFXRXFXR",True,MDA-MB-231 cells
+"<|endoftext|>
+KGKKIFIMK",True,U373 MG cells
+"<|endoftext|>
+KQRMAAKELAR",True,HEK293 cells
+"<|endoftext|>
+LLIILRRRIRKQAHAASK",True,Human bowes melanoma cells
+"<|endoftext|>
+VRLPPPVRLPPPVRLPPP",True,HeLa cells
+"<|endoftext|>
+GTKMIFVGIKKKEERADLIAYLKKA",True,U373 MG cells
+"<|endoftext|>
+GCGGGYGRKKRRQRRR",True,other
+"<|endoftext|>
+KLWMRWYSPWTRRYG",True,CHO cells
+"<|endoftext|>
+XRXR",True,MDA-MB-231 cells
+"<|endoftext|>
+CREKAPLGLAGRKKRRQRRRC",True,U87 cells
+"<|endoftext|>
+KLPVM",True,other
+"<|endoftext|>
+KALAALLKKWAKLLAALK",True,Aortic endothelial cells
+"<|endoftext|>
+XRXRXRXR",True,MDA-MB-231 cells
+"<|endoftext|>
+NYRRRCKNQN",True,A549 cells
+"<|endoftext|>
+KMDXRPRPKCXKK",True,NIH-3T3 cells
+"<|endoftext|>
+PRPLPFPRPG",True,RAW264.7 cells
+"<|endoftext|>
+HATKSQNINF",True,U87 cells
+"<|endoftext|>
+RKKRRARRR",True,Jurkat cells
+"<|endoftext|>
+RHRHRHRHR",True,MDA-MB-231 cells
+"<|endoftext|>
+KIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+RWRWKXXKK",True,NIH-3T3 cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+KCGCRWRWKCGCKK",True,NIH-3T3 cells
+"<|endoftext|>
+XWXWXWXWXWXW",True,MDA-MB-231 cells
+"<|endoftext|>
+LKPSFSPRNY",True,HEK293 cells
+"<|endoftext|>
+RWRRWRRWRRWR",True,CHO-K1 cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+YGRKKRRQRRRYGRKKRRQRRRYGRKKRRQRRR",True,A549 cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+LLIILRRRIRAQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+KRPTMRFRYTWNPMK",True,A549 cells
+"<|endoftext|>
+RRRRRRR",True,Jurkat cells
+"<|endoftext|>
+RRRRRR",True,Jurkat cells
+"<|endoftext|>
+KYRSGAITIGY",True,other
+"<|endoftext|>
+CYGRKKRRQRRR",True,A375 cells
+"<|endoftext|>
+PLKPKKPKTQEKKKKQPPKPKKPKTQEKKKKQPPKPKR",True,HEK293 cells
+"<|endoftext|>
+FKKLKKLFSKLWNWK",True,A549 cells
+"<|endoftext|>
+KKKWWWWKKK",True,MCF7 cells
+"<|endoftext|>
+MSGYGRKKRRQRRRGGGPGVGRKRLDRNGVGVPGVGVPGVGVPGVGVPGVGVPGVGVPGV
+GVPGVGVPGVGVPGVGVPGVGVPGVGVPGVGRKRLDRNGVGVPGVGVPGVGVPGVGVPGV
+GVPGVGVPGVGVPGVGVPGVGVPGVGVPGVGVPGVGVPGVGRKRLDRNGVGVPGVGVPGV
+GVPGVGVPGVGVPGVGVPGVGVPGVGVPGVGVPGVGVPGVGVPGVGVPGVGRKRLDRNGV
+GVPGVGVPGVGVPGVGVPGVGVPGVGVPG",True,MDA-MB-231 cells
+"<|endoftext|>
+FKKLKKLFSKLWNWK",True,A549 cells
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+RRLLRRLRR",True,CHO-K1 cells
+"<|endoftext|>
+KLALKALKKLKADLKLA",True,HEK293 cells
+"<|endoftext|>
+CASGQQGLLKLC",True,U87 cells
+"<|endoftext|>
+AGYLLGKINLKALAALAKKILTYADFIASGRTGRRNAI",True,A549 cells
+"<|endoftext|>
+CRGDK",True,HEK293 cells
+"<|endoftext|>
+XFXRXFXR",True,MDA-MB-231 cells
+"<|endoftext|>
+HATKSQNINF",True,U87 cells
+"<|endoftext|>
+CPMLKE",True,A375 cells
+"<|endoftext|>
+KRKFICL",True,MDA-MB-231 cells
+"<|endoftext|>
+FVTRGCPRRLVARLIRVMVPRR",True,MCF7 cells
+"<|endoftext|>
+RRRRR",True,Jurkat cells
+"<|endoftext|>
+FKCRRWQWRMKK",True,A549 cells
+"<|endoftext|>
+AAAWFW",True,CHO cells
+"<|endoftext|>
+GFAWNVCVYRNGVRVCHRRAN",True,RAW264.7 cells
+"<|endoftext|>
+CVTVLALGALAGVGVG",True,A375 cells
+"<|endoftext|>
+RLWMRWYSPTARRYG",True,CHO cells
+"<|endoftext|>
+CGALFLGWLGAAGSTMGA",True,A375 cells
+"<|endoftext|>
+CLGTYTQDFNKFHTFPQTAIGVGAP",True,A375 cells
+"<|endoftext|>
+RLWARWYSPTTRRYG",True,CHO cells
+"<|endoftext|>
+RWRWRWRWRWRW",True,A549 cells
+"<|endoftext|>
+GGGGRRWFRRFRR",True,CHO-K1 cells
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+CREKA",True,U87 cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+LLIILRRRIRAQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+RLWMRWYSPRTRAYGC",True,A549 cells
+"<|endoftext|>
+GFAWNVCVYRNGVRVCHRRAN",True,RAW264.7 cells
+"<|endoftext|>
+WEARLARALARALARHLARALAHALHACEA",True,HeLa cells
+"<|endoftext|>
+GFAWNVCVYRNGVRVCHRRAN",True,RAW264.7 cells
+"<|endoftext|>
+LLIILRRAIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+CRWRWKCXKK",True,NIH-3T3 cells
+"<|endoftext|>
+HDLPKGG",True,other
+"<|endoftext|>
+GGGGRRFFRRFRR",True,CHO-K1 cells
+"<|endoftext|>
+PLIKLRLDRGQF",True,HEK293 cells
+"<|endoftext|>
+KRPTMRFRYTWNPMK",True,A549 cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+CRGDKGDPC",True,CHO cells
+"<|endoftext|>
+PLKPKKPKTQEKKKKQPPKPKKPKTQEKKKKQPPKPKR",True,HEK293 cells
+"<|endoftext|>
+KCRWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+RLWMRWYSPWTRRYG",True,CHO cells
+"<|endoftext|>
+RRRQRRKKR",True,Jurkat cells
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+CVTVLALGALAGVGVG",True,A375 cells
+"<|endoftext|>
+RLWMRWYSPATRRYG",True,CHO cells
+"<|endoftext|>
+XRXRXRXR",True,MDA-MB-231 cells
+"<|endoftext|>
+CLGTYTQDFNKFHTFPQTAIGVGAP",True,A375 cells
+"<|endoftext|>
+CYGRKKRRQRRR",True,A375 cells
+"<|endoftext|>
+RRWWWWRR",True,MCF7 cells
+"<|endoftext|>
+KLALKLALKALKAALK",True,Aortic endothelial cells
+"<|endoftext|>
+GGLIKTKRKRKKQRVKIAYEEIFVKNM",True,A375 cells
+"<|endoftext|>
+KETWWETWWTEWSQPKKKRKVC",True,HeLa cells
+"<|endoftext|>
+KLALKALKKLKADLKLA",True,HEK293 cells
+"<|endoftext|>
+VELPPPVELPPPVELPPP",True,A549 cells
+"<|endoftext|>
+IWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+KVVVVKVVVVKVVVVKVVVVK",True,A549 cells
+"<|endoftext|>
+KMDCRWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+NRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+RRRRRRR",True,Jurkat cells
+"<|endoftext|>
+TRQARRNRRRRWRERQRGC",True,Jurkat cells
+"<|endoftext|>
+ECYPKKGQDP",True,U87 cells
+"<|endoftext|>
+HHHHHHHHHHHHHHHHHHHH",True,other
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+AWARAWARAWAR",True,MDA-MB-231 cells
+"<|endoftext|>
+KGKKIFIMK",True,U373 MG cells
+"<|endoftext|>
+KRKFICL",True,MDA-MB-231 cells
+"<|endoftext|>
+GKKKKRKREKL",True,MCF7 cells
+"<|endoftext|>
+RADPAYQARFLGKRKFICL",True,HeLa cells
+"<|endoftext|>
+RKKRRQRR",True,Jurkat cells
+"<|endoftext|>
+KLWMRWYSPTTRRYG",True,CHO cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSA",True,Human bowes melanoma cells
+"<|endoftext|>
+CAAKA",True,A375 cells
+"<|endoftext|>
+AAKFIKKRRTKSS",True,HeLa cells
+"<|endoftext|>
+NYRWRCKN",True,A549 cells
+"<|endoftext|>
+CGALFLGWLGAAGSTMGA",True,A375 cells
+"<|endoftext|>
+LLRLLRWWWRLLRLL",True,U87 cells
+"<|endoftext|>
+CRWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+RLWMRWYSPWTRRYG",True,CHO cells
+"<|endoftext|>
+CGALFLGWLGAAGSTMGA",True,A375 cells
+"<|endoftext|>
+KRKGRLRSKGKK",True,HeLa cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+MSGPGVGVPGVGVPGVGVPGFGVPGVGVPGVGVPGFGVPGVGVPGGGVPGGGVPGVGVPG
+AGVPGVGVPGGGVPGVGVPGVGVPGVGVPGFGVPGVGVPGVGVPGFGVPGVGVPGGGVPG
+GGVPGVGVPGAGVPGVGVPGGGVPGWPC",True,MDA-MB-231 cells
+"<|endoftext|>
+RHVYHVLLSQ",True,U87 cells
+"<|endoftext|>
+IWRYSLASQQ",True,U87 cells
+"<|endoftext|>
+MDCRWRWKCXKK",True,NIH-3T3 cells
+"<|endoftext|>
+KALAKALAKLWKALAKAA",True,Aortic endothelial cells
+"<|endoftext|>
+TRQARRNRRRRWRERQRGC",True,Jurkat cells
+"<|endoftext|>
+CTWLKYH",True,U87 cells
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+NTCTWLKYHS",True,U87 cells
+"<|endoftext|>
+KRRRRRRRRRRE",True,MCF7 cells
+"<|endoftext|>
+GRKKRRQRRRPPQRKC",True,HEK293 cells
+"<|endoftext|>
+TRQARRNRRRRWRERQRGC",True,Jurkat cells
+"<|endoftext|>
+RQIKIWFQNRRMKW",True,HaCaT cells
+"<|endoftext|>
+RQIKIWFQARRMKWKK",True,HaCaT cells
+"<|endoftext|>
+GRKKRRQRRRMVSAL",True,HEK293 cells
+"<|endoftext|>
+RRRGRKKRR",True,HeLa cells
+"<|endoftext|>
+NTCTWLKYHS",True,U87 cells
+"<|endoftext|>
+LKTLATALTKLAKTLTTL",True,Aortic endothelial cells
+"<|endoftext|>
+CDAATATRGRSAASRPTERPRAPARSASRPRRPVD",True,A375 cells
+"<|endoftext|>
+KALKKLLAKWLAAAKALL",True,Aortic endothelial cells
+"<|endoftext|>
+KLWMRWYSATTRRYG",True,CHO cells
+"<|endoftext|>
+LLRILRRSIRRARRAIRR",True,CHO-K1 cells
+"<|endoftext|>
+CGALFLGWLGAAGSTMGA",True,A375 cells
+"<|endoftext|>
+RLWMRWYSPTARRYG",True,CHO cells
+"<|endoftext|>
+NYRWRCKN",True,A549 cells
+"<|endoftext|>
+KGKKIFIMK",True,U373 MG cells
+"<|endoftext|>
+MCMPCFTTDHQMARRCDDCCGGRGRGKCWGPQCLCR",True,HeLa cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+MIIYRDLISH",True,CHO cells
+"<|endoftext|>
+KCCKWRWRCK",True,NIH-3T3 cells
+"<|endoftext|>
+MLILIIGSTSRDHVLHEYVNAAGIT",True,HeLa cells
+"<|endoftext|>
+RQIKIWFQNRRMKAKK",True,HaCaT cells
+"<|endoftext|>
+KLALQLALQALQAALQLA",True,Aortic endothelial cells
+"<|endoftext|>
+CGALFLGWLGAAGSTMGA",True,A375 cells
+"<|endoftext|>
+CDAATATRGRSAASRPTERPRAPARSASRPRRPVD",True,A375 cells
+"<|endoftext|>
+RQIKIWAQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+IWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+GFAWNVCVYRNGVRVCHRRAN",True,RAW264.7 cells
+"<|endoftext|>
+RVRVFVVHIPRLT",True,MCF7 cells
+"<|endoftext|>
+KARKKKLNKKGRKMAGRKRGRPKK",True,MCF7 cells
+"<|endoftext|>
+QNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+RGERPPR",True,MDA-MB-231 cells
+"<|endoftext|>
+CGRKKRAARQRRRPPQ",True,CHO cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSA",True,Human bowes melanoma cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+RLWMRWYSPTTRRAG",True,CHO cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+PRPLPFPRPG",True,RAW264.7 cells
+"<|endoftext|>
+CGALFLGWLGAAGSTMGA",True,A375 cells
+"<|endoftext|>
+NTCTWLKYHS",True,U87 cells
+"<|endoftext|>
+LLHILRRSIRKQAHAIRK",True,CHO-K1 cells
+"<|endoftext|>
+CLGTYTQDFNKFHTFPQTAIGVGAP",True,A375 cells
+"<|endoftext|>
+AAAWFW",True,CHO cells
+"<|endoftext|>
+RHRHRHRHR",True,MDA-MB-231 cells
+"<|endoftext|>
+NYQRRCKNQN",True,A549 cells
+"<|endoftext|>
+KRRRRRRRRRRELTFKEYWDQLTSAA",True,MCF7 cells
+"<|endoftext|>
+KALAALLKKLAKLLAALK",True,Aortic endothelial cells
+"<|endoftext|>
+QQRKRKIWSKLAPDGTTLVKLVAGIG",True,HEK293 cells
+"<|endoftext|>
+XFXR",True,MDA-MB-231 cells
+"<|endoftext|>
+XRXRXRXR",True,MDA-MB-231 cells
+"<|endoftext|>
+RRLLRRLRR",True,CHO-K1 cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+GGLIKTKRKRKKQRVKIAYEEIFVKNM",True,A375 cells
+"<|endoftext|>
+FKCRRWQWRMKK",True,A549 cells
+"<|endoftext|>
+LLIILRRRIRKQAHAASK",True,Human bowes melanoma cells
+"<|endoftext|>
+RWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+CVTVLALGALAGVGVG",True,A375 cells
+"<|endoftext|>
+RRRHRHRHRHR",True,MDA-MB-231 cells
+"<|endoftext|>
+PRPLPFPRPG",True,RAW264.7 cells
+"<|endoftext|>
+CLGTYTQDFNKFHTFPQTAIGVGAP",True,A375 cells
+"<|endoftext|>
+RLWHLLWRLWRRLHRLLR",True,CHO-K1 cells
+"<|endoftext|>
+CRWRWKCXKK",True,NIH-3T3 cells
+"<|endoftext|>
+RRRRRRRR",True,CHO-K1 cells
+"<|endoftext|>
+RLWMRWYSPTTRRYA",True,CHO cells
+"<|endoftext|>
+FQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+KMDXRWRWKXXKK",True,NIH-3T3 cells
+"<|endoftext|>
+CAAKA",True,A375 cells
+"<|endoftext|>
+NYRWRCKN",True,A549 cells
+"<|endoftext|>
+YGRKKRRQRRRPPQG",True,HeLa cells
+"<|endoftext|>
+KMDXRWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+KLAAALLKKWKKLAAALL",True,Aortic endothelial cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHAK",True,Human bowes melanoma cells
+"<|endoftext|>
+RWRWKXXKK",True,NIH-3T3 cells
+"<|endoftext|>
+YGRKKRRQRRR",True,HeLa cells
+"<|endoftext|>
+VPTLQ",True,other
+"<|endoftext|>
+KMDCRWRPKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+KALAALLKKWAKLLAALK",True,Aortic endothelial cells
+"<|endoftext|>
+MDCRWRWKCXKK",True,NIH-3T3 cells
+"<|endoftext|>
+RLVMRVYSPTTRRYG",True,CHO cells
+"<|endoftext|>
+MAGCGCPCGCGA",True,RAW264.7 cells
+"<|endoftext|>
+CTWLKYH",True,U87 cells
+"<|endoftext|>
+XFXRXFXR",True,MDA-MB-231 cells
+"<|endoftext|>
+CGRRRRRRRRRRRRRRRR",True,CHO-K1 cells
+"<|endoftext|>
+KLALQLALQALQAALQLA",True,Aortic endothelial cells
+"<|endoftext|>
+GPLGIAGQYGRKKRRQRRRC",True,A549 cells
+"<|endoftext|>
+KGKKIFIMK",True,U373 MG cells
+"<|endoftext|>
+RRRRRHRHRHRHR",True,MDA-MB-231 cells
+"<|endoftext|>
+RRWQW",True,A549 cells
+"<|endoftext|>
+RRLLRRLRR",True,CHO-K1 cells
+"<|endoftext|>
+KMDSRWRWKCSKK",True,NIH-3T3 cells
+"<|endoftext|>
+KLALKLALKAWKAALKLA",True,Aortic endothelial cells
+"<|endoftext|>
+LLRILRRSIRRARRAIRR",True,CHO-K1 cells
+"<|endoftext|>
+NYRRRCKNQN",True,A549 cells
+"<|endoftext|>
+RRRRRR",True,Jurkat cells
+"<|endoftext|>
+CRFRFKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+KMDXRPRPKCXKK",True,NIH-3T3 cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+CASGQQGLLKLC",True,U87 cells
+"<|endoftext|>
+KLKLALALALAVQRKRQKLMPC",True,U87 cells
+"<|endoftext|>
+KALAALLKKLAKLLAALK",True,Aortic endothelial cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHAK",True,Human bowes melanoma cells
+"<|endoftext|>
+HHHHHHHHHHHHRRRRRRRRRRRRRRR",True,CHO-K1 cells
+"<|endoftext|>
+GFAWNVCVYRNGVRVCHRRAN",True,RAW264.7 cells
+"<|endoftext|>
+GTKMIFVGIKKKEERADLIAYLKKA",True,U373 MG cells
+"<|endoftext|>
+KCGCRWRWKCGCKK",True,NIH-3T3 cells
+"<|endoftext|>
+KRKFICL",True,MDA-MB-231 cells
+"<|endoftext|>
+AQIKIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+CYGRKKRRQRRR",True,A375 cells
+"<|endoftext|>
+GFAWNVCVYRNGVRVCHRRAN",True,RAW264.7 cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+KRKIFCL",True,MDA-MB-231 cells
+"<|endoftext|>
+RKKRRARRR",True,Jurkat cells
+"<|endoftext|>
+MSGYGRKKRRQRRRGGGRKRLDRNGGGPGVGVPGVGVPGVGVPGFGVPGVGVPGVGVPGF
+GVPGVGVPGGGVPGGGVPGVGVPGAGVPGVGVPGGGVPVGVPGVGVPGVGVPGFGVPGVG
+VPGVGVPGFGVPGVGVPGGGVPGGGVPGVGVPGAGVPGVGVPGGGVPGWPC",True,MDA-MB-231 cells
+"<|endoftext|>
+KLALKLALKAWKAALKLA",True,Aortic endothelial cells
+"<|endoftext|>
+CGRKKRRQRRRPPQ",True,CHO cells
+"<|endoftext|>
+KLALQLALQALQAALQLA",True,Aortic endothelial cells
+"<|endoftext|>
+KALAKALAKLWKALAKAA",True,Aortic endothelial cells
+"<|endoftext|>
+GFAWNVCVYRNGVRVCHRRAN",True,RAW264.7 cells
+"<|endoftext|>
+KMDXRWRWKXXKK",True,NIH-3T3 cells
+"<|endoftext|>
+RRRQRRKKR",True,Jurkat cells
+"<|endoftext|>
+CPKKKRKVEDPGGRKKRRQRRRPQGREDV",True,other
+"<|endoftext|>
+RLWHLLWRLWRRLHRLLR",True,CHO-K1 cells
+"<|endoftext|>
+HGLASTLTRWAHYNALIRAFKGGGC",True,HeLa cells
+"<|endoftext|>
+CAAVALLPAVLLAHLLAP",True,A375 cells
+"<|endoftext|>
+TVDNPASTTNKDKLFAVRK",True,HEK293 cells
+"<|endoftext|>
+CREKAPLGLAGRKKRRQRRRC",True,U87 cells
+"<|endoftext|>
+LKKLCKLLKKLCKLAG",True,HeLa cells
+"<|endoftext|>
+RWQW",True,A549 cells
+"<|endoftext|>
+MAGCGCPCGCGA",True,RAW264.7 cells
+"<|endoftext|>
+KALKKLLAKWLAAAKALL",True,Aortic endothelial cells
+"<|endoftext|>
+RRWWWWRR",True,MCF7 cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+TLPNSNHIKQGL",True,other
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+YNNFAYSVFL",True,U87 cells
+"<|endoftext|>
+CLGTYTQDFNKFHTFPQTAIGVGAP",True,A375 cells
+"<|endoftext|>
+CRGDRGPDC",True,MDA-MB-231 cells
+"<|endoftext|>
+RRRRRRREEEEEEE",True,MDA-MB-231 cells
+"<|endoftext|>
+RRRRRRRR",True,CHO-K1 cells
+"<|endoftext|>
+FKCRRWQWRMKK",True,A549 cells
+"<|endoftext|>
+RKKRRARRR",True,Jurkat cells
+"<|endoftext|>
+KALKKLLAKWLAAAKALL",True,Aortic endothelial cells
+"<|endoftext|>
+RKKRRARRR",True,Jurkat cells
+"<|endoftext|>
+AAVLLPVLLAAP",True,HEK293 cells
+"<|endoftext|>
+MDCRWRWKCXKK",True,NIH-3T3 cells
+"<|endoftext|>
+MAGCGCPCGCGA",True,RAW264.7 cells
+"<|endoftext|>
+GRKKRRQRRR",True,HeLa cells
+"<|endoftext|>
+KRKFICL",True,MDA-MB-231 cells
+"<|endoftext|>
+CGRRRRRRRRRRRRRRRR",True,CHO-K1 cells
+"<|endoftext|>
+GGEEEEEEEEPLGLAGRRRRRRRRGG",True,A375 cells
+"<|endoftext|>
+AAVLLPVLLAAP",True,HEK293 cells
+"<|endoftext|>
+RLAMRWYSPTTRRYG",True,CHO cells
+"<|endoftext|>
+KGKKIFIMK",True,U373 MG cells
+"<|endoftext|>
+LLIILARRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+KIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+RQIKIWFANRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+KALAALLKKWAKLLAALK",True,Aortic endothelial cells
+"<|endoftext|>
+RAWMRWYSPTTRRYG",True,CHO cells
+"<|endoftext|>
+KLALKLALKALKAALK",True,Aortic endothelial cells
+"<|endoftext|>
+AAKLLPDLLAAP",True,HEK293 cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHAK",True,Human bowes melanoma cells
+"<|endoftext|>
+WFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+LKTLATALTKLAKTLTTL",True,Aortic endothelial cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+GTKMIFVGIKKKEERADLIAYLKKA",True,U373 MG cells
+"<|endoftext|>
+RKKRRQRR",True,Jurkat cells
+"<|endoftext|>
+KRKLRRLLRRLKRL",True,HeLa cells
+"<|endoftext|>
+RWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+RRRQRRKKR",True,Jurkat cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+KKKKKKNKKLQQRGD",True,HeLa cells
+"<|endoftext|>
+WWWKKKKWWW",True,MCF7 cells
+"<|endoftext|>
+KQRFIR",True,HeLa cells
+"<|endoftext|>
+YQKQAKIMCS",True,U87 cells
+"<|endoftext|>
+GGEEEEEEEEPLGLAGRRRRRRRRGG",True,A375 cells
+"<|endoftext|>
+ACRRSRRGCGRRSRRCG",True,HeLa cells
+"<|endoftext|>
+CRRLRHLRHHYRRRWHRFRC",True,CHO-K1 cells
+"<|endoftext|>
+RRWWRRWRR",True,MDA-MB-231 cells
+"<|endoftext|>
+MAGCGCPCGCGA",True,RAW264.7 cells
+"<|endoftext|>
+YQKQAKIMCS",True,U87 cells
+"<|endoftext|>
+CRFRFKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+CPMLKE",True,A375 cells
+"<|endoftext|>
+RQIKIWFQNRRAKWKK",True,HaCaT cells
+"<|endoftext|>
+CRGDK",True,HEK293 cells
+"<|endoftext|>
+CRGDK",True,HEK293 cells
+"<|endoftext|>
+HHHHHHHHRRRRRRRR",True,CHO-K1 cells
+"<|endoftext|>
+TRQARRNRRRRWRERQRGC",True,Jurkat cells
+"<|endoftext|>
+GPXGPXGPXGPRGPRGPRGPXGPXGPXGP",True,HeLa cells
+"<|endoftext|>
+MIIYRDLISH",True,CHO cells
+"<|endoftext|>
+KQPRIKRKK",True,other
+"<|endoftext|>
+XWXW",True,MDA-MB-231 cells
+"<|endoftext|>
+RGERPPR",True,MDA-MB-231 cells
+"<|endoftext|>
+LLIILRRAIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+QQRKRKIWSILAPLGTTLVKLVAGIG",True,HEK293 cells
+"<|endoftext|>
+RWRRWRRWRRWR",True,CHO-K1 cells
+"<|endoftext|>
+EEE",True,other
+"<|endoftext|>
+MVRRFLVTLRIRRACGPPRVRV",True,MCF7 cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+KGKKIFIMK",True,U373 MG cells
+"<|endoftext|>
+CGRKKRRQRRAARPPQ",True,CHO cells
+"<|endoftext|>
+KLXLKLXLKXLKAXLKLXGC",True,A549 cells
+"<|endoftext|>
+CAAVALLPAVLLAHLLAP",True,A375 cells
+"<|endoftext|>
+VPALK",True,other
+"<|endoftext|>
+GGGGRRFWRRFRR",True,CHO-K1 cells
+"<|endoftext|>
+CDAATATRGRSAASRPTERPRAPARSASRPRRPVD",True,A375 cells
+"<|endoftext|>
+GIGAVLKVLTTGLPALISWIKRKRQ",True,other
+"<|endoftext|>
+GGVCPKILKKCRRDSDCPGACICRGNGYCGSGSD",True,HeLa cells
+"<|endoftext|>
+GLFEAIEGFIENGWEGMIDGWYGGGGRRRRRRRRRK",True,other
+"<|endoftext|>
+AEQNPIYWARYADWLFTTPLLLLDLALLVDADEGTCG",True,MCF7 cells
+"<|endoftext|>
+RQIKIWFQNRRMKW",True,HaCaT cells
+"<|endoftext|>
+XRRRRRRRR",True,HeLa cells
+"<|endoftext|>
+RLWMRWYSPRTRAYGC",True,A549 cells
+"<|endoftext|>
+RLWMRWYSPTTRRAG",True,CHO cells
+"<|endoftext|>
+KKKWWWWKKK",True,MCF7 cells
+"<|endoftext|>
+KALAALLKKLAKLLAALK",True,Aortic endothelial cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+CGNKRTR",True,MDA-MB-231 cells
+"<|endoftext|>
+LLIILRRRIRKQAHAASK",True,Human bowes melanoma cells
+"<|endoftext|>
+RKKRRQRR",True,Jurkat cells
+"<|endoftext|>
+TCTWLKYH",True,U87 cells
+"<|endoftext|>
+CRWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+TRQARRNRRRRWRERQRGC",True,Jurkat cells
+"<|endoftext|>
+GRCTKSIPPICWPD",True,HeLa cells
+"<|endoftext|>
+LLIILRRRIARKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+GTKMIFVGIKKKEERADLIAYLKKA",True,U373 MG cells
+"<|endoftext|>
+HHHRRRRRRRR",True,MCF7 cells
+"<|endoftext|>
+FLLIRRVLGSTSRDHMVLHEYVNAAGIT",True,HeLa cells
+"<|endoftext|>
+RRRQRRKKR",True,Jurkat cells
+"<|endoftext|>
+QQRKRKIWSKLAPDGTTLVKLVAGIG",True,HEK293 cells
+"<|endoftext|>
+GGGGRRFWRRWRR",True,CHO-K1 cells
+"<|endoftext|>
+RRWQWR",True,A549 cells
+"<|endoftext|>
+RRRRRRRRRRR",True,CHO-K1 cells
+"<|endoftext|>
+RRRRRRRRR",True,other
+"<|endoftext|>
+FQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+GGVCPRILRRCRRDSDCPGACICRGNGYCGSGSK",True,HeLa cells
+"<|endoftext|>
+NRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+CRWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+QNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+AQIKIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+RRRRRRRRRC",True,other
+"<|endoftext|>
+GGRRARRRRRR",True,HEK293 cells
+"<|endoftext|>
+CVTVLALGALAGVGVG",True,A375 cells
+"<|endoftext|>
+MYSCNVCGKAFVLSRHLNRHLRVHRRAT",True,other
+"<|endoftext|>
+PLIKLRLDRGQF",True,HEK293 cells
+"<|endoftext|>
+RQIKIWFQNRRMKWKKTYADFIASGRTGRRNAI",True,CHO-K1 cells
+"<|endoftext|>
+RRRRRRRRRFGRRRRRRRRRFGRRRRRRRRRFGRRRRRRRRRFGWPPPPPPPPPGGHHHH
+HH",True,other
+"<|endoftext|>
+FKKLKKLFSKLWNWK",True,A549 cells
+"<|endoftext|>
+GGLIKTKRKRKKQRVKIAYEEIFVKNM",True,A375 cells
+"<|endoftext|>
+KLALKLALKALKAALK",True,Aortic endothelial cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+IWRYSLASQQ",True,U87 cells
+"<|endoftext|>
+KALAALLKKWAKLLAALK",True,Aortic endothelial cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+CRGDRGPDC",True,MDA-MB-231 cells
+"<|endoftext|>
+CGRKKRRQRWWRRPPQ",True,CHO cells
+"<|endoftext|>
+KMDCRPRPKCXKK",True,NIH-3T3 cells
+"<|endoftext|>
+RRARRPRRLRPAPGR",True,HeLa cells
+"<|endoftext|>
+FVTRGCPRRLVARLIRVMVPRR",True,MCF7 cells
+"<|endoftext|>
+KALSEVQGWKQRMAAKELAR",True,HEK293 cells
+"<|endoftext|>
+KRKRWHW",True,other
+"<|endoftext|>
+MAGCGCPCGCGA",True,RAW264.7 cells
+"<|endoftext|>
+RRRRRR",True,Jurkat cells
+"<|endoftext|>
+GGEEEEEEEEPLGLAGRRRRRRRRGG",True,A375 cells
+"<|endoftext|>
+IWRYSLASQQ",True,U87 cells
+"<|endoftext|>
+KMDXRPRPKXCKK",True,NIH-3T3 cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+KQRMAAKELAR",True,HEK293 cells
+"<|endoftext|>
+TRQARRNRRRRWRERQRGC",True,Jurkat cells
+"<|endoftext|>
+RQIKIWFQNRRMKW",True,HaCaT cells
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+RRRRRRREEEEEEE",True,MDA-MB-231 cells
+"<|endoftext|>
+GGGGRRWWRRWRR",True,CHO-K1 cells
+"<|endoftext|>
+HHHHHHHHHHHHRRRRRRRRRRRRRRR",True,CHO-K1 cells
+"<|endoftext|>
+KALAALLKKLAKLLAALK",True,Aortic endothelial cells
+"<|endoftext|>
+RRGRRG",True,Jurkat cells
+"<|endoftext|>
+RRRRRR",True,Jurkat cells
+"<|endoftext|>
+RQIKIWFQNRRMKWKKTYADFIASGRTGRRNAI",True,CHO-K1 cells
+"<|endoftext|>
+RLWMRWYSPTTRRYG",True,CHO cells
+"<|endoftext|>
+CAAKA",True,A375 cells
+"<|endoftext|>
+KALAALLKKLAKLLAALK",True,Aortic endothelial cells
+"<|endoftext|>
+RRGRRG",True,Jurkat cells
+"<|endoftext|>
+DSLKSYWYLQKFSWR",True,other
+"<|endoftext|>
+CDAATATRGRSAASRPTERPRAPARSASRPRRPVD",True,A375 cells
+"<|endoftext|>
+CRWRWKXXKK",True,NIH-3T3 cells
+"<|endoftext|>
+GRRRR",True,CHO-K1 cells
+"<|endoftext|>
+RRRRRR",True,Jurkat cells
+"<|endoftext|>
+CYGRKKRRQRRR",True,A375 cells
+"<|endoftext|>
+RWRWRWRWRWRW",True,A549 cells
+"<|endoftext|>
+RQIKIWFQNRRMKW",True,HaCaT cells
+"<|endoftext|>
+CPKILKKCRRDSDCPGACICRGNGYCGSGSDEETGEGGV",True,HeLa cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+CTWLKYH",True,U87 cells
+"<|endoftext|>
+KLKLALALALAVQRKRQKLMPC",True,U87 cells
+"<|endoftext|>
+TCTWLKYHS",True,U87 cells
+"<|endoftext|>
+RRRRRRR",True,Jurkat cells
+"<|endoftext|>
+GTKMIFVGIKKKEERADLIAYLKKA",True,U373 MG cells
+"<|endoftext|>
+FVTRGCPRRLVARLIRVMVPRR",True,MCF7 cells
+"<|endoftext|>
+PLIKLRLDRGQF",True,HEK293 cells
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+KALSEVQGWKQRMAAKELAR",True,HEK293 cells
+"<|endoftext|>
+LKTLATALTKLAKTLTTL",True,Aortic endothelial cells
+"<|endoftext|>
+PRPLPFPRPG",True,RAW264.7 cells
+"<|endoftext|>
+YGRKKRRQRRRGTALDWSWLQTE",True,MCF7 cells
+"<|endoftext|>
+KALKKLLAKWLAAAKALL",True,Aortic endothelial cells
+"<|endoftext|>
+RLWMRWYSPATRRYG",True,CHO cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+QNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+YRDRFAFQPH",True,U87 cells
+"<|endoftext|>
+YGRKKRRQRRRGTALDWSWLQTE",True,MCF7 cells
+"<|endoftext|>
+KWKWKWKWKW",True,MCF7 cells
+"<|endoftext|>
+KCCKWRWRCK",True,NIH-3T3 cells
+"<|endoftext|>
+QLALQLALQALQAALQLA",True,Aortic endothelial cells
+"<|endoftext|>
+KRVSRNKSEKKRR",True,other
+"<|endoftext|>
+TRSSRAGLQWPVGRVHRLLRKGGC",True,HeLa cells
+"<|endoftext|>
+RRGRRG",True,Jurkat cells
+"<|endoftext|>
+RLYMRYYSPTTRRYG",True,CHO cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+MAGCGCPCGCGA",True,RAW264.7 cells
+"<|endoftext|>
+GRRRRRRRRR",True,HeLa cells
+"<|endoftext|>
+HATKSQNINF",True,U87 cells
+"<|endoftext|>
+GRKKRRQRRRPPQRKC",True,HEK293 cells
+"<|endoftext|>
+KKWWWWKK",True,MCF7 cells
+"<|endoftext|>
+KMDXRPRPKXCKK",True,NIH-3T3 cells
+"<|endoftext|>
+QIKIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+AQIKIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+YRDRFAFQPH",True,U87 cells
+"<|endoftext|>
+AAKLLPDLLAAP",True,HEK293 cells
+"<|endoftext|>
+RVRVFVVHIPRLT",True,MCF7 cells
+"<|endoftext|>
+CYGRKKRRQRRR",True,A375 cells
+"<|endoftext|>
+LLRLLRWWWRLLRLL",True,U87 cells
+"<|endoftext|>
+RLWMRWYSPTTRRYG",True,CHO cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+CLLYWFRRRHRHHRRRHRRC",True,CHO-K1 cells
+"<|endoftext|>
+GLWWKAWWKAWWKSLWWRKRKRKA",True,HeLa cells
+"<|endoftext|>
+RKQKSLQTKLAENPPVPRKKRQSRPRWKQWLQK",True,HEK293 cells
+"<|endoftext|>
+KLALQLALQALQAALQLA",True,Aortic endothelial cells
+"<|endoftext|>
+CGRKKRRQRRAARPPQ",True,CHO cells
+"<|endoftext|>
+QIKIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+IKIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+RLWMRWYAPTTRRYG",True,CHO cells
+"<|endoftext|>
+CRGDKGDPC",True,CHO cells
+"<|endoftext|>
+KGKKIFIMK",True,U373 MG cells
+"<|endoftext|>
+RRRRR",True,Jurkat cells
+"<|endoftext|>
+RQIAIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+HRHRHRHR",True,MDA-MB-231 cells
+"<|endoftext|>
+RQIAIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+NTCTWLKYHS",True,U87 cells
+"<|endoftext|>
+GGLIKTKRKRKKQRVKIAYEEIFVKNM",True,A375 cells
+"<|endoftext|>
+GGGGRRWFRRFRR",True,CHO-K1 cells
+"<|endoftext|>
+TCTWLKYH",True,U87 cells
+"<|endoftext|>
+XRXR",True,MDA-MB-231 cells
+"<|endoftext|>
+QNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+HHHRRRRRRRR",True,MCF7 cells
+"<|endoftext|>
+GGGGRRWWRRWRR",True,CHO-K1 cells
+"<|endoftext|>
+GGEEEEEEEEPLGLAGRRRRRRRRGG",True,A375 cells
+"<|endoftext|>
+GWTLNSAGYLLGKINLKALAALAKKIL",True,CHO cells
+"<|endoftext|>
+IWRYSLASQQ",True,U87 cells
+"<|endoftext|>
+TCTWLKYH",True,U87 cells
+"<|endoftext|>
+GCGGGYGRKKRRQRRR",True,other
+"<|endoftext|>
+MIIYRDLISH",True,CHO cells
+"<|endoftext|>
+KLAAALLKKWKKLAAALL",True,Aortic endothelial cells
+"<|endoftext|>
+EEEEEEEEPLGLAGRRRRRRRRN",True,A549 cells
+"<|endoftext|>
+CAAVALLPAVLLAHLLAP",True,A375 cells
+"<|endoftext|>
+TVDNPASTTNKDKLFAVRK",True,HEK293 cells
+"<|endoftext|>
+TVDNPASTTNKDKLFAVRK",True,HEK293 cells
+"<|endoftext|>
+GRRRRRRRRRRRRRRRR",True,CHO-K1 cells
+"<|endoftext|>
+GRCTRSIPPKCWPD",True,HeLa cells
+"<|endoftext|>
+KIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+CVTVLALGALAGVGVG",True,A375 cells
+"<|endoftext|>
+RRRRRR",True,Jurkat cells
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+RQIKIWFANRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+LKPSFSPRNY",True,HEK293 cells
+"<|endoftext|>
+NVFKGNTISDKISFNFSDK",True,CHO-K1 cells
+"<|endoftext|>
+LTFKEYWDQLTSAA",True,MCF7 cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+MAGCGCPCGCGA",True,RAW264.7 cells
+"<|endoftext|>
+RQIKIAFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+RLWMRWYSPTTRRAG",True,CHO cells
+"<|endoftext|>
+CDAATATRGRSAASRPTERPRAPARSASRPRRPVD",True,A375 cells
+"<|endoftext|>
+KQRMAAKELAR",True,HEK293 cells
+"<|endoftext|>
+KRKFICL",True,MDA-MB-231 cells
+"<|endoftext|>
+IPLVVPLRRRRRRRRC",True,MCF7 cells
+"<|endoftext|>
+GGGGRRFFRRWRR",True,CHO-K1 cells
+"<|endoftext|>
+RQIKIWFQARRMKWKK",True,HaCaT cells
+"<|endoftext|>
+QIKIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+RGERPPRCRGDRGPDC",True,MDA-MB-231 cells
+"<|endoftext|>
+GRKKRRQRRRPPQRKC",True,HEK293 cells
+"<|endoftext|>
+QLALQLALQALQAALQLA",True,Aortic endothelial cells
+"<|endoftext|>
+KGKKIFIMK",True,U373 MG cells
+"<|endoftext|>
+CAAVALLPAVLLAHLLAP",True,A375 cells
+"<|endoftext|>
+LLHILRRSIRKQAHAIRK",True,CHO-K1 cells
+"<|endoftext|>
+CLGTYTQDFNKFHTFPQTAIGVGAP",True,A375 cells
+"<|endoftext|>
+RGGRLSYSRRRFSTSTGRVPGVGGGGGGGAAAAAAAAGLPRHSAVMERLRRRIELCRRHH
+STCEARYEAVSPERLELERQHTFALHQRCIQAKAKRAGKH",True,other
+"<|endoftext|>
+RLWMRWYSPATRRYG",True,CHO cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+GRKKRRQRRRPPQRKC",True,HEK293 cells
+"<|endoftext|>
+MSGYGRKKRRQRRRGGGPGVGVPGVGVPGVGVPGFGVPGVGVPGVGVPGFGVPGVGVPGG
+GVPGGGVPGVGVPGAGVPGVGVPGGGVPVGVPGVGVPGVGVPGFGVPGVGVPGVGVPGFG
+VPGVGVPGGGVPGGGVPGVGVPGAGVPGVGVPGGGVPGWPC",True,MDA-MB-231 cells
+"<|endoftext|>
+MSGYGRKKRRQRRRGGGRKRLDRNGGGPGVGVPGVGVPGVGVPGFGVPGVGVPGVGVPGF
+GVPGVGVPGGGVPGGGVPGVGVPGAGVPGVGVPGGGVPVGVPGVGVPGVGVPGFGVPGVG
+VPGVGVPGFGVPGVGVPGGGVPGGGVPGVGVPGAGVPGVGVPGGGVPGWPC",True,MDA-MB-231 cells
+"<|endoftext|>
+KLWMRWYSATTRRYG",True,CHO cells
+"<|endoftext|>
+WWWRRRRWWW",True,MCF7 cells
+"<|endoftext|>
+RGGRLSYSRRRFSTSTGRVPGVGGGGGGGAAAAAAAAGLPRHSAVMERLRRRIELCRRHH
+STCEARYEAVSPERLELERQHTFALHQRCIQAKAKRAGKH",True,other
+"<|endoftext|>
+KCXLKLXLKXLKACLKLXG",True,A549 cells
+"<|endoftext|>
+RWRRWRRWRRWR",True,CHO-K1 cells
+"<|endoftext|>
+LLIILRARIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+GGEEEEEEEEPLGLAGRRRRRRRRGG",True,A375 cells
+"<|endoftext|>
+VRRFLVTLRIRRA",True,MCF7 cells
+"<|endoftext|>
+RLWARWYSPTTRRYG",True,CHO cells
+"<|endoftext|>
+MALGPCMLLLLLLLGLRLPGVWAPPRRRRRRRRR",True,other
+"<|endoftext|>
+LLIILRRRIRKQAHAASK",True,Human bowes melanoma cells
+"<|endoftext|>
+RLWMRWYSPTTRRYG",True,CHO cells
+"<|endoftext|>
+KKLFKKILKKL",True,MCF7 cells
+"<|endoftext|>
+KRRRGGKKRRD",True,MCF7 cells
+"<|endoftext|>
+RWRWKXXKK",True,NIH-3T3 cells
+"<|endoftext|>
+CLGTYTQDFNKFHTFPQTAIGVGAP",True,A375 cells
+"<|endoftext|>
+RRRRRRRR",True,other
+"<|endoftext|>
+KMDCRWRWKCSKK",True,NIH-3T3 cells
+"<|endoftext|>
+KLALKALKKLKADLKLA",True,HEK293 cells
+"<|endoftext|>
+RWRWRWRWRWKRWRWRWRWRW",True,other
+"<|endoftext|>
+KLXLKLXLKXLKAXLKLXGC",True,A549 cells
+"<|endoftext|>
+RQIKIAFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+AAVLLPVLLAAP",True,HEK293 cells
+"<|endoftext|>
+RLWHLLWRLWRRLHRLLR",True,CHO-K1 cells
+"<|endoftext|>
+GWTLNSAGYLLGKINLKALAALAKKIL",True,CHO cells
+"<|endoftext|>
+RWRWRWRWRWRW",True,A549 cells
+"<|endoftext|>
+KCXLKLXCKXLKACLKLXG",True,A549 cells
+"<|endoftext|>
+TCTWLKYH",True,U87 cells
+"<|endoftext|>
+IWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+CRRRRRRRRVKRKKKP",True,other
+"<|endoftext|>
+HSDAVFTDNYTALRKQMAVKKYLNSILNYGRKKRRQRRR",True,other
+"<|endoftext|>
+RQIKIWFQNRRMKW",True,HaCaT cells
+"<|endoftext|>
+VQLRRRWC",True,U87 cells
+"<|endoftext|>
+MAGCGCPCGCGA",True,RAW264.7 cells
+"<|endoftext|>
+IILIIGSTSRDHVLHEYVNAAGIT",True,HeLa cells
+"<|endoftext|>
+CAAVALLPAVLLAHLLAP",True,A375 cells
+"<|endoftext|>
+RRR",True,other
+"<|endoftext|>
+RLWMRWYSPTTRRYG",True,CHO cells
+"<|endoftext|>
+RLWMRWYSPTTRRAG",True,CHO cells
+"<|endoftext|>
+YNNFAYSVFL",True,U87 cells
+"<|endoftext|>
+CASGQQGLLKLC",True,U87 cells
+"<|endoftext|>
+RRRQRRKKR",True,Jurkat cells
+"<|endoftext|>
+KQRMAAKELAR",True,HEK293 cells
+"<|endoftext|>
+PRPLPFPRPG",True,RAW264.7 cells
+"<|endoftext|>
+RXRRXRRXRRXR",True,CHO-K1 cells
+"<|endoftext|>
+CRRWQWRMKKLGC",True,A549 cells
+"<|endoftext|>
+CRWRWKCGCKK",True,NIH-3T3 cells
+"<|endoftext|>
+IPLVVPLRRRRRRRRC",True,MCF7 cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+KVRVRVRVDPPTRVRERVKC",True,other
+"<|endoftext|>
+MAGCGCPCGCGA",True,RAW264.7 cells
+"<|endoftext|>
+KMDCRWRWKSCKK",True,NIH-3T3 cells
+"<|endoftext|>
+GPLGIAGQRRRRRRRRR",True,MCF7 cells
+"<|endoftext|>
+IWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+QLALQLALQALQAALQLA",True,Aortic endothelial cells
+"<|endoftext|>
+LKPSFSPRNY",True,HEK293 cells
+"<|endoftext|>
+RXRRBRRXRYQFLIRXRBRXRB",True,other
+"<|endoftext|>
+CGRKKRWWRQRRRPPQ",True,CHO cells
+"<|endoftext|>
+NTGTWLKYHS",True,U87 cells
+"<|endoftext|>
+GRCTKSIPPICWPK",True,HeLa cells
+"<|endoftext|>
+RQIKIAFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+RHVYHVLLSQ",True,U87 cells
+"<|endoftext|>
+RRRRRR",True,Jurkat cells
+"<|endoftext|>
+VPTLE",True,other
+"<|endoftext|>
+RRVWRRYRRQRWCRR",True,HeLa cells
+"<|endoftext|>
+MYSCNVCGKAFVLSRHLNRHLRVHRRAT",True,other
+"<|endoftext|>
+RKKRRQRR",True,Jurkat cells
+"<|endoftext|>
+CPMLKE",True,A375 cells
+"<|endoftext|>
+WWWRRRRWWW",True,MCF7 cells
+"<|endoftext|>
+PLKPKKPKTQEKKKKQPPKPKKPKTQEKKKKQPPKPKR",True,HEK293 cells
+"<|endoftext|>
+FRRRRQ",True,other
+"<|endoftext|>
+GGRRARRRRRR",True,HEK293 cells
+"<|endoftext|>
+XWXWXWXW",True,MDA-MB-231 cells
+"<|endoftext|>
+RHRHRHRHR",True,MDA-MB-231 cells
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+GGEEEEEEEEPLGLAGRRRRRRRRGG",True,A375 cells
+"<|endoftext|>
+RRRPPWLRLDIRRK",True,other
+"<|endoftext|>
+CREKA",True,U87 cells
+"<|endoftext|>
+AGYLLGKINLKALAALAKKILTYADFIASGRTGRRNAI",True,A549 cells
+"<|endoftext|>
+CVTVLALGALAGVGVG",True,A375 cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSA",True,Human bowes melanoma cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+RKKRRARRR",True,Jurkat cells
+"<|endoftext|>
+CGRKKRRQRRAARPPQ",True,CHO cells
+"<|endoftext|>
+RLWMRWYSPTTRRAG",True,CHO cells
+"<|endoftext|>
+MVRRFLVTLRIRRACGPPRVRV",True,MCF7 cells
+"<|endoftext|>
+MDCRWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+LKTLATALTKLAKTLTTL",True,Aortic endothelial cells
+"<|endoftext|>
+RQIKIWFQNRRAKWKK",True,HaCaT cells
+"<|endoftext|>
+PRPLPFPRPG",True,RAW264.7 cells
+"<|endoftext|>
+VRRFLVTLRIRRA",True,MCF7 cells
+"<|endoftext|>
+CRWRWKXCKK",True,NIH-3T3 cells
+"<|endoftext|>
+MVTVLFRRLRIRRACGPPRVRV",True,other
+"<|endoftext|>
+KLALKLALKAWKAALKLA",True,Aortic endothelial cells
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+YGRGGRRGRRR",True,HeLa cells
+"<|endoftext|>
+CRWRWKXCKK",True,NIH-3T3 cells
+"<|endoftext|>
+GGRRARRRRRR",True,HEK293 cells
+"<|endoftext|>
+AHLHNRS",True,other
+"<|endoftext|>
+RLFMRFYSPTTRRYG",True,CHO cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+CTWLKYH",True,U87 cells
+"<|endoftext|>
+AEQNPIYWARYADWLFTTPLLLLDLALLVDADEGTCG",True,MCF7 cells
+"<|endoftext|>
+GRKKRRQRRRPPQTYADFIASGRTGRRNAI",True,A549 cells
+"<|endoftext|>
+TRQARRNRRRRWRERQRGC",True,Jurkat cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+MAGCGCPCGCGA",True,RAW264.7 cells
+"<|endoftext|>
+MSGPGVGVPGVGVPGVGVPGFGVPGVGVPGVGVPGFGVPGVGVPGGGVPGGGVPGVGVPG
+AGVPGVGVPGGGVPGVGVPGVGVPGVGVPGFGVPGVGVPGVGVPGFGVPGVGVPGGGVPG
+GGVPGVGVPGAGVPGVGVPGGGVPGWPC",True,MDA-MB-231 cells
+"<|endoftext|>
+CREKA",True,U87 cells
+"<|endoftext|>
+AEQNPIYWARYADWLFTTPLLLLDLALLVDADEGTCG",True,MCF7 cells
+"<|endoftext|>
+CRGDKGDPC",True,CHO cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+KLKLALALALAVQRKRQKLMPC",True,U87 cells
+"<|endoftext|>
+YSSYSAPVSSSLSVRRSYSSSSGS",True,other
+"<|endoftext|>
+RRRRHRHRHRHR",True,MDA-MB-231 cells
+"<|endoftext|>
+LKTLATALTKLAKTLTTL",True,Aortic endothelial cells
+"<|endoftext|>
+XWXWXWXW",True,MDA-MB-231 cells
+"<|endoftext|>
+CGRRMKWKKXXXXGGGGEEEERRRR",True,MCF7 cells
+"<|endoftext|>
+GGEEEEEEEEPLGLAGRRRRRRRRGG",True,A375 cells
+"<|endoftext|>
+RRGRRG",True,Jurkat cells
+"<|endoftext|>
+KRKIFCL",True,MDA-MB-231 cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+KGKKIFIMK",True,U373 MG cells
+"<|endoftext|>
+AHLHNRS",True,other
+"<|endoftext|>
+CRGDKGDPC",True,CHO cells
+"<|endoftext|>
+IPLVVPLRRRRRRRRC",True,MCF7 cells
+"<|endoftext|>
+YQKQAKIMCS",True,U87 cells
+"<|endoftext|>
+YGRKKRRQRRRYGRKKRRQRRRYGRKKRRQRRR",True,A549 cells
+"<|endoftext|>
+QIKIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+CGRKKRRQRRRPPQ",True,CHO cells
+"<|endoftext|>
+MAGCGCPCGCGA",True,RAW264.7 cells
+"<|endoftext|>
+XWXWXWXWXWXW",True,MDA-MB-231 cells
+"<|endoftext|>
+VELPPPVELPPPVELPPP",True,A549 cells
+"<|endoftext|>
+PRPLPFPRPG",True,RAW264.7 cells
+"<|endoftext|>
+AGYLLGKINLKALAALAKKILTYADFIASGRTGRRNAI",True,A549 cells
+"<|endoftext|>
+CGRRRRRRRRRRRRRRRR",True,CHO-K1 cells
+"<|endoftext|>
+KALKKLLAKWLAAAKALL",True,Aortic endothelial cells
+"<|endoftext|>
+CDAATATRGRSAASRPTERPRAPARSASRPRRPVD",True,A375 cells
+"<|endoftext|>
+CHHHHHRRWQWRHHHHHC",True,A549 cells
+"<|endoftext|>
+GRKKRRQRRRPPQRKC",True,HEK293 cells
+"<|endoftext|>
+PRPLPFPRPG",True,RAW264.7 cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+MVRRFLVTLRIRRACGPPRVRV",True,MCF7 cells
+"<|endoftext|>
+YGRKKRRQRRRGTALDWSWLQTE",True,MCF7 cells
+"<|endoftext|>
+YGRKKRRQRRRGTALDWSWLQTE",True,MCF7 cells
+"<|endoftext|>
+MALGPCMLLLLLLLGLRLPGVWAPPRRRRRRRRR",True,other
+"<|endoftext|>
+QIKIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+RRRRRRR",True,Jurkat cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+CGRRMKWKKXXXXGGGGEEEERRRR",True,MCF7 cells
+"<|endoftext|>
+RKQKSLQTKLAENPPVPRKKRQSRPRWKQWLQK",True,HEK293 cells
+"<|endoftext|>
+RRGRRG",True,Jurkat cells
+"<|endoftext|>
+MAGCGCPCGCGA",True,RAW264.7 cells
+"<|endoftext|>
+RLWMRWYSPATRRYG",True,CHO cells
+"<|endoftext|>
+CGALFLGWLGAAGSTMGA",True,A375 cells
+"<|endoftext|>
+RKKRRQRRR",True,NIH-3T3 cells
+"<|endoftext|>
+GGGGRRFFRRFRR",True,CHO-K1 cells
+"<|endoftext|>
+RRRRRRR",True,Jurkat cells
+"<|endoftext|>
+RKRRESASSSSSVKKAKKP",True,HeLa cells
+"<|endoftext|>
+CRRRRRRRRVKRKKKP",True,other
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+RRRRR",True,Jurkat cells
+"<|endoftext|>
+CRGDRGPDC",True,MDA-MB-231 cells
+"<|endoftext|>
+RQIKIWFANRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+CRKKRRQRRR",True,other
+"<|endoftext|>
+TRQARRNRRRRWRERQRGC",True,Jurkat cells
+"<|endoftext|>
+MSGPGVGVPGVGVPGVGVPGFGVPGVGVPGVGVPGFGVPGVGVPGGGVPGGGVPGVGVPG
+AGVPGVGVPGGGVPGVGVPGVGVPGVGVPGFGVPGVGVPGVGVPGFGVPGVGVPGGGVPG
+GGVPGVGVPGAGVPGVGVPGGGVPGWPC",True,MDA-MB-231 cells
+"<|endoftext|>
+CGRKKRWWRQRWWRWWRPPQ",True,CHO cells
+"<|endoftext|>
+CLLYWFRRRHRHHRRRHRRC",True,CHO-K1 cells
+"<|endoftext|>
+KSKTEYYNAWAVWERNAP",True,HeLa cells
+"<|endoftext|>
+KAALLKAALLKAALLKAALLK",True,A549 cells
+"<|endoftext|>
+RLIMRIYSPTTRRYG",True,CHO cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHAK",True,Human bowes melanoma cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHAK",True,Human bowes melanoma cells
+"<|endoftext|>
+GRRRRRRRRRRRR",True,CHO-K1 cells
+"<|endoftext|>
+PDDIKPRRIRKPRY",True,HeLa cells
+"<|endoftext|>
+YGRKKRRQRRRGTALDWSWLQTE",True,MCF7 cells
+"<|endoftext|>
+GRKKRRQRRRMVSAL",True,HEK293 cells
+"<|endoftext|>
+RNQRKTVRCFRCRQAGHWISDCRLKSK",True,other
+"<|endoftext|>
+SEEIITPVYCTGVSAQVQKGLRKRLRKFRNKIKEK",True,HeLa cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+LLIILRRRIARKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+DCRWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+RRRRRRR",True,Jurkat cells
+"<|endoftext|>
+RRRRRRR",True,Jurkat cells
+"<|endoftext|>
+LLIILRRAIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+FRRRRQ",True,other
+"<|endoftext|>
+RRRRRRRRRFGRRRRRRRRRFGRRRRRRRRRFGRRRRRRRRRFGWPPPPPPPPPGGHHHH
+HH",True,other
+"<|endoftext|>
+RRRRRRR",True,Jurkat cells
+"<|endoftext|>
+RQIKIWFQNRRMK",True,HaCaT cells
+"<|endoftext|>
+RRRRNRTRRNRRRVRGC",True,CHO-K1 cells
+"<|endoftext|>
+TRQARRNRRRRWRERQRGC",True,Jurkat cells
+"<|endoftext|>
+CTWLKYH",True,U87 cells
+"<|endoftext|>
+HATKSQNINF",True,U87 cells
+"<|endoftext|>
+VRRFLVTLRIRRA",True,MCF7 cells
+"<|endoftext|>
+KALGISYGRKK",True,MCF7 cells
+"<|endoftext|>
+BRRRRRRRR",True,HeLa cells
+"<|endoftext|>
+TCTWLKYHS",True,U87 cells
+"<|endoftext|>
+RQIKIWFQNARMKWKK",True,HaCaT cells
+"<|endoftext|>
+RLWMRWYSPTTRRYA",True,CHO cells
+"<|endoftext|>
+KRRRRRRRRRRELTFKEYWDQLTSAA",True,MCF7 cells
+"<|endoftext|>
+HDLPKGG",True,other
+"<|endoftext|>
+CREKAPLGLAGRKKRRQRRRC",True,U87 cells
+"<|endoftext|>
+WWWKKKKWWW",True,MCF7 cells
+"<|endoftext|>
+RGERPPRCRGDRGPDC",True,MDA-MB-231 cells
+"<|endoftext|>
+GGLIKTKRKRKKQRVKIAYEEIFVKNM",True,A375 cells
+"<|endoftext|>
+RQIKAWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+RLWARWYSPTTRRYG",True,CHO cells
+"<|endoftext|>
+TWLKYH",True,HEK293 cells
+"<|endoftext|>
+LLIILRRAIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+XWXW",True,MDA-MB-231 cells
+"<|endoftext|>
+KIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+FKKLKKLFSKLWNWKCRGDKGPDC",True,A549 cells
+"<|endoftext|>
+KLALKLALKALKAALK",True,Aortic endothelial cells
+"<|endoftext|>
+GRKKRRQRRRPPQRKC",True,HEK293 cells
+"<|endoftext|>
+QLALQLALQALQAALQLA",True,Aortic endothelial cells
+"<|endoftext|>
+VPMLK",True,other
+"<|endoftext|>
+RQIKIWFQNARMKWKK",True,HaCaT cells
+"<|endoftext|>
+MTYPRRRFRRRRHRPRS",True,other
+"<|endoftext|>
+LLIILRRRIRAQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+LLRLLRWWWRLLRLL",True,U87 cells
+"<|endoftext|>
+PLKPKKPKTQEKKKKQPPKPKKPKTQEKKKKQPPKPKR",True,HEK293 cells
+"<|endoftext|>
+RRRRR",True,Jurkat cells
+"<|endoftext|>
+CGNKRTR",True,MDA-MB-231 cells
+"<|endoftext|>
+CRWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+RRLLRRLRR",True,CHO-K1 cells
+"<|endoftext|>
+GPLGIAGQRRRRRRRRR",True,MCF7 cells
+"<|endoftext|>
+GTKMIFVGIKKKEERADLIAYLKKA",True,U373 MG cells
+"<|endoftext|>
+RLVMRVYSPTTRRYG",True,CHO cells
+"<|endoftext|>
+RRRRRRRRRRRTYADFIASGRTGRRNAI",True,CHO-K1 cells
+"<|endoftext|>
+HRHRHRHR",True,MDA-MB-231 cells
+"<|endoftext|>
+KCXLKLXCKXLKACLKLXG",True,A549 cells
+"<|endoftext|>
+PRPLPFPRPG",True,RAW264.7 cells
+"<|endoftext|>
+CRWRWKCXKK",True,NIH-3T3 cells
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+KKKWWWWKKK",True,MCF7 cells
+"<|endoftext|>
+QLALQLALQALQAALQLA",True,Aortic endothelial cells
+"<|endoftext|>
+GFAWNVCVYRNGVRVCHRRAN",True,RAW264.7 cells
+"<|endoftext|>
+KLALQLALQALQAALQLA",True,Aortic endothelial cells
+"<|endoftext|>
+KKLFKKILKKL",True,MCF7 cells
+"<|endoftext|>
+KLALKLALKALKAALK",True,Aortic endothelial cells
+"<|endoftext|>
+NTGTWLKYHS",True,U87 cells
+"<|endoftext|>
+RKKRRQRR",True,Jurkat cells
+"<|endoftext|>
+RQIKAWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+KLALKLALKALKAALKLA",True,other
+"<|endoftext|>
+CRFRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+RQIKIAFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+LLIILRRRIRKAAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+TCTWLKYH",True,U87 cells
+"<|endoftext|>
+CAAVALLPAVLLAHLLAP",True,A375 cells
+"<|endoftext|>
+CRWRWKCSKK",True,NIH-3T3 cells
+"<|endoftext|>
+AWRRKLKALAPAKKAKV",True,HeLa cells
+"<|endoftext|>
+QLALQLALQALQAALQLA",True,Aortic endothelial cells
+"<|endoftext|>
+KLAAALLKKWKKLAAALL",True,Aortic endothelial cells
+"<|endoftext|>
+PRPLPFPRPG",True,RAW264.7 cells
+"<|endoftext|>
+RRRRRRRR",True,CHO-K1 cells
+"<|endoftext|>
+MAGCGCPCGCGA",True,RAW264.7 cells
+"<|endoftext|>
+RRRRNRTRRNRRRVRGC",True,CHO-K1 cells
+"<|endoftext|>
+RQIKIWFQARRMKWKK",True,HaCaT cells
+"<|endoftext|>
+TWLKYH",True,HEK293 cells
+"<|endoftext|>
+KLAAALLKKWKKLAAALL",True,Aortic endothelial cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+IKIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+MAPQRDTVGGRTTPPSWGPAKAQLRNSCA",True,HeLa cells
+"<|endoftext|>
+QLALQLALQALQAALQLA",True,Aortic endothelial cells
+"<|endoftext|>
+HHHHHHHHHHHHHHHHRRRRRRRRRRRRRRR",True,CHO-K1 cells
+"<|endoftext|>
+PRPLPFPRPG",True,RAW264.7 cells
+"<|endoftext|>
+AAKLLPDLLAAP",True,HEK293 cells
+"<|endoftext|>
+XFXRXFXRXFXR",True,MDA-MB-231 cells
+"<|endoftext|>
+YGRKKRRQRRRYGRKKRRQRRRYGRKKRRQRRR",True,A549 cells
+"<|endoftext|>
+CYGRKKRRQRRR",True,A375 cells
+"<|endoftext|>
+RRRRRR",True,Jurkat cells
+"<|endoftext|>
+GTKMIFVGIKKKEERADLIAYLKKA",True,U373 MG cells
+"<|endoftext|>
+RQIKIWFQNRRMKWKKTYADFIASGRTGRRNAI",True,CHO-K1 cells
+"<|endoftext|>
+LLIILARRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+IKIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+RHVYHVLLSQ",True,U87 cells
+"<|endoftext|>
+NRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+RRRRR",True,Jurkat cells
+"<|endoftext|>
+KRKIFCL",True,MDA-MB-231 cells
+"<|endoftext|>
+GFAWNVCVYRNGVRVCHRRAN",True,RAW264.7 cells
+"<|endoftext|>
+CVTVLALGALAGVGVG",True,A375 cells
+"<|endoftext|>
+GRRRRRRRR",True,CHO-K1 cells
+"<|endoftext|>
+CTWLKY",True,U87 cells
+"<|endoftext|>
+LLIILRRRIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+LLIILRRRIARKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+KCRWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+LLIILRRRIRAQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+TCTWLKYH",True,U87 cells
+"<|endoftext|>
+RKKRRQRRR",True,NIH-3T3 cells
+"<|endoftext|>
+KCRRWQWRMKK",True,A549 cells
+"<|endoftext|>
+RWRWKXXKK",True,NIH-3T3 cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+RLWMRWYSPWTRRYG",True,CHO cells
+"<|endoftext|>
+INLKALAALAKKIL",True,U373 MG cells
+"<|endoftext|>
+RRMKWKK",True,HeLa cells
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+DCRWRWKCXKK",True,NIH-3T3 cells
+"<|endoftext|>
+YTFGLKTSFNVQ",True,CHO cells
+"<|endoftext|>
+RKKRRARRR",True,Jurkat cells
+"<|endoftext|>
+LRRETFDLWKRLRR",True,HeLa cells
+"<|endoftext|>
+RRWWRRWRR",True,MDA-MB-231 cells
+"<|endoftext|>
+CGRKKRWWRQRRRPPQ",True,CHO cells
+"<|endoftext|>
+YGDCLPHLKLCKENKDCCSKKCKRRGTNIEKRCR",True,other
+"<|endoftext|>
+CHHHHHRRRRRRRRRHHHHHC",True,A549 cells
+"<|endoftext|>
+HHHRRRRRRRR",True,MCF7 cells
+"<|endoftext|>
+GLRKRLRKFRNKIKEKGLRKRLRKFRNKIKEK",True,HEK293 cells
+"<|endoftext|>
+GRKKRRQRRK",True,other
+"<|endoftext|>
+CRWRWKCSKK",True,NIH-3T3 cells
+"<|endoftext|>
+ECYPKKGQDP",True,U87 cells
+"<|endoftext|>
+RQIKIWFQNRRMKAKK",True,HaCaT cells
+"<|endoftext|>
+QLALQLALQALQAALQLA",True,Aortic endothelial cells
+"<|endoftext|>
+RXRRXRRXRRXR",True,CHO-K1 cells
+"<|endoftext|>
+RRIRPRPPRLPRPRP",True,RAW264.7 cells
+"<|endoftext|>
+CAAKA",True,A375 cells
+"<|endoftext|>
+KALKKLLAKWLAAAKALL",True,Aortic endothelial cells
+"<|endoftext|>
+BRRXRRXRRX",True,HeLa cells
+"<|endoftext|>
+PRPLPFPRPG",True,RAW264.7 cells
+"<|endoftext|>
+GGRRARRRRRR",True,HEK293 cells
+"<|endoftext|>
+GRCTKSIPPICFPA",True,HeLa cells
+"<|endoftext|>
+LIKKALAALAKLNI",True,U373 MG cells
+"<|endoftext|>
+RRRRR",True,Jurkat cells
+"<|endoftext|>
+GTKMIFVGIKKKEERADLIAYLKKA",True,U373 MG cells
+"<|endoftext|>
+GRRRRRRRRRRRR",True,CHO-K1 cells
+"<|endoftext|>
+IPLVVPLRRRRRRRRC",True,MCF7 cells
+"<|endoftext|>
+CGALFLGWLGAAGSTMGA",True,A375 cells
+"<|endoftext|>
+KMDXRWRWKCXKK",True,NIH-3T3 cells
+"<|endoftext|>
+LLIILRRAIRKQAHAHSK",True,Human bowes melanoma cells
+"<|endoftext|>
+RRRRRRRRRGGGG",True,A549 cells
+"<|endoftext|>
+HEHEHEHEHEHEHEHEHEHEHEHEEFGGGGGYGRKKRRQRRR",True,HeLa cells
+"<|endoftext|>
+KALAKALAKLWKALAKAA",True,Aortic endothelial cells
+"<|endoftext|>
+KDCRWRWKCCKK",True,NIH-3T3 cells
+"<|endoftext|>
+RRRRRRR",True,Jurkat cells
+"<|endoftext|>
+AQIKIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+AQIKIWFQNRRMKWKK",True,HaCaT cells
+"<|endoftext|>
+RLLRLXRLX",True,HeLa cells
+"<|endoftext|>
+GRKKRRQRRRPPQRKC",True,HEK293 cells
