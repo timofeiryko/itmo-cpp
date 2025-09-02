@@ -310,8 +310,7 @@ def generate_sequences(prefix_generator, model, tokenizer,
             do_sample=True,
             temperature=temperature,
             top_k=top_k,                  
-            num_return_sequences=num_sequences, 
-            pad_token_id=tokenizer.eos_token_id
+            num_return_sequences=num_sequences
         )
 
         generated_sequences = []
