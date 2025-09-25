@@ -1,0 +1,525 @@
+import numpy as np
+import pandas as pd
+from dataclasses import dataclass
+from typing import List, Tuple, Optional, Dict
+
+from sklearn.model_selection import train_test_split, StratifiedKFold
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.calibration import CalibratedClassifierCV
+from sklearn.metrics import precision_recall_curve, precision_score, recall_score, f1_score, average_precision_score
+from sklearn.preprocessing import StandardScaler
+from sklearn.metrics import pairwise_distances
+from sklearn.base import clone
+from sklearn.cluster import KMeans
+
+# -----------------------------
+# Конфигурация
+# -----------------------------
+@dataclass
+class Config:
+    random_state: int = 42
+    test_size: float = 0.2
+    val_size: float = 0.2  # от оставшейся после test части
+    target_precision: float = 0.95
+    min_positive_preds_on_val: int = 5  # чтобы избежать "пустого" порога
+    # Квоты набора в батч (доли от B)
+    quota_pos_div: float = 0.50
+    quota_hard_pos: float = 0.15
+    quota_neg_hard: float = 0.25
+    quota_neg: float = 0.35
+    quota_margin: float = 0.10
+    hard_neg_top_quantile: float = 0.25  # среди негативов, брать top-q по proba для кандидатов в hard-neg
+    hard_pos_bottom_quantile: float = 0.25
+    # Бюджеты (включающие весь выбранный обучающий поднабор)
+    budgets: List[int] = None  # будет установлено ниже
+    # OOF
+    oof_cv: int = 5
+    oof_n_estimators: int = 400  # облегчённая модель для OOF-оценок
+    # Калибровка
+    calibr_cv: int = 5
+    calibr_method: str = 'isotonic'
+    # Диверсификация
+    use_rf_distance: bool = False  # по умолчанию Euclidean на стандартизованных фичах
+    # Для RF-proximity (если включите)
+    prox_rf_n_estimators: int = 300
+    prox_rf_max_depth: Optional[int] = 20
+
+    def __post_init__(self):
+        if self.budgets is None:
+            # Стартуем с 200 и наращиваем
+            self.budgets = [200, 300, 400, 500, 600, 800, 1000]
+
+# -----------------------------
+# Вспомогательные функции
+# -----------------------------
+def stratified_train_val_test_split(X, y, test_size=0.2, val_size=0.2, random_state=42):
+    X_trainval, X_test, y_trainval, y_test = train_test_split(
+        X, y, test_size=test_size, stratify=y, random_state=random_state
+    )
+    # val_size доля от trainval
+    val_rel_size = val_size / (1.0 - test_size)
+    X_train, X_val, y_train, y_val = train_test_split(
+        X_trainval, y_trainval, test_size=val_rel_size, stratify=y_trainval, random_state=random_state
+    )
+    return X_train, y_train, X_val, y_val, X_test, y_test
+
+def compute_oof_probas(X, y, base_rf_params: Dict, cv=5, n_estimators_override: Optional[int]=None, random_state=42) -> np.ndarray:
+    """OOF-оценки вероятности положительного класса для train pool."""
+    skf = StratifiedKFold(n_splits=cv, shuffle=True, random_state=random_state)
+    oof_proba = np.zeros(len(y), dtype=float)
+    for fold, (tr_idx, va_idx) in enumerate(skf.split(X, y), 1):
+        rf_params = base_rf_params.copy()
+        if n_estimators_override is not None:
+            rf_params['n_estimators'] = n_estimators_override
+        clf = RandomForestClassifier(**rf_params, n_jobs=-1, random_state=random_state + fold)
+        clf.fit(X[tr_idx], y[tr_idx])
+        oof_proba[va_idx] = clf.predict_proba(X[va_idx])[:, 1]
+    return oof_proba
+
+def compute_embedding_for_diversity(X: np.ndarray) -> Tuple[np.ndarray, StandardScaler]:
+    """Стандартизованный эмбеддинг для диверсификации (евклид)."""
+    scaler = StandardScaler()
+    Z = scaler.fit_transform(X)
+    return Z, scaler
+
+def k_center_greedy(embedding: np.ndarray, candidate_idx: np.ndarray, k: int, random_state: int = 42) -> List[int]:
+    """Farthest-first k-center отбор индексов из candidate_idx по embedding (евклид)."""
+    if k <= 0 or len(candidate_idx) == 0:
+        return []
+    if len(candidate_idx) <= k:
+        return candidate_idx.tolist()
+
+    rng = np.random.RandomState(random_state)
+    C = candidate_idx
+    E = embedding[C]
+
+    # Первый центр: самый удалённый от среднего (устойчивее, чем случайный)
+    centroid = E.mean(axis=0, keepdims=True)
+    dists = np.linalg.norm(E - centroid, axis=1)
+    first = np.argmax(dists)
+    selected = [C[first]]
+
+    # Инициализация расстояний до ближайшего центра
+    min_dist = pairwise_distances(E, E[[first]], metric='euclidean').reshape(-1)
+
+    while len(selected) < k:
+        next_idx = np.argmax(min_dist)
+        selected.append(C[next_idx])
+        # обновляем min_dist
+        new_d = pairwise_distances(E, E[[next_idx]], metric='euclidean').reshape(-1)
+        min_dist = np.minimum(min_dist, new_d)
+
+    return selected
+
+def find_threshold_for_precision(y_true: np.ndarray, proba: np.ndarray, target_precision: float, min_pos: int = 1) -> Tuple[Optional[float], Dict]:
+    """Подбирает порог с precision >= target_precision и макс. recall. Возвращает (threshold, metrics)."""
+    precision, recall, thresholds = precision_recall_curve(y_true, proba)
+    # thresholds имеет длину len(precision)-1
+    valid = np.where(precision[:-1] >= target_precision)[0]
+    if len(valid) == 0:
+        return None, {'precision': None, 'recall': None, 'f1': None, 'ap': average_precision_score(y_true, proba)}
+    # выбираем среди валидных тот, где recall максимален
+    best_idx = valid[np.argmax(recall[valid])]
+    thr = thresholds[best_idx]
+
+    y_pred = (proba >= thr).astype(int)
+    # если положительных предсказаний слишком мало, считаем порог неприменимым
+    if y_pred.sum() < min_pos:
+        return None, {'precision': None, 'recall': None, 'f1': None, 'ap': average_precision_score(y_true, proba)}
+
+    prec = precision_score(y_true, y_pred, zero_division=0)
+    rec = recall_score(y_true, y_pred, zero_division=0)
+    f1 = f1_score(y_true, y_pred, zero_division=0)
+    ap = average_precision_score(y_true, proba)
+    return float(thr), {'precision': prec, 'recall': rec, 'f1': f1, 'ap': ap}
+
+def find_threshold_for_precision_max_f1(y_true, proba, target_precision, min_pos=1):
+    precision, recall, thresholds = precision_recall_curve(y_true, proba)
+    # thresholds имеет длину len(precision)-1; согласуем индексы
+    valid = np.where(precision[:-1] >= target_precision)[0]
+    if len(valid) == 0:
+        return None, {'precision': None, 'recall': None, 'f1': None, 'ap': average_precision_score(y_true, proba)}
+    # выбираем порог с макс. F1 среди допустимых
+    best_idx, best_f1 = None, -1.0
+    for i in valid:
+        thr = thresholds[i]
+        y_pred = (proba >= thr).astype(int)
+        if y_pred.sum() < min_pos:
+            continue
+        f1 = f1_score(y_true, y_pred, zero_division=0)
+        if f1 > best_f1:
+            best_f1, best_idx = f1, i
+    if best_idx is None:
+        return None, {'precision': None, 'recall': None, 'f1': None, 'ap': average_precision_score(y_true, proba)}
+    thr = thresholds[best_idx]
+    y_pred = (proba >= thr).astype(int)
+    return float(thr), {
+        'precision': precision[best_idx],
+        'recall': recall[best_idx],
+        'f1': f1_score(y_true, y_pred, zero_division=0),
+        'ap': average_precision_score(y_true, proba)
+    }
+
+def select_subset_indices(
+    X_pool: np.ndarray,
+    y_pool: np.ndarray,
+    oof_proba: np.ndarray,
+    B: int,
+    embedding: np.ndarray,
+    quota_pos: float = 0.55,
+    quota_neg: float = 0.35,
+    quota_margin: float = 0.10,
+    hard_neg_top_quantile: float = 0.30,
+    random_state: int = 42
+) -> np.ndarray:
+    """Отбор индексов обучающего поднабора размером B по схеме: диверсиф. позитивы + hard-негативы + пограничные."""
+    n = len(y_pool)
+    B_pos = int(round(B * quota_pos))
+    B_neg = int(round(B * quota_neg))
+    B_margin = max(0, B - B_pos - B_neg)
+
+    # Позитивы: диверсификация
+    pos_idx = np.where(y_pool == 1)[0]
+    sel_pos = k_center_greedy(embedding, pos_idx, min(B_pos, len(pos_idx)), random_state=random_state)
+
+    # Негативы: hard-негативы по высоким oof_proba среди негативов + диверсификация
+    neg_idx = np.where(y_pool == 0)[0]
+    if len(neg_idx) > 0 and B_neg > 0:
+        neg_sorted = neg_idx[np.argsort(-oof_proba[neg_idx])]
+        top_k = max(1, int(len(neg_idx) * hard_neg_top_quantile))
+        neg_candidates = neg_sorted[:top_k]
+        neg_candidates = np.setdiff1d(neg_candidates, sel_pos, assume_unique=False)
+        sel_neg = k_center_greedy(embedding, neg_candidates, min(B_neg, len(neg_candidates)), random_state=random_state+1)
+    else:
+        sel_neg = []
+
+    # Пограничные: минимальный margin независимо от класса + диверсификация
+    if B_margin > 0:
+        margin = np.abs(oof_proba - 0.5)
+        order = np.argsort(margin)  # от самых неопределённых
+        # возьмём не только top-B_margin, а, скажем, top-(3*B_margin) кандидатов, чтобы была диверсификация
+        k_cand = min(len(order), max(B_margin * 3, B_margin))
+        marg_candidates = order[:k_cand]
+        already = np.array(sel_pos + sel_neg, dtype=int)
+        marg_candidates = np.setdiff1d(marg_candidates, already, assume_unique=False)
+        sel_marg = k_center_greedy(embedding, marg_candidates, min(B_margin, len(marg_candidates)), random_state=random_state+2)
+    else:
+        sel_marg = []
+
+    selected = list(dict.fromkeys(sel_pos + sel_neg + sel_marg))  # уникализуем, сохраняя порядок
+
+    # Если не добрали до B — дозаполним диверсификацией из оставшихся
+    if len(selected) < B:
+        remaining = np.setdiff1d(np.arange(n), np.array(selected, dtype=int), assume_unique=False)
+        extra = k_center_greedy(embedding, remaining, B - len(selected), random_state=random_state+3)
+        selected.extend(extra)
+
+    return np.array(selected[:B], dtype=int)
+
+def select_subset_indices_v2(
+    X_pool, y_pool, oof_proba, B, embedding,
+    quota_pos_div=0.50, quota_hard_pos=0.15, quota_neg_hard=0.25, quota_margin=0.10,
+    hard_neg_top_quantile=0.25, hard_pos_bottom_quantile=0.25, random_state=42
+):
+    n = len(y_pool)
+    B_pos_div = int(round(B * quota_pos_div))
+    B_hpos    = int(round(B * quota_hard_pos))
+    B_hneg    = int(round(B * quota_neg_hard))
+    B_margin  = max(0, B - B_pos_div - B_hpos - B_hneg)
+
+    # 1) Hard-positives: y=1 с низкой p̂
+    pos_idx = np.where(y_pool == 1)[0]
+    if len(pos_idx) > 0 and B_hpos > 0:
+        pos_sorted_asc = pos_idx[np.argsort(oof_proba[pos_idx])]  # от низкой к высокой
+        k_hp = max(1, int(len(pos_idx) * hard_pos_bottom_quantile))
+        hp_candidates = pos_sorted_asc[:k_hp]
+        sel_hpos = k_center_greedy(embedding, hp_candidates, min(B_hpos, len(hp_candidates)), random_state=random_state+10)
+    else:
+        sel_hpos = []
+
+    # 2) Позитивы (диверсифицированные), исключая уже взятые hard-positives
+    pos_remain = np.setdiff1d(pos_idx, np.array(sel_hpos, dtype=int), assume_unique=False)
+    sel_pos_div = k_center_greedy(embedding, pos_remain, min(B_pos_div, len(pos_remain)), random_state=random_state)
+
+    # 3) Hard-негативы: y=0 с высокой p̂
+    neg_idx = np.where(y_pool == 0)[0]
+    if len(neg_idx) > 0 and B_hneg > 0:
+        neg_sorted_desc = neg_idx[np.argsort(-oof_proba[neg_idx])]
+        k_hn = max(1, int(len(neg_idx) * hard_neg_top_quantile))
+        hn_candidates = np.setdiff1d(neg_sorted_desc[:k_hn], np.array(sel_pos_div + sel_hpos, dtype=int), assume_unique=False)
+        sel_hneg = k_center_greedy(embedding, hn_candidates, min(B_hneg, len(hn_candidates)), random_state=random_state+1)
+    else:
+        sel_hneg = []
+
+    # 4) Margin: минимальный |p-0.5|
+    selected_so_far = np.array(sel_hpos + sel_pos_div + sel_hneg, dtype=int)
+    if B_margin > 0:
+        margin = np.abs(oof_proba - 0.5)
+        order = np.argsort(margin)
+        k_cand = min(len(order), max(B_margin * 3, B_margin))
+        marg_candidates = np.setdiff1d(order[:k_cand], selected_so_far, assume_unique=False)
+        sel_marg = k_center_greedy(embedding, marg_candidates, min(B_margin, len(marg_candidates)), random_state=random_state+2)
+    else:
+        sel_marg = []
+
+    selected = list(dict.fromkeys(sel_hpos + sel_pos_div + sel_hneg + sel_marg))
+
+    # дозаполнение
+    if len(selected) < B:
+        remaining = np.setdiff1d(np.arange(n), np.array(selected, dtype=int), assume_unique=False)
+        extra = k_center_greedy(embedding, remaining, B - len(selected), random_state=random_state+3)
+        selected.extend(extra)
+
+    return np.array(selected[:B], dtype=int)
+
+from sklearn.cluster import KMeans
+
+def select_subset_indices_v3(
+    X_pool, y_pool, oof_proba, B, embedding,
+    core_set_ratio=0.7, # 70% бюджета на "фундамент"
+    hard_neg_ratio=0.2, # 20% на "сложные негативные"
+    margin_ratio=0.1,   # 10% на "пограничные"
+    n_clusters_per_class=10, # Количество прототипов для каждого класса
+    hard_neg_top_quantile=0.25,
+    random_state=42
+):
+    n = len(y_pool)
+    B_core = int(round(B * core_set_ratio))
+    B_hneg = int(round(B * hard_neg_ratio))
+    B_margin = max(0, B - B_core - B_hneg)
+
+    selected = []
+    
+    # --- ЭТАП 1: ФУНДАМЕНТ (Core-Set) ---
+    # Делим бюджет на "фундамент" пропорционально балансу классов
+    pos_idx = np.where(y_pool == 1)[0]
+    neg_idx = np.where(y_pool == 0)[0]
+    
+    pos_ratio = len(pos_idx) / n
+    B_core_pos = int(round(B_core * pos_ratio))
+    B_core_neg = max(0, B_core - B_core_pos)
+
+    # Находим прототипы для позитивного класса
+    if B_core_pos > 0 and len(pos_idx) > n_clusters_per_class:
+        kmeans_pos = KMeans(n_clusters=n_clusters_per_class, random_state=random_state, n_init='auto')
+        clusters = kmeans_pos.fit_predict(embedding[pos_idx])
+        distances = kmeans_pos.transform(embedding[pos_idx])
+        
+        # Находим по 1 самому близкому к центру в каждом кластере
+        core_pos_indices = []
+        for i in range(n_clusters_per_class):
+            cluster_members = np.where(clusters == i)[0]
+            if len(cluster_members) > 0:
+                closest_point_idx = cluster_members[np.argmin(distances[cluster_members, i])]
+                core_pos_indices.append(pos_idx[closest_point_idx])
+        
+        # Если прототипов мало, добираем самых разнообразных из оставшихся
+        sel_core_pos = k_center_greedy(embedding, np.array(list(set(core_pos_indices))), B_core_pos, random_state)
+        selected.extend(sel_core_pos)
+
+    # Находим прототипы для негативного класса (аналогично)
+    if B_core_neg > 0 and len(neg_idx) > n_clusters_per_class:
+        kmeans_neg = KMeans(n_clusters=n_clusters_per_class, random_state=random_state+1, n_init='auto')
+        clusters = kmeans_neg.fit_predict(embedding[neg_idx])
+        distances = kmeans_neg.transform(embedding[neg_idx])
+        
+        core_neg_indices = []
+        for i in range(n_clusters_per_class):
+            cluster_members = np.where(clusters == i)[0]
+            if len(cluster_members) > 0:
+                closest_point_idx = cluster_members[np.argmin(distances[cluster_members, i])]
+                core_neg_indices.append(neg_idx[closest_point_idx])
+
+        sel_core_neg = k_center_greedy(embedding, np.array(list(set(core_neg_indices))), B_core_neg, random_state+1)
+        selected.extend(sel_core_neg)
+
+    # --- ЭТАП 2: УТОЧНЕНИЕ ---
+    already_selected = np.array(list(set(selected)), dtype=int)
+    
+    # Hard-негативы
+    if B_hneg > 0:
+        neg_sorted_desc = neg_idx[np.argsort(-oof_proba[neg_idx])]
+        k_hn = max(1, int(len(neg_idx) * hard_neg_top_quantile))
+        hn_candidates = np.setdiff1d(neg_sorted_desc[:k_hn], already_selected, assume_unique=False)
+        sel_hneg = k_center_greedy(embedding, hn_candidates, min(B_hneg, len(hn_candidates)), random_state=random_state+2)
+        selected.extend(sel_hneg)
+    
+    # Margin
+    already_selected = np.array(list(set(selected)), dtype=int)
+    if B_margin > 0:
+        margin = np.abs(oof_proba - 0.5)
+        order = np.argsort(margin)
+        k_cand = min(len(order), max(B_margin * 5, B_margin)) # берем больше кандидатов
+        marg_candidates = np.setdiff1d(order[:k_cand], already_selected, assume_unique=False)
+        sel_marg = k_center_greedy(embedding, marg_candidates, min(B_margin, len(marg_candidates)), random_state=random_state+3)
+        selected.extend(sel_marg)
+
+    # Финальная уникализация и дозаполнение, если нужно
+    final_selected = list(dict.fromkeys(selected))
+    if len(final_selected) < B:
+        remaining = np.setdiff1d(np.arange(n), np.array(final_selected, dtype=int))
+        extra = k_center_greedy(embedding, remaining, B - len(final_selected), random_state=random_state+4)
+        final_selected.extend(extra)
+        
+    return np.array(final_selected[:B], dtype=int)
+
+def fit_calibrated_rf(X_train: np.ndarray, y_train: np.ndarray, rf_params: Dict, cv: int = 5, method: str = 'isotonic', random_state: int = 42):
+    rf = RandomForestClassifier(**rf_params, n_jobs=-1, random_state=random_state)
+    clf = CalibratedClassifierCV(estimator=rf, method=method, cv=cv, n_jobs=-1)
+    clf.fit(X_train, y_train)
+    return clf
+
+# -----------------------------
+# Главная процедура пайплайна
+# -----------------------------
+def run_active_sampling_pipeline_2(
+    X: np.ndarray,
+    y: np.ndarray,
+    rf_params_final: Dict,
+    config: Config = Config()
+):
+    rs = config.random_state
+    # 0) Сплиты
+    X_pool, y_pool, X_val, y_val, X_test, y_test = stratified_train_val_test_split(
+        X, y, test_size=config.test_size, val_size=config.val_size, random_state=rs
+    )
+    print(f"Shapes: pool={X_pool.shape}, val={X_val.shape}, test={X_test.shape}")
+
+    # 1) OOF-прогнозы на pool (учитель RF с облегчённым числом деревьев)
+    base_rf_params_for_oof = rf_params_final.copy()
+    oof_proba = compute_oof_probas(
+        X_pool, y_pool,
+        base_rf_params_for_oof,
+        cv=config.oof_cv,
+        n_estimators_override=config.oof_n_estimators,
+        random_state=rs
+    )
+    # 2) Эмбеддинг для диверсификации (евклид на стандартизованных фичах)
+    embedding, scaler = compute_embedding_for_diversity(X_pool)
+
+    results = []
+    best_solution = None
+
+    for B in config.budgets:
+        # 2a) Отбор индексов поднабора размером B
+        sel_idx = select_subset_indices_v3(
+            X_pool, y_pool, oof_proba, B, embedding,
+            core_set_ratio=0.7, 
+            hard_neg_ratio=0.2,
+            margin_ratio=0.1,  
+            n_clusters_per_class=10,
+            hard_neg_top_quantile=0.25,
+            random_state=rs
+        )
+        X_sub, y_sub = X_pool[sel_idx], y_pool[sel_idx]
+
+        # 3) Обучение откалиброванной финальной модели на поднаборе
+        clf = fit_calibrated_rf(
+            X_sub, y_sub, rf_params_final, cv=config.calibr_cv,
+            method=config.calibr_method, random_state=rs
+        )
+
+        # 4) Порог под целевую precision — по валидации
+        proba_val = clf.predict_proba(X_val)[:, 1]
+        thr, val_metrics = find_threshold_for_precision_max_f1(
+            y_val, proba_val, config.target_precision, min_pos=config.min_positive_preds_on_val
+        )
+
+        if thr is not None:
+            # оценка на тесте (не используем для выбора, только логируем)
+            proba_test = clf.predict_proba(X_test)[:, 1]
+            y_pred_val = (proba_val >= thr).astype(int)
+            y_pred_test = (proba_test >= thr).astype(int)
+            test_prec = precision_score(y_test, y_pred_test, zero_division=0)
+            test_rec = recall_score(y_test, y_pred_test, zero_division=0)
+            test_f1 = f1_score(y_test, y_pred_test, zero_division=0)
+
+            result = {
+                'B': B,
+                'threshold': thr,
+                'val_precision': val_metrics['precision'],
+                'val_recall': val_metrics['recall'],
+                'val_f1': val_metrics['f1'],
+                'val_AP': val_metrics['ap'],
+                'test_precision': test_prec,
+                'test_recall': test_rec,
+                'test_f1': test_f1,
+                'selected_indices': sel_idx
+            }
+            results.append(result)
+
+            print(f"[B={B}] VAL: P={val_metrics['precision']:.3f}, R={val_metrics['recall']:.3f}, F1={val_metrics['f1']:.3f}, thr={thr:.4f} | "
+                  f"TEST: P={test_prec:.3f}, R={test_rec:.3f}, F1={test_f1:.3f}")
+
+            # Ранняя остановка: достигли целевой precision на валидации
+            if best_solution is None:
+                best_solution = result
+                print(f"--> Стоп-критерий выполнен на валидации при B={B}. Фиксируем минимальный поднабор.")
+                break
+        else:
+            print(f"[B={B}] Не найден порог для precision >= {config.target_precision:.2f} (или слишком мало положительных предсказаний). Увеличиваем бюджет.")
+
+    if best_solution is None and len(results) > 0:
+        # если ни разу не выполнен критерий, берём лучшее по вал. precision
+        best_solution = max(results, key=lambda r: r['val_precision'] if r['val_precision'] is not None else -1)
+        print(f"Внимание: целевой precision не достигнут на валидации, выбран лучший по precision: B={best_solution['B']}.")
+
+    return {
+        'best': best_solution,
+        'all_results': results
+    }
+
+# -----------------------------
+# Пример использования
+# -----------------------------
+if __name__ == "__main__":
+    # Предположим, у вас уже есть X (np.ndarray, shape [n_samples, 18]) и y (np.ndarray, shape [n_samples], 0/1)
+    # X, y = ...  # загрузите ваши данные
+
+    # Ваши гиперпараметры RF
+    rf_params_final = dict(
+        n_estimators=1200,
+        max_depth=30,
+        min_samples_split=6,
+        min_samples_leaf=2,
+        max_features='log2',
+        bootstrap=False,
+        class_weight='balanced_subsample'
+    )
+
+    cfg = Config(
+        random_state=42,
+        test_size=0.2,
+        val_size=0.2,
+        target_precision=0.90,
+        min_positive_preds_on_val=5,
+        quota_pos_div=0.50,
+        quota_hard_pos=0.15,
+        quota_neg_hard=0.25,
+        quota_neg=0.25,
+        quota_margin=0.10,
+        hard_neg_top_quantile=0.25,
+        hard_pos_bottom_quantile=0.25,
+        budgets=[500, 600, 800, 1000],
+        oof_cv=5,
+        oof_n_estimators=400,   # быстрее, чем 1200, для OOF-оценок
+        calibr_cv=5,
+        calibr_method='isotonic',
+        use_rf_distance=False   # при желании можно реализовать RF-proximity и включить здесь
+    )
+
+    # Вызов пайплайна:
+    df_ready = pd.read_csv("input_data/clean_peptides_for_classification_descriptors.csv")
+    columns_to_use = [
+    'seq_length', 'molecular_weight', 'nh3_tail', 'po3_pos',
+    'biotinylated', 'acylated_n_terminal', 'cyclic', 'amidated',
+    'stearyl_uptake', 'hexahistidine_tagged', 'aromaticity',
+    'instability_index', 'isoelectric_point', 'helix_fraction',
+    'turn_fraction', 'sheet_fraction', 'molar_extinction_coefficient_reduced',
+    'molar_extinction_coefficient_oxidized', 'gravy'
+    ]
+    X = df_ready[columns_to_use].to_numpy()
+    y = df_ready['is_cpp'].to_numpy()
+    results = run_active_sampling_pipeline_2(X, y, rf_params_final, cfg)
+    print("Лучшее решение:", results['best'])
+    pass
