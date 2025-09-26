@@ -11,6 +11,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import pairwise_distances
 from sklearn.base import clone
 from sklearn.cluster import KMeans
+import joblib
 
 # -----------------------------
 # Конфигурация
@@ -369,6 +370,28 @@ def fit_calibrated_rf(X_train: np.ndarray, y_train: np.ndarray, rf_params: Dict,
     clf.fit(X_train, y_train)
     return clf
 
+def save_classifier_artifacts(model, threshold, feature_names, path, meta=None):
+    """
+    Сохраняет артефакты классификатора:
+      - model: CalibratedClassifierCV (или любой sklearn-классификатор)
+      - threshold: float (порог для бинаризации вероятностей)
+      - feature_names: список/np.array имен фичей, чтобы инференс мог взять нужные колонки
+      - meta: опциональные метаданные (для трассировки)
+    """
+    # Гарантируем наличие feature_names_in_ (инференс это использует)
+    if not hasattr(model, "feature_names_in_"):
+        model.feature_names_in_ = np.array(feature_names, dtype=object)
+
+    artifacts = {
+        "model": model,
+        "threshold": float(threshold),
+    }
+    if meta is not None:
+        artifacts["meta"] = meta
+
+    joblib.dump(artifacts, path)
+    print(f"Artifacts saved to: {path}")
+
 # -----------------------------
 # Главная процедура пайплайна
 # -----------------------------
@@ -376,7 +399,9 @@ def run_active_sampling_pipeline_2(
     X: np.ndarray,
     y: np.ndarray,
     rf_params_final: Dict,
-    config: Config = Config()
+    config: Config = Config(),
+    feature_names: Optional[List[str]] = None,
+    artifacts_path: Optional[str] = None
 ):
     rs = config.random_state
     # 0) Сплиты
@@ -451,6 +476,38 @@ def run_active_sampling_pipeline_2(
             print(f"[B={B}] VAL: P={val_metrics['precision']:.3f}, R={val_metrics['recall']:.3f}, F1={val_metrics['f1']:.3f}, thr={thr:.4f} | "
                   f"TEST: P={test_prec:.3f}, R={test_rec:.3f}, F1={test_f1:.3f}")
 
+            if artifacts_path is not None:
+                # Внимание: clf обучен на np.ndarray → добавим feature_names явно
+                if feature_names is None:
+                    # Если по какой-то причине список фичей не передали, попытаемся
+                    # взять из модели; если и там пусто — поднимем понятную ошибку
+                    if not hasattr(clf, "feature_names_in_"):
+                        raise ValueError("feature_names для сохранения не заданы и отсутствуют в модели. "
+                                        "Передайте feature_names в run_active_sampling_pipeline_2.")
+                    fnames = list(clf.feature_names_in_)
+                else:
+                    fnames = list(feature_names)
+
+                meta = {
+                    "precision_target": config.target_precision,
+                    "calibration": config.calibr_method,
+                    "B": B,
+                    "selector": "v3 core-set (kMeans)",
+                    "val": {"precision": result['val_precision'], "recall": result['val_recall'],
+                            "f1": result['val_f1'], "AP": result['val_AP']},
+                    "test": {"precision": result['test_precision'], "recall": result['test_recall'],
+                            "f1": result['test_f1']},
+                    "selected_count": len(sel_idx),
+                }
+                # Сохраняем
+                save_classifier_artifacts(
+                    model=clf,
+                    threshold=thr,
+                    feature_names=fnames,
+                    path=artifacts_path,
+                    meta=meta
+                )
+
             # Ранняя остановка: достигли целевой precision на валидации
             if best_solution is None:
                 best_solution = result
@@ -518,8 +575,11 @@ if __name__ == "__main__":
     'turn_fraction', 'sheet_fraction', 'molar_extinction_coefficient_reduced',
     'molar_extinction_coefficient_oxidized', 'gravy'
     ]
+    artifacts_path = "classifier_artifacts_active_learning.joblib"
     X = df_ready[columns_to_use].to_numpy()
     y = df_ready['is_cpp'].to_numpy()
-    results = run_active_sampling_pipeline_2(X, y, rf_params_final, cfg)
+    results = run_active_sampling_pipeline_2(X, y, rf_params_final, cfg,
+        feature_names=columns_to_use, artifacts_path=artifacts_path)
     print("Лучшее решение:", results['best'])
+
     pass
